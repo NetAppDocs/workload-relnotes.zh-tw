@@ -1,0 +1,11 @@
+---
+indexpage:
+  title: BlueXP  Workload Factory 版本資訊
+  summary: 這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。
+  keywords: BlueXP Workload Factory, release notes, what's new
+  lead: 這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。
+  tiles:
+  - title: 新增功能
+    links:
+    - title: 工作負載工廠最近的變更
+      url: whats-new.html
