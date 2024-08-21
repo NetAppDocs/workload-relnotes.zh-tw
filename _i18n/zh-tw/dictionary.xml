@@ -37,7 +37,6 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">儲存計算機中的處理量和 IOPS 建議</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024-08-04</block>
-  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt; 中未解決的指令 - 包括：： _include/Workload - fsx-Fsx-Fadoc ONTAP 。 adoc [] ：層級偏移： +1</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024-07-07</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">瞭解 BlueXP  工作負載工廠工作負載的最新變更。</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  工作負載工廠最近的變更</block>
 </blocks>
