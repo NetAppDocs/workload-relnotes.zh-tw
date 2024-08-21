@@ -10,7 +10,10 @@ settings:
     auto_release_notes_enabled: true
     repositories_features:
     - workload-fsx-ontap
-    - 
+    - workload-databases
+    - workload-vmware
+    - workload-genai
+    - workload-setup-admin
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
