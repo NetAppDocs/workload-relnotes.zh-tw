@@ -19,12 +19,25 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
-  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">瞭解 BlueXP  工作負載工廠工作負載的最新變更。</block>
-  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="cce08aba345d6d02161a37f9cd0d876d" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
   <block id="0fb18bb5f075569f125aa8add5a67dc2" category="sidebar">BlueXP  Workload Factory 版本資訊</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">工作負載工廠最近的變更</block>
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Workload Factory 版本資訊</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
+  <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本</block>
+  <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。</block>
+  <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 支援</block>
+  <block id="7f67d234b28766a76903424b29245652" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署和管理檔案系統和儲存 VM 。</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">建立檔案系統</block>
+  <block id="9e0421bb729ebed0fb12b88c1fc5b0e9" category="list-text"><block ref="9e0421bb729ebed0fb12b88c1fc5b0e9" category="inline-link-macro-rx"></block></block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">建立儲存VM</block>
+  <block id="70fd00aea099407eb4046da5efc04198" category="list-text"><block ref="70fd00aea099407eb4046da5efc04198" category="inline-link-macro-rx"></block></block>
+  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用 CodeBox 的 Terraform</block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">儲存計算機中的處理量和 IOPS 建議</block>
+  <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。</block>
+  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024-08-04</block>
+  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt; 中未解決的指令 - 包括：： _include/Workload - fsx-Fsx-Fadoc ONTAP 。 adoc [] ：層級偏移： +1</block>
+  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024-07-07</block>
 </blocks>

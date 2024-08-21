@@ -1,12 +1,6 @@
-= 2024-08-04
+= Terraform 支援
 :allow-uri-read: 
 
-
-
-
-== 2024-08-04
-
-<stdin> 中未解決的指令 - 包括：： _include/Workload - fsx-Fsx-Fadoc ONTAP 。 adoc [] ：層級偏移： +1
 
 
 
@@ -24,15 +18,3 @@
 === 儲存計算機中的處理量和 IOPS 建議
 
 儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。
-
-
-
-== 2024-07-07
-
-<stdin> 中未解決的指令 - 包括：： _include/Workload - fsx-Fsx-Fadoc ONTAP 。 adoc [] ：層級偏移： +1
-
-
-
-=== 適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本
-
-Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。
