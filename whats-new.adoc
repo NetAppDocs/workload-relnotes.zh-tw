@@ -1,14 +1,38 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, setup, administration, amazon fsx for ontap, databases, genai, vmware' 
-summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。 
----
-= BlueXP  工作負載工廠最近的變更
+= 2024-08-04
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
 
-[role="lead"]
-瞭解 BlueXP  工作負載工廠工作負載的最新變更。
+
+
+== 2024-08-04
+
+<stdin> 中未解決的指令 - 包括：： _include/Workload - fsx-Fsx-Fadoc ONTAP 。 adoc [] ：層級偏移： +1
+
+
+
+=== Terraform 支援
+
+您現在可以使用 Codebox 中的 Terraform 來部署和管理檔案系統和儲存 VM 。
+
+* link:create-file-system.html["建立檔案系統"]
+* link:create-storage-vm.html["建立儲存VM"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用 CodeBox 的 Terraform"^]
+
+
+
+
+=== 儲存計算機中的處理量和 IOPS 建議
+
+儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。
+
+
+
+== 2024-07-07
+
+<stdin> 中未解決的指令 - 包括：： _include/Workload - fsx-Fsx-Fadoc ONTAP 。 adoc [] ：層級偏移： +1
+
+
+
+=== 適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本
+
+Amazon FSX for NetApp ONTAP 通常在工作負載工廠提供。
