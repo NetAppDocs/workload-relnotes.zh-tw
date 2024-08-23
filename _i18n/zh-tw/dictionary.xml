@@ -27,7 +27,6 @@
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
   <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 支援</block>
-  <block id="7f67d234b28766a76903424b29245652" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署和管理檔案系統和儲存 VM 。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">建立檔案系統</block>
   <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">建立儲存VM</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用 CodeBox 的 Terraform</block>
@@ -44,4 +43,5 @@
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS 是功能強大的生命週期管理平台、可協助您使用 Amazon FSX for NetApp ONTAP 檔案系統來最佳化工作負載。使用 Workload Factory 和適用於 ONTAP 的 FSX 可簡化的工作負載包括資料庫、 VMware 在 AWS 上移轉至 VMware Cloud 、 AI 聊天機器人程式等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSX 支援 Terraform 、可用於 NetApp ONTAP 檔案系統部署和儲存 VM 建立。安裝與管理指南現在提供如何從 Codebox 使用 Terraform 的說明。</block>
   <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">&lt;stdin&gt; 中未解決的指令 - 包括：：： _include/bWorkload -setup-admin.adoc [] ：層級偏移： +1</block>
+  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署檔案系統和儲存 VM 。</block>
 </blocks>
