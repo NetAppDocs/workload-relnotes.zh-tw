@@ -25,6 +25,16 @@
 
 儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。
 
+<stdin> 中未解決的指令 - 包括：：： _include/bWorkload -setup-admin.adoc [] ：層級偏移： +1
+
+
+
+=== Terraform 支援
+
+Amazon FSX 支援 Terraform 、可用於 NetApp ONTAP 檔案系統部署和儲存 VM 建立。安裝與管理指南現在提供如何從 Codebox 使用 Terraform 的說明。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用 CodeBox 的 Terraform"^]
+
 
 
 == 2024-07-07
@@ -36,3 +46,11 @@
 === 適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本
 
 Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。
+
+<stdin> 中未解決的指令 - 包括：：： _include/bWorkload -setup-admin.adoc [] ：層級偏移： +1
+
+
+
+=== Workload Factory 的初始版本
+
+BlueXP Workload Factory for AWS 是功能強大的生命週期管理平台、可協助您使用 Amazon FSX for NetApp ONTAP 檔案系統來最佳化工作負載。使用 Workload Factory 和適用於 ONTAP 的 FSX 可簡化的工作負載包括資料庫、 VMware 在 AWS 上移轉至 VMware Cloud 、 AI 聊天機器人程式等。
