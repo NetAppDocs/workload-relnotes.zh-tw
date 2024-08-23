@@ -6,4 +6,4 @@
 
 === 適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本
 
-Amazon FSX for NetApp ONTAP 通常在工作負載工廠提供。
+Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。
