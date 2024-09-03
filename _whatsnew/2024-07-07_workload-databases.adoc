@@ -1,0 +1,11 @@
+= Workload Factory for Databases 的初始版本
+:allow-uri-read: 
+
+
+
+
+=== Workload Factory for Databases 的初始版本
+
+初始版本包含以下功能：利用 Amazon FSX for NetApp ONTAP 做為資料庫工作負載的儲存環境、探索節省成本、偵測、管理及部署 Microsoft SQL Server 、部署及複製資料庫、以及在 Workload Factory 中監控這些工作。
+
+link:learn-databases.html["瞭解資料庫"]。

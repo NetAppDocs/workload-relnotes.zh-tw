@@ -1,0 +1,31 @@
+= 節省計算機增強功能
+:allow-uri-read: 
+
+
+
+
+=== 節省計算機增強功能
+
+* 成本預估說明
++
+您現在可以在儲蓄計算機中瞭解如何計算成本預估。相較於使用 Amazon Elastic Block Store 儲存設備的 Amazon FSX 進行 ONTAP 儲存設備、您可以檢閱 Microsoft SQL Server 執行個體的所有計算說明。
+
+* 支援 Always On Availability 群組
++
+資料庫現在提供使用 Amazon Elastic Block Store 的 Microsoft SQL Server 搭配 Always On Availability 群組部署類型的成本節約計算。
+
+* 使用適用於 ONTAP 的 FSX 最佳化 SQL Server 授權
++
+資料庫計算機可判斷您與 Amazon Elastic Block Store 儲存設備搭配使用的 SQL 授權版本是否已針對資料庫工作負載進行最佳化。您將會收到有關適用於 ONTAP 儲存設備的 FSX 最佳 SQL 授權的建議。
+
+* 多個 SQL Server 執行個體
++
+資料庫現在提供使用 Amazon Elastic Block Store 託管多個 Microsoft SQL Server 執行個體的組態成本節約計算。
+
+* 自訂計算機設定
++
+現在您可以自訂 Microsoft SQL Server 、 Amazon EC2 和 Elastic Block Store 的設定、以手動探索節約效益。節約計算機將根據成本來決定最佳組態。
+
+
+
+link:explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本。"]

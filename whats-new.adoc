@@ -15,6 +15,30 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 2024-09-01
+
+
+
+=== 資料庫工作負載
+
+
+
+==== 透過自訂功能探索節約效益
+
+您現在可以使用適用於 Windows 檔案伺服器的 FSX 、以及節省計算機中的 Elastic Block Store 儲存設備、在 Amazon EC2 上自訂 Microsoft SQL Server 的組態設定。根據您的儲存需求、您可能會發現 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。
+
+link:explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本。"]
+
+
+
+==== 從首頁瀏覽至節約計算機
+
+您現在可以從link:https://console.workloads.netapp.com["Workload Factory 主控台"^]首頁瀏覽至節約計算機。從「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」中選取以開始使用。
+
+image:screenshot-explore-savings-home-small.png["Workload Factory 主控台首頁的螢幕擷取畫面。圖中顯示的資料庫方塊有一個新的「探索節約」按鈕。按一下按鈕以開啟下拉式功能表。下拉式功能表有兩個選項：「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」。選擇任一選項、您都可以前往節約計算機探索節約效益。"]
+
+
+
 == 2024-08-04
 
 
@@ -37,6 +61,38 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 ==== 儲存計算機中的處理量和 IOPS 建議
 
 儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。
+
+
+
+=== 資料庫工作負載
+
+
+
+==== 節省計算機增強功能
+
+* 成本預估說明
++
+您現在可以在儲蓄計算機中瞭解如何計算成本預估。相較於使用 Amazon Elastic Block Store 儲存設備的 Amazon FSX 進行 ONTAP 儲存設備、您可以檢閱 Microsoft SQL Server 執行個體的所有計算說明。
+
+* 支援 Always On Availability 群組
++
+資料庫現在提供使用 Amazon Elastic Block Store 的 Microsoft SQL Server 搭配 Always On Availability 群組部署類型的成本節約計算。
+
+* 使用適用於 ONTAP 的 FSX 最佳化 SQL Server 授權
++
+資料庫計算機可判斷您與 Amazon Elastic Block Store 儲存設備搭配使用的 SQL 授權版本是否已針對資料庫工作負載進行最佳化。您將會收到有關適用於 ONTAP 儲存設備的 FSX 最佳 SQL 授權的建議。
+
+* 多個 SQL Server 執行個體
++
+資料庫現在提供使用 Amazon Elastic Block Store 託管多個 Microsoft SQL Server 執行個體的組態成本節約計算。
+
+* 自訂計算機設定
++
+現在您可以自訂 Microsoft SQL Server 、 Amazon EC2 和 Elastic Block Store 的設定、以手動探索節約效益。節約計算機將根據成本來決定最佳組態。
+
+
+
+link:explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本。"]
 
 
 
@@ -63,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用
 ==== 適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本
 
 Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。
+
+
+
+=== 資料庫工作負載
+
+
+
+==== Workload Factory for Databases 的初始版本
+
+初始版本包含以下功能：利用 Amazon FSX for NetApp ONTAP 做為資料庫工作負載的儲存環境、探索節省成本、偵測、管理及部署 Microsoft SQL Server 、部署及複製資料庫、以及在 Workload Factory 中監控這些工作。
+
+link:learn-databases.html["瞭解資料庫"]。
 
 
 
