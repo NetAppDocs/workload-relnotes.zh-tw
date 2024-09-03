@@ -82,4 +82,14 @@
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">您現在可以在刪除之前備份磁碟區。備份將保留在檔案系統中、直到刪除為止。</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">刪除 Volume</block>
   <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
+  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 訂閱</block>
+  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">您可以從<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方法、可以輕鬆使用 BlueXP  工作負載工廠、並瞭解其變更。</block>
+  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Workload Factory 主控台說明下拉式功能表的螢幕擷取畫面。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。</block>
+  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支援每個工作負載的單一權限原則</block>
+  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">在 Workload Factory 中新增 AWS 認證時、您現在可以針對每個工作負載和儲存管理、選取單一權限原則（讀取或自動化模式）。</block>
+  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">「認證」頁面上權限組態區段的螢幕擷取畫面、您可以在其中選取讀取或自動化儲存管理、 AI 工作負載、資料庫工作負載和 VMware 工作負載的權限原則。</block>
+  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">將 AWS 認證新增至 Workload Factory</block>
+  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
 </blocks>
