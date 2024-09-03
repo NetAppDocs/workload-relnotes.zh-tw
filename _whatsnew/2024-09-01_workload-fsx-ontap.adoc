@@ -1,0 +1,19 @@
+= 儲存管理的讀取模式支援
+:allow-uri-read: 
+
+
+
+
+=== 儲存管理的讀取模式支援
+
+在 Workload Factory 中、讀取模式可用於儲存管理。讀取模式可新增唯讀權限、讓「基礎架構即程式碼」範本填入您的特定變數、藉此提升基本模式的使用體驗。您可以直接從 AWS 帳戶執行「基礎架構即程式碼」範本、而無需提供任何工作負載工廠的修改權限。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["深入瞭解讀取模式"^]
+
+
+
+=== 支援磁碟區刪除之前的備份
+
+您現在可以在刪除之前備份磁碟區。備份將保留在檔案系統中、直到刪除為止。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["刪除 Volume"^]

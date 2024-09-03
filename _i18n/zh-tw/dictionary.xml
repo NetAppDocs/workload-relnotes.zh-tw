@@ -74,4 +74,12 @@
   <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Workload Factory 主控台首頁的螢幕擷取畫面。圖中顯示的資料庫方塊有一個新的「探索節約」按鈕。按一下按鈕以開啟下拉式功能表。下拉式功能表有兩個選項：「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」。選擇任一選項、您都可以前往節約計算機探索節約效益。</block>
   <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024-09-01</block>
+  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">儲存管理的讀取模式支援</block>
+  <block id="8db376980442524a58ebd917532846d7" category="paragraph">在 Workload Factory 中、讀取模式可用於儲存管理。讀取模式可新增唯讀權限、讓「基礎架構即程式碼」範本填入您的特定變數、藉此提升基本模式的使用體驗。您可以直接從 AWS 帳戶執行「基礎架構即程式碼」範本、而無需提供任何工作負載工廠的修改權限。</block>
+  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">深入瞭解讀取模式</block>
+  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
+  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">支援磁碟區刪除之前的備份</block>
+  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">您現在可以在刪除之前備份磁碟區。備份將保留在檔案系統中、直到刪除為止。</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">刪除 Volume</block>
+  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
 </blocks>
