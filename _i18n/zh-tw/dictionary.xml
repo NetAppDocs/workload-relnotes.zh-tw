@@ -96,4 +96,14 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">初始版本包含使用 VMware 移轉顧問來分析內部部署 vSphere 環境中目前的虛擬機器組態、並制定計畫、將建議的虛擬機器配置部署到 AWS 上的 VMware Cloud 、並將 NetApp ONTAP 檔案系統的自訂 Amazon FSX 做為外部資料存放區。</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">移轉至 Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware 的 Workload Factory 現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。</block>
+  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">GenAI 工作負載工廠的初始版本</block>
+  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">初始版本包含開發知識庫的功能、可藉由內嵌組織資料來自訂。使用者可透過聊天機器人應用程式存取知識庫。這項功能可確保針對組織特定問題做出準確且相關的回應、提高所有使用者的滿意度與生產力。</block>
+  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch 記錄整合</block>
+  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">現在、泛用 AI 工作負載已與 Amazon CloudWatch 記錄整合、可讓您監控泛用 AI 工作負載記錄檔。</block>
+  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">例如： chatbot 應用程式</block>
+  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">NetApp Workload Factory GenAI 範例應用程式可讓您在網路型聊天應用程式中直接與已發佈的 NetApp Workload Factory 知識庫互動、藉此測試驗證和擷取。</block>
+  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他的分塊策略</block>
+  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">泛用 AI 工作負載現在支援資料來源的多重句子區塊和重疊區塊。</block>
+  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">每個知識庫的專用磁碟區</block>
+  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">現在、泛用 AI 工作負載會為每個新知識庫建立專屬的 Amazon FSX for NetApp ONTAP Volume 、為每個知識庫啟用個別的快照原則、並針對故障和資料中毒提供更好的保護。</block>
 </blocks>
