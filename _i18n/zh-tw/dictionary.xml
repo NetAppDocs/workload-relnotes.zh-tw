@@ -92,4 +92,8 @@
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">將 AWS 認證新增至 Workload Factory</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
+  <block id="e34fc91d682ebcf23e9732294872ca80" category="doc">VMware Workload Factory 的初始版本</block>
+  <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">初始版本包含使用 VMware 移轉顧問來分析內部部署 vSphere 環境中目前的虛擬機器組態、並制定計畫、將建議的虛擬機器配置部署到 AWS 上的 VMware Cloud 、並將 NetApp ONTAP 檔案系統的自訂 Amazon FSX 做為外部資料存放區。</block>
+  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">移轉至 Amazon EC2</block>
+  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware 的 Workload Factory 現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。</block>
 </blocks>

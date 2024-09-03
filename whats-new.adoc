@@ -59,6 +59,16 @@ image:screenshot-explore-savings-home-small.png["Workload Factory 主控台首�
 
 
 
+=== VMware 工作負載
+
+
+
+==== 移轉至 Amazon EC2
+
+VMware 的 Workload Factory 現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。
+
+
+
 === 設定與管理
 
 
@@ -173,6 +183,16 @@ Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。
 初始版本包含以下功能：利用 Amazon FSX for NetApp ONTAP 做為資料庫工作負載的儲存環境、探索節省成本、偵測、管理及部署 Microsoft SQL Server 、部署及複製資料庫、以及在 Workload Factory 中監控這些工作。
 
 link:learn-databases.html["瞭解資料庫"]。
+
+
+
+=== VMware 工作負載
+
+
+
+==== VMware Workload Factory 的初始版本
+
+初始版本包含使用 VMware 移轉顧問來分析內部部署 vSphere 環境中目前的虛擬機器組態、並制定計畫、將建議的虛擬機器配置部署到 AWS 上的 VMware Cloud 、並將 NetApp ONTAP 檔案系統的自訂 Amazon FSX 做為外部資料存放區。
 
 
 
