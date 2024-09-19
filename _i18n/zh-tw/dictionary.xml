@@ -106,4 +106,9 @@
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">泛用 AI 工作負載現在支援資料來源的多重句子區塊和重疊區塊。</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">每個知識庫的專用磁碟區</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">現在、泛用 AI 工作負載會為每個新知識庫建立專屬的 Amazon FSX for NetApp ONTAP Volume 、為每個知識庫啟用個別的快照原則、並針對故障和資料中毒提供更好的保護。</block>
+  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware 移轉顧問增強功能</block>
+  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">此版本的 Workload Factory for VMware 具備功能與穩定性增強功能、並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。</block>
+  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用移轉顧問為 Amazon EC2 建立部署計畫</block>
+  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
+  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024-09-19</block>
 </blocks>
