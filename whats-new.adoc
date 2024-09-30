@@ -15,6 +15,22 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 2024-09-29
+
+
+
+=== 資料庫工作負載
+
+
+
+==== 探索在適用於 Windows 檔案伺服器的 FSX 上偵測到的 Microsoft SQL 伺服器所能節省的成本
+
+您現在可以在 Amazon EC2 上探索偵測到的 Microsoft SQL 伺服器、並在節約計算機中使用適用於 Windows 檔案伺服器儲存設備的 FSX 。根據您的 SQL 伺服器和儲存需求、您可能會發現適用於 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 節省資料庫工作負載 ^ 。"]
+
+
+
 == 2024-09-19
 
 
@@ -63,7 +79,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["刪除
 
 您現在可以使用適用於 Windows 檔案伺服器的 FSX 、以及節省計算機中的 Elastic Block Store 儲存設備、在 Amazon EC2 上自訂 Microsoft SQL Server 的組態設定。根據您的儲存需求、您可能會發現 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。
 
-link:explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 節省資料庫工作負載 ^ 。"]
 
 
 
@@ -71,7 +87,7 @@ link:explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負�
 
 您現在可以從link:https://console.workloads.netapp.com["Workload Factory 主控台"^]首頁瀏覽至節約計算機。從「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」中選取以開始使用。
 
-image:screenshot-explore-savings-home-small.png["Workload Factory 主控台首頁的螢幕擷取畫面。圖中顯示的資料庫方塊有一個新的「探索節約」按鈕。按一下按鈕以開啟下拉式功能表。下拉式功能表有兩個選項：「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」。選擇任一選項、您都可以前往節約計算機探索節約效益。"]
+image:screenshot-explore-savings-home-small.png["Workload Factory 主控台首頁的螢幕擷取畫面。圖中顯示的資料庫方塊有一個新的「探索節約」按鈕。按一下按鈕以開啟下拉式功能表。下拉式功能表有兩個選項： EBS 上的 Microsoft SQL Server 和適用於 Windows 檔案伺服器的 FSX 上的 Microsoft SQL Server 。"]
 
 
 
@@ -176,7 +192,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 
 
-link:explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 節省資料庫工作負載 ^ 。"]
 
 
 
@@ -219,18 +235,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用
 ==== 適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本
 
 Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。
-
-
-
-=== 資料庫工作負載
-
-
-
-==== Workload Factory for Databases 的初始版本
-
-初始版本包含以下功能：利用 Amazon FSX for NetApp ONTAP 做為資料庫工作負載的儲存環境、探索節省成本、偵測、管理及部署 Microsoft SQL Server 、部署及複製資料庫、以及在 Workload Factory 中監控這些工作。
-
-link:learn-databases.html["瞭解資料庫"]。
 
 
 
