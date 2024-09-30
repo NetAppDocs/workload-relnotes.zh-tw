@@ -28,4 +28,4 @@
 
 
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 節省資料庫工作負載 ^ 。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本"^]
