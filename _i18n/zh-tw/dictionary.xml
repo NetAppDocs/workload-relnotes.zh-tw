@@ -25,7 +25,6 @@
   <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">工作負載工廠最近的變更</block>
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Workload Factory 版本資訊</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
-  <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">適用於 Amazon FSX for NetApp ONTAP 的工作負載工廠初始版本</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 支援</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">建立檔案系統</block>
   <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">建立儲存VM</block>
@@ -33,9 +32,6 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">儲存計算機中的處理量和 IOPS 建議</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。</block>
-  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
-  <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSX for NetApp ONTAP 現在已正式推出 Workload Factory 。</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factory 的初始版本</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS 是功能強大的生命週期管理平台、可協助您使用 Amazon FSX for NetApp ONTAP 檔案系統來最佳化工作負載。使用 Workload Factory 和適用於 ONTAP 的 FSX 可簡化的工作負載包括資料庫、 VMware 在 AWS 上移轉至 VMware Cloud 、 AI 聊天機器人程式等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSX 支援 Terraform 、可用於 NetApp ONTAP 檔案系統部署和儲存 VM 建立。安裝與管理指南現在提供如何從 Codebox 使用 Terraform 的說明。</block>
@@ -110,4 +106,12 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">探索在適用於 Windows 檔案伺服器的 FSX 上偵測到的 Microsoft SQL 伺服器所能節省的成本</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">您現在可以在 Amazon EC2 上探索偵測到的 Microsoft SQL 伺服器、並在節約計算機中使用適用於 Windows 檔案伺服器儲存設備的 FSX 。根據您的 SQL 伺服器和儲存需求、您可能會發現適用於 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024-09-29</block>
+  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
+  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
+  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">連結建立更新</block>
+  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以在工作負載工廠的 Codebox 中檢視並複製 CloudForgation 範本、然後重新導向至 AWS 以執行作業。</block>
+  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">必要權限：現在可以從 Workload Factory 的 Create Link 精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
+  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">支援手動建立連結：此功能可在 AWS CloudForgation 中以手動註冊連結 ARN 的方式獨立建立。當安全團隊或 DevOps 團隊協助建立連結時、這項功能非常實用。</block>
+  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">建立連結</block>
+  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
 </blocks>

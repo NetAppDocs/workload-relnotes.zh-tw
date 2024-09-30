@@ -1,0 +1,14 @@
+= 連結建立更新
+:allow-uri-read: 
+
+
+
+
+=== 連結建立更新
+
+* CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以在工作負載工廠的 Codebox 中檢視並複製 CloudForgation 範本、然後重新導向至 AWS 以執行作業。
+* 必要權限：現在可以從 Workload Factory 的 Create Link 精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。
+* 支援手動建立連結：此功能可在 AWS CloudForgation 中以手動註冊連結 ARN 的方式獨立建立。當安全團隊或 DevOps 團隊協助建立連結時、這項功能非常實用。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["建立連結"^]
