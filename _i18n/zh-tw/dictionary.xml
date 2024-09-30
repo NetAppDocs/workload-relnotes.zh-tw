@@ -112,7 +112,6 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">快照並還原知識庫磁碟區</block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">您現在可以取得知識庫的時間點複本、以保護您的泛用 AI 工作負載資料。這可讓您保護資料、避免意外遺失或測試知識庫設定的變更。您可以隨時還原舊版的知識庫磁碟區。</block>
   <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">拍攝知識庫磁碟區的快照</block>
   <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
@@ -126,4 +125,5 @@
   <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">選取知識庫磁碟區時、您現在可以選擇屬於 NetApp SnapMirror 複寫關係一部分的資料保護磁碟區。這可讓您將知識庫儲存在已受 SnapMirror 複寫保護的磁碟區上。</block>
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">識別要整合到知識庫中的資料來源</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
+  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">快照與還原支援知識庫磁碟區</block>
 </blocks>
