@@ -67,6 +67,20 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
+=== GenAI 工作負載
+
+
+
+==== 使用資料欄遮罩個人識別資訊
+
+泛用型 AI 工作負載採用 BlueXP  分類技術、引進資料 guardrails 功能。資料安全欄功能可識別及遮罩個人識別資訊（ PII ）、協助您維持法規遵循、並強化敏感組織資料的安全性。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["建立知識庫"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["瞭解 BlueXP 分類"^]
+
+
+
 == 2024-09-29
 
 
@@ -237,22 +251,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 
 == 2024-08-04
-
-
-
-=== GenAI 工作負載
-
-
-
-==== Amazon CloudWatch 記錄整合
-
-現在、泛用 AI 工作負載已與 Amazon CloudWatch 記錄整合、可讓您監控泛用 AI 工作負載記錄檔。
-
-
-
-==== 例如： chatbot 應用程式
-
-NetApp Workload Factory GenAI 範例應用程式可讓您在網路型聊天應用程式中直接與已發佈的 NetApp Workload Factory 知識庫互動、藉此測試驗證和擷取。
 
 
 

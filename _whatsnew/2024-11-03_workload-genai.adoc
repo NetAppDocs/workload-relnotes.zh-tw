@@ -1,0 +1,13 @@
+= 使用資料欄遮罩個人識別資訊
+:allow-uri-read: 
+
+
+
+
+=== 使用資料欄遮罩個人識別資訊
+
+泛用型 AI 工作負載採用 BlueXP  分類技術、引進資料 guardrails 功能。資料安全欄功能可識別及遮罩個人識別資訊（ PII ）、協助您維持法規遵循、並強化敏感組織資料的安全性。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["建立知識庫"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["瞭解 BlueXP 分類"^]

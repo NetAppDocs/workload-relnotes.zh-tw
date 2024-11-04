@@ -66,10 +66,6 @@
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">移轉至 Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware 的 Workload Factory 現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。</block>
-  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch 記錄整合</block>
-  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">現在、泛用 AI 工作負載已與 Amazon CloudWatch 記錄整合、可讓您監控泛用 AI 工作負載記錄檔。</block>
-  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">例如： chatbot 應用程式</block>
-  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">NetApp Workload Factory GenAI 範例應用程式可讓您在網路型聊天應用程式中直接與已發佈的 NetApp Workload Factory 知識庫互動、藉此測試驗證和擷取。</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他的分塊策略</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">泛用 AI 工作負載現在支援資料來源的多重句子區塊和重疊區塊。</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">每個知識庫的專用磁碟區</block>
@@ -120,4 +116,10 @@
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware 移轉顧問的資料減量比率有助於您</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的 VMware Workload Factory 提供資料減量比助理。資料減量比率助理可協助您在準備 AWS 雲端上線時、決定哪種比率最適合您的 VMware 庫存和儲存資產。</block>
+  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">使用資料欄遮罩個人識別資訊</block>
+  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">泛用型 AI 工作負載採用 BlueXP  分類技術、引進資料 guardrails 功能。資料安全欄功能可識別及遮罩個人識別資訊（ PII ）、協助您維持法規遵循、並強化敏感組織資料的安全性。</block>
+  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">建立知識庫</block>
+  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
+  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">瞭解 BlueXP 分類</block>
+  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
 </blocks>
