@@ -1,0 +1,13 @@
+= 儲存庫存中的索引標籤檢視
+:allow-uri-read: 
+
+
+
+
+=== 儲存庫存中的索引標籤檢視
+
+儲存庫存已更新為雙索引標籤檢視：
+
+* 適用於 ONTAP 的 FSX 標籤：顯示您目前擁有的 ONTAP 檔案系統的 FSX 。
+* 瀏覽節約標籤：顯示 Elastic Block Store 、適用於 Windows 檔案伺服器的 FSX 、以及 Elastic File Systems 儲存系統。從這裡、您可以將這些系統與適用於 ONTAP 的 FSX 進行比較、以探索這些系統的節約效益。
+

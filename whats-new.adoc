@@ -15,6 +15,24 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 2024-11-03
+
+
+
+=== Amazon FSX for NetApp ONTAP 產品
+
+
+
+==== 儲存庫存中的索引標籤檢視
+
+儲存庫存已更新為雙索引標籤檢視：
+
+* 適用於 ONTAP 的 FSX 標籤：顯示您目前擁有的 ONTAP 檔案系統的 FSX 。
+* 瀏覽節約標籤：顯示 Elastic Block Store 、適用於 Windows 檔案伺服器的 FSX 、以及 Elastic File Systems 儲存系統。從這裡、您可以將這些系統與適用於 ONTAP 的 FSX 進行比較、以探索這些系統的節約效益。
+
+
+
+
 == 2024-09-29
 
 
@@ -185,27 +203,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 
 == 2024-08-04
-
-
-
-=== Amazon FSX for NetApp ONTAP 產品
-
-
-
-==== Terraform 支援
-
-您現在可以使用 Codebox 中的 Terraform 來部署檔案系統和儲存 VM 。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["建立檔案系統"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["建立儲存VM"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用 CodeBox 的 Terraform"^]
-
-
-
-
-==== 儲存計算機中的處理量和 IOPS 建議
-
-儲存計算機會根據 AWS 最佳實務做法、針對處理量和 IOPS 、為 ONTAP 檔案系統設定 FSX 提供建議、為您的選擇提供最佳指引。
 
 
 
