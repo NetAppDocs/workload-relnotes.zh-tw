@@ -1,0 +1,21 @@
+= 使用資料庫持續最佳化您的 Microsoft SQL Server 工作負載
+:allow-uri-read: 
+
+
+
+
+=== 使用資料庫持續最佳化您的 Microsoft SQL Server 工作負載
+
+BlueXP  工作負載工廠推出持續指引和 guardrails 、確保在 Amazon FSX for NetApp ONTAP 上持續最佳化並遵循 Microsoft SQL Server 工作負載儲存元件的最佳實務做法。這項功能會持續離線掃描您的 Microsoft SQL Server 資產、提供深入分析、商機和建議的完整報告、協助您達到最佳效能、成本效益和法規遵循。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化 SQL Server 工作負載"]
+
+
+
+=== Terraform 支援
+
+您現在可以使用 Codebox 中的 Terraform 來部署 Microsoft SQL Server 。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["建立資料庫伺服器"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用 CodeBox 的 Terraform"^]
+

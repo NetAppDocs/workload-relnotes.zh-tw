@@ -40,17 +40,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024-08-04</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024-07-07</block>
-  <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">節省計算機增強功能</block>
-  <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">成本預估說明</block>
-  <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">您現在可以在儲蓄計算機中瞭解如何計算成本預估。相較於使用 Amazon Elastic Block Store 儲存設備的 Amazon FSX 進行 ONTAP 儲存設備、您可以檢閱 Microsoft SQL Server 執行個體的所有計算說明。</block>
-  <block id="97e6e4674ea0e2696f6137e7c1d5fce2" category="list-text">支援 Always On Availability 群組</block>
-  <block id="7e13c18d88bdfda9d3e5101fdaebc5e5" category="paragraph">資料庫現在提供使用 Amazon Elastic Block Store 的 Microsoft SQL Server 搭配 Always On Availability 群組部署類型的成本節約計算。</block>
-  <block id="d95a98a3c6f52fb50654c75b5740f82a" category="list-text">使用適用於 ONTAP 的 FSX 最佳化 SQL Server 授權</block>
-  <block id="4f59760365b695f240f546ba35bdcf33" category="paragraph">資料庫計算機可判斷您與 Amazon Elastic Block Store 儲存設備搭配使用的 SQL 授權版本是否已針對資料庫工作負載進行最佳化。您將會收到有關適用於 ONTAP 儲存設備的 FSX 最佳 SQL 授權的建議。</block>
-  <block id="97c3c8be68d473c11d60e943dcab0fec" category="list-text">多個 SQL Server 執行個體</block>
-  <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">資料庫現在提供使用 Amazon Elastic Block Store 託管多個 Microsoft SQL Server 執行個體的組態成本節約計算。</block>
-  <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">自訂計算機設定</block>
-  <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">現在您可以自訂 Microsoft SQL Server 、 Amazon EC2 和 Elastic Block Store 的設定、以手動探索節約效益。節約計算機將根據成本來決定最佳組態。</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">透過自訂功能探索節約效益</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">您現在可以使用適用於 Windows 檔案伺服器的 FSX 、以及節省計算機中的 Elastic Block Store 儲存設備、在 Amazon EC2 上自訂 Microsoft SQL Server 的組態設定。根據您的儲存需求、您可能會發現 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">從首頁瀏覽至節約計算機</block>
@@ -124,4 +113,11 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">適用於 ONTAP 的 FSX 標籤：顯示您目前擁有的 ONTAP 檔案系統的 FSX 。</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">瀏覽節約標籤：顯示 Elastic Block Store 、適用於 Windows 檔案伺服器的 FSX 、以及 Elastic File Systems 儲存系統。從這裡、您可以將這些系統與適用於 ONTAP 的 FSX 進行比較、以探索這些系統的節約效益。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024-11-03</block>
+  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">使用資料庫持續最佳化您的 Microsoft SQL Server 工作負載</block>
+  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">BlueXP  工作負載工廠推出持續指引和 guardrails 、確保在 Amazon FSX for NetApp ONTAP 上持續最佳化並遵循 Microsoft SQL Server 工作負載儲存元件的最佳實務做法。這項功能會持續離線掃描您的 Microsoft SQL Server 資產、提供深入分析、商機和建議的完整報告、協助您達到最佳效能、成本效益和法規遵循。</block>
+  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">最佳化 SQL Server 工作負載</block>
+  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
+  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署 Microsoft SQL Server 。</block>
+  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">建立資料庫伺服器</block>
+  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
 </blocks>
