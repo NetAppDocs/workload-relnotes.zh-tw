@@ -18,12 +18,12 @@ settings:
   langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Workload Factory 版本資訊
+  - title: BlueXP  工作負載原廠版本資訊
     url: "/index.html"
   - title: 最近的變更
     url: "/whats-new.html"
   - title: 法律聲明
     url: "/legal-notices.html"
 product-family:
-  name: Workload Factory
+  name: BlueXP workload factory
   repo: workload-family
