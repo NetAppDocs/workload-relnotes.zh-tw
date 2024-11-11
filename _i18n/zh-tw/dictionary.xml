@@ -41,13 +41,10 @@
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">您現在可以從<block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>首頁瀏覽至節約計算機。從「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」中選取以開始使用。</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024-09-01</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">儲存管理的讀取模式支援</block>
-  <block id="8db376980442524a58ebd917532846d7" category="paragraph">在 Workload Factory 中、讀取模式可用於儲存管理。讀取模式可新增唯讀權限、讓「基礎架構即程式碼」範本填入您的特定變數、藉此提升基本模式的使用體驗。您可以直接從 AWS 帳戶執行「基礎架構即程式碼」範本、而無需提供任何工作負載工廠的修改權限。</block>
   <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">深入瞭解讀取模式</block>
-  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
   <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">支援磁碟區刪除之前的備份</block>
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">您現在可以在刪除之前備份磁碟區。備份將保留在檔案系統中、直到刪除為止。</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">刪除 Volume</block>
-  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 訂閱</block>
   <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">您可以從<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方法、可以輕鬆使用 BlueXP  工作負載工廠、並瞭解其變更。</block>
   <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Workload Factory 主控台說明下拉式功能表的螢幕擷取畫面。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。</block>
@@ -73,11 +70,8 @@
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">您現在可以在 Amazon EC2 上探索偵測到的 Microsoft SQL 伺服器、並在節約計算機中使用適用於 Windows 檔案伺服器儲存設備的 FSX 。根據您的 SQL 伺服器和儲存需求、您可能會發現適用於 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024-09-29</block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">連結建立更新</block>
-  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以在工作負載工廠的 Codebox 中檢視並複製 CloudForgation 範本、然後重新導向至 AWS 以執行作業。</block>
-  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">必要權限：現在可以從 Workload Factory 的 Create Link 精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
   <block id="3721bd571f4111dad2c363436de34c51" category="list-text">支援手動建立連結：此功能可在 AWS CloudForgation 中以手動註冊連結 ARN 的方式獨立建立。當安全團隊或 DevOps 團隊協助建立連結時、這項功能非常實用。</block>
   <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">建立連結</block>
-  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">您現在可以取得知識庫的時間點複本、以保護您的泛用 AI 工作負載資料。這可讓您保護資料、避免意外遺失或測試知識庫設定的變更。您可以隨時還原舊版的知識庫磁碟區。</block>
@@ -120,4 +114,10 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware 的工作負載工廠現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此 VMware 工作負載工廠版本具備功能與穩定性強化功能，並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。</block>
+  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">讀取模式適用於工作負載工廠的儲存管理。讀取模式可新增唯讀權限、讓「基礎架構即程式碼」範本填入您的特定變數、藉此提升基本模式的使用體驗。您可以直接從 AWS 帳戶執行「基礎架構即程式碼」範本，而無需提供任何工作負載工廠的修改權限。</block>
+  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
+  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
+  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以從工作負載工廠的 Codebox 檢視和複製 CloudForgation 範本，然後重新導向至 AWS 以執行作業。</block>
+  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要權限：現在可以從工作負載工廠的「建立連結」精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
+  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
 </blocks>
