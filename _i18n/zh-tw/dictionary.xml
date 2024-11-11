@@ -24,8 +24,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 支援</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用 CodeBox 的 Terraform</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factory 的初始版本</block>
-  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS 是功能強大的生命週期管理平台、可協助您使用 Amazon FSX for NetApp ONTAP 檔案系統來最佳化工作負載。使用 Workload Factory 和適用於 ONTAP 的 FSX 可簡化的工作負載包括資料庫、 VMware 在 AWS 上移轉至 VMware Cloud 、 AI 聊天機器人程式等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSX 支援 Terraform 、可用於 NetApp ONTAP 檔案系統部署和儲存 VM 建立。安裝與管理指南現在提供如何從 Codebox 使用 Terraform 的說明。</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">資料庫工作負載</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX for NetApp ONTAP 產品</block>
@@ -33,7 +31,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">設定與管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 工作負載</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024-08-04</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024-07-07</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">透過自訂功能探索節約效益</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">您現在可以使用適用於 Windows 檔案伺服器的 FSX 、以及節省計算機中的 Elastic Block Store 儲存設備、在 Amazon EC2 上自訂 Microsoft SQL Server 的組態設定。根據您的儲存需求、您可能會發現 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">從首頁瀏覽至節約計算機</block>
@@ -46,15 +43,9 @@
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">您現在可以在刪除之前備份磁碟區。備份將保留在檔案系統中、直到刪除為止。</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">刪除 Volume</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 訂閱</block>
-  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">您可以從<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方法、可以輕鬆使用 BlueXP  工作負載工廠、並瞭解其變更。</block>
-  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Workload Factory 主控台說明下拉式功能表的螢幕擷取畫面。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。</block>
-  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支援每個工作負載的單一權限原則</block>
-  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">在 Workload Factory 中新增 AWS 認證時、您現在可以針對每個工作負載和儲存管理、選取單一權限原則（讀取或自動化模式）。</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">「認證」頁面上權限組態區段的螢幕擷取畫面、您可以在其中選取讀取或自動化儲存管理、 AI 工作負載、資料庫工作負載和 VMware 工作負載的權限原則。</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">將 AWS 認證新增至 Workload Factory</block>
-  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">移轉至 Amazon EC2</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他的分塊策略</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">泛用 AI 工作負載現在支援資料來源的多重句子區塊和重疊區塊。</block>
@@ -120,4 +111,17 @@
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以從工作負載工廠的 Codebox 檢視和複製 CloudForgation 範本，然後重新導向至 AWS 以執行作業。</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要權限：現在可以從工作負載工廠的「建立連結」精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
+  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">工作負載原廠主控台</block>
+  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">您可以從<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方式，可讓您瞭解 BlueXP  工作負載工廠的變更。</block>
+  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">工作負載原廠主控台說明下拉式功能表的快照。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。</block>
+  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">在工作負載工廠新增 AWS 認證時，您現在可以針對每個工作負載和儲存管理，選取單一權限原則，無論是讀取或自動化模式。</block>
+  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">將 AWS 認證新增至工作負載工廠</block>
+  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">BlueXP  主控台中的工作負載原廠整合</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP主控台</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">您現在可以從使用工作負載工廠<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>。BlueXP  主控台體驗提供與工作負載原廠主控台相同的功能。</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">瞭解如何從 BlueXP  主控台存取工作負載工廠</block>
+  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
+  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">2024-11-11</block>
 </blocks>

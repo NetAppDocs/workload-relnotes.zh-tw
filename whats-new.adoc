@@ -15,6 +15,22 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 2024-11-11
+
+
+
+=== 設定與管理
+
+
+
+==== BlueXP  主控台中的工作負載原廠整合
+
+您現在可以從使用工作負載工廠link:https://console.bluexp.netapp.com["BlueXP主控台"^]。BlueXP  主控台體驗提供與工作負載原廠主控台相同的功能。
+
+link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["瞭解如何從 BlueXP  主控台存取工作負載工廠"]
+
+
+
 == 2024-11-03
 
 
@@ -234,19 +250,19 @@ VMware 的工作負載工廠現在支援使用 VMware 移轉顧問移轉至 Amaz
 
 ==== RSS 訂閱
 
-您可以從link:https://console.workloads.netapp.com/["Workload Factory 主控台"^]取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方法、可以輕鬆使用 BlueXP  工作負載工廠、並瞭解其變更。
+您可以從link:https://console.workloads.netapp.com/["工作負載原廠主控台"^]取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方式，可讓您瞭解 BlueXP  工作負載工廠的變更。
 
-image:screenshot-rss-subscribe-button.png["Workload Factory 主控台說明下拉式功能表的螢幕擷取畫面。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。"]
+image:screenshot-rss-subscribe-button.png["工作負載原廠主控台說明下拉式功能表的快照。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。"]
 
 
 
 ==== 支援每個工作負載的單一權限原則
 
-在 Workload Factory 中新增 AWS 認證時、您現在可以針對每個工作負載和儲存管理、選取單一權限原則（讀取或自動化模式）。
+在工作負載工廠新增 AWS 認證時，您現在可以針對每個工作負載和儲存管理，選取單一權限原則，無論是讀取或自動化模式。
 
 image:screenshot-single-permission-policy-support.png["「認證」頁面上權限組態區段的螢幕擷取畫面、您可以在其中選取讀取或自動化儲存管理、 AI 工作負載、資料庫工作負載和 VMware 工作負載的權限原則。"]
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["將 AWS 認證新增至 Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["將 AWS 認證新增至工作負載工廠"^]
 
 
 
@@ -263,17 +279,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 Amazon FSX 支援 Terraform 、可用於 NetApp ONTAP 檔案系統部署和儲存 VM 建立。安裝與管理指南現在提供如何從 Codebox 使用 Terraform 的說明。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用 CodeBox 的 Terraform"^]
-
-
-
-== 2024-07-07
-
-
-
-=== 設定與管理
-
-
-
-==== Workload Factory 的初始版本
-
-BlueXP Workload Factory for AWS 是功能強大的生命週期管理平台、可協助您使用 Amazon FSX for NetApp ONTAP 檔案系統來最佳化工作負載。使用 Workload Factory 和適用於 ONTAP 的 FSX 可簡化的工作負載包括資料庫、 VMware 在 AWS 上移轉至 VMware Cloud 、 AI 聊天機器人程式等。
