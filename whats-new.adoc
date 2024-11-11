@@ -152,7 +152,7 @@ https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["識別�
 
 ==== VMware 移轉顧問增強功能
 
-此版本的 Workload Factory for VMware 具備功能與穩定性增強功能、並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。
+此 VMware 工作負載工廠版本具備功能與穩定性強化功能，並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]
 
@@ -208,7 +208,7 @@ image:screenshot-explore-savings-home-small.png["Workload Factory 主控台首�
 
 ==== 移轉至 Amazon EC2
 
-VMware 的 Workload Factory 現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。
+VMware 的工作負載工廠現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。
 
 
 
