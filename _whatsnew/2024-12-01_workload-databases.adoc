@@ -1,0 +1,19 @@
+= 持續最佳化可新增運算修正與評估功能
+:allow-uri-read: 
+
+
+
+
+=== 持續最佳化可新增運算修正與評估功能
+
+資料庫現在提供深入分析和建議，協助您最佳化 Microsoft SQL Server 執行個體的運算資源。我們會測量 CPU 使用率，並運用 AWS 運算最佳化工具服務來建議適當大小的最佳執行個體類型，並通知您可用的作業系統修補程式。最佳化運算資源有助於您做出有關執行個體類型的明智決策，進而節省成本並提高資源使用率。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化運算資源組態"]
+
+
+
+=== PostgreSQL 支援
+
+您現在可以在資料庫中部署及管理獨立的 PostgreSQL 伺服器部署。
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["建立 PostgreSQL 伺服器"]

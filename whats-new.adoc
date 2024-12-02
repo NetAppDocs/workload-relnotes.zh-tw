@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["在 
 
 
 
+=== 資料庫工作負載
+
+
+
+==== 持續最佳化可新增運算修正與評估功能
+
+資料庫現在提供深入分析和建議，協助您最佳化 Microsoft SQL Server 執行個體的運算資源。我們會測量 CPU 使用率，並運用 AWS 運算最佳化工具服務來建議適當大小的最佳執行個體類型，並通知您可用的作業系統修補程式。最佳化運算資源有助於您做出有關執行個體類型的明智決策，進而節省成本並提高資源使用率。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化運算資源組態"]
+
+
+
+==== PostgreSQL 支援
+
+您現在可以在資料庫中部署及管理獨立的 PostgreSQL 伺服器部署。
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["建立 PostgreSQL 伺服器"]
+
+
+
+=== GenAI 工作負載
+
+
+
+==== 從快照複製知識庫
+
+GenAI 的 BlueXP  工作負載工廠現在支援從快照複製知識庫。這可快速恢復知識庫，並利用現有資料來源建立新的知識庫，有助於資料恢復與開發。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["複製知識庫"]
+
+
+
+==== 內部部署 ONTAP 叢集探索與複寫
+
+探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["探索內部部署 ONTAP 的叢集"]
+
+
+
 == 2024-11-11
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== 資料庫工作負載
-
-
-
-==== 透過自訂功能探索節約效益
-
-您現在可以使用適用於 Windows 檔案伺服器的 FSX 、以及節省計算機中的 Elastic Block Store 儲存設備、在 Amazon EC2 上自訂 Microsoft SQL Server 的組態設定。根據您的儲存需求、您可能會發現 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本"^]
-
-
-
-==== 從首頁瀏覽至節約計算機
-
-您現在可以從link:https://console.workloads.netapp.com["工作負載原廠主控台"^]首頁瀏覽至節約計算機。從「 Elastic Block Store 」和「適用於 Windows 檔案伺服器的 FSX 」中選取以開始使用。
-
-image:screenshot-explore-savings-home-small.png["工作負載原廠主控台首頁的螢幕擷取畫面。圖中顯示的資料庫方塊有一個新的「探索節約」按鈕。按一下按鈕以開啟下拉式功能表。下拉式功能表有兩個選項： EBS 上的 Microsoft SQL Server 和適用於 Windows 檔案伺服器的 FSX 上的 Microsoft SQL Server 。"]
-
-
-
 === VMware 工作負載
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["工作負載原廠主控台首�
 ==== 移轉至 Amazon EC2
 
 VMware 的工作負載工廠現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。
-
-
-
-=== GenAI 工作負載
-
-
-
-==== 其他的分塊策略
-
-泛用 AI 工作負載現在支援資料來源的多重句子區塊和重疊區塊。
-
-
-
-==== 每個知識庫的專用磁碟區
-
-現在、泛用 AI 工作負載會為每個新知識庫建立專屬的 Amazon FSX for NetApp ONTAP Volume 、為每個知識庫啟用個別的快照原則、並針對故障和資料中毒提供更好的保護。
 
 
 

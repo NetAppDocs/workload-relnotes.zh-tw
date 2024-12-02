@@ -1,0 +1,19 @@
+= 從快照複製知識庫
+:allow-uri-read: 
+
+
+
+
+=== 從快照複製知識庫
+
+GenAI 的 BlueXP  工作負載工廠現在支援從快照複製知識庫。這可快速恢復知識庫，並利用現有資料來源建立新的知識庫，有助於資料恢復與開發。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["複製知識庫"]
+
+
+
+=== 內部部署 ONTAP 叢集探索與複寫
+
+探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["探索內部部署 ONTAP 的叢集"]
