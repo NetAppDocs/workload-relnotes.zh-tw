@@ -36,7 +36,6 @@
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支援每個工作負載的單一權限原則</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">「認證」頁面上權限組態區段的螢幕擷取畫面、您可以在其中選取讀取或自動化儲存管理、 AI 工作負載、資料庫工作負載和 VMware 工作負載的權限原則。</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">移轉至 Amazon EC2</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware 移轉顧問增強功能</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用移轉顧問為 Amazon EC2 建立部署計畫</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -87,7 +86,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
-  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware 的工作負載工廠現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此 VMware 工作負載工廠版本具備功能與穩定性強化功能，並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。</block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以從工作負載工廠的 Codebox 檢視和複製 CloudForgation 範本，然後重新導向至 AWS 以執行作業。</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要權限：現在可以從工作負載工廠的「建立連結」精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
@@ -140,4 +138,9 @@
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">GenAI 的 BlueXP  工作負載工廠現在支援從快照複製知識庫。這可快速恢復知識庫，並利用現有資料來源建立新的知識庫，有助於資料恢復與開發。</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">複製知識庫</block>
   <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 移轉顧問的改善</block>
+  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，可改善移轉顧問的體驗：</block>
+  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">* 資料收集 * ： BlueXP  工作負載工廠 for VMware 支援您在使用移轉顧問時，在特定期間內收集資料的能力。</block>
+  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">* 虛擬機器選擇 * ： BlueXP  VMware 工作負載工廠現在支援您選擇要納入移轉部署的虛擬機器。</block>
+  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">* 快速與進階體驗 * ：當您使用移轉顧問時，您現在可以選擇快速移轉體驗，使用 RVtooles ，或是使用移轉顧問資料收集器的進階體驗。</block>
 </blocks>
