@@ -1,0 +1,45 @@
+= ONTAP 檔案系統橫向擴充 FSX 的區塊儲存設備
+:allow-uri-read: 
+
+
+
+
+=== ONTAP 檔案系統橫向擴充 FSX 的區塊儲存設備
+
+現在，您可以透過適用於 ONTAP 的 FSX 配置區塊儲存設備，以使用橫向擴充的檔案系統部署，最多可配置 6 個 HA 配對。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["在 BlueXP  工作負載工廠中為 ONTAP 檔案系統建立 FSX"]
+
+
+
+=== 可使用 mount 命令
+
+現在可以使用掛載命令來存取 NFS 和 CIFS 來存取磁碟區。您可以在 ONTAP 檔案系統的 FSX 內取得磁碟區的掛載點，方法是選取 * 基本動作 * ，然後選取 * 檢視掛載命令 * 。
+
+image:screenshot-view-mount-command.png["螢幕擷取畫面會顯示，若要檢視 mount 命令，請前往適用於 ONTAP 檔案系統的 FSX ，選取 Volume 功能表，選取基本動作，然後選取 View mount 命令。掛載命令對話方塊隨即出現，並顯示 CIFS 或 NFS 存取的掛載命令。"]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["用於磁碟區的 View mount 命令"]
+
+
+
+=== 建立磁碟區之後，請更新儲存效率
+
+您現在可以在建立磁碟區之後，啟用或停用 FlexVol 磁碟區的儲存效率。儲存效率包括重複資料刪除，資料壓縮及資料壓縮。啟用儲存效率有助於您在 FlexVol volume 上實現最佳空間節約效益。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["更新磁碟區的儲存效率"]
+
+
+
+=== 內部部署 ONTAP 叢集探索與複寫
+
+探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["探索內部部署 ONTAP 的叢集"]
+
+
+
+=== AWS 認證可改善儲蓄計算機分析
+
+您現在可以選擇從節約計算機新增 AWS 認證。新增認證可提升 Amazon Elastic Block Store ， Elastic File Systems 和適用於 Windows 檔案伺服器儲存環境的 FSX 的節約計算機分析準確度，相較於適用於 ONTAP 的 FSX 。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["在 BlueXP  工作負載工廠中探索適用於 ONTAP 的 FSX 所帶來的節約效益"]

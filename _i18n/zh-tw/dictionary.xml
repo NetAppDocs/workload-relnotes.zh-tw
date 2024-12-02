@@ -35,11 +35,6 @@
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">您現在可以使用適用於 Windows 檔案伺服器的 FSX 、以及節省計算機中的 Elastic Block Store 儲存設備、在 Amazon EC2 上自訂 Microsoft SQL Server 的組態設定。根據您的儲存需求、您可能會發現 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">從首頁瀏覽至節約計算機</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024-09-01</block>
-  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">儲存管理的讀取模式支援</block>
-  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">深入瞭解讀取模式</block>
-  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">支援磁碟區刪除之前的備份</block>
-  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">您現在可以在刪除之前備份磁碟區。備份將保留在檔案系統中、直到刪除為止。</block>
-  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">刪除 Volume</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 訂閱</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支援每個工作負載的單一權限原則</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">「認證」頁面上權限組態區段的螢幕擷取畫面、您可以在其中選取讀取或自動化儲存管理、 AI 工作負載、資料庫工作負載和 VMware 工作負載的權限原則。</block>
@@ -101,9 +96,6 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware 的工作負載工廠現在支援使用 VMware 移轉顧問移轉至 Amazon EC2 。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此 VMware 工作負載工廠版本具備功能與穩定性強化功能，並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。</block>
-  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">讀取模式適用於工作負載工廠的儲存管理。讀取模式可新增唯讀權限、讓「基礎架構即程式碼」範本填入您的特定變數、藉此提升基本模式的使用體驗。您可以直接從 AWS 帳戶執行「基礎架構即程式碼」範本，而無需提供任何工作負載工廠的修改權限。</block>
-  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
-  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以從工作負載工廠的 Codebox 檢視和複製 CloudForgation 範本，然後重新導向至 AWS 以執行作業。</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要權限：現在可以從工作負載工廠的「建立連結」精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
@@ -123,4 +115,27 @@
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">工作負載原廠主控台首頁的螢幕擷取畫面。圖中顯示的資料庫方塊有一個新的「探索節約」按鈕。按一下按鈕以開啟下拉式功能表。下拉式功能表有兩個選項： EBS 上的 Microsoft SQL Server 和適用於 Windows 檔案伺服器的 FSX 上的 Microsoft SQL Server 。</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">ONTAP 檔案系統橫向擴充 FSX 的區塊儲存設備</block>
+  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">現在，您可以透過適用於 ONTAP 的 FSX 配置區塊儲存設備，以使用橫向擴充的檔案系統部署，最多可配置 6 個 HA 配對。</block>
+  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">在 BlueXP  工作負載工廠中為 ONTAP 檔案系統建立 FSX</block>
+  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
+  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">可使用 mount 命令</block>
+  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">現在可以使用掛載命令來存取 NFS 和 CIFS 來存取磁碟區。您可以在 ONTAP 檔案系統的 FSX 內取得磁碟區的掛載點，方法是選取 * 基本動作 * ，然後選取 * 檢視掛載命令 * 。</block>
+  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">螢幕擷取畫面會顯示，若要檢視 mount 命令，請前往適用於 ONTAP 檔案系統的 FSX ，選取 Volume 功能表，選取基本動作，然後選取 View mount 命令。掛載命令對話方塊隨即出現，並顯示 CIFS 或 NFS 存取的掛載命令。</block>
+  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">用於磁碟區的 View mount 命令</block>
+  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
+  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">建立磁碟區之後，請更新儲存效率</block>
+  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">您現在可以在建立磁碟區之後，啟用或停用 FlexVol 磁碟區的儲存效率。儲存效率包括重複資料刪除，資料壓縮及資料壓縮。啟用儲存效率有助於您在 FlexVol volume 上實現最佳空間節約效益。</block>
+  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">更新磁碟區的儲存效率</block>
+  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">內部部署 ONTAP 叢集探索與複寫</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">探索內部部署 ONTAP 的叢集</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWS 認證可改善儲蓄計算機分析</block>
+  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">您現在可以選擇從節約計算機新增 AWS 認證。新增認證可提升 Amazon Elastic Block Store ， Elastic File Systems 和適用於 Windows 檔案伺服器儲存環境的 FSX 的節約計算機分析準確度，相較於適用於 ONTAP 的 FSX 。</block>
+  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">在 BlueXP  工作負載工廠中探索適用於 ONTAP 的 FSX 所帶來的節約效益</block>
+  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
 </blocks>
