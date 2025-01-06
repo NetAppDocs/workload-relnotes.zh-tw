@@ -1,0 +1,17 @@
+= Volume CIFS 共用增強功能
+:allow-uri-read: 
+
+
+
+
+=== Volume CIFS 共用增強功能
+
+下列增強功能可用於管理 BlueXP  工作負載工廠中 Amazon FSX for ONTAP 檔案系統中磁碟區的 CIFS 共用：
+
+* 支援一個磁碟區上的多個 CIFS 共用
+* 隨時更新使用者和群組的選項
+* 隨時更新使用者和群組權限的選項
+* 刪除 CIFS 共用
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["管理CIFS共用區"]

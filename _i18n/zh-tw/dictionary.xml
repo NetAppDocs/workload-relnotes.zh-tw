@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">探索在適用於 Windows 檔案伺服器的 FSX 上偵測到的 Microsoft SQL 伺服器所能節省的成本</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">您現在可以在 Amazon EC2 上探索偵測到的 Microsoft SQL 伺服器、並在節約計算機中使用適用於 Windows 檔案伺服器儲存設備的 FSX 。根據您的 SQL 伺服器和儲存需求、您可能會發現適用於 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024-09-29</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">連結建立更新</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">支援手動建立連結：此功能可在 AWS CloudForgation 中以手動註冊連結 ARN 的方式獨立建立。當安全團隊或 DevOps 團隊協助建立連結時、這項功能非常實用。</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">建立連結</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">您現在可以取得知識庫的時間點複本、以保護您的泛用 AI 工作負載資料。這可讓您保護資料、避免意外遺失或測試知識庫設定的變更。您可以隨時還原舊版的知識庫磁碟區。</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此 VMware 工作負載工廠版本具備功能與穩定性強化功能，並可在使用 VMware 移轉顧問時匯入及匯出移轉計畫。</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox 檢視器： CodeBox 現在已整合至連結建立程序中。您可以從工作負載工廠的 Codebox 檢視和複製 CloudForgation 範本，然後重新導向至 AWS 以執行作業。</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">必要權限：現在可以從工作負載工廠的「建立連結」精靈中檢視及複製 AWS CloudForgation 中執行連結建立所需的權限。</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">工作負載原廠主控台</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">您可以從<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>取得 RSS 訂閱。使用 RSS 摘要是一種輕鬆的方式，可讓您瞭解 BlueXP  工作負載工廠的變更。</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">工作負載原廠主控台說明下拉式功能表的快照。訂閱 RSS 的新按鈕會在下拉式功能表中顯示為選項。</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">* 快速與進階體驗 * ：當您使用移轉顧問時，您現在可以選擇快速移轉體驗，使用 RVtooles ，或是使用移轉顧問資料收集器的進階體驗。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作負載工廠</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">Volume CIFS 共用增強功能</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">下列增強功能可用於管理 BlueXP  工作負載工廠中 Amazon FSX for ONTAP 檔案系統中磁碟區的 CIFS 共用：</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">支援一個磁碟區上的多個 CIFS 共用</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">隨時更新使用者和群組的選項</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">隨時更新使用者和群組權限的選項</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">刪除 CIFS 共用</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">管理CIFS共用區</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025-01-05</block>
 </blocks>
