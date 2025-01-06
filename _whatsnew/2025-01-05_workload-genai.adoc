@@ -1,0 +1,27 @@
+= 自訂快照名稱
+:allow-uri-read: 
+
+
+
+
+=== 自訂快照名稱
+
+您現在可以為臨機操作快照提供快照名稱。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["利用快照保護知識庫"]
+
+
+
+=== 自訂 AI 引擎執行個體名稱
+
+您現在可以在部署期間為 AI 引擎執行個體提供自訂名稱。
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["部署 GenAI 基礎架構"]
+
+
+
+=== 重建毀損或遺失的 GenAI 基礎架構
+
+如果您的 AI 引擎執行個體毀損或遭到刪除，您可以讓工作負載在出廠時重新建置。工作負載原廠會在重建完成後，自動將您的知識庫重新附加到基礎架構，以便準備好使用。
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["疑難排解"]
