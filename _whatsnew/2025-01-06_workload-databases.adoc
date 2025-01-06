@@ -1,0 +1,36 @@
+= 資料庫儀表板增強功能
+:allow-uri-read: 
+
+
+
+
+=== 資料庫儀表板增強功能
+
+儀表板的全新設計包括下列圖形和增強功能：
+
+* 主機分佈圖顯示 Microsoft SQL Server 主機和 PostgreSQL 主機的數量
+* 執行個體發佈詳細資料包括偵測到的執行個體總數，以及受管理的 Microsoft SQL Server 和 PostgreSQL 執行個體數目
+* 資料庫發佈詳細資料包括資料庫總數，以及受管理的 Microsoft SQL Server 和 PostgreSQL 資料庫的數量
+* 託管和線上執行個體的最佳化分數和狀態
+* 儲存，運算和應用程式類別的最佳化詳細資料
+* Microsoft SQL Server 執行個體組態的最佳化詳細資料，例如儲存大小調整，儲存配置， ONTAP 儲存，運算和應用程式
+* 在 Amazon Elastic Block Store 和適用於 Windows 檔案伺服器儲存環境的 FSX 上執行的資料庫工作負載，相較於用於 NetApp ONTAP 儲存設備的 Amazon FSX ，可能會節省成本
+
+
+
+
+=== 工作監控中的新「已完成但有問題」狀態
+
+資料庫的工作監控功能現在提供新的「已完成但有問題」狀態，讓您瞭解哪些子工作有問題，以及問題為何。
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["監控資料庫"]
+
+
+
+=== 針對過度配置的 Microsoft SQL Server 授權進行評估與最佳化
+
+節約計算機現在會評估您的 Microsoft SQL Server 部署是否需要 Enterprise Edition 。如果授權過度配置，計算機會建議降級。您可以透過最佳化應用程式，自動降級資料庫中的授權。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化 SQL Server 工作負載"]
+

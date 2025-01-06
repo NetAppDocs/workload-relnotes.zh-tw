@@ -40,8 +40,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用移轉顧問為 Amazon EC2 建立部署計畫</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024-09-19</block>
-  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">探索在適用於 Windows 檔案伺服器的 FSX 上偵測到的 Microsoft SQL 伺服器所能節省的成本</block>
-  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">您現在可以在 Amazon EC2 上探索偵測到的 Microsoft SQL 伺服器、並在節約計算機中使用適用於 Windows 檔案伺服器儲存設備的 FSX 。根據您的 SQL 伺服器和儲存需求、您可能會發現適用於 ONTAP 儲存設備的 FSX 最符合資料庫工作負載的成本效益。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024-09-29</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
@@ -148,4 +146,20 @@
   <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">管理CIFS共用區</block>
   <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025-01-05</block>
+  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">資料庫儀表板增強功能</block>
+  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">儀表板的全新設計包括下列圖形和增強功能：</block>
+  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">主機分佈圖顯示 Microsoft SQL Server 主機和 PostgreSQL 主機的數量</block>
+  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">執行個體發佈詳細資料包括偵測到的執行個體總數，以及受管理的 Microsoft SQL Server 和 PostgreSQL 執行個體數目</block>
+  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">資料庫發佈詳細資料包括資料庫總數，以及受管理的 Microsoft SQL Server 和 PostgreSQL 資料庫的數量</block>
+  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">託管和線上執行個體的最佳化分數和狀態</block>
+  <block id="341934677d47967f5c6e737476247396" category="list-text">儲存，運算和應用程式類別的最佳化詳細資料</block>
+  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">Microsoft SQL Server 執行個體組態的最佳化詳細資料，例如儲存大小調整，儲存配置， ONTAP 儲存，運算和應用程式</block>
+  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">在 Amazon Elastic Block Store 和適用於 Windows 檔案伺服器儲存環境的 FSX 上執行的資料庫工作負載，相較於用於 NetApp ONTAP 儲存設備的 Amazon FSX ，可能會節省成本</block>
+  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">工作監控中的新「已完成但有問題」狀態</block>
+  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">資料庫的工作監控功能現在提供新的「已完成但有問題」狀態，讓您瞭解哪些子工作有問題，以及問題為何。</block>
+  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">監控資料庫</block>
+  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
+  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">針對過度配置的 Microsoft SQL Server 授權進行評估與最佳化</block>
+  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">節約計算機現在會評估您的 Microsoft SQL Server 部署是否需要 Enterprise Edition 。如果授權過度配置，計算機會建議降級。您可以透過最佳化應用程式，自動降級資料庫中的授權。</block>
+  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025-01-06</block>
 </blocks>
