@@ -31,6 +31,6 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["�
 
 節約計算機現在會評估您的 Microsoft SQL Server 部署是否需要 Enterprise Edition 。如果授權過度配置，計算機會建議降級。您可以透過最佳化應用程式，自動降級資料庫中的授權。
 
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本"^]
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本"]
 * link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化 SQL Server 工作負載"]
 

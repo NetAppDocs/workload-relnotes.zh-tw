@@ -37,7 +37,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用移轉顧問為 Amazon EC2 建立部署計畫</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
-  <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">儲存庫存中的索引標籤檢視</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">儲存庫存已更新為雙索引標籤檢視：</block>
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">適用於 ONTAP 的 FSX 標籤：顯示您目前擁有的 ONTAP 檔案系統的 FSX 。</block>
@@ -160,4 +159,5 @@
   <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">* 儲存或下載移轉計畫 * ：您現在可以儲存或下載移轉計畫，並載入移轉計畫以填入移轉顧問。儲存移轉計畫時，計畫會與工作負載原廠帳戶一起儲存。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* 改善的 VM 選擇 * ： BlueXP  VMware 工作負載工廠現在支援篩選及搜尋您想要納入移轉部署的 VM 清單。</block>
+  <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
 </blocks>
