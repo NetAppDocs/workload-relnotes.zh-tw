@@ -1,0 +1,24 @@
+= 內部部署資料庫環境成本分析與移轉規劃
+:allow-uri-read: 
+
+
+
+
+=== 內部部署資料庫環境成本分析與移轉規劃
+
+BlueXP  工作負載工廠適用於資料庫，現在可偵測，分析及協助您規劃內部部署資料庫移轉至 Amazon FSX for NetApp ONTAP 。您可以使用節約計算機來估算在雲端中執行內部部署資料庫環境的成本，並檢閱將內部部署資料庫環境移轉至雲端的建議。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索內部部署資料庫環境的節約效益"]
+
+
+
+=== 新的資料庫最佳化評估
+
+BlueXP  工作負載工廠現已提供資料庫的下列評估。這些評估的重點在於偵測並防範潛在的安全性弱點，以及偵測和減輕效能瓶頸。
+
+* * 接收端調整（ RSS ）組態 * ：檢查是否啟用 RSS 組態，以及佇列數是否設為建議值。評估也提供最佳化 RSS 組態的建議。
+* * 最大平行度（ MAXDOP ）伺服器組態 * ：評估會檢查 MAXDOP 是否設定正確，並提供最佳化效能的建議。
+* * Microsoft SQL Server 修補程式 * ：評估會檢查 SQL Server 執行個體上是否安裝最新的修補程式，並提供安裝最新修補程式的建議。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化組態"]

@@ -21,9 +21,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
-  <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 支援</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用 CodeBox 的 Terraform</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">資料庫工作負載</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX for NetApp ONTAP 產品</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 工作負載</block>
@@ -37,13 +34,8 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">適用於 ONTAP 的 FSX 標籤：顯示您目前擁有的 ONTAP 檔案系統的 FSX 。</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">瀏覽節約標籤：顯示 Elastic Block Store 、適用於 Windows 檔案伺服器的 FSX 、以及 Elastic File Systems 儲存系統。從這裡、您可以將這些系統與適用於 ONTAP 的 FSX 進行比較、以探索這些系統的節約效益。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024-11-03</block>
-  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">使用資料庫持續最佳化您的 Microsoft SQL Server 工作負載</block>
-  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">BlueXP  工作負載工廠推出持續指引和 guardrails 、確保在 Amazon FSX for NetApp ONTAP 上持續最佳化並遵循 Microsoft SQL Server 工作負載儲存元件的最佳實務做法。這項功能會持續離線掃描您的 Microsoft SQL Server 資產、提供深入分析、商機和建議的完整報告、協助您達到最佳效能、成本效益和法規遵循。</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">最佳化 SQL Server 工作負載</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署 Microsoft SQL Server 。</block>
-  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">建立資料庫伺服器</block>
-  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware 移轉顧問的資料減量比率有助於您</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的 VMware Workload Factory 提供資料減量比助理。資料減量比率助理可協助您在準備 AWS 雲端上線時、決定哪種比率最適合您的 VMware 庫存和儲存資產。</block>
   <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">使用資料欄遮罩個人識別資訊</block>
@@ -152,4 +144,16 @@
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">2025-01-22</block>
+  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">內部部署資料庫環境成本分析與移轉規劃</block>
+  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">BlueXP  工作負載工廠適用於資料庫，現在可偵測，分析及協助您規劃內部部署資料庫移轉至 Amazon FSX for NetApp ONTAP 。您可以使用節約計算機來估算在雲端中執行內部部署資料庫環境的成本，並檢閱將內部部署資料庫環境移轉至雲端的建議。</block>
+  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">探索內部部署資料庫環境的節約效益</block>
+  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
+  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">新的資料庫最佳化評估</block>
+  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">BlueXP  工作負載工廠現已提供資料庫的下列評估。這些評估的重點在於偵測並防範潛在的安全性弱點，以及偵測和減輕效能瓶頸。</block>
+  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">* 接收端調整（ RSS ）組態 * ：檢查是否啟用 RSS 組態，以及佇列數是否設為建議值。評估也提供最佳化 RSS 組態的建議。</block>
+  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">* 最大平行度（ MAXDOP ）伺服器組態 * ：評估會檢查 MAXDOP 是否設定正確，並提供最佳化效能的建議。</block>
+  <block id="288748eac82542205cccb2a59e324600" category="list-text">* Microsoft SQL Server 修補程式 * ：評估會檢查 SQL Server 執行個體上是否安裝最新的修補程式，並提供安裝最新修補程式的建議。</block>
+  <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">最佳化組態</block>
+  <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
+  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025-02-03</block>
 </blocks>
