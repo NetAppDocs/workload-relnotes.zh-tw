@@ -38,12 +38,6 @@
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware 移轉顧問的資料減量比率有助於您</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的 VMware Workload Factory 提供資料減量比助理。資料減量比率助理可協助您在準備 AWS 雲端上線時、決定哪種比率最適合您的 VMware 庫存和儲存資產。</block>
-  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">使用資料欄遮罩個人識別資訊</block>
-  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">泛用型 AI 工作負載採用 BlueXP  分類技術、引進資料 guardrails 功能。資料安全欄功能可識別及遮罩個人識別資訊（ PII ）、協助您維持法規遵循、並強化敏感組織資料的安全性。</block>
-  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">建立知識庫</block>
-  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">瞭解 BlueXP 分類</block>
-  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">瞭解 BlueXP  工作負載工廠工作負載的最新變更。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
@@ -156,4 +150,17 @@
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">最佳化組態</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
   <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025-02-03</block>
+  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">資料來源的檔案類型篩選</block>
+  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">GenAI 現在支援在新增資料來源時，選取要納入資料來源掃描的特定檔案類型。</block>
+  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">將資料來源新增至知識庫</block>
+  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
+  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">資料來源的檔案修改日期篩選</block>
+  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">GenAI 現在支援篩選檔案，可在新增資料來源時，依修改日期納入資料來源掃描。您可以為包含的檔案選擇修改日期範圍。</block>
+  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">支援影像檔案，並加強支援 PDF 檔案</block>
+  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">GenAI 現在支援掃描 PDF 檔案中的影像檔案和影像（也稱為多模式檔案支援）。如果您選擇影像檔案，則會將影像中的文字掃描至資料來源，並作為資料使用。此功能包括 PDF 文件中的影像；如果您包含 PDF 檔案類型，則會掃描每個 PDF 中的影像以尋找文字，並將該文字包含在資料來源的資訊中。</block>
+  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">混合式搜尋與重新部署支援</block>
+  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">GenAI 現在使用混合式搜尋並重新排列結果的順序，以增強搜尋結果的相關性。混合式搜尋將關鍵字搜尋與向量和語義搜尋結合在一起。標準關鍵字搜尋結果會以接近的相符項目和語言差異加以擴充，以增強相關性。GenAI 重新排列搜尋結果，只會傳回最相關的結果。</block>
+  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">瞭解 GenAI 的 BlueXP  工作負載工廠</block>
+  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
+  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
 </blocks>

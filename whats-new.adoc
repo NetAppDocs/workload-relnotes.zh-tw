@@ -44,6 +44,46 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+== 2025-02-02
+
+
+
+=== GenAI 工作負載
+
+
+
+==== 資料來源的檔案類型篩選
+
+GenAI 現在支援在新增資料來源時，選取要納入資料來源掃描的特定檔案類型。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["將資料來源新增至知識庫"]
+
+
+
+==== 資料來源的檔案修改日期篩選
+
+GenAI 現在支援篩選檔案，可在新增資料來源時，依修改日期納入資料來源掃描。您可以為包含的檔案選擇修改日期範圍。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["將資料來源新增至知識庫"]
+
+
+
+==== 支援影像檔案，並加強支援 PDF 檔案
+
+GenAI 現在支援掃描 PDF 檔案中的影像檔案和影像（也稱為多模式檔案支援）。如果您選擇影像檔案，則會將影像中的文字掃描至資料來源，並作為資料使用。此功能包括 PDF 文件中的影像；如果您包含 PDF 檔案類型，則會掃描每個 PDF 中的影像以尋找文字，並將該文字包含在資料來源的資訊中。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["將資料來源新增至知識庫"]
+
+
+
+==== 混合式搜尋與重新部署支援
+
+GenAI 現在使用混合式搜尋並重新排列結果的順序，以增強搜尋結果的相關性。混合式搜尋將關鍵字搜尋與向量和語義搜尋結合在一起。標準關鍵字搜尋結果會以接近的相符項目和語言差異加以擴充，以增強相關性。GenAI 重新排列搜尋結果，只會傳回最相關的結果。
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["瞭解 GenAI 的 BlueXP  工作負載工廠"]
+
+
+
 == 2025-01-22
 
 
@@ -329,17 +369,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html
 此版本的 VMware Workload Factory 提供資料減量比助理。資料減量比率助理可協助您在準備 AWS 雲端上線時、決定哪種比率最適合您的 VMware 庫存和儲存資產。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]
-
-
-
-=== GenAI 工作負載
-
-
-
-==== 使用資料欄遮罩個人識別資訊
-
-泛用型 AI 工作負載採用 BlueXP  分類技術、引進資料 guardrails 功能。資料安全欄功能可識別及遮罩個人識別資訊（ PII ）、協助您維持法規遵循、並強化敏感組織資料的安全性。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["建立知識庫"]
-
-link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["瞭解 BlueXP 分類"^]
