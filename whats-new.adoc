@@ -84,6 +84,26 @@ link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#ben
 
 
 
+=== 設定與管理
+
+
+
+==== CloudShell 可在 BlueXP  工作負載原廠主控台取得
+
+CloudShell 可從 BlueXP  工作負載原廠主控台的任何位置取得。CloudShell 可讓您使用 BlueXP  帳戶提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
+
+
+
+==== 資料庫的權限更新
+
+現在，下列權限可在 _read_ 模式下用於資料庫： `iam:SimulatePrincipalPolicy`。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"]
+
+
+
 == 2025-01-22
 
 
@@ -323,22 +343,6 @@ link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clon
 探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["探索內部部署 ONTAP 的叢集"]
-
-
-
-== 2024-11-11
-
-
-
-=== 設定與管理
-
-
-
-==== BlueXP  主控台中的工作負載原廠整合
-
-您現在可以從使用工作負載工廠link:https://console.bluexp.netapp.com["BlueXP主控台"^]。BlueXP  主控台體驗提供與工作負載原廠主控台相同的功能。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["瞭解如何從 BlueXP  主控台存取工作負載工廠"]
 
 
 
