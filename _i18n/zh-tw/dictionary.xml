@@ -29,10 +29,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用移轉顧問為 Amazon EC2 建立部署計畫</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
-  <block id="31139fb3d548620b7d82f880e4660606" category="doc">儲存庫存中的索引標籤檢視</block>
-  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">儲存庫存已更新為雙索引標籤檢視：</block>
-  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">適用於 ONTAP 的 FSX 標籤：顯示您目前擁有的 ONTAP 檔案系統的 FSX 。</block>
-  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">瀏覽節約標籤：顯示 Elastic Block Store 、適用於 Windows 檔案伺服器的 FSX 、以及 Elastic File Systems 儲存系統。從這裡、您可以將這些系統與適用於 ONTAP 的 FSX 進行比較、以探索這些系統的節約效益。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024-11-03</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">最佳化 SQL Server 工作負載</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
@@ -165,4 +161,34 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">現在，下列權限可在 _read_ 模式下用於資料庫：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  工作負載原廠主控台的 CloudShell</block>
+  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell 是 BlueXP  儲存工作負載原廠提供的內嵌 CLI 功能。您可以使用 CloudShell 從工作負載原廠主控台內的 Shell 環境中，從多個工作階段建立，共用及執行 ONTAP 或 AWS CLI 命令。</block>
+  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">深入瞭解 BlueXP  工作負載工廠的 CloudShell</block>
+  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
+  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">庫存資料下載</block>
+  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">您現在可以從 BlueXP  工作負載工廠的儲存設備，將適用於 ONTAP 的 FSX 庫存資料下載到 Microsoft Excel 或 CSV 檔案中。</block>
+  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  工作負載工廠儲存設備的螢幕擷取畫面，顯示新的下載按鈕，可下載適用於 ONTAP 檔案系統庫存資料的 FSX 。</block>
+  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">適用於 ONTAP 檔案系統的 FSX 其他功能表選項</block>
+  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">我們已從「儲存」的「適用於 ONTAP 的 FSX 」索引標籤，為適用於 ONTAP 檔案系統的 FSX 簡化下列作業。</block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">建立儲存VM</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">建立Volume</block>
+  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">複寫 Volume 資料</block>
+  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">Storage 中的 FSX for ONTAP 標籤螢幕快照，顯示新功能表選項可建立儲存 VM ，建立 Volume 及複寫 Volume 資料。</block>
+  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Terraform 支援建立 Volume</block>
+  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來建立 Volume 。</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">使用不可變檔案功能鎖定檔案</block>
+  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">當您為 ONTAP 檔案系統建立 FSX 磁碟區時，現在可以使用不可變檔案功能鎖定檔案。檔案鎖定可協助您和其他人在指定期間內防止意外或刻意刪除檔案。</block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">Tracker 可用於監控及追蹤作業</block>
+  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Tracker ， Storage 提供全新的監控功能。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。</block>
+  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">瞭解如何使用 Tracker 監控及追蹤作業</block>
+  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">支援第二代 Amazon FSX for NetApp ONTAP 檔案系統</block>
+  <block id="327da4942931ea47a06f556d15726878" category="paragraph">您現在可以在 BlueXP  工作負載工廠中，將 Amazon FSX 用於 NetApp ONTAP 第二代檔案系統。適用於 ONTAP 第二代單一 AZ 檔案系統的 FSX 搭載多達 12 個 HA 配對，可提供高達 72 Gbps 的處理量容量和 2 ， 400,000 個 SSD IOPS 。適用於 ONTAP 第二代 Multi-AZ 檔案系統的 FSX 採用單一 HA 配對，提供 6 Gbps 的處理量容量和 20 ， 000 SSD IOPS 。</block>
+  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">新增高可用度配對</block>
+  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
+  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Amazon FSX for NetApp ONTAP 的配額與限制</block>
+  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
 </blocks>

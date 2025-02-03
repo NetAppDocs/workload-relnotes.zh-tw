@@ -1,0 +1,66 @@
+= BlueXP  工作負載原廠主控台的 CloudShell
+:allow-uri-read: 
+
+
+
+
+=== BlueXP  工作負載原廠主控台的 CloudShell
+
+CloudShell 是 BlueXP  儲存工作負載原廠提供的內嵌 CLI 功能。您可以使用 CloudShell 從工作負載原廠主控台內的 Shell 環境中，從多個工作階段建立，共用及執行 ONTAP 或 AWS CLI 命令。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["深入瞭解 BlueXP  工作負載工廠的 CloudShell"^]
+
+
+
+=== 庫存資料下載
+
+您現在可以從 BlueXP  工作負載工廠的儲存設備，將適用於 ONTAP 的 FSX 庫存資料下載到 Microsoft Excel 或 CSV 檔案中。
+
+image:screenshot-fsx-inventory-download.png["BlueXP  工作負載工廠儲存設備的螢幕擷取畫面，顯示新的下載按鈕，可下載適用於 ONTAP 檔案系統庫存資料的 FSX 。"]
+
+
+
+=== 適用於 ONTAP 檔案系統的 FSX 其他功能表選項
+
+我們已從「儲存」的「適用於 ONTAP 的 FSX 」索引標籤，為適用於 ONTAP 檔案系統的 FSX 簡化下列作業。
+
+* 建立儲存VM
+* 建立Volume
+* 複寫 Volume 資料
+
+
+image:screenshot-filesystem-menu-options.png["Storage 中的 FSX for ONTAP 標籤螢幕快照，顯示新功能表選項可建立儲存 VM ，建立 Volume 及複寫 Volume 資料。"]
+
+
+
+=== Terraform 支援建立 Volume
+
+您現在可以使用 Codebox 中的 Terraform 來建立 Volume 。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["建立Volume"]
+
+
+
+=== 使用不可變檔案功能鎖定檔案
+
+當您為 ONTAP 檔案系統建立 FSX 磁碟區時，現在可以使用不可變檔案功能鎖定檔案。檔案鎖定可協助您和其他人在指定期間內防止意外或刻意刪除檔案。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["建立Volume"]
+
+
+
+=== Tracker 可用於監控及追蹤作業
+
+Tracker ， Storage 提供全新的監控功能。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["瞭解如何使用 Tracker 監控及追蹤作業"]
+
+
+
+=== 支援第二代 Amazon FSX for NetApp ONTAP 檔案系統
+
+您現在可以在 BlueXP  工作負載工廠中，將 Amazon FSX 用於 NetApp ONTAP 第二代檔案系統。適用於 ONTAP 第二代單一 AZ 檔案系統的 FSX 搭載多達 12 個 HA 配對，可提供高達 72 Gbps 的處理量容量和 2 ， 400,000 個 SSD IOPS 。適用於 ONTAP 第二代 Multi-AZ 檔案系統的 FSX 採用單一 HA 配對，提供 6 Gbps 的處理量容量和 20 ， 000 SSD IOPS 。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["新增高可用度配對"]
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Amazon FSX for NetApp ONTAP 的配額與限制"^]
+
