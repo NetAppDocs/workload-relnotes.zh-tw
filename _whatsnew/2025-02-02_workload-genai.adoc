@@ -1,6 +1,14 @@
-= 資料來源的檔案類型篩選
+= 支援 Amazon Nova 基礎模式
 :allow-uri-read: 
 
+
+
+
+=== 支援 Amazon Nova 基礎模式
+
+GenAI 現在支援 Amazon Nova 基礎模式。支援 Amazon Nova Micro ， Amazon Nova Lite 和 Amazon Nova Pro 。
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["GenAI 需求"]
 
 
 
