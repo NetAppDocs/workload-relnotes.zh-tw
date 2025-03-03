@@ -1,0 +1,47 @@
+= PostgreSQL 高可用度組態和快速建立
+:allow-uri-read: 
+
+
+
+
+=== PostgreSQL 高可用度組態和快速建立
+
+BlueXP  工作負載工廠支援資料庫的兩個新功能區：
+
+* PostgreSQL 高可用度（ HA ）組態：您現在可以部署 PostgreSQL 伺服器的 HA 組態。
+* 快速建立：您可以使用此快速部署選項，建立具備 HA 組態和內嵌最佳實務做法的 PostgreSQL 伺服器。
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["建立 PostgreSQL 伺服器"]
+
+
+
+=== Terraform 支援建立 PostgreSQL 伺服器
+
+您現在可以使用 Codebox 中的 Terraform 來部署 PostgreSQL 。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["建立 PostgreSQL 資料庫伺服器"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用 CodeBox 的 Terraform"^]
+
+
+
+
+=== 本機快照排程的恢復能力評估
+
+新的恢復能力評估可供資料庫工作負載使用。我們會評估您 Microsoft SQL Server 執行個體的 Volume 是否具有有效的排程快照原則。快照是資料的時間點複本，有助於在資料遺失時保持資料庫環境的彈性。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化組態"]
+
+
+
+=== 資料庫工作負載的 MAXDOP 補救措施
+
+BlueXP  資料庫工作負載工廠現在支援補救最大平行度（ MAXDOP ）伺服器組態。當 MAXDOP 組態不是最佳化時，您可以讓 BlueXP  工作負載原廠為您最佳化組態。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["最佳化組態"]
+
+
+
+=== 電子郵件節約分析報告
+
+當您探索 Amazon Elastic Block Store 和適用於 Windows 檔案伺服器儲存環境的 FSX 與適用於 ONTAP 的 FSX 的節約效益時，您現在可以透過電子郵件傳送建議報告給自己，團隊成員和客戶。

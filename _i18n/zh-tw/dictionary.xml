@@ -43,14 +43,6 @@
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">探索內部部署 ONTAP 的叢集</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
-  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">持續最佳化可新增運算修正與評估功能</block>
-  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">資料庫現在提供深入分析和建議，協助您最佳化 Microsoft SQL Server 執行個體的運算資源。我們會測量 CPU 使用率，並運用 AWS 運算最佳化工具服務來建議適當大小的最佳執行個體類型，並通知您可用的作業系統修補程式。最佳化運算資源有助於您做出有關執行個體類型的明智決策，進而節省成本並提高資源使用率。</block>
-  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">最佳化運算資源組態</block>
-  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
-  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">PostgreSQL 支援</block>
-  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">您現在可以在資料庫中部署及管理獨立的 PostgreSQL 伺服器部署。</block>
-  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">建立 PostgreSQL 伺服器</block>
-  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
   <block id="f8a21101d47aa852f29a4be35904736e" category="doc">從快照複製知識庫</block>
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">GenAI 的 BlueXP  工作負載工廠現在支援從快照複製知識庫。這可快速恢復知識庫，並利用現有資料來源建立新的知識庫，有助於資料恢復與開發。</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">複製知識庫</block>
@@ -198,4 +190,23 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker 中的 CloudShell 事件</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">現在您可以在 Tracker 中追蹤 CloudShell 事件。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">205-02-02</block>
+  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL 高可用度組態和快速建立</block>
+  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">BlueXP  工作負載工廠支援資料庫的兩個新功能區：</block>
+  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">PostgreSQL 高可用度（ HA ）組態：您現在可以部署 PostgreSQL 伺服器的 HA 組態。</block>
+  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">快速建立：您可以使用此快速部署選項，建立具備 HA 組態和內嵌最佳實務做法的 PostgreSQL 伺服器。</block>
+  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">建立 PostgreSQL 伺服器</block>
+  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
+  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Terraform 支援建立 PostgreSQL 伺服器</block>
+  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署 PostgreSQL 。</block>
+  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">建立 PostgreSQL 資料庫伺服器</block>
+  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
+  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用 CodeBox 的 Terraform</block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">本機快照排程的恢復能力評估</block>
+  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">新的恢復能力評估可供資料庫工作負載使用。我們會評估您 Microsoft SQL Server 執行個體的 Volume 是否具有有效的排程快照原則。快照是資料的時間點複本，有助於在資料遺失時保持資料庫環境的彈性。</block>
+  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">資料庫工作負載的 MAXDOP 補救措施</block>
+  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">BlueXP  資料庫工作負載工廠現在支援補救最大平行度（ MAXDOP ）伺服器組態。當 MAXDOP 組態不是最佳化時，您可以讓 BlueXP  工作負載原廠為您最佳化組態。</block>
+  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">電子郵件節約分析報告</block>
+  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">當您探索 Amazon Elastic Block Store 和適用於 Windows 檔案伺服器儲存環境的 FSX 與適用於 ONTAP 的 FSX 的節約效益時，您現在可以透過電子郵件傳送建議報告給自己，團隊成員和客戶。</block>
+  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">205-03-03</block>
 </blocks>
