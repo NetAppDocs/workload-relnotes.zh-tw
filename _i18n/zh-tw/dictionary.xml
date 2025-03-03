@@ -38,28 +38,10 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
-  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">ONTAP 檔案系統橫向擴充 FSX 的區塊儲存設備</block>
-  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">現在，您可以透過適用於 ONTAP 的 FSX 配置區塊儲存設備，以使用橫向擴充的檔案系統部署，最多可配置 6 個 HA 配對。</block>
-  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">在 BlueXP  工作負載工廠中為 ONTAP 檔案系統建立 FSX</block>
-  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
-  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">可使用 mount 命令</block>
-  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">現在可以使用掛載命令來存取 NFS 和 CIFS 來存取磁碟區。您可以在 ONTAP 檔案系統的 FSX 內取得磁碟區的掛載點，方法是選取 * 基本動作 * ，然後選取 * 檢視掛載命令 * 。</block>
-  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">螢幕擷取畫面會顯示，若要檢視 mount 命令，請前往適用於 ONTAP 檔案系統的 FSX ，選取 Volume 功能表，選取基本動作，然後選取 View mount 命令。掛載命令對話方塊隨即出現，並顯示 CIFS 或 NFS 存取的掛載命令。</block>
-  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">用於磁碟區的 View mount 命令</block>
-  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
-  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">建立磁碟區之後，請更新儲存效率</block>
-  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">您現在可以在建立磁碟區之後，啟用或停用 FlexVol 磁碟區的儲存效率。儲存效率包括重複資料刪除，資料壓縮及資料壓縮。啟用儲存效率有助於您在 FlexVol volume 上實現最佳空間節約效益。</block>
-  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">更新磁碟區的儲存效率</block>
-  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
   <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">內部部署 ONTAP 叢集探索與複寫</block>
   <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。</block>
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">探索內部部署 ONTAP 的叢集</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
-  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWS 認證可改善儲蓄計算機分析</block>
-  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">您現在可以選擇從節約計算機新增 AWS 認證。新增認證可提升 Amazon Elastic Block Store ， Elastic File Systems 和適用於 Windows 檔案伺服器儲存環境的 FSX 的節約計算機分析準確度，相較於適用於 ONTAP 的 FSX 。</block>
-  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">在 BlueXP  工作負載工廠中探索適用於 ONTAP 的 FSX 所帶來的節約效益</block>
-  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
   <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">持續最佳化可新增運算修正與評估功能</block>
   <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">資料庫現在提供深入分析和建議，協助您最佳化 Microsoft SQL Server 執行個體的運算資源。我們會測量 CPU 使用率，並運用 AWS 運算最佳化工具服務來建議適當大小的最佳執行個體類型，並通知您可用的作業系統修補程式。最佳化運算資源有助於您做出有關執行個體類型的明智決策，進而節省成本並提高資源使用率。</block>
@@ -195,4 +177,25 @@
   <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">GenAI 現在支援 Amazon Nova 基礎模式。支援 Amazon Nova Micro ， Amazon Nova Lite 和 Amazon Nova Pro 。</block>
   <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">GenAI 需求</block>
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
+  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">自動容量管理改善</block>
+  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">啟用自動容量管理時， BlueXP  工作負載工廠現在會檢查檔案系統是否每 30 分鐘達到容量臨界值，而非每 2 小時。</block>
+  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">工作負載工廠也會掃描磁碟區中的可用 inode ，並根據設定的自動容量管理臨界值來增加其計數。</block>
+  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">當達到容量臨界值時，已配置的 IOPS 設定就不再受到影響。</block>
+  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">不可變的快照</block>
+  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">現在您可以鎖定快照，使其在特定保留期間內不可變。鎖定可防止未經授權的存取和惡意刪除快照。您可以在快照原則建立期間，手動建立快照時，以及建立快照之後，啟用不可變的快照。</block>
+  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">不可變更的檔案更新</block>
+  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">您現在可以對不可變更的檔案組態進行下列變更：保留原則，保留期間，自動認可期間和磁碟區附加模式。</block>
+  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">管理不可變的檔案</block>
+  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
+  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">資料複寫增強功能</block>
+  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">跨帳戶複寫： BlueXP  工作負載原廠主控台支援兩個 AWS 帳戶之間的複寫，以及複寫管理。</block>
+  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">資料保護磁碟區複寫：當磁碟區從複寫磁碟區時，資料保護磁碟區現在支援串聯複寫。</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">複寫資料保護磁碟區</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">暫停及恢復複寫：您可以暫停（停止）從來源磁碟區到目的地磁碟區的排程複寫更新，然後在準備好時恢復複寫排程。暫停期間，來源和目的地磁碟區會變得不受限，而目的地磁碟區會從唯讀轉換為讀寫。</block>
+  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">暫停並恢復複寫關係</block>
+  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker 中的 CloudShell 事件</block>
+  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">現在您可以在 Tracker 中追蹤 CloudShell 事件。</block>
+  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">205-02-02</block>
 </blocks>

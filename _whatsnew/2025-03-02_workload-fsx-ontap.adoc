@@ -1,0 +1,50 @@
+= 自動容量管理改善
+:allow-uri-read: 
+
+
+
+
+=== 自動容量管理改善
+
+啟用自動容量管理時， BlueXP  工作負載工廠現在會檢查檔案系統是否每 30 分鐘達到容量臨界值，而非每 2 小時。
+
+工作負載工廠也會掃描磁碟區中的可用 inode ，並根據設定的自動容量管理臨界值來增加其計數。
+
+當達到容量臨界值時，已配置的 IOPS 設定就不再受到影響。
+
+
+
+=== 不可變的快照
+
+現在您可以鎖定快照，使其在特定保留期間內不可變。鎖定可防止未經授權的存取和惡意刪除快照。您可以在快照原則建立期間，手動建立快照時，以及建立快照之後，啟用不可變的快照。
+
+
+
+=== 不可變更的檔案更新
+
+您現在可以對不可變更的檔案組態進行下列變更：保留原則，保留期間，自動認可期間和磁碟區附加模式。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可變的檔案"^]
+
+
+
+=== 資料複寫增強功能
+
+* 跨帳戶複寫： BlueXP  工作負載原廠主控台支援兩個 AWS 帳戶之間的複寫，以及複寫管理。
+* 資料保護磁碟區複寫：當磁碟區從複寫磁碟區時，資料保護磁碟區現在支援串聯複寫。
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["複寫資料保護磁碟區"]
+
+* 暫停及恢復複寫：您可以暫停（停止）從來源磁碟區到目的地磁碟區的排程複寫更新，然後在準備好時恢復複寫排程。暫停期間，來源和目的地磁碟區會變得不受限，而目的地磁碟區會從唯讀轉換為讀寫。
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["暫停並恢復複寫關係"]
+
+
+
+
+
+=== Tracker 中的 CloudShell 事件
+
+現在您可以在 Tracker 中追蹤 CloudShell 事件。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["瞭解如何使用 Tracker 監控及追蹤作業"]
