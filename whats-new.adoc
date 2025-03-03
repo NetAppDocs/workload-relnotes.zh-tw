@@ -122,6 +122,56 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["�
 
 
 
+=== VMware 工作負載
+
+
+
+==== Amazon EC2 移轉顧問的改善
+
+此版本的 BlueXP  工作負載工廠適用於 VMware ，對 Amazon EC2 移轉顧問體驗有幾項改善：
+
+* * 預估執行個體類型 * ：移轉顧問現在可以檢查您環境的需求，並為每個 VM 提供預估的 Amazon EC2 執行個體類型。您可以選擇在移轉顧問的範圍步驟中，納入每個 VM 的預估執行個體類型。
+* * 推薦 Amazon EBS Volume 的能力 * ：移轉顧問現在可建議將資料 Volume 移轉至 Amazon Elastic Block Store （ EBS ），而非 Amazon FSX for NetApp ONTAP ，因為特定區域的特定容量或效能需求。
+* * 增強型檔案系統自動指派 * ： Amazon FSX for NetApp ONTAP 檔案系統指派已改善，可更有效地最佳化成本並將處理量降至最低。
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]
+
+
+
+=== GenAI 工作負載
+
+
+
+==== 嵌入式聊天機器人程式增強功能
+
+您現在可以直接將問題和回應複製到剪貼簿，調整聊天視窗的大小，以及變更其標題。此外，聊天回應現在可以包含表格，這些表格也可以複製。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["測試 GenAI 知識庫"]
+
+
+
+==== 聊天回應引文支援
+
+聊天回應現在包含的引文會列出用來產生回應的檔案和資料區塊。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["測試 GenAI 知識庫"]
+
+
+
+==== 增強的檔案類型支援
+
+此版本的 GenAI 提供增強的檔案支援：
+
+* 聊天模式提供更好的 CSV 支援。這可在從 CSV 檔案查詢資料時，提供更有用的回應。
+* GenAI 現在可以從資料來源擷取 Apache Parquet 檔案。
+* GenAI 現在支援擷取包含影像的 Microsoft Word DOCX 檔案。
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
+
+
+
 == 2025-02-03
 
 
@@ -437,41 +487,5 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 * * 虛擬機器選擇 * ： BlueXP  VMware 工作負載工廠現在支援您選擇要納入移轉部署的虛擬機器。
 * * 快速與進階體驗 * ：當您使用移轉顧問時，您現在可以選擇快速移轉體驗，使用 RVtooles ，或是使用移轉顧問資料收集器的進階體驗。
 
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]
-
-
-
-=== GenAI 工作負載
-
-
-
-==== 從快照複製知識庫
-
-GenAI 的 BlueXP  工作負載工廠現在支援從快照複製知識庫。這可快速恢復知識庫，並利用現有資料來源建立新的知識庫，有助於資料恢復與開發。
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["複製知識庫"]
-
-
-
-==== 內部部署 ONTAP 叢集探索與複寫
-
-探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["探索內部部署 ONTAP 的叢集"]
-
-
-
-== 2024-11-03
-
-
-
-=== VMware 工作負載
-
-
-
-==== VMware 移轉顧問的資料減量比率有助於您
-
-此版本的 VMware Workload Factory 提供資料減量比助理。資料減量比率助理可協助您在準備 AWS 雲端上線時、決定哪種比率最適合您的 VMware 庫存和儲存資產。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]

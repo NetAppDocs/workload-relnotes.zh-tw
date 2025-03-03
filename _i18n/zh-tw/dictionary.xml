@@ -29,24 +29,13 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用移轉顧問為 Amazon EC2 建立部署計畫</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用適用於 ONTAP 的 FSX 為資料庫工作負載節省成本</block>
-  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024-11-03</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">最佳化 SQL Server 工作負載</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware 移轉顧問的資料減量比率有助於您</block>
-  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的 VMware Workload Factory 提供資料減量比助理。資料減量比率助理可協助您在準備 AWS 雲端上線時、決定哪種比率最適合您的 VMware 庫存和儲存資產。</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">瞭解 BlueXP  工作負載工廠工作負載的最新變更。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
-  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">內部部署 ONTAP 叢集探索與複寫</block>
-  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">探索內部部署的 ONTAP 叢集資料，並將其複寫至適用於 ONTAP 檔案系統的 FSX ，以便用於豐富 AI 知識庫。所有內部部署探索和複寫工作流程都可以從儲存設備詳細目錄中的全新 * 內部部署 ONTAP （ * ）標籤中進行。</block>
-  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">探索內部部署 ONTAP 的叢集</block>
-  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
-  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">從快照複製知識庫</block>
-  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">GenAI 的 BlueXP  工作負載工廠現在支援從快照複製知識庫。這可快速恢復知識庫，並利用現有資料來源建立新的知識庫，有助於資料恢復與開發。</block>
-  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">複製知識庫</block>
-  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 移轉顧問的改善</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，可改善移轉顧問的體驗：</block>
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">* 資料收集 * ： BlueXP  工作負載工廠 for VMware 支援您在使用移轉顧問時，在特定期間內收集資料的能力。</block>
@@ -209,4 +198,21 @@
   <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">電子郵件節約分析報告</block>
   <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">當您探索 Amazon Elastic Block Store 和適用於 Windows 檔案伺服器儲存環境的 FSX 與適用於 ONTAP 的 FSX 的節約效益時，您現在可以透過電子郵件傳送建議報告給自己，團隊成員和客戶。</block>
   <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">205-03-03</block>
+  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">嵌入式聊天機器人程式增強功能</block>
+  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">您現在可以直接將問題和回應複製到剪貼簿，調整聊天視窗的大小，以及變更其標題。此外，聊天回應現在可以包含表格，這些表格也可以複製。</block>
+  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">測試 GenAI 知識庫</block>
+  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
+  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">聊天回應引文支援</block>
+  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">聊天回應現在包含的引文會列出用來產生回應的檔案和資料區塊。</block>
+  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">增強的檔案類型支援</block>
+  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">此版本的 GenAI 提供增強的檔案支援：</block>
+  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">聊天模式提供更好的 CSV 支援。這可在從 CSV 檔案查詢資料時，提供更有用的回應。</block>
+  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI 現在可以從資料來源擷取 Apache Parquet 檔案。</block>
+  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI 現在支援擷取包含影像的 Microsoft Word DOCX 檔案。</block>
+  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支援的資料來源檔案格式</block>
+  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
+  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，對 Amazon EC2 移轉顧問體驗有幾項改善：</block>
+  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">* 預估執行個體類型 * ：移轉顧問現在可以檢查您環境的需求，並為每個 VM 提供預估的 Amazon EC2 執行個體類型。您可以選擇在移轉顧問的範圍步驟中，納入每個 VM 的預估執行個體類型。</block>
+  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* 推薦 Amazon EBS Volume 的能力 * ：移轉顧問現在可建議將資料 Volume 移轉至 Amazon Elastic Block Store （ EBS ），而非 Amazon FSX for NetApp ONTAP ，因為特定區域的特定容量或效能需求。</block>
+  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 增強型檔案系統自動指派 * ： Amazon FSX for NetApp ONTAP 檔案系統指派已改善，可更有效地最佳化成本並將處理量降至最低。</block>
 </blocks>
