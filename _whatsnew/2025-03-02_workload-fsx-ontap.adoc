@@ -24,7 +24,7 @@
 
 您現在可以對不可變更的檔案組態進行下列變更：保留原則，保留期間，自動認可期間和磁碟區附加模式。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可變的檔案"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可變的檔案"]
 
 
 

@@ -127,7 +127,6 @@
   <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  工作負載原廠主控台的 CloudShell</block>
   <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell 是 BlueXP  儲存工作負載原廠提供的內嵌 CLI 功能。您可以使用 CloudShell 從工作負載原廠主控台內的 Shell 環境中，從多個工作階段建立，共用及執行 ONTAP 或 AWS CLI 命令。</block>
   <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">深入瞭解 BlueXP  工作負載工廠的 CloudShell</block>
-  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
   <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">庫存資料下載</block>
   <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">您現在可以從 BlueXP  工作負載工廠的儲存設備，將適用於 ONTAP 的 FSX 庫存資料下載到 Microsoft Excel 或 CSV 檔案中。</block>
   <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  工作負載工廠儲存設備的螢幕擷取畫面，顯示新的下載按鈕，可下載適用於 ONTAP 檔案系統庫存資料的 FSX 。</block>
@@ -167,7 +166,6 @@
   <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">不可變更的檔案更新</block>
   <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">您現在可以對不可變更的檔案組態進行下列變更：保留原則，保留期間，自動認可期間和磁碟區附加模式。</block>
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">管理不可變的檔案</block>
-  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">資料複寫增強功能</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">跨帳戶複寫： BlueXP  工作負載原廠主控台支援兩個 AWS 帳戶之間的複寫，以及複寫管理。</block>
   <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">資料保護磁碟區複寫：當磁碟區從複寫磁碟區時，資料保護磁碟區現在支援串聯複寫。</block>
@@ -215,4 +213,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 增強型檔案系統自動指派 * ： Amazon FSX for NetApp ONTAP 檔案系統指派已改善，可更有效地最佳化成本並將處理量降至最低。</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
+  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
+  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
 </blocks>

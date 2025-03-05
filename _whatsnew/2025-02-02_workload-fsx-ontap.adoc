@@ -8,7 +8,7 @@
 
 CloudShell 是 BlueXP  儲存工作負載原廠提供的內嵌 CLI 功能。您可以使用 CloudShell 從工作負載原廠主控台內的 Shell 環境中，從多個工作階段建立，共用及執行 ONTAP 或 AWS CLI 命令。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["深入瞭解 BlueXP  工作負載工廠的 CloudShell"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["深入瞭解 BlueXP  工作負載工廠的 CloudShell"]
 
 
 
