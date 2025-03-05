@@ -188,9 +188,7 @@
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Terraform 支援建立 PostgreSQL 伺服器</block>
   <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">您現在可以使用 Codebox 中的 Terraform 來部署 PostgreSQL 。</block>
   <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">建立 PostgreSQL 資料庫伺服器</block>
-  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用 CodeBox 的 Terraform</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">本機快照排程的恢復能力評估</block>
   <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">新的恢復能力評估可供資料庫工作負載使用。我們會評估您 Microsoft SQL Server 執行個體的 Volume 是否具有有效的排程快照原則。快照是資料的時間點複本，有助於在資料遺失時保持資料庫環境的彈性。</block>
   <block id="90814442b7f0694d712f43efffe9c178" category="section-title">資料庫工作負載的 MAXDOP 補救措施</block>
@@ -215,4 +213,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">* 預估執行個體類型 * ：移轉顧問現在可以檢查您環境的需求，並為每個 VM 提供預估的 Amazon EC2 執行個體類型。您可以選擇在移轉顧問的範圍步驟中，納入每個 VM 的預估執行個體類型。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* 推薦 Amazon EBS Volume 的能力 * ：移轉顧問現在可建議將資料 Volume 移轉至 Amazon Elastic Block Store （ EBS ），而非 Amazon FSX for NetApp ONTAP ，因為特定區域的特定容量或效能需求。</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 增強型檔案系統自動指派 * ： Amazon FSX for NetApp ONTAP 檔案系統指派已改善，可更有效地最佳化成本並將處理量降至最低。</block>
+  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
+  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
 </blocks>
