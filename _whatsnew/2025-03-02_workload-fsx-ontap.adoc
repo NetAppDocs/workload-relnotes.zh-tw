@@ -29,10 +29,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.htm
 === 資料複寫增強功能
 
 * 跨帳戶複寫： BlueXP  工作負載原廠主控台支援兩個 AWS 帳戶之間的複寫，以及複寫管理。
-* 資料保護磁碟區複寫：當磁碟區從複寫磁碟區時，資料保護磁碟區現在支援串聯複寫。
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["複寫資料保護磁碟區"]
-
 * 暫停及恢復複寫：您可以暫停（停止）從來源磁碟區到目的地磁碟區的排程複寫更新，然後在準備好時恢復複寫排程。暫停期間，來源和目的地磁碟區會變得不受限，而目的地磁碟區會從唯讀轉換為讀寫。
 +
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["暫停並恢復複寫關係"]
