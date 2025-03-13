@@ -1,16 +1,12 @@
-= PostgreSQL 高可用度組態和快速建立
+= PostgreSQL 高可用度組態
 :allow-uri-read: 
 
 
 
 
-=== PostgreSQL 高可用度組態和快速建立
+=== PostgreSQL 高可用度組態
 
-BlueXP  工作負載工廠支援資料庫的兩個新功能區：
-
-* PostgreSQL 高可用度（ HA ）組態：您現在可以部署 PostgreSQL 伺服器的 HA 組態。
-* 快速建立：您可以使用此快速部署選項，建立具備 HA 組態和內嵌最佳實務做法的 PostgreSQL 伺服器。
-
+您現在可以為 PostgreSQL 伺服器部署高可用度（ HA ）組態。
 
 link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["建立 PostgreSQL 伺服器"]
 

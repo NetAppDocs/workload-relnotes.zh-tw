@@ -159,7 +159,6 @@
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">自動容量管理改善</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">啟用自動容量管理時， BlueXP  工作負載工廠現在會檢查檔案系統是否每 30 分鐘達到容量臨界值，而非每 2 小時。</block>
-  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">工作負載工廠也會掃描磁碟區中的可用 inode ，並根據設定的自動容量管理臨界值來增加其計數。</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">當達到容量臨界值時，已配置的 IOPS 設定就不再受到影響。</block>
   <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">不可變的快照</block>
   <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">現在您可以鎖定快照，使其在特定保留期間內不可變。鎖定可防止未經授權的存取和惡意刪除快照。您可以在快照原則建立期間，手動建立快照時，以及建立快照之後，啟用不可變的快照。</block>
@@ -168,19 +167,12 @@
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">管理不可變的檔案</block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">資料複寫增強功能</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">跨帳戶複寫： BlueXP  工作負載原廠主控台支援兩個 AWS 帳戶之間的複寫，以及複寫管理。</block>
-  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">資料保護磁碟區複寫：當磁碟區從複寫磁碟區時，資料保護磁碟區現在支援串聯複寫。</block>
-  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">複寫資料保護磁碟區</block>
-  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
   <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">暫停及恢復複寫：您可以暫停（停止）從來源磁碟區到目的地磁碟區的排程複寫更新，然後在準備好時恢復複寫排程。暫停期間，來源和目的地磁碟區會變得不受限，而目的地磁碟區會從唯讀轉換為讀寫。</block>
   <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">暫停並恢復複寫關係</block>
   <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker 中的 CloudShell 事件</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">現在您可以在 Tracker 中追蹤 CloudShell 事件。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">205-02-02</block>
-  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL 高可用度組態和快速建立</block>
-  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">BlueXP  工作負載工廠支援資料庫的兩個新功能區：</block>
-  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">PostgreSQL 高可用度（ HA ）組態：您現在可以部署 PostgreSQL 伺服器的 HA 組態。</block>
-  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">快速建立：您可以使用此快速部署選項，建立具備 HA 組態和內嵌最佳實務做法的 PostgreSQL 伺服器。</block>
   <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">建立 PostgreSQL 伺服器</block>
   <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Terraform 支援建立 PostgreSQL 伺服器</block>
@@ -215,4 +207,6 @@
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
+  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL 高可用度組態</block>
+  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">您現在可以為 PostgreSQL 伺服器部署高可用度（ HA ）組態。</block>
 </blocks>
