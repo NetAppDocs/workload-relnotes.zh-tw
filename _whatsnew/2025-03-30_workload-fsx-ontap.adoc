@@ -1,0 +1,38 @@
+= 橫向擴充系統的自動容量管理
+:allow-uri-read: 
+
+
+
+
+=== 橫向擴充系統的自動容量管理
+
+工作負載工廠現在會掃描磁碟區中的可用 inode ，並根據設定的自動容量管理臨界值來增加其計數。此功能支援橫向擴充系統的自動容量管理。您可以在自動容量管理中啟用 inode 管理。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["啟用自動容量管理"]
+
+
+
+=== FlexGroup 重新平衡 API
+
+BlueXP  工作負載原廠發行的 FlexGroup 重新平衡 API 可讓您執行計畫，以重新平衡 FlexGroup 中的資料。重新平衡會將資料平均地重新分配給成員磁碟區。
+
+link:https://console.workloads.netapp.com/api-doc["BlueXP  工作負載原廠 API 文件"]
+
+
+
+=== Replicate 資料表單包含使用案例
+
+複寫資料表單現在包含使用案例，讓您更容易完成表單。您可以選擇下列其中一種資料複寫使用案例：移轉，熱災難恢復，冷災難恢復，歸檔或其他。選擇使用案例後， Workload Factory 會根據最佳實務做法建議值。您可以接受預先選取的值，或自訂表單中的值。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["複寫資料"]
+
+
+
+=== 資料分層原則術語變更
+
+現在，當您在磁碟區建立，資料複寫或現有分層原則的更新期間選取分層原則時，您會發現新的術語來說明分層原則。
+
+* 平衡（自動） _
+* 成本最佳化（全部） _
+* _ 效能最佳化（僅限快照） _
+

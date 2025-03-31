@@ -35,22 +35,10 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作負載工廠最近的變更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 移轉顧問的改善</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，可改善移轉顧問的體驗：</block>
-  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">* 資料收集 * ： BlueXP  工作負載工廠 for VMware 支援您在使用移轉顧問時，在特定期間內收集資料的能力。</block>
-  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">* 虛擬機器選擇 * ： BlueXP  VMware 工作負載工廠現在支援您選擇要納入移轉部署的虛擬機器。</block>
-  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">* 快速與進階體驗 * ：當您使用移轉顧問時，您現在可以選擇快速移轉體驗，使用 RVtooles ，或是使用移轉顧問資料收集器的進階體驗。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作負載工廠</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">Volume CIFS 共用增強功能</block>
-  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">下列增強功能可用於管理 BlueXP  工作負載工廠中 Amazon FSX for ONTAP 檔案系統中磁碟區的 CIFS 共用：</block>
-  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">支援一個磁碟區上的多個 CIFS 共用</block>
-  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">隨時更新使用者和群組的選項</block>
-  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">隨時更新使用者和群組權限的選項</block>
-  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">刪除 CIFS 共用</block>
-  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">管理CIFS共用區</block>
-  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025-01-05</block>
   <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">資料庫儀表板增強功能</block>
   <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">儀表板的全新設計包括下列圖形和增強功能：</block>
@@ -68,18 +56,6 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">針對過度配置的 Microsoft SQL Server 授權進行評估與最佳化</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">節約計算機現在會評估您的 Microsoft SQL Server 部署是否需要 Enterprise Edition 。如果授權過度配置，計算機會建議降級。您可以透過最佳化應用程式，自動降級資料庫中的授權。</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025-01-06</block>
-  <block id="a117d99fd0597e840921767ec50fe791" category="doc">自訂快照名稱</block>
-  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">您現在可以為臨機操作快照提供快照名稱。</block>
-  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">利用快照保護知識庫</block>
-  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
-  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">自訂 AI 引擎執行個體名稱</block>
-  <block id="5a22f1756638135653917db715aeec43" category="paragraph">您現在可以在部署期間為 AI 引擎執行個體提供自訂名稱。</block>
-  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">部署 GenAI 基礎架構</block>
-  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
-  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">重建毀損或遺失的 GenAI 基礎架構</block>
-  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">如果您的 AI 引擎執行個體毀損或遭到刪除，您可以讓工作負載在出廠時重新建置。工作負載原廠會在重建完成後，自動將您的知識庫重新附加到基礎架構，以便準備好使用。</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">疑難排解</block>
-  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">* 儲存或下載移轉計畫 * ：您現在可以儲存或下載移轉計畫，並載入移轉計畫以填入移轉顧問。儲存移轉計畫時，計畫會與工作負載原廠帳戶一起儲存。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* 改善的 VM 選擇 * ： BlueXP  VMware 工作負載工廠現在支援篩選及搜尋您想要納入移轉部署的 VM 清單。</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -210,4 +186,37 @@
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM ： SimulatePermissionPolicy 權限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">現在您可以在工作負載原廠主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">20205-03-30</block>
+  <block id="e2becee7c382badfb02490cd30d53c6a" category="doc">橫向擴充系統的自動容量管理</block>
+  <block id="5f7d427820d14cb172d0390463b259c4" category="paragraph">工作負載工廠現在會掃描磁碟區中的可用 inode ，並根據設定的自動容量管理臨界值來增加其計數。此功能支援橫向擴充系統的自動容量管理。您可以在自動容量管理中啟用 inode 管理。</block>
+  <block id="ff117b5e42f4a60dd5b7859999c4f2bd" category="inline-link-macro">啟用自動容量管理</block>
+  <block id="85729d1984aee9281a3cc017500ff795" category="paragraph"><block ref="85729d1984aee9281a3cc017500ff795" category="inline-link-macro-rx"></block></block>
+  <block id="d0405304bf4b7c3f042b05203316ddd5" category="section-title">FlexGroup 重新平衡 API</block>
+  <block id="90f7c93b8d9614f0fd7cc2ee87f199c1" category="paragraph">BlueXP  工作負載原廠發行的 FlexGroup 重新平衡 API 可讓您執行計畫，以重新平衡 FlexGroup 中的資料。重新平衡會將資料平均地重新分配給成員磁碟區。</block>
+  <block id="1a256f86b88647f213e637c9cab0ed8b" category="inline-link-macro">BlueXP  工作負載原廠 API 文件</block>
+  <block id="9f2e2c38a7baafe56307fced13716496" category="paragraph"><block ref="9f2e2c38a7baafe56307fced13716496" category="inline-link-macro-rx"></block></block>
+  <block id="40f45c6ac2dbe2255c8ef062d007653f" category="section-title">Replicate 資料表單包含使用案例</block>
+  <block id="d3a1df9d08a100116ee8f443f56f895d" category="paragraph">複寫資料表單現在包含使用案例，讓您更容易完成表單。您可以選擇下列其中一種資料複寫使用案例：移轉，熱災難恢復，冷災難恢復，歸檔或其他。選擇使用案例後， Workload Factory 會根據最佳實務做法建議值。您可以接受預先選取的值，或自訂表單中的值。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複寫資料</block>
+  <block id="0c09136cc5ea602bb57eff7c2432239d" category="paragraph"><block ref="0c09136cc5ea602bb57eff7c2432239d" category="inline-link-macro-rx"></block></block>
+  <block id="9425459482ebc84a43dc550767dd3e0f" category="section-title">資料分層原則術語變更</block>
+  <block id="ac41e4be5fb8d94814ca592ccb928b7c" category="paragraph">現在，當您在磁碟區建立，資料複寫或現有分層原則的更新期間選取分層原則時，您會發現新的術語來說明分層原則。</block>
+  <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">平衡（自動） _</block>
+  <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">成本最佳化（全部） _</block>
+  <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_ 效能最佳化（僅限快照） _</block>
+  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">此版本的 GenAI 在從資料來源建立檔案時，會提供 JSON 和 JSONP 檔案格式支援<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>。支援含有巢狀物件的 JSON 檔案，但巢狀陣列的支援有限。</block>
+  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">外部 chatbot 範例應用程式的國際化支援</block>
+  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">現在您可以輕鬆地將 GenAI 範例外部聊天機器人應用程式的使用者介面變更為不同的語言或地區設定。</block>
+  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">GenAI 外部樣本聊天機器人應用程式</block>
+  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
+  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">支援 Anthropic Claude Sonnet 3.7 聊天模式</block>
+  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI 現在支援 Anthromic Claude 3.7 Sonnet 聊天模式。Claude 3.7 Sonnet 的測試版功能，每個要求最多可允許 128K 個輸出權杖，並支援新的電腦使用動作。未來的 GenAI 版本將支援 Claude 3.7 Sonnet 延伸思考模式。</block>
+  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">建立 GenAI 知識庫</block>
+  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
+  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">支援從一般 NFS/SMB 共用新增資料來源</block>
+  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">使用工作負載原廠 API ，您現在可以從一般 NFSv3 ， NFSv4 或 SMB 共用新增資料來源。當您從 NFS 或 SMB 共用新增資料來源時，知識庫磁碟區仍會保留在 Amazon FSX for NetApp ONTAP Volume 上。工作負載工廠 Web UI 將在未來版本中支援此功能。</block>
+  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">VPC 對等支援</block>
+  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">對等虛擬私有雲（ VPC ）</block>
+  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">您現在可以在同一個區域中的 GenAI 基礎架構上部署<block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>，並使用相同的 AWS 帳戶。您可以在 VPC 中部署 AI 引擎，然後在對等 VPC 中建立知識庫，然後選取位於對等 VPC 中的 Amazon FSX for NetApp ONTAP 檔案系統。</block>
+  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">* 增強型 Volume 指派指南 * ： EC2 移轉顧問「分類」和「封裝」步驟中的 Volume 指派資訊，具有增強的易讀性和可用性。系統會顯示每個 Volume 的更多實用資訊，讓您能夠更有效地識別磁碟區，並判斷如何指派磁碟區。</block>
+  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">* 資料收集器指令碼效率提升 * ： EC2 移轉顧問資料收集器指令碼可在收集資料以進行較小的 VM 部署時，最佳化 CPU 使用率。</block>
 </blocks>
