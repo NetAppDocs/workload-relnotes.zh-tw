@@ -15,6 +15,30 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 20205-03-30
+
+
+
+=== 設定與管理
+
+
+
+==== CloudShell 針對 ONTAP CLI 命令回報 AI 產生的錯誤
+
+使用 CloudShell 時，每次您發出 ONTAP CLI 命令並發生錯誤時，您都可以取得 AI 產生的錯誤回應，包括故障說明，故障原因及詳細解決方法。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
+
+
+
+==== IAM ： SimulatePermissionPolicy 權限更新
+
+現在您可以在工作負載原廠主控台管理 `iam:SimulatePrincipalPolicy`權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"]
+
+
+
 == 205-03-03
 
 
@@ -446,18 +470,6 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["�
 如果您的 AI 引擎執行個體毀損或遭到刪除，您可以讓工作負載在出廠時重新建置。工作負載原廠會在重建完成後，自動將您的知識庫重新附加到基礎架構，以便準備好使用。
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["疑難排解"]
-
-
-
-=== 設定與管理
-
-
-
-==== 支援 BlueXP  工作負載工廠的服務帳戶
-
-BlueXP  工作負載工廠現在支援服務帳戶。您可以建立服務帳戶，做為自動化基礎架構作業的機器使用者。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["建立及管理服務帳戶"]
 
 
 
