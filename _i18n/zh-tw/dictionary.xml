@@ -219,4 +219,6 @@
   <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">您現在可以在同一個區域中的 GenAI 基礎架構上部署<block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>，並使用相同的 AWS 帳戶。您可以在 VPC 中部署 AI 引擎，然後在對等 VPC 中建立知識庫，然後選取位於對等 VPC 中的 Amazon FSX for NetApp ONTAP 檔案系統。</block>
   <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">* 增強型 Volume 指派指南 * ： EC2 移轉顧問「分類」和「封裝」步驟中的 Volume 指派資訊，具有增強的易讀性和可用性。系統會顯示每個 Volume 的更多實用資訊，讓您能夠更有效地識別磁碟區，並判斷如何指派磁碟區。</block>
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">* 資料收集器指令碼效率提升 * ： EC2 移轉顧問資料收集器指令碼可在收集資料以進行較小的 VM 部署時，最佳化 CPU 使用率。</block>
+  <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">使用工作負載原廠 API</block>
+  <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
 </blocks>

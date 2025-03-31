@@ -32,6 +32,8 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["建
 
 使用工作負載原廠 API ，您現在可以從一般 NFSv3 ， NFSv4 或 SMB 共用新增資料來源。當您從 NFS 或 SMB 共用新增資料來源時，知識庫磁碟區仍會保留在 Amazon FSX for NetApp ONTAP Volume 上。工作負載工廠 Web UI 將在未來版本中支援此功能。
 
+link:https://console.workloads.netapp.com/api-doc["使用工作負載原廠 API"^]
+
 
 
 === VPC 對等支援
