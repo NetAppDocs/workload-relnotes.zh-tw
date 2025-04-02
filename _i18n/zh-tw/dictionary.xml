@@ -221,4 +221,8 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">使用工作負載原廠 API</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應</block>
+  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">檔案系統建立的安全性群組詳細資料</block>
+  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">安全性群組是作為 ONTAP 檔案系統建立程序的 FSX 一部分所建立。安全性群組詳細資料，包括通訊協定，連接埠和角色，現在已可供使用。</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">建立檔案系統</block>
+  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
 </blocks>
