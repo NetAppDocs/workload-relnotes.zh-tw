@@ -82,9 +82,7 @@
   <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">資料來源的檔案修改日期篩選</block>
   <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">GenAI 現在支援篩選檔案，可在新增資料來源時，依修改日期納入資料來源掃描。您可以為包含的檔案選擇修改日期範圍。</block>
   <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">支援影像檔案，並加強支援 PDF 檔案</block>
-  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">GenAI 現在支援掃描 PDF 檔案中的影像檔案和影像（也稱為多模式檔案支援）。如果您選擇影像檔案，則會將影像中的文字掃描至資料來源，並作為資料使用。此功能包括 PDF 文件中的影像；如果您包含 PDF 檔案類型，則會掃描每個 PDF 中的影像以尋找文字，並將該文字包含在資料來源的資訊中。</block>
   <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">混合式搜尋與重新部署支援</block>
-  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">GenAI 現在使用混合式搜尋並重新排列結果的順序，以增強搜尋結果的相關性。混合式搜尋將關鍵字搜尋與向量和語義搜尋結合在一起。標準關鍵字搜尋結果會以接近的相符項目和語言差異加以擴充，以增強相關性。GenAI 重新排列搜尋結果，只會傳回最相關的結果。</block>
   <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">瞭解 GenAI 的 BlueXP  工作負載工廠</block>
   <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
@@ -168,7 +166,6 @@
   <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">此版本的 GenAI 提供增強的檔案支援：</block>
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">聊天模式提供更好的 CSV 支援。這可在從 CSV 檔案查詢資料時，提供更有用的回應。</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI 現在可以從資料來源擷取 Apache Parquet 檔案。</block>
-  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI 現在支援擷取包含影像的 Microsoft Word DOCX 檔案。</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支援的資料來源檔案格式</block>
   <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，對 Amazon EC2 移轉顧問體驗有幾項改善：</block>
@@ -225,4 +222,7 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">安全性群組是作為 ONTAP 檔案系統建立程序的 FSX 一部分所建立。安全性群組詳細資料，包括通訊協定，連接埠和角色，現在已可供使用。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">建立檔案系統</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
+  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">GenAI 現在支援強化對知識庫查詢的回應，從影像和圖表說明以及文件文字中獲得深入見解，進而提供更豐富，更高品質的答案。GenAI 現在可以掃描 PDF 檔案中的影像檔案和影像（也稱為多模式檔案支援）。如果您選擇掃描影像或 PDF 檔案，則會將影像中的文字（包括內嵌於 PDF 文件中的影像）掃描至資料來源，而掃描結果中的洞見則會包含在知識庫查詢的回應中。</block>
+  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">GenAI 現在可以使用混合式搜尋並重新排列結果的順序，大幅提升搜尋結果的相關性和準確度。混合式搜尋結合了傳統關鍵字型搜尋的優勢，以及進階密集向量型語義搜尋技術。標準關鍵字搜尋結果會以接近的相符項目和語言差異加以擴充，以增強相關性。然後 GenAI 使用進階重新排名模型（例如 Cohere Rerank 和 Amazon Rerank ）進一步精簡這些結果，並傳回最相關的結果。這項功能適用於新建立的知識庫。</block>
+  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI 現在支援擷取包含影像的 Microsoft Word DOCX 檔案。系統會掃描 DOCX 文件中內嵌的影像，並在回應知識庫查詢時，納入內嵌影像的文字洞見。</block>
 </blocks>

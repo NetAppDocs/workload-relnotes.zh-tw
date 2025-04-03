@@ -26,7 +26,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["測�
 
 * 聊天模式提供更好的 CSV 支援。這可在從 CSV 檔案查詢資料時，提供更有用的回應。
 * GenAI 現在可以從資料來源擷取 Apache Parquet 檔案。
-* GenAI 現在支援擷取包含影像的 Microsoft Word DOCX 檔案。
+* GenAI 現在支援擷取包含影像的 Microsoft Word DOCX 檔案。系統會掃描 DOCX 文件中內嵌的影像，並在回應知識庫查詢時，納入內嵌影像的文字洞見。
 
 
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
