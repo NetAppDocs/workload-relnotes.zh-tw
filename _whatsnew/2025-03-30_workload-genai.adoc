@@ -8,7 +8,7 @@
 
 此版本的 GenAI 在從資料來源建立檔案時，會提供 JSON 和 JSONP 檔案格式支援 `.json`。支援含有巢狀物件的 JSON 檔案，但巢狀陣列的支援有限。
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
 
 
 
