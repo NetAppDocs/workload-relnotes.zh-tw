@@ -8,7 +8,7 @@
 
 此版本的 GenAI 在從資料來源建立檔案時，會提供 JSON 和 JSONP 檔案格式支援 `.json`。支援含有巢狀物件的 JSON 檔案，但巢狀陣列的支援有限。
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
 
 
 
@@ -24,7 +24,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 GenAI 現在支援 Anthromic Claude 3.7 Sonnet 聊天模式。Claude 3.7 Sonnet 的測試版功能，每個要求最多可允許 128K 個輸出權杖，並支援新的電腦使用動作。未來的 GenAI 版本將支援 Claude 3.7 Sonnet 延伸思考模式。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["建立 GenAI 知識庫"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
 
 
 
@@ -40,4 +40,4 @@ link:https://console.workloads.netapp.com/api-doc["使用工作負載原廠 API"
 
 您現在可以在同一個區域中的 GenAI 基礎架構上部署link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["對等虛擬私有雲（ VPC ）"^]，並使用相同的 AWS 帳戶。您可以在 VPC 中部署 AI 引擎，然後在對等 VPC 中建立知識庫，然後選取位於對等 VPC 中的 Amazon FSX for NetApp ONTAP 檔案系統。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["建立 GenAI 知識庫"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]

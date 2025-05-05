@@ -1,0 +1,35 @@
+= 支援 NetApp ONTAP Connector for Amazon Q
+:allow-uri-read: 
+
+
+
+
+=== 支援 NetApp ONTAP Connector for Amazon Q
+
+此版本的 GenAI 引進 NetApp ONTAP Connector for Amazon Q 的支援，可讓您為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["為 Amazon Q Business 建立 GenAI Connector"]
+
+
+
+=== 增強的聊天模式支援
+
+GenAI 現在支援下列額外的聊天模式以供知識庫使用：
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AI 機型"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titan 文字模型"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["中繼 Llama 機型"^]
+* link:https://docs.ai21.com/["Jamba 1.5 機型"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["Cohere Command 模型"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["Deepseek 機型"^]
+
+
+GenAI 支援 Amazon Bedrock 支援的每個供應商機型：link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon 基礎架構支援的基礎模型"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["建立 GenAI 知識庫"]
+
+
+
+=== 更新的權限術語
+
+工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。
