@@ -1,0 +1,19 @@
+= Tracker 可用於監控及追蹤作業
+:allow-uri-read: 
+
+
+
+
+=== Tracker 可用於監控及追蹤作業
+
+GenAI 現已提供 Tracker 監控功能。您可以使用 Tracker 監控和追蹤待處理、正在進行和已完成操作的進度和狀態，查看操作任務和子任務的詳細信息，診斷任何問題或故障，編輯失敗操作的參數，以及重試失敗的操作。
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["使用 BlueXP 工作負載工廠中的 Tracker 監控工作負載操作"]
+
+
+
+=== 為知識庫選擇重新排序模型
+
+現在，您可以透過選擇與知識庫配合使用的特定重排序模型來提高重排序查詢結果的相關性。 GenAI支援 Cohere Rerank 和 Amazon Rerank 模型。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
