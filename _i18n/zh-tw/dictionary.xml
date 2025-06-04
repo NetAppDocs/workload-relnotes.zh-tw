@@ -242,4 +242,5 @@
   <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">此版本的 GenAI 引入了對 NetApp Connector for Amazon Q Business 的支持，使您能夠為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">為 Amazon Q Business 建立 NetApp 連接器</block>
   <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
+  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。</block>
 </blocks>
