@@ -19,6 +19,50 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+=== Amazon FSX for NetApp ONTAP 產品
+
+
+
+==== 磁碟區自動增長增強
+
+現在，您可以設定磁碟區的自動成長大小，以便磁碟區大小可以超出業務需求和應用程式要求的預先配置大小。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["啟用Volume自動擴充"]
+
+
+
+==== 架構完善的分析更新
+
+工作負載工廠現在會分析您的 FSx for ONTAP 檔案系統，以檢查是否正在利用儲存效率，包括資料壓縮、壓縮和重複資料刪除。儲存效率衡量檔案系統利用可用空間的效率。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看儲存效率的良好架構狀態"]
+
+
+
+==== 儲存儀表板增強功能
+
+從今天開始，當您從工作負載工廠控制台開啟儲存工作負載時，您將看到「儀表板」。全新設計的儀表板提供 FSx for ONTAP 系統的整體視圖，包括檔案系統數量、SSD 總容量、架構完善的狀態概覽、資料保護概覽以及複製關係的運作狀況。
+
+
+
+==== 磁碟區選項卡增強功能
+
+儲存工作負載對工作負載工廠控制台中 FSx for ONTAP 檔案系統內的「磁碟區」標籤進行了增強。增強功能包括：
+
+* *新卡*：SSD 容量、容量池和自主勒索軟體防護 (ARP)
+* *新列*：容量分佈、已使用 SSD 容量、已使用容量池和 SSD 效率
+
+
+
+
+==== 磁碟區所建立的儲存效率更新
+
+建立新磁碟區時，預設啟用儲存效率，包括資料壓縮、壓縮和重複資料刪除。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在工作負載工廠中建立新卷"]
+
+
+
 === 資料庫工作負載
 
 
@@ -513,51 +557,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 == 205-02-02
-
-
-
-=== Amazon FSX for NetApp ONTAP 產品
-
-
-
-==== 自動容量管理改善
-
-啟用自動容量管理時， BlueXP  工作負載工廠現在會檢查檔案系統是否每 30 分鐘達到容量臨界值，而非每 2 小時。
-
-當達到容量臨界值時，已配置的 IOPS 設定就不再受到影響。
-
-
-
-==== 不可變的快照
-
-現在您可以鎖定快照，使其在特定保留期間內不可變。鎖定可防止未經授權的存取和惡意刪除快照。您可以在快照原則建立期間，手動建立快照時，以及建立快照之後，啟用不可變的快照。
-
-
-
-==== 不可變更的檔案更新
-
-您現在可以對不可變更的檔案組態進行下列變更：保留原則，保留期間，自動認可期間和磁碟區附加模式。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可變的檔案"]
-
-
-
-==== 資料複寫增強功能
-
-* 跨帳戶複寫： BlueXP  工作負載原廠主控台支援兩個 AWS 帳戶之間的複寫，以及複寫管理。
-* 暫停及恢復複寫：您可以暫停（停止）從來源磁碟區到目的地磁碟區的排程複寫更新，然後在準備好時恢復複寫排程。暫停期間，來源和目的地磁碟區會變得不受限，而目的地磁碟區會從唯讀轉換為讀寫。
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["暫停並恢復複寫關係"]
-
-
-
-
-
-==== Tracker 中的 CloudShell 事件
-
-現在您可以在 Tracker 中追蹤 CloudShell 事件。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["瞭解如何使用 Tracker 監控及追蹤作業"]
 
 
 
