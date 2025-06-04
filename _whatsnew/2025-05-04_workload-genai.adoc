@@ -1,14 +1,14 @@
-= 支援 NetApp ONTAP Connector for Amazon Q
+= 支援 NetApp Connector for Amazon Q Business
 :allow-uri-read: 
 
 
 
 
-=== 支援 NetApp ONTAP Connector for Amazon Q
+=== 支援 NetApp Connector for Amazon Q Business
 
-此版本的 GenAI 引進 NetApp ONTAP Connector for Amazon Q 的支援，可讓您為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。
+此版本的 GenAI 引入了對 NetApp Connector for Amazon Q Business 的支持，使您能夠為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["為 Amazon Q Business 建立 GenAI Connector"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["為 Amazon Q Business 建立 NetApp 連接器"]
 
 
 
@@ -26,7 +26,7 @@ GenAI 現在支援下列額外的聊天模式以供知識庫使用：
 
 GenAI 支援 Amazon Bedrock 支援的每個供應商機型：link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon 基礎架構支援的基礎模型"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["建立 GenAI 知識庫"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
 
 
 
