@@ -1,0 +1,22 @@
+= 全新精心設計的分析和問題修復支持
+:allow-uri-read: 
+
+
+
+
+=== 全新精心設計的分析和問題修復支持
+
+FSx for ONTAP 檔案系統的自動容量管理現在作為配置分析包含在精心設計的狀態儀表板中。
+
+此外，工作負載工廠現在支援修復以下配置問題：
+
+* SSD 容量臨界值
+* 資料分層
+* 排程的本機快照
+* FSx for ONTAP 備份
+* 遠端資料複寫
+* 儲存效率
+* 自動容量管理
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["修復配置問題"]

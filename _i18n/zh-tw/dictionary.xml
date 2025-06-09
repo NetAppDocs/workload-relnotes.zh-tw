@@ -59,23 +59,6 @@
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM ： SimulatePermissionPolicy 權限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">現在您可以在工作負載原廠主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">20205-03-30</block>
-  <block id="e2becee7c382badfb02490cd30d53c6a" category="doc">橫向擴充系統的自動容量管理</block>
-  <block id="5f7d427820d14cb172d0390463b259c4" category="paragraph">工作負載工廠現在會掃描磁碟區中的可用 inode ，並根據設定的自動容量管理臨界值來增加其計數。此功能支援橫向擴充系統的自動容量管理。您可以在自動容量管理中啟用 inode 管理。</block>
-  <block id="ff117b5e42f4a60dd5b7859999c4f2bd" category="inline-link-macro">啟用自動容量管理</block>
-  <block id="85729d1984aee9281a3cc017500ff795" category="paragraph"><block ref="85729d1984aee9281a3cc017500ff795" category="inline-link-macro-rx"></block></block>
-  <block id="d0405304bf4b7c3f042b05203316ddd5" category="section-title">FlexGroup 重新平衡 API</block>
-  <block id="90f7c93b8d9614f0fd7cc2ee87f199c1" category="paragraph">BlueXP  工作負載原廠發行的 FlexGroup 重新平衡 API 可讓您執行計畫，以重新平衡 FlexGroup 中的資料。重新平衡會將資料平均地重新分配給成員磁碟區。</block>
-  <block id="1a256f86b88647f213e637c9cab0ed8b" category="inline-link-macro">BlueXP  工作負載原廠 API 文件</block>
-  <block id="9f2e2c38a7baafe56307fced13716496" category="paragraph"><block ref="9f2e2c38a7baafe56307fced13716496" category="inline-link-macro-rx"></block></block>
-  <block id="40f45c6ac2dbe2255c8ef062d007653f" category="section-title">Replicate 資料表單包含使用案例</block>
-  <block id="d3a1df9d08a100116ee8f443f56f895d" category="paragraph">複寫資料表單現在包含使用案例，讓您更容易完成表單。您可以選擇下列其中一種資料複寫使用案例：移轉，熱災難恢復，冷災難恢復，歸檔或其他。選擇使用案例後， Workload Factory 會根據最佳實務做法建議值。您可以接受預先選取的值，或自訂表單中的值。</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">複寫資料</block>
-  <block id="0c09136cc5ea602bb57eff7c2432239d" category="paragraph"><block ref="0c09136cc5ea602bb57eff7c2432239d" category="inline-link-macro-rx"></block></block>
-  <block id="9425459482ebc84a43dc550767dd3e0f" category="section-title">資料分層原則術語變更</block>
-  <block id="ac41e4be5fb8d94814ca592ccb928b7c" category="paragraph">現在，當您在磁碟區建立，資料複寫或現有分層原則的更新期間選取分層原則時，您會發現新的術語來說明分層原則。</block>
-  <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">平衡（自動） _</block>
-  <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">成本最佳化（全部） _</block>
-  <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_ 效能最佳化（僅限快照） _</block>
   <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">此版本的 GenAI 在從資料來源建立檔案時，會提供 JSON 和 JSONP 檔案格式支援<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>。支援含有巢狀物件的 JSON 檔案，但巢狀陣列的支援有限。</block>
   <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">外部 chatbot 範例應用程式的國際化支援</block>
   <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">現在您可以輕鬆地將 GenAI 範例外部聊天機器人應用程式的使用者介面變更為不同的語言或地區設定。</block>
@@ -94,10 +77,6 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">使用工作負載原廠 API</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應</block>
-  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">檔案系統建立的安全性群組詳細資料</block>
-  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">安全性群組是作為 ONTAP 檔案系統建立程序的 FSX 一部分所建立。安全性群組詳細資料，包括通訊協定，連接埠和角色，現在已可供使用。</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">建立檔案系統</block>
-  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最佳化增強功能</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">最佳化資料庫環境時，可以使用新的最佳化評估，修正及顯示多個資源。</block>
   <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">恢復能力評估</block>
@@ -131,7 +110,6 @@
   <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">延遲和關閉組態分析</block>
   <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">某些組態可能不適用於您的資料庫環境。您現在可以選擇將特定組態分析延遲 30 天，或是關閉分析。</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新的權限術語</block>
-  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。</block>
   <block id="36099969c15a5d064d7174336be7e668" category="doc">適用於 ONTAP 檔案系統的 FSX 的自主勒索軟體保護</block>
   <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">使用自動勒索軟體保護（ ARP ）來保護您的資料，這項功能會在 NAS （ NFS/SMB ）環境中使用工作負載分析來偵測並警告可能是勒索軟體攻擊的異常活動。當懷疑有攻擊時， ARP 也會建立新的不可變快照，您可以從中還原資料。</block>
   <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">運用自主勒索軟體保護來保護資料</block>
@@ -243,4 +221,17 @@
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">為 Amazon Q Business 建立 NetApp 連接器</block>
   <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。</block>
+  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">全新精心設計的分析和問題修復支持</block>
+  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP 檔案系統的自動容量管理現在作為配置分析包含在精心設計的狀態儀表板中。</block>
+  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">此外，工作負載工廠現在支援修復以下配置問題：</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">SSD 容量臨界值</block>
+  <block id="396928510e06818ef017921022cce2af" category="list-text">資料分層</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">排程的本機快照</block>
+  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">FSx for ONTAP 備份</block>
+  <block id="887673b402c7bbc141e56321e277605f" category="list-text">遠端資料複寫</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">儲存效率</block>
+  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">自動容量管理</block>
+  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">修復配置問題</block>
+  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
+  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025-06-08</block>
 </blocks>
