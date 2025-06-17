@@ -1,0 +1,11 @@
+= 克隆支持
+:allow-uri-read: 
+
+
+
+
+=== 克隆支持
+
+現在您可以在 BlueXP 工作負載工廠中為 Builders 複製專案。複製項目時，Builders 會根據快照建立一個新項目，其配置與原始項目相同。克隆功能對於快速建立類似項目或進行測試非常有用。您可以按照 Builders 中的說明安裝新的項目克隆。
+
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["管理 Builders 專案的 BlueXP 工作負載工廠版本"]
