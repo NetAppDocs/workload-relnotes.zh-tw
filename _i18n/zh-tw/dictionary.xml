@@ -37,13 +37,8 @@
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">最佳化組態</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
-  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
-  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">CloudShell 可在 BlueXP  工作負載原廠主控台取得</block>
-  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell 可從 BlueXP  工作負載原廠主控台的任何位置取得。CloudShell 可讓您使用 BlueXP  帳戶提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。</block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">使用 CloudShell</block>
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">資料庫的權限更新</block>
-  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">現在，下列權限可在 _read_ 模式下用於資料庫：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">建立Volume</block>
@@ -244,4 +239,8 @@
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">管理 Builders 專案的 BlueXP 工作負載工廠版本</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025-06-16</block>
+  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXP 工作負載工廠通知服務支持</block>
+  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 工作負載工廠通知服務支援工作負載工廠向 BlueXP 警報服務或 Amazon SNS 主題發送通知。發送到 BlueXP 警報的通知會顯示在 BlueXP 警報面板中。當工作負載工廠向 Amazon SNS 主題發布通知時，該主題的訂閱者（例如人員或其他應用程式）會在為該主題配置的終端節點上收到通知（例如電子郵件或簡訊）。</block>
+  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">配置 BlueXP 工作負載工廠通知</block>
+  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
 </blocks>
