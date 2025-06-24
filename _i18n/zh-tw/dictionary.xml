@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">建置者工作負載初始版本</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">適用於 Builders 的 BlueXP  工作負載工廠可簡化軟體版本的使用與存取，免除自訂工具或指令碼的需求。它可讓您將軟體版本當作即時複本使用，並與 Perforce Helix Core 整合，作為開發程序的便利工作區，節省時間與資源。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包含管理專案和工作區的功能，以及使用 CodeBox 自動化行動。您也可以將 Builders 與 Perforce Helix Core 整合，以便管理每個專案的不同版本，並在它們之間快速切換。</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">克隆支持</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">現在您可以在 BlueXP 工作負載工廠中為 Builders 複製專案。複製項目時，Builders 會根據快照建立一個新項目，其配置與原始項目相同。克隆功能對於快速建立類似項目或進行測試非常有用。您可以按照 Builders 中的說明安裝新的項目克隆。</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">資料庫的權限更新</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">現在，下列權限可在 _read_ 模式下用於資料庫：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">建構者的工作量</block>
 </blocks>

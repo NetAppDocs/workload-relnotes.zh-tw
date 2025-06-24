@@ -17,11 +17,13 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 == 2025-06-16
 
-<stdin> 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== 建構者的工作量
 
 
 
-=== 克隆支持
+==== 克隆支持
 
 現在您可以在 BlueXP 工作負載工廠中為 Builders 複製專案。複製項目時，Builders 會根據快照建立一個新項目，其配置與原始項目相同。克隆功能對於快速建立類似項目或進行測試非常有用。您可以按照 Builders 中的說明安裝新的項目克隆。
 
@@ -404,11 +406,13 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。
 
-<stdin> 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== 建構者的工作量
 
 
 
-=== 更新的權限術語
+==== 更新的權限術語
 
 工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。
 
@@ -605,11 +609,13 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 == 2024-12-01
 
-<stdin> 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== 建構者的工作量
 
 
 
-=== 建置者工作負載初始版本
+==== 建置者工作負載初始版本
 
 適用於 Builders 的 BlueXP  工作負載工廠可簡化軟體版本的使用與存取，免除自訂工具或指令碼的需求。它可讓您將軟體版本當作即時複本使用，並與 Perforce Helix Core 整合，作為開發程序的便利工作區，節省時間與資源。
 
