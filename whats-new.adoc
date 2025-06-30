@@ -15,6 +15,36 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 2025-06-29
+
+
+
+=== VMware 工作負載
+
+
+
+==== 引入對 Amazon Elastic VMWare Service 的遷移顧問支持
+
+BlueXP VMware 工作負載工廠現已支援 Amazon Elastic VMware Service。您可以使用遷移顧問快速將本機 VMware 工作負載移轉到 Amazon Elastic VMware Service，從而優化成本並更好地控制您的 VMware 環境，而無需重構或重新建置應用程式平台。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["使用遷移顧問為 Amazon EVS 建立部署計劃"]
+
+
+
+=== GenAI 工作負載
+
+
+
+==== 支援通用 NFS/SMB 檔案系統上託管的資料來源
+
+現在您可以從通用 SMB 或 NFS 共用中新增資料來源。這使您能夠包含儲存在 Amazon FSx for NetApp ONTAP 以外的檔案系統所託管的磁碟區上的檔案。
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["在知識庫中新增資料來源"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["新增資料來源"]
+
+
+
 == 2025-06-16
 
 
@@ -498,50 +528,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== GenAI 工作負載
-
-
-
-==== 增強的檔案類型支援
-
-此版本的 GenAI 在從資料來源建立檔案時，會提供 JSON 和 JSONP 檔案格式支援 `.json`。支援含有巢狀物件的 JSON 檔案，但巢狀陣列的支援有限。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["支援的資料來源檔案格式"]
-
-
-
-==== 外部 chatbot 範例應用程式的國際化支援
-
-現在您可以輕鬆地將 GenAI 範例外部聊天機器人應用程式的使用者介面變更為不同的語言或地區設定。
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["GenAI 外部樣本聊天機器人應用程式"]
-
-
-
-==== 支援 Anthropic Claude Sonnet 3.7 聊天模式
-
-GenAI 現在支援 Anthromic Claude 3.7 Sonnet 聊天模式。Claude 3.7 Sonnet 的測試版功能，每個要求最多可允許 128K 個輸出權杖，並支援新的電腦使用動作。未來的 GenAI 版本將支援 Claude 3.7 Sonnet 延伸思考模式。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
-
-
-
-==== 支援從一般 NFS/SMB 共用新增資料來源
-
-使用工作負載原廠 API ，您現在可以從一般 NFSv3 ， NFSv4 或 SMB 共用新增資料來源。當您從 NFS 或 SMB 共用新增資料來源時，知識庫磁碟區仍會保留在 Amazon FSX for NetApp ONTAP Volume 上。工作負載工廠 Web UI 將在未來版本中支援此功能。
-
-link:https://console.workloads.netapp.com/api-doc["使用工作負載原廠 API"^]
-
-
-
-==== VPC 對等支援
-
-您現在可以在同一個區域中的 GenAI 基礎架構上部署link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["對等虛擬私有雲（ VPC ）"^]，並使用相同的 AWS 帳戶。您可以在 VPC 中部署 AI 引擎，然後在對等 VPC 中建立知識庫，然後選取位於對等 VPC 中的 Amazon FSX for NetApp ONTAP 檔案系統。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
-
-
-
 === 設定與管理
 
 
@@ -559,27 +545,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使
 現在您可以在工作負載原廠主控台管理 `iam:SimulatePrincipalPolicy`權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"]
-
-
-
-== 205-02-02
-
-
-
-=== VMware 工作負載
-
-
-
-==== Amazon EC2 移轉顧問的改善
-
-此版本的 BlueXP  工作負載工廠適用於 VMware ，對 Amazon EC2 移轉顧問體驗有幾項改善：
-
-* * 預估執行個體類型 * ：移轉顧問現在可以檢查您環境的需求，並為每個 VM 提供預估的 Amazon EC2 執行個體類型。您可以選擇在移轉顧問的範圍步驟中，納入每個 VM 的預估執行個體類型。
-* * 推薦 Amazon EBS Volume 的能力 * ：移轉顧問現在可建議將資料 Volume 移轉至 Amazon Elastic Block Store （ EBS ），而非 Amazon FSX for NetApp ONTAP ，因為特定區域的特定容量或效能需求。
-* * 增強型檔案系統自動指派 * ： Amazon FSX for NetApp ONTAP 檔案系統指派已改善，可更有效地最佳化成本並將處理量降至最低。
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]
 
 
 

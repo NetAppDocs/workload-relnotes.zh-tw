@@ -1,0 +1,13 @@
+= 支援通用 NFS/SMB 檔案系統上託管的資料來源
+:allow-uri-read: 
+
+
+
+
+=== 支援通用 NFS/SMB 檔案系統上託管的資料來源
+
+現在您可以從通用 SMB 或 NFS 共用中新增資料來源。這使您能夠包含儲存在 Amazon FSx for NetApp ONTAP 以外的檔案系統所託管的磁碟區上的檔案。
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["在知識庫中新增資料來源"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["新增資料來源"]
