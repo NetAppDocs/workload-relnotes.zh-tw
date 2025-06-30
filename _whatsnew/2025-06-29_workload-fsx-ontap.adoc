@@ -1,0 +1,83 @@
+= BlueXP 工作負載工廠通知服務支持
+:allow-uri-read: 
+
+
+
+
+=== BlueXP 工作負載工廠通知服務支持
+
+BlueXP 工作負載工廠通知服務支援工作負載工廠向 BlueXP 警報服務或 Amazon SNS 主題發送通知。發送到 BlueXP 警報的通知會顯示在 BlueXP 警報面板中。當工作負載工廠向 Amazon SNS 主題發布通知時，該主題的訂閱者（例如人員或其他應用程式）會在為該主題配置的終端節點上收到通知（例如電子郵件或簡訊）。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作負載工廠通知"^]
+
+
+
+=== 儲存儀表板增強功能
+
+工作負載工廠控制台中的儲存控制面板新增了節省機會卡。控制面板頂部的卡片顯示在 Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server 和 Amazon Elastic File Systems (EFS) 上執行的儲存環境的節省機會數。控制台底部新增了三張卡片，按 Amazon 儲存服務（EBS、FSx for Windows File Server 和 EFS）顯示節省機會。您可以從所有卡片中更詳細地了解節省機會。
+
+透過 FSx for ONTAP 保護覆蓋率卡和複製關係健康卡，您可以調查 FSx for ONTAP 檔案系統中是否存在任何部分受保護的捲，以及調查複製關係的問題。在這兩種情況下，您都可以採取措施來解決問題。
+
+
+
+=== 音量選項卡增強功能
+
+工作負載工廠控制台中的「磁碟區」標籤已增強，可提供更全面的 FSx for ONTAP 檔案系統視圖。增強功能包括新增 SSD 容量、容量池以及 NetApp 自主勒索軟體防護 AI (ARP/AI) 卡。這些卡片匯總了檔案系統中所有磁碟區的容量利用率和 ARP/AI 防護功能。
+
+
+
+=== 支援第二代 Amazon FSX for NetApp ONTAP 檔案系統
+
+工作負載工廠現已支援第二代 Amazon FSx for NetApp ONTAP 檔案系統。您可以在工作負載工廠控制台中建立、管理和監控第二代檔案系統。所有新的商業區域均受支援。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["在工作負載工廠中建立第二代檔案系統"]
+
+
+
+=== FlexVol 磁碟區支援重新平衡磁碟區容量
+
+FlexVol 磁碟區可在工作負載工廠控制台中發現。您可以檢查 FlexVol 磁碟區的平衡情況，並在新檔案的新增和檔案成長導致不平衡時重新平衡 FlexVol 磁碟區以重新分配容量。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["重新平衡 FlexVol 卷的容量"]
+
+
+
+=== 術語更新
+
+在工作負載工廠控制台中，「自主勒索軟體防護」(ARP) 一詞已更新為「具有 AI 的 NetApp 自主勒索軟體防護」(ARP/AI)。
+
+
+
+=== 新磁碟區預設啟用 ARP/AI
+
+在工作負載工廠控制台中建立新磁碟區時，如果檔案系統具有 ARP/AI 策略，則 NetApp 自主勒索軟體防護 AI (ARP/AI) 將預設為啟用。這意味著該卷將使用 AI 驅動的偵測和回應功能自動防禦勒索軟體攻擊。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在工作負載工廠中創建卷"]
+
+
+
+=== 對不可變文件的複製支持
+
+工作負載工廠支援將不可變磁碟區從一個 FSx for ONTAP 系統複製到另一個 FSx for ONTAP 檔案系統，以保護關鍵資料免遭意外刪除或勒索軟體等惡意攻擊。目標磁碟區及其主機檔案系統將處於不可變狀態（即鎖定狀態），且在保留期結束之前，目標檔案系統中的任何資料都無法修改或刪除。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["了解如何建立複製關係"]
+
+
+
+=== 連結建立增強功能
+
+工作負載工廠控制台中的連結建立過程進行了以下增強。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
+
+
+
+==== 在連結建立期間管理 IAM 執行角色和權限
+
+現在，您可以在工作負載工廠控制台中建立鏈接，從而管理 IAM 執行角色及其附加的權限策略。連結會在您的工作負載工廠帳戶與一個或多個 FSx for ONTAP 檔案系統之間建立連線。您可以透過兩種方式指派 IAM 執行角色和連結權限：自動指派或使用者指派。在工作負載工廠中管理執行角色及其附加的權限策略意味著您無需再使用第三方程式碼。
+
+
+
+==== Terraform 支援連結創建
+
+現在您可以使用 Codebox 中的 Terraform 建立與 FSx for ONTAP 檔案系統關聯的連結。此功能適用於手動建立連結的使用者。
