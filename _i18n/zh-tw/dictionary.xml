@@ -187,30 +187,25 @@
   <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">工作負載工廠支援將不可變磁碟區從一個 FSx for ONTAP 系統複製到另一個 FSx for ONTAP 檔案系統，以保護關鍵資料免遭意外刪除或勒索軟體等惡意攻擊。目標磁碟區及其主機檔案系統將處於不可變狀態（即鎖定狀態），且在保留期結束之前，目標檔案系統中的任何資料都無法修改或刪除。</block>
   <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">了解如何建立複製關係</block>
   <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
-  <block id="d836bf4f72557e9399ce062e72ef15f6" category="section-title">連結建立增強功能</block>
-  <block id="1f8ca754f0193efb8fdc1c63a4d96672" category="paragraph">工作負載工廠控制台中的連結建立過程進行了以下增強。</block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
   <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">在連結建立期間管理 IAM 執行角色和權限</block>
   <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">現在，您可以在工作負載工廠控制台中建立鏈接，從而管理 IAM 執行角色及其附加的權限策略。連結會在您的工作負載工廠帳戶與一個或多個 FSx for ONTAP 檔案系統之間建立連線。您可以透過兩種方式指派 IAM 執行角色和連結權限：自動指派或使用者指派。在工作負載工廠中管理執行角色及其附加的權限策略意味著您無需再使用第三方程式碼。</block>
-  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">Terraform 支援連結創建</block>
-  <block id="d993aa63b5e96ec8db4090bd87d5c850" category="paragraph">現在您可以使用 Codebox 中的 Terraform 建立與 FSx for ONTAP 檔案系統關聯的連結。此功能適用於手動建立連結的使用者。</block>
   <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">工作負載工廠為資料庫提供以下通知：</block>
   <block id="33e3371223dba19c723617802e06af8d" category="list-text">結構完善的報告</block>
   <block id="d415d128365eca1587931ed756de7819" category="list-text">主機部署</block>
-  <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="list-text">保護</block>
   <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">用於註冊實例的入門增強功能</block>
-  <block id="0a969bb4f7ed7e29d7225c0409a1750b" category="paragraph">資料庫工作負載工廠改進了在 Amazon FSx for NetApp ONTAP 儲存上執行的執行個體的註冊流程。現在，您可以批次選擇實例進行註冊。執行個體註冊完成後，您可以在工作負載工廠控制台中建立和管理資料庫主機資源。</block>
   <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 逾時設定的分析與修復</block>
-  <block id="221618cb9e519d5c3dd0fcbb1e4f1205" category="paragraph">資料庫主機執行個體的架構完善狀態現在包含對 Microsoft 多路徑 I/O (MPIO) 逾時設定的分析和修復。將 MPIO 逾時設定為 60 秒可確保 FSx for ONTAP 儲存故障轉移期間的連線性和穩定性。如果 MPIO 設定未正確設置，工作負載工廠將提供修復程序，將 MPIO 逾時值設定為 60 秒。</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">在工作負載工廠中實現架構良好的資料庫配置</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
-  <block id="2bf19cd7fefccda37a9e51c8d6ae9ef1" category="section-title">主機庫存中的圖形增強功能</block>
-  <block id="29a6225f1f6846093fcfd562090e8654" category="paragraph">在主機清單畫面中，各種資源利用率圖表（例如吞吐量和 IOPS）現在顯示 7 天的數據，以便您可以更有效率地從工作負載工廠控制台監控 SQL 節點的效能。從 SQL 節點收集的效能指標將保存在 Amazon CloudWatch 中，可用於 Logs Insights 或與您環境中的其他分析服務整合。</block>
-  <block id="02212e54266ecdf641215b97bf4ab24e" category="paragraph">從主機清單中的實例和資料庫標籤中，我們增強了主機保護的描述和視覺化。</block>
   <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">工作負載工廠中對 Windows 身份驗證的支持</block>
-  <block id="b3a0e7d1a5170a15143af7a7f86f02b8" category="paragraph">現在，工作負載工廠支援使用 Windows 驗證使用者的 SQL Server 驗證來註冊主機執行個體並受益於主機管理功能。</block>
-  <block id="47668721b89b4afabeb23e27f6ac9b38" category="inline-link-macro">在資料庫的工作負載工廠中註冊主機實例</block>
-  <block id="4f178ea0296d3da0481606b8e3df7542" category="paragraph"><block ref="4f178ea0296d3da0481606b8e3df7542" category="inline-link-macro-rx"></block></block>
   <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">2025-06-30</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">資料庫工作負載工廠改進了在 Amazon FSx for NetApp ONTAP 儲存上執行的執行個體的註冊流程。現在，您可以批次選擇實例進行註冊。一旦執行個體註冊，您就可以在工作負載工廠控制台內建立和管理資料庫資源。</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">資料庫執行個體的良好架構狀態現在包括對 Microsoft 多路徑 I/O (MPIO) 逾時設定的分析和修復。將 MPIO 逾時設定為 60 秒可確保 FSx for ONTAP 儲存故障轉移期間的連線性和穩定性。如果 MPIO 設定未正確設置，工作負載工廠將提供修復程序，將 MPIO 逾時值設定為 60 秒。</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">實例清單中的圖形增強功能</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">從實例庫存螢幕，各種資源利用率圖表（如吞吐量和 IOPS）現在顯示 7 天的數據，以便您可以更有效地從工作負載工廠控制台監控 SQL 節點的效能。從 SQL 節點收集的效能指標將保存在 Amazon CloudWatch 中，可用於 Logs Insights 或與您環境中的其他分析服務整合。</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">從庫存中的實例和資料庫標籤中，我們增強了保護的描述和視覺化。</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在，工作負載工廠支援使用 Windows 驗證的使用者來註冊執行個體並從管理功能中受益的 SQL Server 驗證。</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">在資料庫工作負載工廠中註冊實例</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
 </blocks>
