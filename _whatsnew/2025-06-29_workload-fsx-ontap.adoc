@@ -64,20 +64,8 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 
 
 
-=== 連結建立增強功能
-
-工作負載工廠控制台中的連結建立過程進行了以下增強。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
-
-
-
-==== 在連結建立期間管理 IAM 執行角色和權限
+=== 在連結建立期間管理 IAM 執行角色和權限
 
 現在，您可以在工作負載工廠控制台中建立鏈接，從而管理 IAM 執行角色及其附加的權限策略。連結會在您的工作負載工廠帳戶與一個或多個 FSx for ONTAP 檔案系統之間建立連線。您可以透過兩種方式指派 IAM 執行角色和連結權限：自動指派或使用者指派。在工作負載工廠中管理執行角色及其附加的權限策略意味著您無需再使用第三方程式碼。
 
-
-
-==== Terraform 支援連結創建
-
-現在您可以使用 Codebox 中的 Terraform 建立與 FSx for ONTAP 檔案系統關聯的連結。此功能適用於手動建立連結的使用者。
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
