@@ -1,0 +1,27 @@
+= 架構良好的分析包括高可用性叢集驗證
+:allow-uri-read: 
+
+
+
+
+=== 架構良好的分析包括高可用性叢集驗證
+
+精心設計的分析現在包括對高可用性叢集的驗證。此驗證會從伺服器端檢查所有與叢集相關的配置，包括兩個節點上的磁碟可用性和配置、Windows 叢集配置和故障轉移準備。這可確保 Windows 叢集正確設定並可在需要時成功進行故障轉移。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作負載工廠中實現架構良好的資料庫配置"]
+
+
+
+=== 實例可用的多層選單
+
+工作負載工廠控制台現在包括實例的多層選單。此變更為管理實例提供了更有條理、更直觀的導航結構。實例管理的選單選項包括檢視實例儀表板、檢視資料庫、建立資料庫和建立沙盒克隆。
+
+image:manage-instance-table-menu.png["具有多層選單結構的實例表選單的螢幕截圖。選擇實例表選單，然後管理實例以查看資料庫、建立資料庫和建立沙盒克隆。"]
+
+
+
+=== 新的身份驗證選項可探索節省
+
+當 `NT Authority\SYSTEM`使用者在 Microsoft SQL Server 上沒有足夠的權限，您可以使用 SQL Server 憑證進行驗證，或將缺少的 SQL Server 權限新增至 `NT Authority\SYSTEM`。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索使用Amazon FSx for NetApp ONTAP為您的資料庫環境節省的潛在成本"]
