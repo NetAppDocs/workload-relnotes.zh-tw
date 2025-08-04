@@ -15,6 +15,91 @@ summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。
 
 
 
+== 2025年8月3日
+
+
+
+=== Amazon FSX for NetApp ONTAP 產品
+
+
+
+==== 複製關係標籤的增強功能
+
+我們在複製關係表中新增了幾個新列，以便在「複製關係」標籤中為您提供有關複製關係的更多資訊。該表現在包含以下列：
+
+* SnapMirror策略
+* 來源檔案系統
+* 目標檔案系統
+* 關係狀態
+* 上次轉乘時間
+
+
+
+
+==== NetApp自主勒索軟體防護 AI (ARP/AI) 增強功能
+
+此版本引入了更新的術語“帶有 AI 的NetApp自主勒索軟體防護 (ARP/AI)”，以更好地反映人工智慧在我們的勒索軟體防護功能中的整合。
+
+此外，ARP/AI 也進行了以下增強：
+
+* 磁碟區級 ARP/AI：您現在可以在磁碟區級啟用 ARP/AI，從而保護 FSx for ONTAP檔案系統中的特定磁碟區。
+* 自動快照建立：您可以設定 ARP/AI 策略來自動拍攝快照，並定義啟用 ARP/AI 的磁碟區的拍攝快照頻率，從而增強您的資料保護策略。
+* 不可變快照：ARP/AI 現在支援不可變快照，這些快照無法被刪除或修改，從而為抵禦勒索軟體攻擊提供了額外的安全保障。
+* 偵測：包含各種偵測方法，例如磁碟區高熵資料速率、檔案建立率、檔案重新命名率、檔案刪除率和行為分析，以及從未見過的檔案副檔名，有助於偵測異常和潛在的勒索軟體攻擊。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["使用NetApp自主勒索軟體防護 AI (ARP/AI) 保護您的數據"]
+
+
+
+==== 精心設計的分析更新
+
+工作負載工廠現在分析您的 FSx for ONTAP檔案系統的以下配置：
+
+* 長期保留資料可靠性：檢查指派給來源磁碟區的快照策略的標籤是否與指派給長期保留策略的標籤相同。當標籤相同時，來源磁碟區和目標磁碟區之間的資料複製是可靠的。
+* NetApp自主勒索軟體防護與 AI (ARP/AI)：檢查您的檔案系統是否啟用了 ARP/AI。此功能可協助您偵測勒索軟體攻擊並從中恢復。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP檔案系統的良好架構狀態"]
+
+
+
+==== 從結構良好的分析中排除配置
+
+現在您可以從精心設計的分析中消除一個或多個配置。這使您可以忽略目前不想解決的特定配置。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["從結構良好的分析中排除配置"]
+
+
+
+==== Terraform 支援連結創建
+
+現在您可以使用 Codebox 中的 Terraform 建立與 FSx for ONTAP檔案系統關聯的連結。此功能適用於手動建立連結的使用者。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
+
+
+
+==== 探索存儲節省的新區域支持
+
+現支援以下新區域來探索 Amazon Elastic Block Store (EBS)、FSx for Windows File Server 和 Elastic File Systems (EFS) 的節省：
+
+* 墨西哥
+* 泰國
+
+
+
+
+==== 增強 SMB/CIFS 共享建立和管理
+
+現在您可以建立指向磁碟區內的目錄的 SMB/CIFS 共用。在卷內，您將能夠看到存在哪些共享、共享指向哪裡以及授予特定使用者和群組的權限。
+
+對於資料保護卷，建立 SMB/CIFS 共用的流程現在包括建立到磁碟區的連線路徑以用於安裝目的。
+
+link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["為磁碟區建立 CIFS 共享"]
+
+
+
 == 2025-06-30
 
 
@@ -235,50 +320,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 == 2025-06-03
-
-
-
-=== Amazon FSX for NetApp ONTAP 產品
-
-
-
-==== 磁碟區自動增長增強
-
-現在，您可以設定磁碟區的自動成長大小，以便磁碟區大小可以超出業務需求和應用程式要求的預先配置大小。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["啟用Volume自動擴充"]
-
-
-
-==== 架構完善的分析更新
-
-工作負載工廠現在會分析您的 FSx for ONTAP 檔案系統，以檢查是否正在利用儲存效率，包括資料壓縮、壓縮和重複資料刪除。儲存效率衡量檔案系統利用可用空間的效率。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看儲存效率的良好架構狀態"]
-
-
-
-==== 儲存儀表板增強功能
-
-從今天開始，當您從工作負載工廠控制台開啟儲存工作負載時，您將看到「儀表板」。全新設計的儀表板提供 FSx for ONTAP 系統的整體視圖，包括檔案系統數量、SSD 總容量、架構完善的狀態概覽、資料保護概覽以及複製關係的運作狀況。
-
-
-
-==== 磁碟區選項卡增強功能
-
-儲存工作負載對工作負載工廠控制台中 FSx for ONTAP 檔案系統內的「磁碟區」標籤進行了增強。增強功能包括：
-
-* *新卡*：SSD 容量、容量池和自主勒索軟體防護 (ARP)
-* *新列*：容量分佈、已使用 SSD 容量、已使用容量池和 SSD 效率
-
-
-
-
-==== 磁碟區所建立的儲存效率更新
-
-建立新磁碟區時，預設啟用儲存效率，包括資料壓縮、壓縮和重複資料刪除。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在工作負載工廠中建立新卷"]
 
 
 

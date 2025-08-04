@@ -98,24 +98,7 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">為知識庫選擇重新排序模型</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">現在，您可以透過選擇與知識庫配合使用的特定重排序模型來提高重排序查詢結果的相關性。 GenAI支援 Cohere Rerank 和 Amazon Rerank 模型。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025-06-03</block>
-  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">磁碟區自動增長增強</block>
-  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">現在，您可以設定磁碟區的自動成長大小，以便磁碟區大小可以超出業務需求和應用程式要求的預先配置大小。</block>
-  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">啟用Volume自動擴充</block>
-  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">架構完善的分析更新</block>
-  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">工作負載工廠現在會分析您的 FSx for ONTAP 檔案系統，以檢查是否正在利用儲存效率，包括資料壓縮、壓縮和重複資料刪除。儲存效率衡量檔案系統利用可用空間的效率。</block>
-  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">查看儲存效率的良好架構狀態</block>
-  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">儲存儀表板增強功能</block>
-  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">從今天開始，當您從工作負載工廠控制台開啟儲存工作負載時，您將看到「儀表板」。全新設計的儀表板提供 FSx for ONTAP 系統的整體視圖，包括檔案系統數量、SSD 總容量、架構完善的狀態概覽、資料保護概覽以及複製關係的運作狀況。</block>
-  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">磁碟區選項卡增強功能</block>
-  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">儲存工作負載對工作負載工廠控制台中 FSx for ONTAP 檔案系統內的「磁碟區」標籤進行了增強。增強功能包括：</block>
-  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*新卡*：SSD 容量、容量池和自主勒索軟體防護 (ARP)</block>
-  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*新列*：容量分佈、已使用 SSD 容量、已使用容量池和 SSD 效率</block>
-  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">磁碟區所建立的儲存效率更新</block>
-  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">建立新磁碟區時，預設啟用儲存效率，包括資料壓縮、壓縮和重複資料刪除。</block>
-  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">在工作負載工廠中建立新卷</block>
-  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
   <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">支援 NetApp Connector for Amazon Q Business</block>
   <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">此版本的 GenAI 引入了對 NetApp Connector for Amazon Q Business 的支持，使您能夠為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">為 Amazon Q Business 建立 NetApp 連接器</block>
@@ -208,4 +191,41 @@
   <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在，工作負載工廠支援使用 Windows 驗證的使用者來註冊執行個體並從管理功能中受益的 SQL Server 驗證。</block>
   <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">在資料庫工作負載工廠中註冊實例</block>
   <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">複製關係標籤的增強功能</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">我們在複製關係表中新增了幾個新列，以便在「複製關係」標籤中為您提供有關複製關係的更多資訊。該表現在包含以下列：</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror策略</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">來源檔案系統</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">目標檔案系統</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">關係狀態</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">上次轉乘時間</block>
+  <block id="8fc34772d0100e115cdb03c17176f5bc" category="section-title">NetApp自主勒索軟體防護 AI (ARP/AI) 增強功能</block>
+  <block id="5cd47e76c4117ef90e78977edb2349c2" category="paragraph">此版本引入了更新的術語“帶有 AI 的NetApp自主勒索軟體防護 (ARP/AI)”，以更好地反映人工智慧在我們的勒索軟體防護功能中的整合。</block>
+  <block id="d0ab441d90a6563b6caf3b18a96b121c" category="paragraph">此外，ARP/AI 也進行了以下增強：</block>
+  <block id="19f6fcd2887386ba088303687102d4fd" category="list-text">磁碟區級 ARP/AI：您現在可以在磁碟區級啟用 ARP/AI，從而保護 FSx for ONTAP檔案系統中的特定磁碟區。</block>
+  <block id="ef292cf56fa95b6bcb87c8b89a0273e1" category="list-text">自動快照建立：您可以設定 ARP/AI 策略來自動拍攝快照，並定義啟用 ARP/AI 的磁碟區的拍攝快照頻率，從而增強您的資料保護策略。</block>
+  <block id="7ebe1fb355350f028323680fa93854c0" category="list-text">不可變快照：ARP/AI 現在支援不可變快照，這些快照無法被刪除或修改，從而為抵禦勒索軟體攻擊提供了額外的安全保障。</block>
+  <block id="dc86b2499972aa0a3c70449e20618ca2" category="list-text">偵測：包含各種偵測方法，例如磁碟區高熵資料速率、檔案建立率、檔案重新命名率、檔案刪除率和行為分析，以及從未見過的檔案副檔名，有助於偵測異常和潛在的勒索軟體攻擊。</block>
+  <block id="0b3b06fcd7ae5de19a9937c92e9669fe" category="inline-link-macro">使用NetApp自主勒索軟體防護 AI (ARP/AI) 保護您的數據</block>
+  <block id="b4b81f7655965069dc9b6d72c40d3191" category="paragraph"><block ref="b4b81f7655965069dc9b6d72c40d3191" category="inline-link-macro-rx"></block></block>
+  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心設計的分析更新</block>
+  <block id="3c7a76fc8745c5306663d7f95b167472" category="paragraph">工作負載工廠現在分析您的 FSx for ONTAP檔案系統的以下配置：</block>
+  <block id="e30059be004aa836033b5a45f85d0fe0" category="list-text">長期保留資料可靠性：檢查指派給來源磁碟區的快照策略的標籤是否與指派給長期保留策略的標籤相同。當標籤相同時，來源磁碟區和目標磁碟區之間的資料複製是可靠的。</block>
+  <block id="d991a7b8584b3d26f44a90d9e27f7f7d" category="list-text">NetApp自主勒索軟體防護與 AI (ARP/AI)：檢查您的檔案系統是否啟用了 ARP/AI。此功能可協助您偵測勒索軟體攻擊並從中恢復。</block>
+  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP檔案系統的良好架構狀態</block>
+  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
+  <block id="e3d4a0c1fd9bad5ddfe8b2fc326f6d42" category="section-title">從結構良好的分析中排除配置</block>
+  <block id="0b27c1a80fbacb5253a337c3d45236f9" category="paragraph">現在您可以從精心設計的分析中消除一個或多個配置。這使您可以忽略目前不想解決的特定配置。</block>
+  <block id="c4a9d2577a7099266e1214d55f11cf0b" category="paragraph"><block ref="c4a9d2577a7099266e1214d55f11cf0b" category="inline-link-macro-rx"></block></block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">Terraform 支援連結創建</block>
+  <block id="19c03fb90a9425b9fecd16c7b0e03e4e" category="paragraph">現在您可以使用 Codebox 中的 Terraform 建立與 FSx for ONTAP檔案系統關聯的連結。此功能適用於手動建立連結的使用者。</block>
+  <block id="b1dfc57db13615cb83125300396102cb" category="section-title">探索存儲節省的新區域支持</block>
+  <block id="dc2d48a6756b8920e1a0b103864fa0c3" category="paragraph">現支援以下新區域來探索 Amazon Elastic Block Store (EBS)、FSx for Windows File Server 和 Elastic File Systems (EFS) 的節省：</block>
+  <block id="8dbb07a18d46f63d8b3c8994d5ccc351" category="list-text">墨西哥</block>
+  <block id="103357e3e40a9c0e4e9d36110f7bbc7a" category="list-text">泰國</block>
+  <block id="743828d5c9c11b38d3dbbf76d787f497" category="section-title">增強 SMB/CIFS 共享建立和管理</block>
+  <block id="421075462886e558113f14b52fe22487" category="paragraph">現在您可以建立指向磁碟區內的目錄的 SMB/CIFS 共用。在卷內，您將能夠看到存在哪些共享、共享指向哪裡以及授予特定使用者和群組的權限。</block>
+  <block id="4662a232249c09ca958781da08211b0c" category="paragraph">對於資料保護卷，建立 SMB/CIFS 共用的流程現在包括建立到磁碟區的連線路徑以用於安裝目的。</block>
+  <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">為磁碟區建立 CIFS 共享</block>
+  <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
+  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025年8月3日</block>
 </blocks>
