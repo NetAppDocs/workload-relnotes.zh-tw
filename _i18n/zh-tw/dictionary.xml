@@ -39,14 +39,11 @@
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，對 Amazon EC2 移轉顧問體驗有幾項改善：</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用 CloudShell 時，每次您發出 ONTAP CLI 命令並發生錯誤時，您都可以取得 AI 產生的錯誤回應，包括故障說明，故障原因及詳細解決方法。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM ： SimulatePermissionPolicy 權限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">現在您可以在工作負載原廠主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">20205-03-30</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">建立 GenAI 知識庫</block>
-  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">* 增強型 Volume 指派指南 * ： EC2 移轉顧問「分類」和「封裝」步驟中的 Volume 指派資訊，具有增強的易讀性和可用性。系統會顯示每個 Volume 的更多實用資訊，讓您能夠更有效地識別磁碟區，並判斷如何指派磁碟區。</block>
-  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">* 資料收集器指令碼效率提升 * ： EC2 移轉顧問資料收集器指令碼可在收集資料以進行較小的 VM 部署時，最佳化 CPU 使用率。</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">最佳化增強功能</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
@@ -228,4 +225,10 @@
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">為磁碟區建立 CIFS 共享</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
   <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025年8月3日</block>
+  <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">改進了對 Amazon Elastic VMWare Service 的遷移顧問支持</block>
+  <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 移轉顧問現在支援自動部署和安裝Amazon FSx for NetApp ONTAP檔案系統。這樣，當遷移到 Amazon EVS 環境完成後，您就可以開始在 FSx for ONTAP檔案系統上部署虛擬機器。</block>
+  <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">計算遷移到 Amazon Elastic VMware Service 節省的成本</block>
+  <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">現在您可以探索將 VMware 工作負載移轉到 Amazon Elastic VMware Service (EVS) 的潛在節省。節省計算器可讓您比較使用 Amazon EVS 與Amazon FSx for NetApp ONTAP作為底層儲存和不使用 Amazon FSx for NetApp ONTAP 作為底層儲存的成本。當您調整環境特徵時，計算器會即時顯示潛在的節省。</block>
+  <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">探索使用BlueXP workload factory節省 Amazon Elastic VMware Service 成本的方法</block>
+  <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
 </blocks>
