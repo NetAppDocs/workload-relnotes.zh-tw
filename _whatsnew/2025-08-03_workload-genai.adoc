@@ -1,0 +1,19 @@
+= 結構化資料結果的安全存儲
+:allow-uri-read: 
+
+
+
+
+=== 結構化資料結果的安全存儲
+
+如果聊天機器人查詢結果包含結構化數據，GenAI 可以將結果儲存在 Amazon S3 儲存桶中。當這些結果儲存在 S3 儲存桶中時，您可以使用聊天會話中的下載連結下載它們。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
+
+
+
+=== MCP 伺服器可用性
+
+NetApp現在為 GenAI 提供具有BlueXP workload factory的模型上下文協定 (MCP) 伺服器。您可以在本機安裝伺服器，以允許外部 MCP 用戶端從 GenAI 知識庫中發現和檢索查詢結果。
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp工作負載工廠 GenAI MCP 伺服器"^]

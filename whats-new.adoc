@@ -152,6 +152,26 @@ https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["探索
 
 
 
+=== GenAI 工作負載
+
+
+
+==== 結構化資料結果的安全存儲
+
+如果聊天機器人查詢結果包含結構化數據，GenAI 可以將結果儲存在 Amazon S3 儲存桶中。當這些結果儲存在 S3 儲存桶中時，您可以使用聊天會話中的下載連結下載它們。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
+
+
+
+==== MCP 伺服器可用性
+
+NetApp現在為 GenAI 提供具有BlueXP workload factory的模型上下文協定 (MCP) 伺服器。您可以在本機安裝伺服器，以允許外部 MCP 用戶端從 GenAI 知識庫中發現和檢索查詢結果。
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp工作負載工廠 GenAI MCP 伺服器"^]
+
+
+
 == 2025-06-30
 
 
@@ -436,42 +456,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 * NetApp 資料基礎架構洞見資料來源 * ：工作負載工廠現在直接與 NetApp 資料基礎架構洞見連結，以便在使用 EC2 移轉顧問資料收集器時收集 VMware 部署資訊。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用移轉顧問為 Amazon EC2 建立部署計畫"]
-
-
-
-==== 更新的權限術語
-
-工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。
-
-
-
-=== GenAI 工作負載
-
-
-
-==== 支援 NetApp Connector for Amazon Q Business
-
-此版本的 GenAI 引入了對 NetApp Connector for Amazon Q Business 的支持，使您能夠為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["為 Amazon Q Business 建立 NetApp 連接器"]
-
-
-
-==== 增強的聊天模式支援
-
-GenAI 現在支援下列額外的聊天模式以供知識庫使用：
-
-* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AI 機型"^]
-* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titan 文字模型"^]
-* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["中繼 Llama 機型"^]
-* link:https://docs.ai21.com/["Jamba 1.5 機型"^]
-* link:https://docs.cohere.com/docs/the-cohere-platform["Cohere Command 模型"^]
-* link:https://aws.amazon.com/bedrock/deepseek/["Deepseek 機型"^]
-
-
-GenAI 支援 Amazon Bedrock 支援的每個供應商機型：link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon 基礎架構支援的基礎模型"^]
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
 
 
 

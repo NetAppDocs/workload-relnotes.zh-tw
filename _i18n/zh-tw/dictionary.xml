@@ -47,22 +47,6 @@
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新的權限術語</block>
-  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">增強的聊天模式支援</block>
-  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">GenAI 現在支援下列額外的聊天模式以供知識庫使用：</block>
-  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral AI 機型</block>
-  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
-  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Amazon Titan 文字模型</block>
-  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
-  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">中繼 Llama 機型</block>
-  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
-  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">Jamba 1.5 機型</block>
-  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
-  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">Cohere Command 模型</block>
-  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
-  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">Deepseek 機型</block>
-  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
-  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">Amazon 基礎架構支援的基礎模型</block>
-  <block id="b198f4cca9409499187762bec5420672" category="paragraph">GenAI 支援 Amazon Bedrock 支援的每個供應商機型：<block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShell 自動完整支援</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">此版本的 BlueXP  工作負載工廠適用於 VMware ，可改善 Amazon EC2 移轉顧問體驗：</block>
@@ -84,10 +68,6 @@
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">現在，您可以透過選擇與知識庫配合使用的特定重排序模型來提高重排序查詢結果的相關性。 GenAI支援 Cohere Rerank 和 Amazon Rerank 模型。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025-06-03</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">儲存儀表板增強功能</block>
-  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">支援 NetApp Connector for Amazon Q Business</block>
-  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">此版本的 GenAI 引入了對 NetApp Connector for Amazon Q Business 的支持，使您能夠為 Amazon Q Business 建立連接器。與為 Amazon Bedrock 建立 GenAI 知識庫相比，較少的初始組態，可快速輕鬆地利用 Amazon Q Business AI 助理。</block>
-  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">為 Amazon Q Business 建立 NetApp 連接器</block>
-  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。</block>
   <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">全新精心設計的分析和問題修復支持</block>
   <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP 檔案系統的自動容量管理現在作為配置分析包含在精心設計的狀態儀表板中。</block>
@@ -230,4 +210,10 @@
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">探索使用Amazon FSx for NetApp ONTAP為您的資料庫環境節省的潛在成本</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
   <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025年8月4日</block>
+  <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">結構化資料結果的安全存儲</block>
+  <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">如果聊天機器人查詢結果包含結構化數據，GenAI 可以將結果儲存在 Amazon S3 儲存桶中。當這些結果儲存在 S3 儲存桶中時，您可以使用聊天會話中的下載連結下載它們。</block>
+  <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP 伺服器可用性</block>
+  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp現在為 GenAI 提供具有BlueXP workload factory的模型上下文協定 (MCP) 伺服器。您可以在本機安裝伺服器，以允許外部 MCP 用戶端從 GenAI 知識庫中發現和檢索查詢結果。</block>
+  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetApp工作負載工廠 GenAI MCP 伺服器</block>
+  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
 </blocks>
