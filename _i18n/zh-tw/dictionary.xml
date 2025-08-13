@@ -211,8 +211,8 @@
   <block id="22218c6d37412d25750364bd0d4047b5" category="doc">BlueXP backup and recovery現在支援 Microsoft SQL Server 工作負載</block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recovery可讓您備份、還原、驗證和複製 Microsoft SQL Server 資料庫和可用性群組。從工作負載工廠控制台，您可以存取和使用BlueXP backup and recovery保護 Microsoft SQL Server 工作負載。</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載</block>
-  <block id="479793fb579bc2de418f794ebb8ef29a" category="paragraph"><block ref="9a9685babd9ed5904e91ddba265de923" category="inline-link-macro-rx"></block> 。</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">使用BlueXP backup and recovery保護 Microsoft SQL 工作負載概述</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">有關BlueXP backup and recovery的詳細信息，請參閱<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block>。</block>
   <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025年8月12日</block>
+  <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
 </blocks>

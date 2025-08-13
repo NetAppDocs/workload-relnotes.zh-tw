@@ -8,6 +8,6 @@
 
 BlueXP backup and recovery可讓您備份、還原、驗證和複製 Microsoft SQL Server 資料庫和可用性群組。從工作負載工廠控制台，您可以存取和使用BlueXP backup and recovery保護 Microsoft SQL Server 工作負載。
 
-link:protect-sql-server.html["了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載"^] 。
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載"] 。
 
 有關BlueXP backup and recovery的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["使用BlueXP backup and recovery保護 Microsoft SQL 工作負載概述"^]。
