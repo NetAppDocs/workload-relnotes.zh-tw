@@ -61,19 +61,6 @@
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025-06-03</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">儲存儀表板增強功能</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。</block>
-  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">全新精心設計的分析和問題修復支持</block>
-  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP 檔案系統的自動容量管理現在作為配置分析包含在精心設計的狀態儀表板中。</block>
-  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">此外，工作負載工廠現在支援修復以下配置問題：</block>
-  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">SSD 容量臨界值</block>
-  <block id="396928510e06818ef017921022cce2af" category="list-text">資料分層</block>
-  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">排程的本機快照</block>
-  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">FSx for ONTAP 備份</block>
-  <block id="887673b402c7bbc141e56321e277605f" category="list-text">遠端資料複寫</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">儲存效率</block>
-  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">自動容量管理</block>
-  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">修復配置問題</block>
-  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
-  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025-06-08</block>
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">建置者工作負載初始版本</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">適用於 Builders 的 BlueXP  工作負載工廠可簡化軟體版本的使用與存取，免除自訂工具或指令碼的需求。它可讓您將軟體版本當作即時複本使用，並與 Perforce Helix Core 整合，作為開發程序的便利工作區，節省時間與資源。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包含管理專案和工作區的功能，以及使用 CodeBox 自動化行動。您也可以將 Builders 與 Perforce Helix Core 整合，以便管理每個專案的不同版本，並在它們之間快速切換。</block>
@@ -211,4 +198,29 @@
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">架構良好的分析包括 SQL Server 的 MTU 對齊</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">精心設計的分析評估並修復了 FSx for ONTAP儲存上 Microsoft SQL Server 跨端點的最大傳輸單元 (MTU) 錯位。調整 MTU 設定有助於最佳化網路效能並減少 SQL Server 工作負載的延遲。</block>
   <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025年9月1日</block>
+  <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">儲存庫存報表增強功能</block>
+  <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">工作負載工廠增強了針對 FSx for ONTAP檔案系統所報告的資料。FSx for ONTAP庫存頁面的可下載報表包括以下新欄位：</block>
+  <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD已使用：顯示已使用SSD容量的值</block>
+  <block id="a1a4ea0fabd62225adb4786dd703d1a7" category="list-text">SSD 使用率：顯示 SSD 容量的使用百分比</block>
+  <block id="c016cb9916988a0ea698d070fd6b702a" category="list-text">吞吐量利用率：顯示過去 30 天的平均和峰值利用率</block>
+  <block id="197af635c10bcbf35ba56184f54cb088" category="list-text">IO 使用率：顯示過去 30 天的平均和峰值 IO 使用率</block>
+  <block id="92bce71ffaebc031ec78d565e6ad7032" category="list-text">CPU 使用率：顯示過去 30 天的平均和峰值 CPU 使用率</block>
+  <block id="95851c89a4d869fdb94916625564bb6c" category="section-title">快照管理增強功能</block>
+  <block id="fbb3322fb25c1109310e7be3bcc20fd5" category="paragraph">工作負載工廠對查看卷快照詳細資訊和管理卷快照做出了多項增強。這些增強功能使您更容易了解快照的狀態並保護您的資料。</block>
+  <block id="3ecb130f0ffe2d8e485cb11c629b90b5" category="inline-image-macro">螢幕截圖顯示了 FSx for ONTAP磁碟區選單的基本操作，然後查看磁碟區詳細資料。</block>
+  <block id="d26eb7e0d00b2e5069d790d2b9be49ba" category="paragraph"><block ref="d26eb7e0d00b2e5069d790d2b9be49ba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb34ab44253ae9c736786f23dc173879" category="paragraph">在「保護」標籤下的「磁碟區詳細資料」中顯示其他項目：</block>
+  <block id="6d4b26be686dd37e202e23010a22bf04" category="list-text">快照策略名稱</block>
+  <block id="a81cec6ec43470b1419a033e0457112d" category="list-text">快照空間預留</block>
+  <block id="c04d4554f0391d80036dceaa0e930ee2" category="list-text">快照空間預留容量</block>
+  <block id="06fd2134099fd30808caa961b2bc9b21" category="inline-image-macro">螢幕截圖顯示了 FSx for ONTAP磁碟區的詳細信息，其中「保護」標籤處於開啟狀態。</block>
+  <block id="b52491919b24cba6fd1efad7447c7798" category="paragraph"><block ref="b52491919b24cba6fd1efad7447c7798" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e987130d3b26cda391ff2f1e5149f444" category="paragraph">可以從磁碟區存取新的快照管理畫面；它提供有關磁碟區的快照策略的信息，並包含包含所有磁碟區快照的資料表。此表顯示以下快照詳細資訊：建立時間、大小、到期時間、不可變快照保護和標籤。從管理畫面，您可以變更磁碟區的快照策略，手動建立快照以及編輯、存取、還原和刪除快照。</block>
+  <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">顯示管理快照畫面的螢幕截圖。</block>
+  <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 儲存容量可減少</block>
+  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">工作負載工廠支援減少第一代和第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
+  <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">調整檔案系統容量</block>
+  <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
+  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025年9月9日</block>
 </blocks>
