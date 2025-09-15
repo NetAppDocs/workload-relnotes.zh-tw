@@ -36,10 +36,6 @@
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">建立 GenAI 知識庫</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">儲存儀表板增強功能</block>
-  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">克隆支持</block>
-  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">現在您可以在 BlueXP 工作負載工廠中為 Builders 複製專案。複製項目時，Builders 會根據快照建立一個新項目，其配置與原始項目相同。克隆功能對於快速建立類似項目或進行測試非常有用。您可以按照 Builders 中的說明安裝新的項目克隆。</block>
-  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">管理 Builders 專案的 BlueXP 工作負載工廠版本</block>
-  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">建構者的工作量</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">支援通用 NFS/SMB 檔案系統上託管的資料來源</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">現在您可以從通用 SMB 或 NFS 共用中新增資料來源。這使您能夠包含儲存在 Amazon FSx for NetApp ONTAP 以外的檔案系統所託管的磁碟區上的檔案。</block>
@@ -184,7 +180,6 @@
   <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">顯示管理快照畫面的螢幕截圖。</block>
   <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 儲存容量可減少</block>
-  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">工作負載工廠支援減少第一代和第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">調整檔案系統容量</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">工作負載工廠為資料庫提供以下通知：</block>
@@ -210,5 +205,5 @@
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025年6月30日</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025年6月29日</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
+  <block id="edfbca9622799a953a48987a288fe283" category="paragraph">工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
 </blocks>

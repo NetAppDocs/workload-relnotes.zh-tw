@@ -59,7 +59,7 @@ image:screenshot-manage-snapshots-screen.png["顯示管理快照畫面的螢幕�
 
 ==== SSD 儲存容量可減少
 
-工作負載工廠支援減少第一代和第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。
+工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["調整檔案系統容量"]
 
@@ -459,19 +459,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#ch
 BlueXP 工作負載工廠通知服務支援工作負載工廠向 BlueXP 警報服務或 Amazon SNS 主題發送通知。發送到 BlueXP 警報的通知會顯示在 BlueXP 警報面板中。當工作負載工廠向 Amazon SNS 主題發布通知時，該主題的訂閱者（例如人員或其他應用程式）會在為該主題配置的終端節點上收到通知（例如電子郵件或簡訊）。
 
 https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作負載工廠通知"]
-
-
-
-== 2025年6月16日
-
-
-
-=== 建構者的工作量
-
-
-
-==== 克隆支持
-
-現在您可以在 BlueXP 工作負載工廠中為 Builders 複製專案。複製項目時，Builders 會根據快照建立一個新項目，其配置與原始項目相同。克隆功能對於快速建立類似項目或進行測試非常有用。您可以按照 Builders 中的說明安裝新的項目克隆。
-
-https://docs.netapp.com/us-en/workload-builders/version-projects.html["管理 Builders 專案的 BlueXP 工作負載工廠版本"]
