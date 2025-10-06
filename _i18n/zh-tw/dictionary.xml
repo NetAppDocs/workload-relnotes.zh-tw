@@ -72,7 +72,6 @@
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">為磁碟區建立 CIFS 共享</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
   <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">改進了對 Amazon Elastic VMWare Service 的遷移顧問支持</block>
-  <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 移轉顧問現在支援自動部署和安裝Amazon FSx for NetApp ONTAP檔案系統。這樣，當遷移到 Amazon EVS 環境完成後，您就可以開始在 FSx for ONTAP檔案系統上部署虛擬機器。</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">計算遷移到 Amazon Elastic VMware Service 節省的成本</block>
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">現在您可以探索將 VMware 工作負載移轉到 Amazon Elastic VMware Service (EVS) 的潛在節省。節省計算器可讓您比較使用 Amazon EVS 與Amazon FSx for NetApp ONTAP作為底層儲存和不使用 Amazon FSx for NetApp ONTAP 作為底層儲存的成本。當您調整環境特徵時，計算器會即時顯示潛在的節省。</block>
   <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">架構良好的分析包括高可用性叢集驗證</block>
@@ -158,7 +157,6 @@
   <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">如果您選擇的嵌入、聊天或重新排名模型具有推理設置，您現在可以選擇推理類型。這使您能夠更好地根據您的需求調整聊天機器人的效能和資源需求。</block>
   <block id="041a7335d4bfbe01ea8a2d2f780732b6" category="inline-link">探索使用BlueXP Workload Factory 節省 Amazon Elastic VMware Service 成本的方法</block>
   <block id="1a1b8cfea3181a2937851fe76b4862d4" category="paragraph"><block ref="1a1b8cfea3181a2937851fe76b4862d4" category="inline-link-rx"></block></block>
-  <block id="b77ed2f5662201a26b98b92e98329049" category="section-title">VMware 工作負載規劃中心簡介</block>
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware 工作負載規劃中心可讓您從一個地方檢視和管理您的 VM 庫存和遷移計畫。您可以從不同的環境上傳和儲存多個 VM 清單，並開始規劃將其中任何一個遷移到 AWS EC2 或 Amazon Elastic VMware 服務。您也可以建立並儲存 AWS EC2 或 EVS 遷移計畫。</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">探索 VMware 工作負載規劃中心</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
@@ -191,4 +189,22 @@
   <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
   <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">不可變檔案支援特權刪除</block>
   <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">使用此功能，您可以為 FSx for ONTAP檔案系統中的不可變檔案設定特權刪除存取權限。這使您可以保護關鍵資料免遭意外或惡意刪除，同時仍允許授權使用者覆蓋鎖定並根據需要刪除這些檔案。可以在磁碟區建立期間或針對現有磁碟區啟用特權刪除。</block>
+  <block id="dcf522fe0928ea448e17a8ccb7b14d76" category="paragraph">NetApp Workload Factory 現在支援自動部署和安裝Amazon FSx for NetApp ONTAP檔案系統。這樣，當遷移到 Amazon EVS 環境完成後，您就可以開始在 FSx for ONTAP檔案系統上部署虛擬機器。</block>
+  <block id="74f9db7fefcf8c24332761c003d46a02" category="section-title">VMware 工作負載規劃中心簡介</block>
+  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="section-title">引入對 Amazon Elastic VMWare Service 的遷移顧問支持</block>
+  <block id="c1ed477ef5d58aa5d9931821badda717" category="paragraph">BlueXP Workload Factory for VMware 現在允許您使用 Amazon Elastic VMware Service 移轉顧問將本機 VMware 工作負載快速移轉到 Amazon Elastic VMware Service。使用遷移顧問建立遷移計畫後，計畫會自動儲存在規劃中心的遷移計畫清單中。</block>
+  <block id="c2ec0e17d82dd73344c2ef80a6de22f1" category="paragraph"><block ref="c2ec0e17d82dd73344c2ef80a6de22f1" category="inline-link-rx"></block></block>
+  <block id="fe1ae90129b3fc6c05d6d55d62ca79b2" category="section-title">Workload Factory 控制台中針對 Oracle 的增強功能</block>
+  <block id="bde440a6f221f754dda1ba04c79f7982" category="section-title">Oracle 資料庫資源畫面</block>
+  <block id="b9e6ca1860385235df9a27b8a183c14b" category="paragraph">每個 Oracle 資料庫都有自己的專用資源螢幕，可從資料庫清單中取得。資源畫面提供資料庫名稱、狀態（線上或離線）、租賃和部署類型的概覽。還包括三個月內以下數據的圖表：CPU 使用率、延遲、IOPS 和吞吐量。容量利用率提供資料庫的總大小、寫入的資料大小、已使用的固態硬碟容量以及已使用的容量池儲存。</block>
+  <block id="61e62ed73221a8d36e3b5ccff5df1c34" category="paragraph">從資源畫面，您可以查看有關 Oracle 伺服器（部署模型、作業系統、版本、版本等）、位置（AWS 帳戶、區域、可用區和子網路）、儲存和計算（FSx for ONTAP檔案系統詳細資訊、資料庫執行個體類型以及關聯的 LUN 和磁碟區）以及連接（VPC 和存取協定）的資訊。您也可以檢查資料庫配置的架構狀態並查看與資料庫關聯的可插拔資料庫（PDB）。</block>
+  <block id="2a862d414b58bb1053d6a8628126f4e0" category="section-title">支援 Oracle 可插拔資料庫</block>
+  <block id="345333792e16177a530fc4095c146b12" category="paragraph">Oracle 可插拔資料庫可在資料庫清單中以及其父容器資料庫的資源畫面中檢視。您的 PDB 可取得下列資訊：CDB 名稱、主機名稱、保護狀態、資料庫大小、FSx for ONTAP檔案系統、AWS 憑證、AWS 帳戶和區域。</block>
+  <block id="41d5af71402e1d82f05775556afa695b" category="section-title">針對 Oracle 的良好架構分析</block>
+  <block id="87e54cc3f4d743196aa5ce47b68e9f65" category="paragraph">精心設計的分析包括對通過 NFS 或 iSCSI（有或沒有自動儲存管理 (ASM)）的 Oracle 資料庫的儲存佈局的配置問題進行評估，以及對透過 iSCSI LUN 的 Oracle 作業系統的儲存配置問題進行評估。您可以使用此資訊對資料庫部署做出明智的決策並確保它們有效運作。</block>
+  <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">在 Workload Factory 中實作架構良好的資料庫配置</block>
+  <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
+  <block id="d90600b832876e9302411cfab905b9bc" category="section-title">資料庫清單增強功能</block>
+  <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">在資料庫清單中的執行個體畫面中，對於 Microsoft SQL Server 的單一或多個實例，或對於 Oracle 的單一或多個資料庫，可以使用修復、延遲和消除配置問題的選項。</block>
+  <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
 </blocks>
