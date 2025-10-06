@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
-summary: 瞭解 BlueXP  工作負載工廠工作負載的最新變更。 
+summary: 了解NetApp Workload Factory 中工作負載的最新變化。 
 ---
-= BlueXP  工作負載工廠最近的變更
+= NetApp Workload Factory 的最新變化
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-瞭解 BlueXP  工作負載工廠工作負載的最新變更。
+了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
@@ -459,3 +459,13 @@ https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#ch
 BlueXP 工作負載工廠通知服務支援工作負載工廠向 BlueXP 警報服務或 Amazon SNS 主題發送通知。發送到 BlueXP 警報的通知會顯示在 BlueXP 警報面板中。當工作負載工廠向 Amazon SNS 主題發布通知時，該主題的訂閱者（例如人員或其他應用程式）會在為該主題配置的終端節點上收到通知（例如電子郵件或簡訊）。
 
 https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作負載工廠通知"]
+
+
+
+== 2025年6月16日
+
+
+
+=== 建構者的工作量
+
+<stdin> 中未解析的指令 - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]

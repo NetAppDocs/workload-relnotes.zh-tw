@@ -26,12 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 工作負載</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">設定與管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 工作負載</block>
-  <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">瞭解 BlueXP  工作負載工廠工作負載的最新變更。</block>
-  <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作負載工廠最近的變更</block>
-  <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">這些版本資訊說明 BlueXP  工作負載工廠中的雲端服務最近的增強功能。</block>
-  <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作負載原廠版本資訊</block>
-  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作負載工廠</block>
-  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">建立 GenAI 知識庫</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
@@ -206,4 +200,12 @@
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025年6月30日</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025年6月29日</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
+  <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作負載工廠</block>
+  <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
+  <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">了解NetApp Workload Factory 中工作負載的最新變化。</block>
+  <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory 的最新變化</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
+  <block id="7d8a5882e1c618b27e728777a89e9734" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]</block>
+  <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">這些發行說明介紹了NetApp Workload Factory 的雲端服務的最新增強功能。</block>
+  <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 發行說明</block>
 </blocks>
