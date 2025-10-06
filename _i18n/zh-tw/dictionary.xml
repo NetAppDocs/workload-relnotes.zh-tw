@@ -26,55 +26,13 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 工作負載</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">設定與管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 工作負載</block>
-  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">建立 GenAI 知識庫</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">儲存儀表板增強功能</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">建構者的工作量</block>
-  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">支援通用 NFS/SMB 檔案系統上託管的資料來源</block>
-  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">現在您可以從通用 SMB 或 NFS 共用中新增資料來源。這使您能夠包含儲存在 Amazon FSx for NetApp ONTAP 以外的檔案系統所託管的磁碟區上的檔案。</block>
-  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">在知識庫中新增資料來源</block>
-  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
-  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">新增資料來源</block>
-  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
-  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">引入對 Amazon Elastic VMWare Service 的遷移顧問支持</block>
-  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">BlueXP VMware 工作負載工廠現已支援 Amazon Elastic VMware Service。您可以使用遷移顧問快速將本機 VMware 工作負載移轉到 Amazon Elastic VMware Service，從而優化成本並更好地控制您的 VMware 環境，而無需重構或重新建置應用程式平台。</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">使用遷移顧問為 Amazon EVS 建立部署計劃</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXP 工作負載工廠通知服務支持</block>
-  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 工作負載工廠通知服務支援工作負載工廠向 BlueXP 警報服務或 Amazon SNS 主題發送通知。發送到 BlueXP 警報的通知會顯示在 BlueXP 警報面板中。當工作負載工廠向 Amazon SNS 主題發布通知時，該主題的訂閱者（例如人員或其他應用程式）會在為該主題配置的終端節點上收到通知（例如電子郵件或簡訊）。</block>
-  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">配置 BlueXP 工作負載工廠通知</block>
-  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">資料庫的權限更新</block>
-  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">現在，資料庫在唯讀模式下具有以下權限： <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> 。</block>
-  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
-  <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">工作負載工廠控制台中的儲存控制面板新增了節省機會卡。控制面板頂部的卡片顯示在 Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server 和 Amazon Elastic File Systems (EFS) 上執行的儲存環境的節省機會數。控制台底部新增了三張卡片，按 Amazon 儲存服務（EBS、FSx for Windows File Server 和 EFS）顯示節省機會。您可以從所有卡片中更詳細地了解節省機會。</block>
-  <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">透過 FSx for ONTAP 保護覆蓋率卡和複製關係健康卡，您可以調查 FSx for ONTAP 檔案系統中是否存在任何部分受保護的捲，以及調查複製關係的問題。在這兩種情況下，您都可以採取措施來解決問題。</block>
-  <block id="34ccfe489231e34890602e4f0419b843" category="section-title">音量選項卡增強功能</block>
-  <block id="f659fbcb502240d4138a6337d4da17d5" category="paragraph">工作負載工廠控制台中的「磁碟區」標籤已增強，可提供更全面的 FSx for ONTAP 檔案系統視圖。增強功能包括新增 SSD 容量、容量池以及 NetApp 自主勒索軟體防護 AI (ARP/AI) 卡。這些卡片匯總了檔案系統中所有磁碟區的容量利用率和 ARP/AI 防護功能。</block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">支援第二代 Amazon FSX for NetApp ONTAP 檔案系統</block>
-  <block id="7efd44dd06c377a68f3fc78abf7d91fb" category="paragraph">工作負載工廠現已支援第二代 Amazon FSx for NetApp ONTAP 檔案系統。您可以在工作負載工廠控制台中建立、管理和監控第二代檔案系統。所有新的商業區域均受支援。</block>
-  <block id="cd0ce691a9b616ae8983f22db2fb8a6d" category="inline-link-macro">在工作負載工廠中建立第二代檔案系統</block>
-  <block id="f784f74601a71805db546f7b6842f0e5" category="paragraph"><block ref="f784f74601a71805db546f7b6842f0e5" category="inline-link-macro-rx"></block></block>
-  <block id="094caa4bbbbdba779d6ef8c57b995856" category="section-title">FlexVol 磁碟區支援重新平衡磁碟區容量</block>
-  <block id="ab0d60978b39ce0cb886ec1fbf91bad8" category="paragraph">FlexVol 磁碟區可在工作負載工廠控制台中發現。您可以檢查 FlexVol 磁碟區的平衡情況，並在新檔案的新增和檔案成長導致不平衡時重新平衡 FlexVol 磁碟區以重新分配容量。</block>
-  <block id="226bb141f0b474b8b8d4e55bfe659a94" category="inline-link-macro">重新平衡 FlexVol 卷的容量</block>
-  <block id="7f11a5de29d58c93cc212be8cf51b761" category="paragraph"><block ref="7f11a5de29d58c93cc212be8cf51b761" category="inline-link-macro-rx"></block></block>
-  <block id="d7581ee541e7cfa51fd2f75f93b7e64e" category="section-title">術語更新</block>
-  <block id="6e0c2d8cb551de024f6700ca0407257e" category="paragraph">在工作負載工廠控制台中，「自主勒索軟體防護」(ARP) 一詞已更新為「具有 AI 的 NetApp 自主勒索軟體防護」(ARP/AI)。</block>
-  <block id="d474538a7c98b462c08197d24f7c1c60" category="section-title">新磁碟區預設啟用 ARP/AI</block>
-  <block id="6a3bf8c141dbbeed37af8236f412b19a" category="paragraph">在工作負載工廠控制台中建立新磁碟區時，如果檔案系統具有 ARP/AI 策略，則 NetApp 自主勒索軟體防護 AI (ARP/AI) 將預設為啟用。這意味著該卷將使用 AI 驅動的偵測和回應功能自動防禦勒索軟體攻擊。</block>
-  <block id="7e0b28b27ce3985a4a8d693330a04cb7" category="inline-link-macro">在工作負載工廠中創建卷</block>
-  <block id="3bf76f3556904b928c43201c04108364" category="paragraph"><block ref="3bf76f3556904b928c43201c04108364" category="inline-link-macro-rx"></block></block>
-  <block id="442d07125b5c2363eae9c33039172225" category="section-title">對不可變文件的複製支持</block>
-  <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">工作負載工廠支援將不可變磁碟區從一個 FSx for ONTAP 系統複製到另一個 FSx for ONTAP 檔案系統，以保護關鍵資料免遭意外刪除或勒索軟體等惡意攻擊。目標磁碟區及其主機檔案系統將處於不可變狀態（即鎖定狀態），且在保留期結束之前，目標檔案系統中的任何資料都無法修改或刪除。</block>
-  <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">了解如何建立複製關係</block>
-  <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
-  <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">在連結建立期間管理 IAM 執行角色和權限</block>
-  <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">現在，您可以在工作負載工廠控制台中建立鏈接，從而管理 IAM 執行角色及其附加的權限策略。連結會在您的工作負載工廠帳戶與一個或多個 FSx for ONTAP 檔案系統之間建立連線。您可以透過兩種方式指派 IAM 執行角色和連結權限：自動指派或使用者指派。在工作負載工廠中管理執行角色及其附加的權限策略意味著您無需再使用第三方程式碼。</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">在工作負載工廠中實現架構良好的資料庫配置</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">複製關係標籤的增強功能</block>
@@ -176,36 +134,19 @@
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 儲存容量可減少</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">調整檔案系統容量</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">工作負載工廠為資料庫提供以下通知：</block>
-  <block id="33e3371223dba19c723617802e06af8d" category="list-text">結構完善的報告</block>
-  <block id="d415d128365eca1587931ed756de7819" category="list-text">主機部署</block>
-  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">用於註冊實例的入門增強功能</block>
-  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">資料庫工作負載工廠改進了其在Amazon FSx for NetApp ONTAP儲存上運行的實例的註冊流程。現在您可以批次選擇實例進行註冊。一旦執行個體註冊，您就可以在工作負載工廠控制台內建立和管理資料庫資源。</block>
-  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">實例管理</block>
-  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
-  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 逾時設定的分析與修復</block>
-  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">資料庫執行個體的良好架構狀態現在包括對 Microsoft 多路徑 I/O (MPIO) 逾時設定的分析和修復。將 MPIO 逾時設定為 60 秒可確保 FSx for ONTAP儲存在故障轉移期間的連接性和穩定性。如果未相應地設置 MPIO 設置，工作負載工廠將提供修復程序以將 MPIO 逾時值設置為 60 秒。</block>
-  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">實例清單中的圖形增強功能</block>
-  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">從實例庫存螢幕，各種資源利用率圖表（如吞吐量和 IOPS）現在顯示 7 天的數據，以便您可以更有效地從工作負載工廠控制台監控 SQL 節點的效能。從 SQL 節點收集的效能指標將保存在 Amazon CloudWatch 中，可用於 Logs Insights 或與您環境中的其他分析服務整合。</block>
-  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">從庫存中的實例和資料庫標籤中，我們增強了保護的描述和視覺化。</block>
-  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">工作負載工廠中對 Windows 身份驗證的支持</block>
-  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">現在，工作負載工廠支援使用 Windows 驗證的使用者來註冊執行個體並從管理功能中受益的 SQL Server 驗證。</block>
-  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">在資料庫工作負載工廠中註冊實例</block>
-  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025年9月1日</block>
   <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025年8月12日</block>
   <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025年8月4日</block>
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
-  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025年6月30日</block>
-  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025年6月29日</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作負載工廠</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">了解NetApp Workload Factory 中工作負載的最新變化。</block>
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory 的最新變化</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
-  <block id="7d8a5882e1c618b27e728777a89e9734" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">這些發行說明介紹了NetApp Workload Factory 的雲端服務的最新增強功能。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 發行說明</block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory現為NetApp工作負載工廠</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。因此， BlueXP workload factory已重新命名為NetApp工作負載工廠。</block>
+  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025年10月5日</block>
 </blocks>

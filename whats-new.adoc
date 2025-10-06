@@ -15,6 +15,20 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
+== 2025年10月5日
+
+
+
+=== 建構者的工作量
+
+
+
+==== BlueXP workload factory現為NetApp工作負載工廠
+
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。因此， BlueXP workload factory已重新命名為NetApp工作負載工廠。
+
+
+
 == 2025年9月9日
 
 
