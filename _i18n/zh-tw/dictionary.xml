@@ -170,4 +170,25 @@
   <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me 與 MCP 集成</block>
   <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory 的 AI 助理 Ask Me 與模型上下文協定 (MCP) 整合。使用 MCP，Ask Me 可以安全地與外部環境互動並查詢 API 工具，以提供適合您特定儲存環境的回應。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="945d9800b1b25a8b224232b57dabb8a6" category="doc">優化 Amazon Elastic Block Store (EBS) 儲存計算器中的節省</block>
+  <block id="b051b129322b1fa228bb46d5704f8ad2" category="paragraph">Workload Factory 可以分析您的 EBS 效能使用情況，然後建議最佳且最具成本效益的 FSx for ONTAP配置，以便您可以透過切換到 FSx for ONTAP來節省更多。</block>
+  <block id="75851f48043c7a3877391f5330fb19c1" category="inline-link-macro">在 Workload Factory 控制台中探索偵測到的儲存環境的節省情況</block>
+  <block id="4f3edd63a55b4b51bcfc2a68ac50724c" category="paragraph"><block ref="4f3edd63a55b4b51bcfc2a68ac50724c" category="inline-link-macro-rx"></block></block>
+  <block id="524dbd97409f5770f9a380227ba4daea" category="section-title">從檔案系統清單快速存取資源螢幕</block>
+  <block id="be962e12d3d4430561fa9a1d6c25c200" category="paragraph">您可以透過從 FSx for ONTAP清單中選擇檔案系統名稱（現在是超連結）快速導覽至 FSx for ONTAP檔案系統資源畫面。</block>
+  <block id="5c731a647da91c3579ce81b8d9274fca" category="section-title">在 Workload Factory 控制台中發現快取關係</block>
+  <block id="7736e3de8e44f415eeeee23744591c40" category="paragraph">如果 FSx for ONTAP檔案系統與另一種類型的ONTAP儲存（本機系統、 Cloud Volumes ONTAP和 FSx for ONTAP）之間存在快取關係，則可以從 Workload Factory 控制台發現並查看它們。這使您能夠更好地了解資料流、優化快取利用率並提高分散式環境的效率。</block>
+  <block id="a9ace78aa94256517b0d3b32c8e62e7e" category="inline-link-macro">在 Workload Factory 控制台中發現並查看快取關係</block>
+  <block id="0d0589415fc04e290e6c826d0b2f4d56" category="paragraph"><block ref="0d0589415fc04e290e6c826d0b2f4d56" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">精心設計的分析更新</block>
+  <block id="c9e2abe4bb9341b4452bdb977083efb6" category="paragraph">工作負載工廠現在分析您的 FSx for ONTAP檔案系統的以下配置：</block>
+  <block id="0d646d7995307f809d73f1d2f653df3d" category="paragraph">磁碟區檔案容量利用率閾值：檢查檔案容量閾值是否設定為 80% 或更低。這可以幫助您避免檔案系統空間不足。</block>
+  <block id="99caf3ded950ba093933b266e2734b14" category="section-title">針對配置問題的操作改進</block>
+  <block id="8c66f900656d8687c4beaead10bd47de" category="paragraph">從 FSx for ONTAP檔案系統儀表板中的「良好架構分析」標籤中，您無需關閉檔案系統的整個配置，還可以選擇檔案系統中的一個或多個磁碟區進行修復、關閉或重新啟動。</block>
+  <block id="3b6856525ae98f397c04f2dd7b07deae" category="section-title">儲存附加通知</block>
+  <block id="b62e88c90eef0f29a13cbdcb4e304ae2" category="paragraph">NetApp Workload Factory 通知服務包括每週針對架構良好的設定問題的通知。</block>
+  <block id="06ccf3bb3519e2c352207978ae4f36eb" category="inline-link-macro">Workload Factory 設定和管理文件中的通知類型和訊息</block>
+  <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
+  <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">不可變檔案支援特權刪除</block>
+  <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">使用此功能，您可以為 FSx for ONTAP檔案系統中的不可變檔案設定特權刪除存取權限。這使您可以保護關鍵資料免遭意外或惡意刪除，同時仍允許授權使用者覆蓋鎖定並根據需要刪除這些檔案。可以在磁碟區建立期間或針對現有磁碟區啟用特權刪除。</block>
 </blocks>

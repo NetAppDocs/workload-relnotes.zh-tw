@@ -1,0 +1,55 @@
+= 優化 Amazon Elastic Block Store (EBS) 儲存計算器中的節省
+:allow-uri-read: 
+
+
+
+
+=== 優化 Amazon Elastic Block Store (EBS) 儲存計算器中的節省
+
+Workload Factory 可以分析您的 EBS 效能使用情況，然後建議最佳且最具成本效益的 FSx for ONTAP配置，以便您可以透過切換到 FSx for ONTAP來節省更多。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["在 Workload Factory 控制台中探索偵測到的儲存環境的節省情況"]
+
+
+
+=== 從檔案系統清單快速存取資源螢幕
+
+您可以透過從 FSx for ONTAP清單中選擇檔案系統名稱（現在是超連結）快速導覽至 FSx for ONTAP檔案系統資源畫面。
+
+
+
+=== 在 Workload Factory 控制台中發現快取關係
+
+如果 FSx for ONTAP檔案系統與另一種類型的ONTAP儲存（本機系統、 Cloud Volumes ONTAP和 FSx for ONTAP）之間存在快取關係，則可以從 Workload Factory 控制台發現並查看它們。這使您能夠更好地了解資料流、優化快取利用率並提高分散式環境的效率。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["在 Workload Factory 控制台中發現並查看快取關係"]
+
+
+
+=== 精心設計的分析更新
+
+工作負載工廠現在分析您的 FSx for ONTAP檔案系統的以下配置：
+
+磁碟區檔案容量利用率閾值：檢查檔案容量閾值是否設定為 80% 或更低。這可以幫助您避免檔案系統空間不足。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP檔案系統的良好架構狀態"]
+
+
+
+==== 針對配置問題的操作改進
+
+從 FSx for ONTAP檔案系統儀表板中的「良好架構分析」標籤中，您無需關閉檔案系統的整個配置，還可以選擇檔案系統中的一個或多個磁碟區進行修復、關閉或重新啟動。
+
+
+
+=== 儲存附加通知
+
+NetApp Workload Factory 通知服務包括每週針對架構良好的設定問題的通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Workload Factory 設定和管理文件中的通知類型和訊息"]
+
+
+
+=== 不可變檔案支援特權刪除
+
+使用此功能，您可以為 FSx for ONTAP檔案系統中的不可變檔案設定特權刪除存取權限。這使您可以保護關鍵資料免遭意外或惡意刪除，同時仍允許授權使用者覆蓋鎖定並根據需要刪除這些檔案。可以在磁碟區建立期間或針對現有磁碟區啟用特權刪除。
