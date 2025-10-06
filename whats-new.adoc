@@ -15,6 +15,26 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
+== 2025年10月6日
+
+
+
+=== 設定與管理
+
+
+
+==== BlueXP workload factory現為NetApp工作負載工廠
+
+BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。因此， BlueXP workload factory已重新命名為NetApp工作負載工廠。
+
+
+
+==== Ask Me 與 MCP 集成
+
+Workload Factory 的 AI 助理 Ask Me 與模型上下文協定 (MCP) 整合。使用 MCP，Ask Me 可以安全地與外部環境互動並查詢 API 工具，以提供適合您特定儲存環境的回應。
+
+
+
 == 2025年10月5日
 
 
@@ -53,7 +73,7 @@ BlueXP已重新命名並重新設計，以更好地反映其在管理資料基�
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["為 Amazon Q Business 建立NetApp連接器"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["將資料來源新增至連接器"]
 
 
 
@@ -70,6 +90,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 如果您選擇的嵌入、聊天或重新排名模型具有推理設置，您現在可以選擇推理類型。這使您能夠更好地根據您的需求調整聊天機器人的效能和資源需求。
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
+
+
+
+=== 設定與管理
+
+
+
+==== 儲存的新通知
+
+NetApp Workload Factory 通知服務包含針對儲存架構問題的通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
 
 
 

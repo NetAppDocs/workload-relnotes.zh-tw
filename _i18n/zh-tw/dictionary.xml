@@ -162,4 +162,12 @@
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware 工作負載規劃中心可讓您從一個地方檢視和管理您的 VM 庫存和遷移計畫。您可以從不同的環境上傳和儲存多個 VM 清單，並開始規劃將其中任何一個遷移到 AWS EC2 或 Amazon Elastic VMware 服務。您也可以建立並儲存 AWS EC2 或 EVS 遷移計畫。</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">探索 VMware 工作負載規劃中心</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
+  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link-macro">將資料來源新增至連接器</block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">儲存的新通知</block>
+  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">NetApp Workload Factory 通知服務包含針對儲存架構問題的通知。</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 通知</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me 與 MCP 集成</block>
+  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory 的 AI 助理 Ask Me 與模型上下文協定 (MCP) 整合。使用 MCP，Ask Me 可以安全地與外部環境互動並查詢 API 工具，以提供適合您特定儲存環境的回應。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
 </blocks>

@@ -16,7 +16,7 @@ BlueXP已重新命名並重新設計，以更好地反映其在管理資料基�
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["為 Amazon Q Business 建立NetApp連接器"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["將資料來源新增至連接器"]
 
 
 
