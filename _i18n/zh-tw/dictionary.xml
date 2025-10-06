@@ -90,9 +90,6 @@
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">結構化資料結果的安全存儲</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">如果聊天機器人查詢結果包含結構化數據，GenAI 可以將結果儲存在 Amazon S3 儲存桶中。當這些結果儲存在 S3 儲存桶中時，您可以使用聊天會話中的下載連結下載它們。</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP 伺服器可用性</block>
-  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp現在為 GenAI 提供具有BlueXP workload factory的模型上下文協定 (MCP) 伺服器。您可以在本機安裝伺服器，以允許外部 MCP 用戶端從 GenAI 知識庫中發現和檢索查詢結果。</block>
-  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetApp工作負載工廠 GenAI MCP 伺服器</block>
-  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recovery可讓您備份、還原、驗證和複製 Microsoft SQL Server 資料庫和可用性群組。從工作負載工廠控制台，您可以存取和使用BlueXP backup and recovery保護 Microsoft SQL Server 工作負載。</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">使用BlueXP backup and recovery保護 Microsoft SQL 工作負載概述</block>
@@ -149,4 +146,16 @@
   <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory現為NetApp工作負載工廠</block>
   <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP已重新命名並重新設計，以更好地反映其在管理資料基礎架構中的作用。因此， BlueXP workload factory已重新命名為NetApp工作負載工廠。</block>
   <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025年10月5日</block>
+  <block id="e834ab03ab8af25bc66f7565fe0c683b" category="paragraph">NetApp現在為 GenAI 提供具有NetApp Workload Factory 的模型上下文協定 (MCP) 伺服器。您可以在本機安裝伺服器，以允許外部 MCP 用戶端從 GenAI 知識庫中發現和檢索查詢結果。</block>
+  <block id="45b9616656c01be55aaa7cb75d3a7215" category="inline-link-macro">NetApp Workload Factory GenAI MCP 伺服器</block>
+  <block id="272cce890c7aade4de2a42d9e414cf3e" category="paragraph"><block ref="272cce890c7aade4de2a42d9e414cf3e" category="inline-link-macro-rx"></block></block>
+  <block id="3ddc651759568c7b8f0de7c7f9a41828" category="section-title">支援在適用於 Amazon Q Business 的NetApp連接器中新增通用 NFS/SMB 資料來源</block>
+  <block id="a0689e9e0b6114698a732a2dc7c3c921" category="paragraph">使用 Workload Factory API，您現在可以將資料來源從通用 NFSv3、NFSv4 或 SMB 共用新增至NetApp Connector for Amazon Q Business。這使您能夠包含儲存在由Amazon FSx for NetApp ONTAP以外的檔案系統所託管的磁碟區上的檔案。</block>
+  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">為 Amazon Q Business 建立NetApp連接器</block>
+  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
+  <block id="b6016044adc61a2efcd415d2be8b12bc" category="paragraph"><block ref="b6016044adc61a2efcd415d2be8b12bc" category="inline-link-macro-rx"></block></block>
+  <block id="b0462077e62a0ea67b3f53638651e833" category="section-title">知識庫的高階聊天配置</block>
+  <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">現在您可以配置適用於知識庫聊天模型的高級聊天設置，例如回應長度、溫度、推理設定等。其中一些設定（例如最近度和修改時間設定、進階檢索設定和系統提示）僅可使用 Workload Factory API。</block>
+  <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">現支援嵌入、聊天和重新排名模型的推理類型選擇</block>
+  <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">如果您選擇的嵌入、聊天或重新排名模型具有推理設置，您現在可以選擇推理類型。這使您能夠更好地根據您的需求調整聊天機器人的效能和資源需求。</block>
 </blocks>
