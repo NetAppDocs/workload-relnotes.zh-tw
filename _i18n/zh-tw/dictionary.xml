@@ -75,8 +75,6 @@
   <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 移轉顧問現在支援自動部署和安裝Amazon FSx for NetApp ONTAP檔案系統。這樣，當遷移到 Amazon EVS 環境完成後，您就可以開始在 FSx for ONTAP檔案系統上部署虛擬機器。</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">計算遷移到 Amazon Elastic VMware Service 節省的成本</block>
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">現在您可以探索將 VMware 工作負載移轉到 Amazon Elastic VMware Service (EVS) 的潛在節省。節省計算器可讓您比較使用 Amazon EVS 與Amazon FSx for NetApp ONTAP作為底層儲存和不使用 Amazon FSx for NetApp ONTAP 作為底層儲存的成本。當您調整環境特徵時，計算器會即時顯示潛在的節省。</block>
-  <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">探索使用BlueXP workload factory節省 Amazon Elastic VMware Service 成本的方法</block>
-  <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
   <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">架構良好的分析包括高可用性叢集驗證</block>
   <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">精心設計的分析現在包括對高可用性叢集的驗證。此驗證會從伺服器端檢查所有與叢集相關的配置，包括兩個節點上的磁碟可用性和配置、Windows 叢集配置和故障轉移準備。這可確保 Windows 叢集正確設定並可在需要時成功進行故障轉移。</block>
   <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">實例可用的多層選單</block>
@@ -158,4 +156,10 @@
   <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">現在您可以配置適用於知識庫聊天模型的高級聊天設置，例如回應長度、溫度、推理設定等。其中一些設定（例如最近度和修改時間設定、進階檢索設定和系統提示）僅可使用 Workload Factory API。</block>
   <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">現支援嵌入、聊天和重新排名模型的推理類型選擇</block>
   <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">如果您選擇的嵌入、聊天或重新排名模型具有推理設置，您現在可以選擇推理類型。這使您能夠更好地根據您的需求調整聊天機器人的效能和資源需求。</block>
+  <block id="041a7335d4bfbe01ea8a2d2f780732b6" category="inline-link">探索使用BlueXP Workload Factory 節省 Amazon Elastic VMware Service 成本的方法</block>
+  <block id="1a1b8cfea3181a2937851fe76b4862d4" category="paragraph"><block ref="1a1b8cfea3181a2937851fe76b4862d4" category="inline-link-rx"></block></block>
+  <block id="b77ed2f5662201a26b98b92e98329049" category="section-title">VMware 工作負載規劃中心簡介</block>
+  <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware 工作負載規劃中心可讓您從一個地方檢視和管理您的 VM 庫存和遷移計畫。您可以從不同的環境上傳和儲存多個 VM 清單，並開始規劃將其中任何一個遷移到 AWS EC2 或 Amazon Elastic VMware 服務。您也可以建立並儲存 AWS EC2 或 EVS 遷移計畫。</block>
+  <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">探索 VMware 工作負載規劃中心</block>
+  <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
 </blocks>
