@@ -289,6 +289,18 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
+=== 設定與管理
+
+
+
+==== 儲存的新通知
+
+NetApp Workload Factory通知服務包括儲存自動容量管理通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
+
+
+
 == 2025年9月1日
 
 
