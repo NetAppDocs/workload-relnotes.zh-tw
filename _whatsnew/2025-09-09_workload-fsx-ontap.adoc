@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["顯示管理快照畫面的螢幕�
 工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["調整檔案系統容量"]
+
+
+
+=== 儲存的新通知
+
+工作負載工廠通知服務包括儲存自動容量管理的成功和失敗通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factory的通知"^]

@@ -208,4 +208,7 @@
   <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">在資料庫清單中的執行個體畫面中，對於 Microsoft SQL Server 的單一或多個實例，或對於 Oracle 的單一或多個資料庫，可以使用修復、延遲和消除配置問題的選項。</block>
   <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
   <block id="9d4ab4efb1eff322f698ff725220f0c6" category="paragraph">NetApp Workload Factory通知服務包括儲存自動容量管理通知。</block>
+  <block id="ba72fdb3bdfd568a9dee9e12c3566da1" category="paragraph">工作負載工廠通知服務包括儲存自動容量管理的成功和失敗通知。</block>
+  <block id="28a2c493e9a663d617e582302e1bcf28" category="inline-link-macro">BlueXP workload factory的通知</block>
+  <block id="165f0ade723f657a5d7981bfecbfc75a" category="paragraph"><block ref="165f0ade723f657a5d7981bfecbfc75a" category="inline-link-macro-rx"></block></block>
 </blocks>

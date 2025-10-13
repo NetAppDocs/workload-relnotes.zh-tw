@@ -289,6 +289,14 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
+==== 儲存的新通知
+
+工作負載工廠通知服務包括儲存自動容量管理的成功和失敗通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factory的通知"^]
+
+
+
 === 設定與管理
 
 
