@@ -161,18 +161,15 @@
   <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">預先填充快取卷</block>
   <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">刪除快取卷</block>
   <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">管理快取卷</block>
-  <block id="9223fd31c285815a2492912ef49bdbbb" category="paragraph"><block ref="9223fd31c285815a2492912ef49bdbbb" category="inline-link-macro-rx"></block></block>
   <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">可自動進行 inode 管理</block>
   <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">您可以啟用自動 inode 管理，而無需啟用自動容量管理。</block>
   <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">啟用自動 inode 管理</block>
-  <block id="c38d477b997e2c8216a0b40479691f29" category="paragraph"><block ref="c38d477b997e2c8216a0b40479691f29" category="inline-link-macro-rx"></block></block>
   <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">容量和 inode 使用情況的閾值警告設置</block>
   <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">NetApp Workload Factory通知服務</block>
   <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">容量和 inode 使用情況均有閾值警告。您可以在啟用自動容量或 inode 管理時設定這些閾值。若要使用此設置，您需要使用以下方式配置通知：<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> 。</block>
   <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">容量減少可用</block>
   <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">您可以在NetApp Workload Factory中減少 NFS 和 SMB/CIFS 磁碟區的大小。此功能可讓您減少不再需要的磁碟區的大小，從而更好地管理儲存資源。</block>
   <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">減少體積</block>
-  <block id="e1b7073be30c28b07f5c847e0a1b56ed" category="paragraph"><block ref="e1b7073be30c28b07f5c847e0a1b56ed" category="inline-link-macro-rx"></block></block>
   <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">增強型 FSx for ONTAP資源狀態</block>
   <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory 增強了「配置錯誤」資源狀態，使其包含對資源實際問題的解釋。</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：</block>
@@ -189,7 +186,6 @@
   <block id="c4a6983274098ca737ffda27862010ea" category="section-title">FSx 的ONTAP網路保險庫支持</block>
   <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">您可以使用 FSx for ONTAP作為網路保險庫架構中的來源或目標來建立網路保險庫。網路保險庫為儲存關鍵資料提供安全隔離的環境，保護資料免受勒索軟體和其他網路威脅的侵害。</block>
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">使用 FSx 為ONTAP設定網路保險庫</block>
-  <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025年11月2日</block>
   <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">根據 Amazon Elastic Block Store (EBS) 的使用情況優化節省</block>
   <block id="3cab156afe8725e62725f4973a3c9949" category="doc">儀錶板改進</block>
@@ -214,4 +210,18 @@
   <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">使用 Workload Factory 中的錯誤分析功能時，您可以依照基礎架構的標籤篩選並檢視 Microsoft SQL Server 錯誤日誌。這項增強功能可協助您快速對問題進行分類、檢查和解決問題。</block>
   <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">使用標籤篩選分析錯誤日誌</block>
   <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
+  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
+  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
+  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
+  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
+  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
+  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">權限更新</block>
+  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">在此版本中，我們對儲存、資料庫和 VMware 工作負載的權限策略進行了重大更新，以增強安全性和使用者控制。您可以更精細地自訂權限設置，根據需要新增或取消權限。</block>
+  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Workload Factory 的權限參考</block>
+  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
+  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">NetApp Workload Factory通知服務包含儲存自動 inode 管理的通知。</block>
+  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">自動容量和 inode 管理的閾值警告</block>
+  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">可以為儲存空間設定自動容量和 inode 管理，並設定警告閾值，該閾值會觸發 Workload Factory 通知服務的通知。若要使用此功能，必須先啟用工作負載工廠通知服務。</block>
+  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">配置NetApp Workload Factory的通知</block>
+  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
 </blocks>

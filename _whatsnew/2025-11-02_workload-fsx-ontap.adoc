@@ -16,7 +16,7 @@
 * 刪除快取卷
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理快取卷"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理快取卷"]
 
 
 
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 您可以啟用自動 inode 管理，而無需啟用自動容量管理。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["啟用自動 inode 管理"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["啟用自動 inode 管理"]
 
 
 
@@ -38,7 +38,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 
 您可以在NetApp Workload Factory中減少 NFS 和 SMB/CIFS 磁碟區的大小。此功能可讓您減少不再需要的磁碟區的大小，從而更好地管理儲存資源。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["減少體積"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["減少體積"]
 
 
 
@@ -69,7 +69,7 @@ Workload Factory 可以更清楚地說明執行特定操作所需的權限，並
 
 新增憑證時，您可以根據要授予 Workload Factory 的存取級別，選擇一個或多個權限原則。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 權限參考"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 權限參考"]
 
 
 
@@ -77,4 +77,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 您可以使用 FSx for ONTAP作為網路保險庫架構中的來源或目標來建立網路保險庫。網路保險庫為儲存關鍵資料提供安全隔離的環境，保護資料免受勒索軟體和其他網路威脅的侵害。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 為ONTAP設定網路保險庫"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 為ONTAP設定網路保險庫"]
