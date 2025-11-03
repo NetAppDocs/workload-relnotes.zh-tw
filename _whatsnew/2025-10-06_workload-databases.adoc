@@ -42,7 +42,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
-=== 優化 Amazon Elastic Block Store (EBS) 儲存計算器中的節省
+=== 根據 Amazon Elastic Block Store (EBS) 的使用情況優化節省
 
 Workload Factory 可以分析您的 EBS 效能使用情況，然後建議最佳且最具成本效益的 FSx for ONTAP配置，以便您可以透過切換到 FSx for ONTAP來節省更多。
 

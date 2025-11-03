@@ -1,0 +1,59 @@
+= 儀錶板改進
+:allow-uri-read: 
+
+
+
+
+=== 儀錶板改進
+
+新的儀表板經過簡化和更好地組織，可以在一個屏幕上更清晰地概覽數據庫資源和工作負載工廠的關鍵功能；一張卡片突出顯示數據庫資源，一張卡片提供有關架構良好評分和分析的信息，一張卡片顯示錯誤分析，兩張卡片顯示每月成本和潛在節省，一張卡片顯示有關沙盒的信息。
+
+
+
+=== 針對 Oracle 的良好架構分析
+
+精心設計的分析包括對 Oracle 配置的以下評估和修復：
+
+* 使用 NFS 協定的儲存配置作業系統：評估並修復現有 Oracle 資料庫部署的 NFS 配置問題。
+* 使用 iSCSI 協定的儲存配置作業系統：評估並修復現有 Oracle 資料庫部署的 iSCSI 設定問題。
+* 使用自動儲存管理 (ASM) 的儲存配置作業系統：評估現有 Oracle 資料庫部署的 ASM 設定問題。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中實作架構良好的資料庫配置"]
+
+
+
+=== 資料庫工作負載工廠的權限變更
+
+Workload Factory for Databases 更新了權限策略，以便更清楚地說明特定操作所需的權限，並允許您更精細地選擇所需的權限。新增憑證時，您將有三個權限選項可供選擇，而不是先前的權限模型（_唯讀_和_讀/寫_）。新的權限模型將權限策略分解如下：
+
+* 檢視、規劃與分析：檢視資料庫資源清單，了解資源運作狀況，檢視資料庫配置的架構分析，取得錯誤日誌分析，並探索節省成本的方案。
+* 操作與修復：對資料庫資源執行操作任務，並修復資料庫配置和底層 FSx for ONTAP檔案系統儲存的問題。
+* 資料庫主機建立：根據最佳實務部署資料庫主機和底層用於ONTAP檔案系統儲存的 FSx。
+
+
+新增憑證時，您可以根據要授予 Workload Factory for Databases 的存取級別，選擇一個或多個權限原則。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 權限參考"^]
+
+
+
+=== 新增了設計精良的儀錶板介面。
+
+資料庫選單中新增了一個名為「架構完善的儀錶板」的畫面。透過此畫面，您可以獲得整個資料庫環境配置狀態的總計視圖。
+
+
+
+=== NetApp Backup and Recovery中資料庫部署的編輯保護
+
+在 Workload Factory 控制台中，您可以選擇編輯受保護資源的保護，然後您將被重新導向到NetApp Console中的備份和恢復，在那裡您可以修改保護策略或計劃。
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["資料庫部署的編輯保護"]
+
+
+
+=== 錯誤分析功能支援按標籤進行錯誤篩選
+
+使用 Workload Factory 中的錯誤分析功能時，您可以依照基礎架構的標籤篩選並檢視 Microsoft SQL Server 錯誤日誌。這項增強功能可協助您快速對問題進行分類、檢查和解決問題。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["使用標籤篩選分析錯誤日誌"^]
