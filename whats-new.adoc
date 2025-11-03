@@ -15,6 +15,91 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
+== 2025年11月2日
+
+
+
+=== Amazon FSX for NetApp ONTAP 產品
+
+
+
+==== 快取磁碟區管理
+
+您可以在 Workload Factory 控制台中執行下列快取磁碟區管理操作：
+
+* 編輯快取名稱
+* 增加快取卷的容量
+* 編輯快取磁碟區的掛載路徑或匯出策略
+* 更改快取卷的快取方法或模式
+* 預先填充快取卷
+* 刪除快取卷
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理快取卷"^]
+
+
+
+==== 可自動進行 inode 管理
+
+您可以啟用自動 inode 管理，而無需啟用自動容量管理。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["啟用自動 inode 管理"^]
+
+
+
+==== 容量和 inode 使用情況的閾值警告設置
+
+容量和 inode 使用情況均有閾值警告。您可以在啟用自動容量或 inode 管理時設定這些閾值。若要使用此設置，您需要使用以下方式配置通知：link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory通知服務"^] 。
+
+
+
+==== 容量減少可用
+
+您可以在NetApp Workload Factory中減少 NFS 和 SMB/CIFS 磁碟區的大小。此功能可讓您減少不再需要的磁碟區的大小，從而更好地管理儲存資源。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["減少體積"^]
+
+
+
+==== 增強型 FSx for ONTAP資源狀態
+
+Workload Factory 增強了「配置錯誤」資源狀態，使其包含對資源實際問題的解釋。
+
+
+
+==== 精心設計的分析更新
+
+Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：
+
+* 捲利用率接近滿：​​檢查是否有任何磁碟區已使用 80% 或以上的檔案容量。這有助於您確定可能需要額外產能的銷售量。
+* 未經授權存取卷：檢查是否可以使用 NFS 或 SMB/CIFS 掛載路徑存取 iSCSI 卷，並允許您刪除對卷的未經授權訪問，以避免安全風險。
+
+
+
+
+==== Workload Factory for Storage 的權限變更
+
+Workload Factory 可以更清楚地說明執行特定操作所需的權限，並允許您精細地選擇所需的權限。新增憑證時，您將有三個權限選項可供選擇，而不是先前的權限模型（_唯讀_和_讀/寫_）。新的權限模型將權限策略分解如下：
+
+* 檢視、規劃與分析：檢視 FSx for ONTAP檔案系統，了解系統運作狀況，取得系統架構完善的分析，並探索節省成本的方法。
+* _操作和修復_：執行操作任務，例如調整檔案系統容量和修復檔案系統設定問題。
+* 檔案系統建立和刪除：建立和刪除ONTAP檔案系統和儲存虛擬機器的 FSx。
+
+
+新增憑證時，您可以根據要授予 Workload Factory 的存取級別，選擇一個或多個權限原則。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 權限參考"^]
+
+
+
+==== FSx 的ONTAP網路保險庫支持
+
+您可以使用 FSx for ONTAP作為網路保險庫架構中的來源或目標來建立網路保險庫。網路保險庫為儲存關鍵資料提供安全隔離的環境，保護資料免受勒索軟體和其他網路威脅的侵害。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 為ONTAP設定網路保險庫"^]
+
+
+
 == 2025年10月6日
 
 
@@ -370,160 +455,3 @@ BlueXP backup and recovery可讓您備份、還原、驗證和複製 Microsoft S
 link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載"] 。
 
 有關BlueXP backup and recovery的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["使用BlueXP backup and recovery保護 Microsoft SQL 工作負載概述"^]。
-
-
-
-== 2025年8月4日
-
-
-
-=== 資料庫工作負載
-
-
-
-==== 架構良好的分析包括高可用性叢集驗證
-
-精心設計的分析現在包括對高可用性叢集的驗證。此驗證會從伺服器端檢查所有與叢集相關的配置，包括兩個節點上的磁碟可用性和配置、Windows 叢集配置和故障轉移準備。這可確保 Windows 叢集正確設定並可在需要時成功進行故障轉移。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作負載工廠中實現架構良好的資料庫配置"]
-
-
-
-==== 實例可用的多層選單
-
-工作負載工廠控制台現在包括實例的多層選單。此變更為管理實例提供了更有條理、更直觀的導航結構。實例管理的選單選項包括檢視實例儀表板、檢視資料庫、建立資料庫和建立沙盒克隆。
-
-image:manage-instance-table-menu.png["具有多層選單結構的實例表選單的螢幕截圖。選擇實例表選單，然後管理實例以查看資料庫、建立資料庫和建立沙盒克隆。"]
-
-
-
-==== 新的身份驗證選項可探索節省
-
-當 `NT Authority\SYSTEM`使用者在 Microsoft SQL Server 上沒有足夠的權限，您可以使用 SQL Server 憑證進行驗證，或將缺少的 SQL Server 權限新增至 `NT Authority\SYSTEM`。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索使用Amazon FSx for NetApp ONTAP為您的資料庫環境節省的潛在成本"]
-
-
-
-== 2025年8月3日
-
-
-
-=== Amazon FSX for NetApp ONTAP 產品
-
-
-
-==== 複製關係標籤的增強功能
-
-我們在複製關係表中新增了幾個新列，以便在「複製關係」標籤中為您提供有關複製關係的更多資訊。該表現在包含以下列：
-
-* SnapMirror策略
-* 來源檔案系統
-* 目標檔案系統
-* 關係狀態
-* 上次轉乘時間
-
-
-
-
-==== NetApp自主勒索軟體防護 AI (ARP/AI) 增強功能
-
-此版本引入了更新的術語“帶有 AI 的NetApp自主勒索軟體防護 (ARP/AI)”，以更好地反映人工智慧在我們的勒索軟體防護功能中的整合。
-
-此外，ARP/AI 也進行了以下增強：
-
-* 磁碟區級 ARP/AI：您現在可以在磁碟區級啟用 ARP/AI，從而保護 FSx for ONTAP檔案系統中的特定磁碟區。
-* 自動快照建立：您可以設定 ARP/AI 策略來自動拍攝快照，並定義啟用 ARP/AI 的磁碟區的拍攝快照頻率，從而增強您的資料保護策略。
-* 不可變快照：ARP/AI 現在支援不可變快照，這些快照無法被刪除或修改，從而為抵禦勒索軟體攻擊提供了額外的安全保障。
-* 偵測：包含各種偵測方法，例如磁碟區高熵資料速率、檔案建立率、檔案重新命名率、檔案刪除率和行為分析，以及從未見過的檔案副檔名，有助於偵測異常和潛在的勒索軟體攻擊。
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["使用NetApp自主勒索軟體防護 AI (ARP/AI) 保護您的數據"]
-
-
-
-==== 精心設計的分析更新
-
-工作負載工廠現在分析您的 FSx for ONTAP檔案系統的以下配置：
-
-* 長期保留資料可靠性：檢查指派給來源磁碟區的快照策略的標籤是否與指派給長期保留策略的標籤相同。當標籤相同時，來源磁碟區和目標磁碟區之間的資料複製是可靠的。
-* NetApp自主勒索軟體防護與 AI (ARP/AI)：檢查您的檔案系統是否啟用了 ARP/AI。此功能可協助您偵測勒索軟體攻擊並從中恢復。
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP檔案系統的良好架構狀態"]
-
-
-
-==== 從結構良好的分析中排除配置
-
-現在您可以從精心設計的分析中消除一個或多個配置。這使您可以忽略目前不想解決的特定配置。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["從結構良好的分析中排除配置"]
-
-
-
-==== Terraform 支援連結創建
-
-現在您可以使用 Codebox 中的 Terraform 建立與 FSx for ONTAP檔案系統關聯的連結。此功能適用於手動建立連結的使用者。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
-
-
-
-==== 探索存儲節省的新區域支持
-
-現支援以下新區域來探索 Amazon Elastic Block Store (EBS)、FSx for Windows File Server 和 Elastic File Systems (EFS) 的節省：
-
-* 墨西哥
-* 泰國
-
-
-
-
-==== 增強 SMB/CIFS 共享建立和管理
-
-現在您可以建立指向磁碟區內的目錄的 SMB/CIFS 共用。在卷內，您將能夠看到存在哪些共享、共享指向哪裡以及授予特定使用者和群組的權限。
-
-對於資料保護卷，建立 SMB/CIFS 共用的流程現在包括建立到磁碟區的連線路徑以用於安裝目的。
-
-link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["為磁碟區建立 CIFS 共享"]
-
-
-
-=== VMware 工作負載
-
-
-
-==== 改進了對 Amazon Elastic VMWare Service 的遷移顧問支持
-
-NetApp Workload Factory 現在支援自動部署和安裝Amazon FSx for NetApp ONTAP檔案系統。這樣，當遷移到 Amazon EVS 環境完成後，您就可以開始在 FSx for ONTAP檔案系統上部署虛擬機器。
-
-https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["使用遷移顧問為 Amazon EVS 建立部署計劃"]
-
-
-
-==== 計算遷移到 Amazon Elastic VMware Service 節省的成本
-
-現在您可以探索將 VMware 工作負載移轉到 Amazon Elastic VMware Service (EVS) 的潛在節省。節省計算器可讓您比較使用 Amazon EVS 與Amazon FSx for NetApp ONTAP作為底層儲存和不使用 Amazon FSx for NetApp ONTAP 作為底層儲存的成本。當您調整環境特徵時，計算器會即時顯示潛在的節省。
-
-https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["探索使用BlueXP Workload Factory 節省 Amazon Elastic VMware Service 成本的方法"]
-
-
-
-=== GenAI 工作負載
-
-
-
-==== 結構化資料結果的安全存儲
-
-如果聊天機器人查詢結果包含結構化數據，GenAI 可以將結果儲存在 Amazon S3 儲存桶中。當這些結果儲存在 S3 儲存桶中時，您可以使用聊天會話中的下載連結下載它們。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["建立 GenAI 知識庫"]
-
-
-
-==== MCP 伺服器可用性
-
-NetApp現在為 GenAI 提供具有NetApp Workload Factory 的模型上下文協定 (MCP) 伺服器。您可以在本機安裝伺服器，以允許外部 MCP 用戶端從 GenAI 知識庫中發現和檢索查詢結果。
-
-link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp Workload Factory GenAI MCP 伺服器"^]
