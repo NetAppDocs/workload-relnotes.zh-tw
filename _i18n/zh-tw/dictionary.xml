@@ -224,4 +224,16 @@
   <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">可以為儲存空間設定自動容量和 inode 管理，並設定警告閾值，該閾值會觸發 Workload Factory 通知服務的通知。若要使用此功能，必須先啟用工作負載工廠通知服務。</block>
   <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">配置NetApp Workload Factory的通知</block>
   <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
+  <block id="24469e003440641648ff205b984a0ac7" category="doc">在 FSx for ONTAP檔案系統部署精靈中引入 Amazon Elastic VMware Service 首選項</block>
+  <block id="0e8989988334c8827a95bf9733f5311e" category="paragraph">當您部署 FSx for ONTAP檔案系統以用作 Amazon Elastic VMware Service 的外部 NFS 資料儲存時，現在可以選擇資料儲存將連接到的 EVS 環境。此功能會自動填入部署精靈中的多個字段，以簡化部署過程。</block>
+  <block id="6dab83facb5fd4298e37906481e1055b" category="inline-link">部署建議的適用於ONTAP檔案系統的 FSx</block>
+  <block id="876ee64bc6b6627784cd32512c519f60" category="paragraph"><block ref="876ee64bc6b6627784cd32512c519f60" category="inline-link-rx"></block></block>
+  <block id="8bf32647108c4a28e744e9ba5a1683bf" category="section-title">VMware 工作負載的權限變更</block>
+  <block id="18a162715dca6df2cf24f0158d03bddd" category="paragraph">VMware 工作負載能夠更清楚地說明特定操作所需的權限，並允許您精細地選擇所需的權限。新增憑證時，您將有兩個權限選項可供選擇，而不是先前的權限模型（_唯讀_和_讀/寫_）。新的權限模型將權限策略分解如下：</block>
+  <block id="0a015f0bd274c5e6c7a774ac18592871" category="list-text">檢視、規劃與分析：檢視 EVS 虛擬化環境的清單，取得系統架構完善的分析，並探索節省成本的方法。</block>
+  <block id="56522cb8a8b15eeca3868896cb875225" category="list-text">資料儲存部署與連線：將建議的 VM 佈局部署至 Amazon EVS、Amazon EC2 或 VMware Cloud on AWS vSphere 叢集，並使用自訂的Amazon FSx for NetApp ONTAP檔案系統作為外部資料儲存。</block>
+  <block id="59371e7e2c46a6e1dae0e4d3224dd7ef" category="paragraph">新增憑證時，您可以根據要向 VMware 工作負載提供的存取級別，選擇一個或多個權限策略。</block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 遷移顧問改進</block>
+  <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">此版本的NetApp Workload Factory for VMware 對遷移顧問體驗進行了多項改進：</block>
+  <block id="62057df0ae6e346379f483246f31203b" category="list-text">*儲存或下載遷移計劃*：您現在可以將遷移計劃儲存或下載為 PDF 或 CSV 檔案。儲存遷移計劃時，該計劃將儲存到您的 Workload Factory 帳戶中。</block>
 </blocks>
