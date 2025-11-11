@@ -560,21 +560,3 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["�
 精心設計的分析評估並修復了 FSx for ONTAP儲存上 Microsoft SQL Server 跨端點的最大傳輸單元 (MTU) 錯位。調整 MTU 設定有助於最佳化網路效能並減少 SQL Server 工作負載的延遲。
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作負載工廠中實現架構良好的資料庫配置"]
-
-
-
-== 2025年8月12日
-
-
-
-=== 資料庫工作負載
-
-
-
-==== BlueXP backup and recovery現在支援 Microsoft SQL Server 工作負載
-
-BlueXP backup and recovery可讓您備份、還原、驗證和複製 Microsoft SQL Server 資料庫和可用性群組。從工作負載工廠控制台，您可以存取和使用BlueXP backup and recovery保護 Microsoft SQL Server 工作負載。
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載"] 。
-
-有關BlueXP backup and recovery的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["使用BlueXP backup and recovery保護 Microsoft SQL 工作負載概述"^]。
