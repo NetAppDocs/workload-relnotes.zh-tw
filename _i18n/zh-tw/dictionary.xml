@@ -233,4 +233,26 @@
   <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">了解有關 Agentic AI 驅動的錯誤日誌分析器的更多信息</block>
   <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
   <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">精心設計的分析包括兩種新的儲存容量配置。此分析評估並修復了現有 Oracle 資料庫部署中與交換空間分配和檔案系統餘裕相關的設定問題。</block>
+  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">NetApp Workload Factory中的區塊設備支持</block>
+  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">NetApp Workload Factory中新引入的區塊裝置支持，可更有效地管理您的區塊裝置。此功能可讓您查看 iSCSI LUN 的詳細資訊並增加其容量，從而為您的儲存需求提供更大的靈活性。</block>
+  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">在工作負載工廠中管理區塊設備</block>
+  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
+  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">刪除不必要的快照：檢查磁碟區中是否存在過時且不必要的快照，這些快照可以刪除以降低成本。</block>
+  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">FlexGroup容量重新平衡：檢查FlexGroup容量是否在其成員容量之間保持均衡，以確保最佳效能。</block>
+  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">NetApp Workload Factory中的 EMS 事件 AI 分析器</block>
+  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory推出了一款基於 AI 的ONTAP事件管理系統 (EMS) 事件分析器。此功能透過分析 EMS 事件數據，提供見解和建議，幫助您快速識別和解決問題。</block>
+  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">在工作負載工廠中分析 EMS 事件</block>
+  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
+  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">監控 FSx for ONTAP檔案系統的成本和使用趨勢</block>
+  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">您可以直接從NetApp Workload Factory控制台監控 FSx for ONTAP檔案系統的成本和使用趨勢。此功能提供儲存消耗和成本指標以及詳細成本，幫助您優化資源分配和預算規劃。</block>
+  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">在 Workload Factory 中追蹤 FSx for ONTAP檔案系統的成本</block>
+  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
+  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">在NetApp Workload Factory中管理檔案系統的 FSx 標籤</block>
+  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">直接從NetApp Workload Factory控制台輕鬆管理檔案系統的 FSx 標籤。此功能可讓您新增、編輯或刪除標籤，從而更好地組織和分類您的 FSx for ONTAP檔案系統。</block>
+  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">在工作負載工廠中管理 FSx 標籤</block>
+  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
+  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">調整 FSx for ONTAP檔案系統的快取容量</block>
+  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">您可以透過工作負載工廠控制台增加和減少快取磁碟區的容量。</block>
+  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">在工作負載工廠中管理快取卷</block>
+  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
 </blocks>

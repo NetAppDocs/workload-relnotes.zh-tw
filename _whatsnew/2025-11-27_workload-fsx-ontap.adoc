@@ -1,0 +1,55 @@
+= NetApp Workload Factory中的區塊設備支持
+:allow-uri-read: 
+
+
+
+
+=== NetApp Workload Factory中的區塊設備支持
+
+NetApp Workload Factory中新引入的區塊裝置支持，可更有效地管理您的區塊裝置。此功能可讓您查看 iSCSI LUN 的詳細資訊並增加其容量，從而為您的儲存需求提供更大的靈活性。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["在工作負載工廠中管理區塊設備"]
+
+
+
+=== 精心設計的分析更新
+
+Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：
+
+* 刪除不必要的快照：檢查磁碟區中是否存在過時且不必要的快照，這些快照可以刪除以降低成本。
+* FlexGroup容量重新平衡：檢查FlexGroup容量是否在其成員容量之間保持均衡，以確保最佳效能。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP檔案系統的良好架構狀態"]
+
+
+
+=== NetApp Workload Factory中的 EMS 事件 AI 分析器
+
+NetApp Workload Factory推出了一款基於 AI 的ONTAP事件管理系統 (EMS) 事件分析器。此功能透過分析 EMS 事件數據，提供見解和建議，幫助您快速識別和解決問題。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["在工作負載工廠中分析 EMS 事件"]
+
+
+
+=== 監控 FSx for ONTAP檔案系統的成本和使用趨勢
+
+您可以直接從NetApp Workload Factory控制台監控 FSx for ONTAP檔案系統的成本和使用趨勢。此功能提供儲存消耗和成本指標以及詳細成本，幫助您優化資源分配和預算規劃。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["在 Workload Factory 中追蹤 FSx for ONTAP檔案系統的成本"]
+
+
+
+=== 在NetApp Workload Factory中管理檔案系統的 FSx 標籤
+
+直接從NetApp Workload Factory控制台輕鬆管理檔案系統的 FSx 標籤。此功能可讓您新增、編輯或刪除標籤，從而更好地組織和分類您的 FSx for ONTAP檔案系統。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["在工作負載工廠中管理 FSx 標籤"]
+
+
+
+=== 調整 FSx for ONTAP檔案系統的快取容量
+
+您可以透過工作負載工廠控制台增加和減少快取磁碟區的容量。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["在工作負載工廠中管理快取卷"]
