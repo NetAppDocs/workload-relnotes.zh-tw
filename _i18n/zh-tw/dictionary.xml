@@ -255,4 +255,12 @@
   <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">您可以透過工作負載工廠控制台增加和減少快取磁碟區的容量。</block>
   <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">在工作負載工廠中管理快取卷</block>
   <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
+  <block id="6fe4c05a9bf5207dceacd4fcc6fc1064" category="doc">儲存權限更新</block>
+  <block id="7d3f4d33aca7af4519cb87a63113caf9" category="paragraph">FSx for ONTAP EMS 事件分析器使用 _operations and remediation_ 權限原則中的下列 Amazon Bedrock 權限來取得儲存工作負載的事件資料。</block>
+  <block id="71d01806cd25e89067c25b4f03e9a607" category="list-text"><block ref="9aa5a97dfe3f7608d8ee28e7db3c4e2c" prefix="" category="inline-code"></block></block>
+  <block id="4e736cb1760a43a4bf2b5d861b6deb96" category="list-text"><block ref="fdd997ab8b4252f76acdda855bb7b890" prefix="" category="inline-code"></block></block>
+  <block id="1ed1b1bc988715ea858abe38c168d87a" category="list-text"><block ref="00fe52afa6e3b9a0d389f529a2b88242" prefix="" category="inline-code"></block></block>
+  <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更日誌</block>
+  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
 </blocks>
