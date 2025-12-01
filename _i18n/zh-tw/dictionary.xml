@@ -30,25 +30,9 @@
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">建構者的工作量</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">使用遷移顧問為 Amazon EVS 建立部署計劃</block>
-  <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">在工作負載工廠中實現架構良好的資料庫配置</block>
-  <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心設計的分析更新</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP檔案系統的良好架構狀態</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何透過工作負載工廠控制台保護 Microsoft SQL Server 工作負載</block>
-  <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
-  <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI 驅動的錯誤日誌分析器</block>
-  <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">Agentic AI 驅動的錯誤日誌分析器是一項新功能，它利用先進的機器學習演算法自動偵測和分析日誌檔案中的錯誤。該工具旨在透過根據日誌中識別的模式向開發人員提供可操作的見解和建議來簡化故障排除過程。</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">了解有關 Agentic AI 驅動的錯誤日誌分析器的更多信息</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="87b85aff45217080ba500a992ada602c" category="section-title">Oracle 支援</block>
-  <block id="74ddb3b25ce5cc41642c58d46e3e527b" category="paragraph">工作負載工廠包括對 Oracle 資料庫的支援。在工作負載工廠控制台中，您可以從庫存中查看 Oracle 資料庫，註冊資料庫以使用工作負載工廠中的進階功能，並使用架構良好的功能分析 Oracle 資料庫以符合最佳實務。良好的架構分析決定了 Oracle 資料庫的儲存配置是否已最佳化。您可以使用此資訊對資料庫部署做出明智的決策並確保它們有效運作。</block>
-  <block id="0c32ff88af8d87b6ac8198432d56bd75" category="section-title">支援在第二代 FSx for ONTAP檔案系統上部署 Microsoft SQL Server</block>
-  <block id="6f4eab6394c8d6b2b9c2f5990b195f88" category="paragraph">工作負載工廠支援在第二代 FSx for ONTAP檔案系統上部署 Microsoft SQL Server。此增強功能可讓您在管理 SQL Server 工作負載的同時利用第二代檔案系統中的最新功能和效能改進。</block>
-  <block id="4b0e4c53f590f96c7ae9dbd2af881643" category="section-title">用於 SQL Server 保護的 Windows 驗證</block>
-  <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">使用 Windows 憑證對 Microsoft SQL Server 執行個體進行驗證已嵌入到工作流程中，以準備使用BlueXP backup and recovery原來保護 Microsoft SQL Server 主機。這曾經是需要手動完成的先決步驟。相反，如果您尚未使用 Windows 憑證在工作負載工廠中註冊主機，系統將提示您與管理員存取權限共用 Windows 憑證。</block>
-  <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">架構良好的分析包括 SQL Server 的 MTU 對齊</block>
-  <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">精心設計的分析評估並修復了 FSx for ONTAP儲存上 Microsoft SQL Server 跨端點的最大傳輸單元 (MTU) 錯位。調整 MTU 設定有助於最佳化網路效能並減少 SQL Server 工作負載的延遲。</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">儲存庫存報表增強功能</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">工作負載工廠增強了針對 FSx for ONTAP檔案系統所報告的資料。FSx for ONTAP庫存頁面的可下載報表包括以下新欄位：</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD已使用：顯示已使用SSD容量的值</block>
@@ -73,7 +57,6 @@
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">調整檔案系統容量</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
-  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025年9月1日</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作負載工廠</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -231,4 +214,10 @@
   <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">此版本的NetApp Workload Factory for VMware 對遷移顧問體驗進行了多項改進：</block>
   <block id="62057df0ae6e346379f483246f31203b" category="list-text">*儲存或下載遷移計劃*：您現在可以將遷移計劃儲存或下載為 PDF 或 CSV 檔案。儲存遷移計劃時，該計劃將儲存到您的 Workload Factory 帳戶中。</block>
   <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">新增憑證時，您可以根據要授予 Workload Factory for Databases 的存取級別，選擇一個或多個權限原則。</block>
+  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">計算遷移到 Amazon Elastic VMware Service 為特定區域節省的成本</block>
+  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">現在，您可以探索不同雲端遷移部署選項的價值，優化解決方案評估的投入，並深入了解有可能在雲端帶來價值和節省的解決方案。</block>
+  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">您也可以查看使用 FSx for ONTAP進行 EVS 部署可以節省的 vCPU 核心數。</block>
+  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">使用NetApp Workload Factory探索 Amazon Elastic VMware Service 的節省方案</block>
+  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
 </blocks>
