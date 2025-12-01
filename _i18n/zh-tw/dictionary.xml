@@ -220,4 +220,17 @@
   <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">使用NetApp Workload Factory探索 Amazon Elastic VMware Service 的節省方案</block>
   <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
+  <block id="4afeabae14ccab1ba1ff53887c3a9701" category="doc">優化 Amazon Elastic Block Store (EBS) 資料庫節省計算器</block>
+  <block id="d9f7bd12b1b11b300e5288560b5e9987" category="paragraph">兩個新的計算器功能改進了在使用 EBS 儲存體運行多個執行個體時的成本節約分析，以便您可以透過切換到 FSx for ONTAP來節省更多成本。</block>
+  <block id="32ccdc5dd4f059ebfa9dabaa8c301cf0" category="list-text">Workload Factory 為多個資料庫主機在單一 FSx for ONTAP檔案系統上提供統一的儲存解決方案。這種整合透過減少多個資料庫主機所需的檔案系統數量來優化儲存成本，從而提高成本效益。</block>
+  <block id="e11501c7d779140aaf7bc3e06e0c5005" category="list-text">Workload Factory 分析您的 EBS 效能使用情況，然後建議最佳且最具成本效益的 FSx for ONTAP配置。</block>
+  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">探索已偵測到的 EBS 主機的節省方案。</block>
+  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
+  <block id="0694112a63d48c58b25bbffa268e0b70" category="section-title">針對架構完善的儀表板，提供 Excel 報表。</block>
+  <block id="5f00eea0cea6c8b64f9e110f5d403194" category="paragraph">您可以下載一份結構完善的儀表板的 Excel 報表。該報告提供了資料庫資源的良好架構狀態，並針對所有資源配置（包括作業系統和ONTAP 的子配置）提出了建議。</block>
+  <block id="9dc9a356684c35282d9c1ed4aa30e7a3" category="section-title">適用於 Oracle 資料庫的錯誤日誌分析器</block>
+  <block id="269a351d2772f2eea3d4497bdc4e42cf" category="paragraph">Agentic AI 驅動的錯誤日誌分析器適用於 Oracle 資料庫。此功能利用先進的機器學習演算法自動偵測和分析日誌檔案中的錯誤。該工具旨在透過根據日誌中識別的模式向開發人員提供可操作的見解和建議來簡化故障排除過程。</block>
+  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">了解有關 Agentic AI 驅動的錯誤日誌分析器的更多信息</block>
+  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
+  <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">精心設計的分析包括兩種新的儲存容量配置。此分析評估並修復了現有 Oracle 資料庫部署中與交換空間分配和檔案系統餘裕相關的設定問題。</block>
 </blocks>
