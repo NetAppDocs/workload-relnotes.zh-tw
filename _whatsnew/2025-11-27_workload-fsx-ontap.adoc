@@ -53,11 +53,3 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["在�
 您可以透過工作負載工廠控制台增加和減少快取磁碟區的容量。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["在工作負載工廠中管理快取卷"]
-
-
-
-=== 支援用於ONTAP的 FSx 的 AWS S3 存取點
-
-借助此功能，您可以從 Workload Factory 控制台使用 S3 存取點建立磁碟區。使用 S3 存取點，您可以透過 AWS S3 API 存取駐留在 SMB/CIFS 或 NFS 磁碟區上的檔案資料。這樣，您就可以將現有資料與支援 S3 存取點的 AWS 服務的 GenAI、ML 和分析功能整合在一起。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["創建卷"]
