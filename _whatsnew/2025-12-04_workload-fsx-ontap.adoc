@@ -8,4 +8,6 @@
 
 NetApp Workload Factory為您的 FSx for ONTAP檔案系統提供 AWS S3 存取點。您可以使用 S3 存取點建立磁碟區，將 S3 存取點指派給現有捲，並從 Workload Factory 控制台管理 S3 存取點。使用 S3 存取點，您可以透過 AWS S3 API 存取駐留在 SMB/CIFS 或 NFS 磁碟區上的檔案資料。這樣，您就可以將現有資料與支援 S3 存取點的 AWS 服務的 GenAI、ML 和分析功能整合在一起。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["創建卷"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["使用 S3 存取點建立磁碟區"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["管理磁碟區的 S3 存取點"]
+
