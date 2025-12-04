@@ -15,7 +15,7 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
-== 2025年12月2日
+== 2025年12月4日
 
 
 
