@@ -1,0 +1,18 @@
+= Active Directory 整合增強功能
+:allow-uri-read: 
+
+
+
+
+=== Active Directory 整合增強功能
+
+使用「進階建立」選項部署 Microsoft SQL Server 時，資料庫工作負載工廠將包含三個新的 Active Directory (AD) 欄位。這些增強功能可讓您指定 Active Directory 加入首選項並使用託管服務帳戶。
+
+新增的 AD 欄位包括：
+
+* 首選網域控制器
+* 首選組織單元路徑
+* 目標 Active Directory 群組
+
+
+link:https://docs.netapp.com/us-en/workload-databases/create-database.html["部署 Microsoft SQL Server"]

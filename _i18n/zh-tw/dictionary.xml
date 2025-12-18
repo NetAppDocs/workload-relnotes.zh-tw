@@ -33,31 +33,6 @@
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心設計的分析更新</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP檔案系統的良好架構狀態</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">儲存庫存報表增強功能</block>
-  <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">工作負載工廠增強了針對 FSx for ONTAP檔案系統所報告的資料。FSx for ONTAP庫存頁面的可下載報表包括以下新欄位：</block>
-  <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD已使用：顯示已使用SSD容量的值</block>
-  <block id="a1a4ea0fabd62225adb4786dd703d1a7" category="list-text">SSD 使用率：顯示 SSD 容量的使用百分比</block>
-  <block id="c016cb9916988a0ea698d070fd6b702a" category="list-text">吞吐量利用率：顯示過去 30 天的平均和峰值利用率</block>
-  <block id="197af635c10bcbf35ba56184f54cb088" category="list-text">IO 使用率：顯示過去 30 天的平均和峰值 IO 使用率</block>
-  <block id="92bce71ffaebc031ec78d565e6ad7032" category="list-text">CPU 使用率：顯示過去 30 天的平均和峰值 CPU 使用率</block>
-  <block id="95851c89a4d869fdb94916625564bb6c" category="section-title">快照管理增強功能</block>
-  <block id="fbb3322fb25c1109310e7be3bcc20fd5" category="paragraph">工作負載工廠對查看卷快照詳細資訊和管理卷快照做出了多項增強。這些增強功能使您更容易了解快照的狀態並保護您的資料。</block>
-  <block id="3ecb130f0ffe2d8e485cb11c629b90b5" category="inline-image-macro">螢幕截圖顯示了 FSx for ONTAP磁碟區選單的基本操作，然後查看磁碟區詳細資料。</block>
-  <block id="d26eb7e0d00b2e5069d790d2b9be49ba" category="paragraph"><block ref="d26eb7e0d00b2e5069d790d2b9be49ba" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb34ab44253ae9c736786f23dc173879" category="paragraph">在「保護」標籤下的「磁碟區詳細資料」中顯示其他項目：</block>
-  <block id="6d4b26be686dd37e202e23010a22bf04" category="list-text">快照策略名稱</block>
-  <block id="a81cec6ec43470b1419a033e0457112d" category="list-text">快照空間預留</block>
-  <block id="c04d4554f0391d80036dceaa0e930ee2" category="list-text">快照空間預留容量</block>
-  <block id="06fd2134099fd30808caa961b2bc9b21" category="inline-image-macro">螢幕截圖顯示了 FSx for ONTAP磁碟區的詳細信息，其中「保護」標籤處於開啟狀態。</block>
-  <block id="b52491919b24cba6fd1efad7447c7798" category="paragraph"><block ref="b52491919b24cba6fd1efad7447c7798" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e987130d3b26cda391ff2f1e5149f444" category="paragraph">可以從磁碟區存取新的快照管理畫面；它提供有關磁碟區的快照策略的信息，並包含包含所有磁碟區快照的資料表。此表顯示以下快照詳細資訊：建立時間、大小、到期時間、不可變快照保護和標籤。從管理畫面，您可以變更磁碟區的快照策略，手動建立快照以及編輯、存取、還原和刪除快照。</block>
-  <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">顯示管理快照畫面的螢幕截圖。</block>
-  <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 儲存容量可減少</block>
-  <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">調整檔案系統容量</block>
-  <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
-  <block id="edfbca9622799a953a48987a288fe283" category="paragraph">工作負載工廠支援減少第二代檔案系統的固態硬碟 (SSD) 容量。利用彈性檔案系統容量，您可以動態調整檔案系統的容量以滿足工作負載的需求。</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作負載工廠</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">了解NetApp Workload Factory 中工作負載的最新變化。</block>
@@ -125,11 +100,6 @@
   <block id="d90600b832876e9302411cfab905b9bc" category="section-title">資料庫清單增強功能</block>
   <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">在資料庫清單中的執行個體畫面中，對於 Microsoft SQL Server 的單一或多個實例，或對於 Oracle 的單一或多個資料庫，可以使用修復、延遲和消除配置問題的選項。</block>
   <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
-  <block id="ba72fdb3bdfd568a9dee9e12c3566da1" category="paragraph">工作負載工廠通知服務包括儲存自動容量管理的成功和失敗通知。</block>
-  <block id="28a2c493e9a663d617e582302e1bcf28" category="inline-link-macro">BlueXP workload factory的通知</block>
-  <block id="165f0ade723f657a5d7981bfecbfc75a" category="paragraph"><block ref="165f0ade723f657a5d7981bfecbfc75a" category="inline-link-macro-rx"></block></block>
-  <block id="fd46c6801c12745a0b45c3f9e025fb2e" category="paragraph">BlueXP workload factory通知服務包括儲存自動容量管理通知。</block>
-  <block id="a4bdb4b5125441fbfaec27ac4bb48be0" category="paragraph"><block ref="a4bdb4b5125441fbfaec27ac4bb48be0" category="inline-link-macro-rx"></block></block>
   <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">快取磁碟區管理</block>
   <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">您可以在 Workload Factory 控制台中執行下列快取磁碟區管理操作：</block>
   <block id="705987d425caa32725844671dba5db96" category="list-text">編輯快取名稱</block>
@@ -270,4 +240,13 @@
   <block id="9650d80f3b4a8975eb2cc3145efe97fd" category="list-text"><block ref="9650d80f3b4a8975eb2cc3145efe97fd" category="inline-link-macro-rx"></block></block>
   <block id="3e2c74c8c2d6921bd86b94a0e3ce7846" category="inline-link-macro">管理磁碟區的 S3 存取點</block>
   <block id="bec075d59b91517943ea96b4d56e06de" category="list-text"><block ref="bec075d59b91517943ea96b4d56e06de" category="inline-link-macro-rx"></block></block>
+  <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory 整合增強功能</block>
+  <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">使用「進階建立」選項部署 Microsoft SQL Server 時，資料庫工作負載工廠將包含三個新的 Active Directory (AD) 欄位。這些增強功能可讓您指定 Active Directory 加入首選項並使用託管服務帳戶。</block>
+  <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">新增的 AD 欄位包括：</block>
+  <block id="f069ee08ebc87aaad1c479cd4f54611c" category="list-text">首選網域控制器</block>
+  <block id="5a90d56c7caec61381ba4316f0a43849" category="list-text">首選組織單元路徑</block>
+  <block id="b535bc12ab7716de58cac2633cbe0ec8" category="list-text">目標 Active Directory 群組</block>
+  <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">部署 Microsoft SQL Server</block>
+  <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
+  <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">2025年12月18日</block>
 </blocks>
