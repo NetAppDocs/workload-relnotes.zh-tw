@@ -1,0 +1,63 @@
+= 精心設計的分析更新
+:allow-uri-read: 
+
+
+
+
+=== 精心設計的分析更新
+
+Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：
+
+* NetApp自主勒索軟體防護 (ARP/AI) 已停用（包括區塊裝置）：檢查區塊裝置磁碟區上的 ARP/AI 是否已停用
+* 快取關係寫入模式：檢查寫入模式是否最適合快取卷工作負載。
+* 刪除不必要的備份：檢查備份是否已過期或不再需要，以便刪除以降低成本。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP檔案系統的良好架構狀態"]
+
+
+
+=== 問我關於人工智慧助理首頁整合的問題
+
+Workload Factory 控制台主頁嵌入了 Ask me AI 助手，讓您可以詢問有關您自己的儲存環境的問題，直接從您的環境中獲取個人化見解，並參考先前的對話。您可以與「問我」進行交互，以了解您的工作負載、解決問題並了解更多關於工作負載工廠的資訊——所有這些都無需離開控制台。
+
+
+
+=== 在 Lambda 連結資源中採用 IAM 使用者主體權限策略
+
+用於連接 Workload Factory 帳戶和一個或多個 FSx for ONTAP檔案系統以執行高級ONTAP操作的 Lambda 鏈接，現在使用 IAM 使用者主體進行基於資源的策略權限。此項變更使 AWS 資源存取與行業最佳實踐更加一致。
+
+
+
+=== 為 EMS 事件的 AI 分析器添加了分析螢幕
+
+儲存選單中新增了「分析」畫面。從此畫面，您可以使用適用於ONTAP EMS 事件功能的 FSx AI 分析器。
+
+
+
+=== NetApp Workload Factory中的區塊裝置增強功能
+
+針對區塊設備進行了以下增強。
+
+
+
+==== 建立區塊設備
+
+NetApp Workload Factory支援在 FSx for ONTAP檔案系統上使用 iSCSI 協定建立區塊設備，以便您可以從 Workload Factory 控制台更好地支援您的業務線 (LOB) 應用程式。
+
+
+
+==== 區塊設備管理增強功能
+
+NetApp Workload Factory包含以下增強功能： link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["管理區塊設備"]。現在您可以從 Workload Factory 控制台執行以下任務：
+
+* 管理客戶端存取權限
+* 歸檔塊設備數據
+* 刪除區塊設備
+
+
+
+
+==== 支援包含區塊設備的FlexVol磁碟區上的 ARP/AI
+
+您可以啟用 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["NetApp自主勒索軟體防護（AI 防護，ARP/AI）"] 在包含區塊設備的FlexVol磁碟區上。啟用 ARP/AI 可以利用人工智慧來偵測勒索軟體攻擊，並有助於資料復原。
