@@ -1,0 +1,71 @@
+= 首頁包含 Storage 的 well-architected 問題和 EMS 事件
+:allow-uri-read: 
+
+
+
+
+=== 首頁包含 Storage 的 well-architected 問題和 EMS 事件
+
+NetApp Workload Factory 主頁包含一個「焦點」磁貼，其中會顯示工作負載的架構良好問題和 FSx for ONTAP 緊急管理系統（EMS）事件。您可以從這裡導覽至「儲存」工作負載，查看儲存環境中所有 FSx for ONTAP 檔案系統的架構良好狀態或事件。
+
+
+
+=== 支援使用 S3 存取點進行內部部署資料複寫
+
+Workload Factory 支援將內部部署 ONTAP 資料複寫到雲端，以便與 AWS GenAI、ML 和分析功能整合。您可以使用 S3 存取點將內部部署資料複寫到 NFS 或 SMB/CIFS 磁碟區。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["使用 S3 存取點複製內部部署資料"]
+
+
+
+=== Storage 中的 S3 存取點增強功能
+
+NetApp Workload Factory 的儲存工作負載中，S3 接入點管理功能已獲得多項增強。您可以輸入 S3 接入點的網路設定詳細資訊並新增 S3 接入點標籤。其他增強功能包括查看 S3 儲存桶詳細資訊以及執行更多 S3 接入點管理操作。
+
+
+
+==== S3 儲存桶詳細資訊可在 Storage 中查看
+
+啟用 S3 存取點的元資料後，NetApp Workload Factory 會自動掃描您的 AWS S3 儲存桶並填入 S3 表，從而為您提供所有物件及其元資料、屬性和標籤的清晰快照。存取這些詳細資訊有助於您保持對所負責資料的控制、可見度和信任度，同時降低維運開銷。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["查看 FSx for ONTAP 檔案系統中 S3 存取點的詳細資訊"^]
+
+
+
+==== S3 存取點的其他管理作業
+
+NetApp Workload Factory 為 S3 存取點提供額外的管理操作。您可以透過 NetApp Workload Factory 介面查看存取點詳細資訊、修改現有 S3 存取點以及新增或刪除 S3 存取點標籤，從而簡化物件儲存管理任務。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["在 NetApp Workload Factory 中管理 S3 存取端點"^]
+
+
+
+=== 精心設計的分析更新
+
+Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：
+
+* 最佳化快取磁碟區大小：檢查快取磁碟區是否啟用了磁碟區自動調整大小和清理功能，以保持最佳大小並將快取集中用於熱資料，從而達到最高效率。
+* 孤立區塊設備：建議歸檔區塊設備資料或刪除連續七天未使用的區塊設備。
+* Storage VM 邏輯報告：檢查 Storage VM 的預設報告設定是否設定為邏輯，以便更了解磁碟區層級的儲存使用情況。
+
+
+
+
+=== 區塊裝置的其他卡
+
+儲存工作負載的「區塊裝置」標籤中新增了三張卡片，以便快速瞭解區塊裝置的使用情況和保護狀態：
+
+* 儲存效率：顯示已使用和可用的儲存容量；已使用容量按 SSD 和容量集區儲存層細分。
+* 受保護的裝置：顯示具有快照、遠端複製、NetApp Autonomous Ransomware Protection（ARP/AI）和備份的區塊裝置的百分比。
+* 孤立設備：顯示是否有連續七天未使用的區塊設備，幫助您有效識別和管理未使用的資源。您可以在此處link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["回收未使用的區塊裝置空間"]。
+
+
+
+
+=== 支援啟動器群組的建立和管理
+
+NetApp Workload Factory 支援在 FSx for ONTAP 檔案系統中建立和管理區塊儲存的啟動器群組（igroup）。啟動器群組將區塊設備（LUN）連接到允許存取它們的運算資源，從而為 SAN 環境中的區塊儲存提供權限層。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["在 NetApp Workload Factory 中建立啟動器群組"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["在 NetApp Workload Factory 中管理現有啟動器群組"^]
+

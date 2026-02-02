@@ -178,4 +178,35 @@
   <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
   <block id="ae1c2cb14154da0c884354777730e920" category="section-title">儲存的新權限</block>
   <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">儲存工作負載新增了權限，以增強對 S3 存取點的管理。</block>
+  <block id="5e3fec4e574658f05a0b92757b364cd9" category="doc">首頁包含 Storage 的 well-architected 問題和 EMS 事件</block>
+  <block id="8743ea79d0b29525fd3c69e5e3566399" category="paragraph">NetApp Workload Factory 主頁包含一個「焦點」磁貼，其中會顯示工作負載的架構良好問題和 FSx for ONTAP 緊急管理系統（EMS）事件。您可以從這裡導覽至「儲存」工作負載，查看儲存環境中所有 FSx for ONTAP 檔案系統的架構良好狀態或事件。</block>
+  <block id="ccef8795f7e03f715debeb1aa9f4f09a" category="section-title">支援使用 S3 存取點進行內部部署資料複寫</block>
+  <block id="376c2bd6a2c38a02c3dfb4efa6e96674" category="paragraph">Workload Factory 支援將內部部署 ONTAP 資料複寫到雲端，以便與 AWS GenAI、ML 和分析功能整合。您可以使用 S3 存取點將內部部署資料複寫到 NFS 或 SMB/CIFS 磁碟區。</block>
+  <block id="b5eeeba16e1b7119307069cbaf3ccdf4" category="inline-link-macro">使用 S3 存取點複製內部部署資料</block>
+  <block id="4750d90c2cd72e253c7d874bef89beff" category="paragraph"><block ref="4750d90c2cd72e253c7d874bef89beff" category="inline-link-macro-rx"></block></block>
+  <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage 中的 S3 存取點增強功能</block>
+  <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">NetApp Workload Factory 的儲存工作負載中，S3 接入點管理功能已獲得多項增強。您可以輸入 S3 接入點的網路設定詳細資訊並新增 S3 接入點標籤。其他增強功能包括查看 S3 儲存桶詳細資訊以及執行更多 S3 接入點管理操作。</block>
+  <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">S3 儲存桶詳細資訊可在 Storage 中查看</block>
+  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">啟用 S3 存取點的元資料後，NetApp Workload Factory 會自動掃描您的 AWS S3 儲存桶並填入 S3 表，從而為您提供所有物件及其元資料、屬性和標籤的清晰快照。存取這些詳細資訊有助於您保持對所負責資料的控制、可見度和信任度，同時降低維運開銷。</block>
+  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">查看 FSx for ONTAP 檔案系統中 S3 存取點的詳細資訊</block>
+  <block id="dd52e33b4320b655cb69fb76bc1e345f" category="paragraph"><block ref="dd52e33b4320b655cb69fb76bc1e345f" category="inline-link-macro-rx"></block></block>
+  <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 存取點的其他管理作業</block>
+  <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory 為 S3 存取點提供額外的管理操作。您可以透過 NetApp Workload Factory 介面查看存取點詳細資訊、修改現有 S3 存取點以及新增或刪除 S3 存取點標籤，從而簡化物件儲存管理任務。</block>
+  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">在 NetApp Workload Factory 中管理 S3 存取端點</block>
+  <block id="d9ec48855b13e13fd489d2442f822e4d" category="paragraph"><block ref="d9ec48855b13e13fd489d2442f822e4d" category="inline-link-macro-rx"></block></block>
+  <block id="e593953aaf04eebecfe2e26326145784" category="list-text">最佳化快取磁碟區大小：檢查快取磁碟區是否啟用了磁碟區自動調整大小和清理功能，以保持最佳大小並將快取集中用於熱資料，從而達到最高效率。</block>
+  <block id="00e21b809963a2e31abfc13c3aea34b6" category="list-text">孤立區塊設備：建議歸檔區塊設備資料或刪除連續七天未使用的區塊設備。</block>
+  <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Storage VM 邏輯報告：檢查 Storage VM 的預設報告設定是否設定為邏輯，以便更了解磁碟區層級的儲存使用情況。</block>
+  <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">區塊裝置的其他卡</block>
+  <block id="e1d58576240df6c3acc0d5f3067d6468" category="paragraph">儲存工作負載的「區塊裝置」標籤中新增了三張卡片，以便快速瞭解區塊裝置的使用情況和保護狀態：</block>
+  <block id="2f09b86fd82a1603b2104c3d565e4187" category="list-text">儲存效率：顯示已使用和可用的儲存容量；已使用容量按 SSD 和容量集區儲存層細分。</block>
+  <block id="075b9a975b25dba22b299c4edaf12834" category="list-text">受保護的裝置：顯示具有快照、遠端複製、NetApp Autonomous Ransomware Protection（ARP/AI）和備份的區塊裝置的百分比。</block>
+  <block id="46dd61e303a77cea00fc631287dfeab6" category="inline-link-macro">回收未使用的區塊裝置空間</block>
+  <block id="8e8a93bbbd6df5c04a7668748139ce7a" category="list-text">孤立設備：顯示是否有連續七天未使用的區塊設備，幫助您有效識別和管理未使用的資源。您可以在此處<block ref="ddc66f326affa5fcec5ab8f0c0c76e68" category="inline-link-macro-rx"></block>。</block>
+  <block id="9ebda12d23b72f4bdda3cbbcd05e0817" category="section-title">支援啟動器群組的建立和管理</block>
+  <block id="de002c21193de456c56ce9ccecfc09ab" category="paragraph">NetApp Workload Factory 支援在 FSx for ONTAP 檔案系統中建立和管理區塊儲存的啟動器群組（igroup）。啟動器群組將區塊設備（LUN）連接到允許存取它們的運算資源，從而為 SAN 環境中的區塊儲存提供權限層。</block>
+  <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">在 NetApp Workload Factory 中建立啟動器群組</block>
+  <block id="5e85fc9bd832f8bc5366f7ffe4912a99" category="list-text"><block ref="5e85fc9bd832f8bc5366f7ffe4912a99" category="inline-link-macro-rx"></block></block>
+  <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">在 NetApp Workload Factory 中管理現有啟動器群組</block>
+  <block id="b241a4baaecab76fcbba49cd24dc9185" category="list-text"><block ref="b241a4baaecab76fcbba49cd24dc9185" category="inline-link-macro-rx"></block></block>
 </blocks>
