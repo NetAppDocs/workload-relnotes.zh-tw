@@ -36,95 +36,10 @@
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory 的最新變化</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">這些發行說明介紹了NetApp Workload Factory 的雲端服務的最新增強功能。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 發行說明</block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">儲存的新通知</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 通知</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">針對 Oracle 的良好架構分析</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">在 Workload Factory 中實作架構良好的資料庫配置</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">快取磁碟區管理</block>
-  <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">您可以在 Workload Factory 控制台中執行下列快取磁碟區管理操作：</block>
-  <block id="705987d425caa32725844671dba5db96" category="list-text">編輯快取名稱</block>
-  <block id="fb7f41847231da20e771064f5b566df4" category="list-text">增加快取卷的容量</block>
-  <block id="64fe5cd33226afdb2a1244ea9e67be19" category="list-text">編輯快取磁碟區的掛載路徑或匯出策略</block>
-  <block id="322c847779d1746b4e7d66ee05dcefcd" category="list-text">更改快取卷的快取方法或模式</block>
-  <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">預先填充快取卷</block>
-  <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">刪除快取卷</block>
-  <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">管理快取卷</block>
-  <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">可自動進行 inode 管理</block>
-  <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">您可以啟用自動 inode 管理，而無需啟用自動容量管理。</block>
-  <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">啟用自動 inode 管理</block>
-  <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">容量和 inode 使用情況的閾值警告設置</block>
-  <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">NetApp Workload Factory通知服務</block>
-  <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">容量和 inode 使用情況均有閾值警告。您可以在啟用自動容量或 inode 管理時設定這些閾值。若要使用此設置，您需要使用以下方式配置通知：<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> 。</block>
-  <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">容量減少可用</block>
-  <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">您可以在NetApp Workload Factory中減少 NFS 和 SMB/CIFS 磁碟區的大小。此功能可讓您減少不再需要的磁碟區的大小，從而更好地管理儲存資源。</block>
-  <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">減少體積</block>
-  <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">增強型 FSx for ONTAP資源狀態</block>
-  <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory 增強了「配置錯誤」資源狀態，使其包含對資源實際問題的解釋。</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：</block>
-  <block id="04cc0a87491bd184b66866438266882a" category="list-text">捲利用率接近滿：​​檢查是否有任何磁碟區已使用 80% 或以上的檔案容量。這有助於您確定可能需要額外產能的銷售量。</block>
-  <block id="39e165c09308fcda245787c3a6d7bf78" category="list-text">未經授權存取卷：檢查是否可以使用 NFS 或 SMB/CIFS 掛載路徑存取 iSCSI 卷，並允許您刪除對卷的未經授權訪問，以避免安全風險。</block>
-  <block id="bfd11f24993c810a26cdef233ebbdfb6" category="section-title">Workload Factory for Storage 的權限變更</block>
-  <block id="bdc39f4be3514cc2cad7e4ca6cba0988" category="paragraph">Workload Factory 可以更清楚地說明執行特定操作所需的權限，並允許您精細地選擇所需的權限。新增憑證時，您將有三個權限選項可供選擇，而不是先前的權限模型（_唯讀_和_讀/寫_）。新的權限模型將權限策略分解如下：</block>
-  <block id="f9113d285c58dd831a3240c5b41a6f84" category="list-text">檢視、規劃與分析：檢視 FSx for ONTAP檔案系統，了解系統運作狀況，取得系統架構完善的分析，並探索節省成本的方法。</block>
-  <block id="a45538554e2c413a5e22df853abb4d27" category="list-text">_操作和修復_：執行操作任務，例如調整檔案系統容量和修復檔案系統設定問題。</block>
-  <block id="036d0224d85e6a18c7e85f034ace65c1" category="list-text">檔案系統建立和刪除：建立和刪除ONTAP檔案系統和儲存虛擬機器的 FSx。</block>
-  <block id="c1c8be0a907c363e6506c96d16870672" category="paragraph">新增憑證時，您可以根據要授予 Workload Factory 的存取級別，選擇一個或多個權限原則。</block>
-  <block id="b20b01e02162a68002ca1747d1bd3c10" category="inline-link-macro">Workload Factory 權限參考</block>
-  <block id="444b052e3d1349e221d4ceb42e6c1cf7" category="paragraph"><block ref="444b052e3d1349e221d4ceb42e6c1cf7" category="inline-link-macro-rx"></block></block>
-  <block id="c4a6983274098ca737ffda27862010ea" category="section-title">FSx 的ONTAP網路保險庫支持</block>
-  <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">您可以使用 FSx for ONTAP作為網路保險庫架構中的來源或目標來建立網路保險庫。網路保險庫為儲存關鍵資料提供安全隔離的環境，保護資料免受勒索軟體和其他網路威脅的侵害。</block>
-  <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">使用 FSx 為ONTAP設定網路保險庫</block>
-  <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025年11月2日</block>
-  <block id="3cab156afe8725e62725f4973a3c9949" category="doc">儀錶板改進</block>
-  <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">新的儀表板經過簡化和更好地組織，可以在一個屏幕上更清晰地概覽數據庫資源和工作負載工廠的關鍵功能；一張卡片突出顯示數據庫資源，一張卡片提供有關架構良好評分和分析的信息，一張卡片顯示錯誤分析，兩張卡片顯示每月成本和潛在節省，一張卡片顯示有關沙盒的信息。</block>
-  <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">精心設計的分析包括對 Oracle 配置的以下評估和修復：</block>
-  <block id="4667bb7539009ed136b942febb5737ba" category="list-text">使用 NFS 協定的儲存配置作業系統：評估並修復現有 Oracle 資料庫部署的 NFS 配置問題。</block>
-  <block id="679f71c6d98f7a5f25e9535eb16a19b5" category="list-text">使用 iSCSI 協定的儲存配置作業系統：評估並修復現有 Oracle 資料庫部署的 iSCSI 設定問題。</block>
-  <block id="7548e2cbb02ea769fa6f01e70f1d34ee" category="list-text">使用自動儲存管理 (ASM) 的儲存配置作業系統：評估現有 Oracle 資料庫部署的 ASM 設定問題。</block>
-  <block id="bff5f6ac72c7a46da345751a22e8e0a1" category="section-title">資料庫工作負載工廠的權限變更</block>
-  <block id="c3cf114e732250ac6b24d30e117ab24b" category="paragraph">Workload Factory for Databases 更新了權限策略，以便更清楚地說明特定操作所需的權限，並允許您更精細地選擇所需的權限。新增憑證時，您將有三個權限選項可供選擇，而不是先前的權限模型（_唯讀_和_讀/寫_）。新的權限模型將權限策略分解如下：</block>
-  <block id="d9fff61478503c71474a780705c79af6" category="list-text">檢視、規劃與分析：檢視資料庫資源清單，了解資源運作狀況，檢視資料庫配置的架構分析，取得錯誤日誌分析，並探索節省成本的方案。</block>
-  <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">操作與修復：對資料庫資源執行操作任務，並修復資料庫配置和底層 FSx for ONTAP檔案系統儲存的問題。</block>
-  <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">資料庫主機建立：根據最佳實務部署資料庫主機和底層用於ONTAP檔案系統儲存的 FSx。</block>
-  <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">新增了設計精良的儀錶板介面。</block>
-  <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">資料庫選單中新增了一個名為「架構完善的儀錶板」的畫面。透過此畫面，您可以獲得整個資料庫環境配置狀態的總計視圖。</block>
-  <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recovery中資料庫部署的編輯保護</block>
-  <block id="c7c9b75c76356b2b8aa328068cd75a1c" category="paragraph">在 Workload Factory 控制台中，您可以選擇編輯受保護資源的保護，然後您將被重新導向到NetApp Console中的備份和恢復，在那裡您可以修改保護策略或計劃。</block>
-  <block id="f3a2b46dc542d840ca95ad3799ace39b" category="inline-link-macro">資料庫部署的編輯保護</block>
-  <block id="2a601eb3188e615c20b76da1a5734646" category="paragraph"><block ref="2a601eb3188e615c20b76da1a5734646" category="inline-link-macro-rx"></block></block>
-  <block id="cf6dca9fc5d1f30c46f70906ef3152ce" category="section-title">錯誤分析功能支援按標籤進行錯誤篩選</block>
-  <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">使用 Workload Factory 中的錯誤分析功能時，您可以依照基礎架構的標籤篩選並檢視 Microsoft SQL Server 錯誤日誌。這項增強功能可協助您快速對問題進行分類、檢查和解決問題。</block>
-  <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">使用標籤篩選分析錯誤日誌</block>
-  <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
-  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
-  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
-  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
-  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
-  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
-  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">權限更新</block>
-  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">在此版本中，我們對儲存、資料庫和 VMware 工作負載的權限策略進行了重大更新，以增強安全性和使用者控制。您可以更精細地自訂權限設置，根據需要新增或取消權限。</block>
-  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Workload Factory 的權限參考</block>
-  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
-  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">NetApp Workload Factory通知服務包含儲存自動 inode 管理的通知。</block>
-  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">自動容量和 inode 管理的閾值警告</block>
-  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">可以為儲存空間設定自動容量和 inode 管理，並設定警告閾值，該閾值會觸發 Workload Factory 通知服務的通知。若要使用此功能，必須先啟用工作負載工廠通知服務。</block>
-  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">配置NetApp Workload Factory的通知</block>
-  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
-  <block id="24469e003440641648ff205b984a0ac7" category="doc">在 FSx for ONTAP檔案系統部署精靈中引入 Amazon Elastic VMware Service 首選項</block>
-  <block id="0e8989988334c8827a95bf9733f5311e" category="paragraph">當您部署 FSx for ONTAP檔案系統以用作 Amazon Elastic VMware Service 的外部 NFS 資料儲存時，現在可以選擇資料儲存將連接到的 EVS 環境。此功能會自動填入部署精靈中的多個字段，以簡化部署過程。</block>
-  <block id="6dab83facb5fd4298e37906481e1055b" category="inline-link">部署建議的適用於ONTAP檔案系統的 FSx</block>
-  <block id="876ee64bc6b6627784cd32512c519f60" category="paragraph"><block ref="876ee64bc6b6627784cd32512c519f60" category="inline-link-rx"></block></block>
-  <block id="8bf32647108c4a28e744e9ba5a1683bf" category="section-title">VMware 工作負載的權限變更</block>
-  <block id="18a162715dca6df2cf24f0158d03bddd" category="paragraph">VMware 工作負載能夠更清楚地說明特定操作所需的權限，並允許您精細地選擇所需的權限。新增憑證時，您將有兩個權限選項可供選擇，而不是先前的權限模型（_唯讀_和_讀/寫_）。新的權限模型將權限策略分解如下：</block>
-  <block id="0a015f0bd274c5e6c7a774ac18592871" category="list-text">檢視、規劃與分析：檢視 EVS 虛擬化環境的清單，取得系統架構完善的分析，並探索節省成本的方法。</block>
-  <block id="56522cb8a8b15eeca3868896cb875225" category="list-text">資料儲存部署與連線：將建議的 VM 佈局部署至 Amazon EVS、Amazon EC2 或 VMware Cloud on AWS vSphere 叢集，並使用自訂的Amazon FSx for NetApp ONTAP檔案系統作為外部資料儲存。</block>
-  <block id="59371e7e2c46a6e1dae0e4d3224dd7ef" category="paragraph">新增憑證時，您可以根據要向 VMware 工作負載提供的存取級別，選擇一個或多個權限策略。</block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 遷移顧問改進</block>
-  <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">此版本的NetApp Workload Factory for VMware 對遷移顧問體驗進行了多項改進：</block>
-  <block id="62057df0ae6e346379f483246f31203b" category="list-text">*儲存或下載遷移計劃*：您現在可以將遷移計劃儲存或下載為 PDF 或 CSV 檔案。儲存遷移計劃時，該計劃將儲存到您的 Workload Factory 帳戶中。</block>
-  <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">新增憑證時，您可以根據要授予 Workload Factory for Databases 的存取級別，選擇一個或多個權限原則。</block>
   <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">計算遷移到 Amazon Elastic VMware Service 為特定區域節省的成本</block>
   <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">現在，您可以探索不同雲端遷移部署選項的價值，優化解決方案評估的投入，並深入了解有可能在雲端帶來價值和節省的解決方案。</block>
   <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">您也可以查看使用 FSx for ONTAP進行 EVS 部署可以節省的 vCPU 核心數。</block>
@@ -217,4 +132,13 @@
   <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders 現已更名為NetApp Workload Factory for EDA</block>
   <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">面向建築業的 Workload Factory 現已更名為 EDA 的 Workload Factory。更名體現了對電子設計自動化 (EDA) 工作負載的關注。</block>
   <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA 可協助您在多個檔案系統中最佳化 FSx for ONTAP 。您可以自動化儲存參數、分析效能限制，從而優化效能並降低營運成本，並獲得 EDA 專案的見解。Workload Factory for EDA 旨在與您的基礎架構即程式碼 (IaC) 框架整合。</block>
+  <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">針對 Amazon Elastic VMware Service 的架構完善分析</block>
+  <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory 現在可為您的 Amazon Elastic VMware Service（EVS）環境提供自動化、架構完善的分析。每日掃描可識別配置錯誤，並提供詳細的修復建議，幫助您維持最佳的運作、安全性和成本效益。</block>
+  <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">掃描使用 AWS API 執行，無需 vSphere 憑證或 vCenter 連線。結果可在 EVS 環境詳情中的新*架構良好狀態*標籤中查看。</block>
+  <block id="b49141c08a1be0c2df4a29b08af10e5e" category="paragraph">本次發布包含以下方面的見解：</block>
+  <block id="eb309475830119de69a172afb7c872e1" category="list-text">*執行個體停止/終止保護狀態*：識別未啟用 EC2 停止或終止保護的 EVS 節點。從 EC2 控制台停止或終止 EVS 節點可能會導致虛擬機器資料無法使用或資料遺失。</block>
+  <block id="5e10e9fc9dc23fca9bdc4e8b00ae9469" category="list-text">*叢集節點分割區放置對齊*：偵測分割區錯位，如果 AWS 可用區內的某個分割區發生故障，可能會導致嚴重的處理能力損失或服務中斷。每項分析都包含嚴重程度、包含受影響資源資訊的詳細結果，以及基於 AWS 最佳實踐的逐步修復程序。</block>
+  <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">實作架構良好的配置</block>
+  <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
+  <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026 年 2 月 1 日</block>
 </blocks>
