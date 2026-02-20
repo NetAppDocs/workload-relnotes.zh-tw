@@ -1,0 +1,19 @@
+= 提高了多個內部部署 Microsoft SQL Server 資料庫主機的成本節約
+:allow-uri-read: 
+
+
+
+
+=== 提高了多個內部部署 Microsoft SQL Server 資料庫主機的成本節約
+
+針對 Microsoft SQL Server 內部部署儲存設備的成本節約分析已增強，可為單一 FSx for ONTAP 檔案系統上的多個資料庫主機提供整合儲存解決方案。這種整合透過減少多個資料庫主機所需的檔案系統數量來優化儲存成本，從而提高成本節約效益。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["探索在內部部署的 Microsoft SQL Server 上偵測到的主機的節省方案"]
+
+
+
+=== 針對 Oracle 的良好架構分析
+
+精心設計的分析方案包含四個針對 Oracle 儲存配置分析的全新子評估：dNFS 啟用、dNFS 一致性 IP 解析、dNFS 設定檔和 dNFS `nosharecache`。這些評估與在 Oracle 環境中啟用和設定 Direct NFS（dNFS）相關，dNFS 繞過主機 NFS 用戶端，直接在 NFS 伺服器上執行 NFS 檔案操作，從而提高 I/O 效能，並降低主機和儲存系統的負載，因為 I/O 執行效率更高。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中實作架構良好的資料庫配置"]
