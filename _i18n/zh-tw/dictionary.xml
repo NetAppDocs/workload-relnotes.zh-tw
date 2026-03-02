@@ -38,54 +38,6 @@
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">針對 Oracle 的良好架構分析</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">在 Workload Factory 中實作架構良好的資料庫配置</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory 會分析您的 FSx for ONTAP檔案系統，以識別下列設定：</block>
-  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">計算遷移到 Amazon Elastic VMware Service 為特定區域節省的成本</block>
-  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">現在，您可以探索不同雲端遷移部署選項的價值，優化解決方案評估的投入，並深入了解有可能在雲端帶來價值和節省的解決方案。</block>
-  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">您也可以查看使用 FSx for ONTAP進行 EVS 部署可以節省的 vCPU 核心數。</block>
-  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">使用NetApp Workload Factory探索 Amazon Elastic VMware Service 的節省方案</block>
-  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
-  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
-  <block id="4afeabae14ccab1ba1ff53887c3a9701" category="doc">優化 Amazon Elastic Block Store (EBS) 資料庫節省計算器</block>
-  <block id="d9f7bd12b1b11b300e5288560b5e9987" category="paragraph">兩個新的計算器功能改進了在使用 EBS 儲存體運行多個執行個體時的成本節約分析，以便您可以透過切換到 FSx for ONTAP來節省更多成本。</block>
-  <block id="32ccdc5dd4f059ebfa9dabaa8c301cf0" category="list-text">Workload Factory 為多個資料庫主機在單一 FSx for ONTAP檔案系統上提供統一的儲存解決方案。這種整合透過減少多個資料庫主機所需的檔案系統數量來優化儲存成本，從而提高成本效益。</block>
-  <block id="e11501c7d779140aaf7bc3e06e0c5005" category="list-text">Workload Factory 分析您的 EBS 效能使用情況，然後建議最佳且最具成本效益的 FSx for ONTAP配置。</block>
-  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">探索已偵測到的 EBS 主機的節省方案。</block>
-  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
-  <block id="0694112a63d48c58b25bbffa268e0b70" category="section-title">針對架構完善的儀表板，提供 Excel 報表。</block>
-  <block id="5f00eea0cea6c8b64f9e110f5d403194" category="paragraph">您可以下載一份結構完善的儀表板的 Excel 報表。該報告提供了資料庫資源的良好架構狀態，並針對所有資源配置（包括作業系統和ONTAP 的子配置）提出了建議。</block>
-  <block id="9dc9a356684c35282d9c1ed4aa30e7a3" category="section-title">適用於 Oracle 資料庫的錯誤日誌分析器</block>
-  <block id="269a351d2772f2eea3d4497bdc4e42cf" category="paragraph">Agentic AI 驅動的錯誤日誌分析器適用於 Oracle 資料庫。此功能利用先進的機器學習演算法自動偵測和分析日誌檔案中的錯誤。該工具旨在透過根據日誌中識別的模式向開發人員提供可操作的見解和建議來簡化故障排除過程。</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">了解有關 Agentic AI 驅動的錯誤日誌分析器的更多信息</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">精心設計的分析包括兩種新的儲存容量配置。此分析評估並修復了現有 Oracle 資料庫部署中與交換空間分配和檔案系統餘裕相關的設定問題。</block>
-  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">NetApp Workload Factory中的區塊設備支持</block>
-  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">NetApp Workload Factory中新引入的區塊裝置支持，可更有效地管理您的區塊裝置。此功能可讓您查看 iSCSI LUN 的詳細資訊並增加其容量，從而為您的儲存需求提供更大的靈活性。</block>
-  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">在工作負載工廠中管理區塊設備</block>
-  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
-  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">刪除不必要的快照：檢查磁碟區中是否存在過時且不必要的快照，這些快照可以刪除以降低成本。</block>
-  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">FlexGroup容量重新平衡：檢查FlexGroup容量是否在其成員容量之間保持均衡，以確保最佳效能。</block>
-  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">NetApp Workload Factory中的 EMS 事件 AI 分析器</block>
-  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory推出了一款基於 AI 的ONTAP事件管理系統 (EMS) 事件分析器。此功能透過分析 EMS 事件數據，提供見解和建議，幫助您快速識別和解決問題。</block>
-  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">在工作負載工廠中分析 EMS 事件</block>
-  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
-  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">監控 FSx for ONTAP檔案系統的成本和使用趨勢</block>
-  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">您可以直接從NetApp Workload Factory控制台監控 FSx for ONTAP檔案系統的成本和使用趨勢。此功能提供儲存消耗和成本指標以及詳細成本，幫助您優化資源分配和預算規劃。</block>
-  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">在 Workload Factory 中追蹤 FSx for ONTAP檔案系統的成本</block>
-  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
-  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">在NetApp Workload Factory中管理檔案系統的 FSx 標籤</block>
-  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">直接從NetApp Workload Factory控制台輕鬆管理檔案系統的 FSx 標籤。此功能可讓您新增、編輯或刪除標籤，從而更好地組織和分類您的 FSx for ONTAP檔案系統。</block>
-  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">在工作負載工廠中管理 FSx 標籤</block>
-  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
-  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">調整 FSx for ONTAP檔案系統的快取容量</block>
-  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">您可以透過工作負載工廠控制台增加和減少快取磁碟區的容量。</block>
-  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">在工作負載工廠中管理快取卷</block>
-  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
-  <block id="6fe4c05a9bf5207dceacd4fcc6fc1064" category="doc">儲存權限更新</block>
-  <block id="7d3f4d33aca7af4519cb87a63113caf9" category="paragraph">FSx for ONTAP EMS 事件分析器使用 _operations and remediation_ 權限原則中的下列 Amazon Bedrock 權限來取得儲存工作負載的事件資料。</block>
-  <block id="71d01806cd25e89067c25b4f03e9a607" category="list-text"><block ref="9aa5a97dfe3f7608d8ee28e7db3c4e2c" prefix="" category="inline-code"></block></block>
-  <block id="4e736cb1760a43a4bf2b5d861b6deb96" category="list-text"><block ref="fdd997ab8b4252f76acdda855bb7b890" prefix="" category="inline-code"></block></block>
-  <block id="1ed1b1bc988715ea858abe38c168d87a" category="list-text"><block ref="00fe52afa6e3b9a0d389f529a2b88242" prefix="" category="inline-code"></block></block>
-  <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更日誌</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">支援用於ONTAP的 FSx 的 AWS S3 存取點</block>
@@ -221,4 +173,10 @@
   <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">若要使用此功能，<block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block>並選擇 *Migration* 作為使用案例。若要完成遷移過程，您必須<block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block>立即將資料和儲存 VM 組態設定永久遷移到目標 FSx for ONTAP 檔案系統。</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
+  <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory 中新增了「問我」書籤</block>
+  <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">我們在 Workload Factory 控制台的每個畫面上都新增了 Ask Me 書籤。這項改進讓您在需要協助時更輕鬆快速地存取 Ask Me。Ask Me 是我們的 AI 助手，您可以詢問有關自身工作負載環境的問題，直接從您的環境中獲取個人化見解，並查看先前的對話記錄。</block>
+  <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">您可以點擊新增的書籤，從任何頁面開啟 Ask Me。它會在側邊面板中啟動 Ask Me，不會中斷您目前的工作，並提供與您目前操作相關的快速說明和建議。</block>
+  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">深入瞭解 Ask Me</block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
 </blocks>
