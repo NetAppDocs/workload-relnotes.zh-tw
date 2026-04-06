@@ -1,0 +1,35 @@
+= 精心設計的分析更新
+:allow-uri-read: 
+
+
+
+
+=== 精心設計的分析更新
+
+Workload Factory 會分析您的 FSx for ONTAP 檔案系統，尋找*非使用中的 NAS 磁碟區*。組態分析會識別未主動使用的 NAS 磁碟區，並建議採取行動以最佳化儲存使用率並降低成本。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["為 ONTAP 檔案系統實作架構良好的 FSx"]
+
+
+
+=== S3 存取點的日誌表功能
+
+日誌表功能提供了一種大規模管理 FSx ONTAP S3 物件儲存的方法，可讓您輕鬆稽核使用者對儲存貯體中物件的存取事件和操作。使用 Workload Factory，您可以設定儲存貯體和 S3 表的自動掃描，以記錄事件，顯示所有物件、其詳細資訊和使用者操作。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["為 NetApp Workload Factory 設定日誌表格基礎架構"]
+
+
+
+=== 支援管理現有 igroup
+
+Workload Factory 支援管理現有的 igroup。您可以新增或移除區塊裝置和主機啟動器、以準時提供已部署的工作負載。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理區塊儲存"]
+
+
+
+=== 支援指定 FlexVol volume 的 Aggregate
+
+Workload Factory 支援在選定的 Aggregate 上建立 FlexVol 磁碟區。這樣，您可以將容量和效能負載分散到所有檔案系統資源。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 NetApp Workload Factory 中建立 FlexVol volume"]

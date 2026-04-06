@@ -94,11 +94,8 @@
   <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage 中的 S3 存取點增強功能</block>
   <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">NetApp Workload Factory 的儲存工作負載中，S3 接入點管理功能已獲得多項增強。您可以輸入 S3 接入點的網路設定詳細資訊並新增 S3 接入點標籤。其他增強功能包括查看 S3 儲存桶詳細資訊以及執行更多 S3 接入點管理操作。</block>
   <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">S3 儲存桶詳細資訊可在 Storage 中查看</block>
-  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">啟用 S3 存取點的元資料後，NetApp Workload Factory 會自動掃描您的 AWS S3 儲存桶並填入 S3 表，從而為您提供所有物件及其元資料、屬性和標籤的清晰快照。存取這些詳細資訊有助於您保持對所負責資料的控制、可見度和信任度，同時降低維運開銷。</block>
-  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">查看 FSx for ONTAP 檔案系統中 S3 存取點的詳細資訊</block>
   <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 存取點的其他管理作業</block>
   <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory 為 S3 存取點提供額外的管理操作。您可以透過 NetApp Workload Factory 介面查看存取點詳細資訊、修改現有 S3 存取點以及新增或刪除 S3 存取點標籤，從而簡化物件儲存管理任務。</block>
-  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">在 NetApp Workload Factory 中管理 S3 存取端點</block>
   <block id="e593953aaf04eebecfe2e26326145784" category="list-text">最佳化快取磁碟區大小：檢查快取磁碟區是否啟用了磁碟區自動調整大小和清理功能，以保持最佳大小並將快取集中用於熱資料，從而達到最高效率。</block>
   <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Storage VM 邏輯報告：檢查 Storage VM 的預設報告設定是否設定為邏輯，以便更了解磁碟區層級的儲存使用情況。</block>
   <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">區塊裝置的其他卡</block>
@@ -111,8 +108,6 @@
   <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">在 NetApp Workload Factory 中建立啟動器群組</block>
   <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">在 NetApp Workload Factory 中管理現有啟動器群組</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作負載</block>
-  <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
-  <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
   <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">不活躍的區塊設備：建議歸檔區塊設備資料或刪除連續七天未使用的區塊設備。</block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
@@ -164,7 +159,6 @@
   <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">探索內部部署資料庫環境的節省方案</block>
   <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026 年 3 月 02 日</block>
-  <block id="b810156a51d2ff011de686d088c6dcce" category="list-text">孤立設備：顯示是否有連續七天未使用的區塊設備，幫助您有效識別和管理未使用的資源。您可以在此處<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
   <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">未充分利用的 SSD 容量：檢查 SSD 容量層是否未充分利用，並建議減少 SSD 容量以優化成本。</block>
   <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">排程磁碟區備份：Workload Factory 改進了配置建議，並新增了啟用 FSx for ONTAP 備份或 AWS Backup 的選項。FSx for ONTAP 備份會將預設原則套用至檔案系統中的所有磁碟區，建立每日備份，最多可保留 90 天。AWS Backup 可讓您為備份計畫中的每個磁碟區選擇不同的保留期限。</block>
   <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory 支援 AI 與 ML 使用案例的複寫</block>
@@ -174,7 +168,6 @@
   <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">編輯現有的 S3 存取點</block>
   <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">您可以變更連接到磁碟區的現有 S3 存取點的使用者和使用者類型。您也可以啟用或停用存取點的中繼資料。</block>
   <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">在 NetApp Workload Factory 編輯 S3 存取端點</block>
-  <block id="88d72467009c25b9669edfef18e21df3" category="paragraph"><block ref="88d72467009c25b9669edfef18e21df3" category="inline-link-macro-rx"></block></block>
   <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">新增區塊儲存圖</block>
   <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">如果您使用區塊儲存，可以查看區塊儲存圖，直觀地了解區塊設備如何連接到節點和 igroup。該圖有助於您理解和管理區塊儲存。</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">在 NetApp Workload Factory 中管理區塊儲存</block>
@@ -210,4 +203,22 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">探索在內部部署 Oracle 上偵測到的資料庫的節省方案</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
+  <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">新的清單表會自動掃描您的 AWS S3 儲存桶，並將資訊填入 S3 表中，從而為您提供所有物件、其元資料、屬性和標籤的清晰概覽。存取這些詳細資訊有助於您保持對所負責資料的控制、可見度和信任度，同時降低維運成本。您可以在建立和附加 S3 存取點時或編輯現有存取點時啟用此功能。</block>
+  <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">在 NetApp Workload Factory 中為一個 volume 建立並附加 S3 存取端點</block>
+  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
+  <block id="0695b468968701e6133374525567ebb8" category="list-text">非作用中區塊裝置：顯示是否有任何區塊裝置連續七天未使用，協助您有效識別並管理未使用的資源。您可以從這裡 <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
+  <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
+  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory 會分析您的 FSx for ONTAP 檔案系統，尋找*非使用中的 NAS 磁碟區*。組態分析會識別未主動使用的 NAS 磁碟區，並建議採取行動以最佳化儲存使用率並降低成本。</block>
+  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">為 ONTAP 檔案系統實作架構良好的 FSx</block>
+  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
+  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">S3 存取點的日誌表功能</block>
+  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">日誌表功能提供了一種大規模管理 FSx ONTAP S3 物件儲存的方法，可讓您輕鬆稽核使用者對儲存貯體中物件的存取事件和操作。使用 Workload Factory，您可以設定儲存貯體和 S3 表的自動掃描，以記錄事件，顯示所有物件、其詳細資訊和使用者操作。</block>
+  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">為 NetApp Workload Factory 設定日誌表格基礎架構</block>
+  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
+  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">支援管理現有 igroup</block>
+  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factory 支援管理現有的 igroup。您可以新增或移除區塊裝置和主機啟動器、以準時提供已部署的工作負載。</block>
+  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">支援指定 FlexVol volume 的 Aggregate</block>
+  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory 支援在選定的 Aggregate 上建立 FlexVol 磁碟區。這樣，您可以將容量和效能負載分散到所有檔案系統資源。</block>
+  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">在 NetApp Workload Factory 中建立 FlexVol volume</block>
+  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
 </blocks>
