@@ -205,7 +205,6 @@
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
   <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">新的清單表會自動掃描您的 AWS S3 儲存桶，並將資訊填入 S3 表中，從而為您提供所有物件、其元資料、屬性和標籤的清晰概覽。存取這些詳細資訊有助於您保持對所負責資料的控制、可見度和信任度，同時降低維運成本。您可以在建立和附加 S3 存取點時或編輯現有存取點時啟用此功能。</block>
   <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">在 NetApp Workload Factory 中為一個 volume 建立並附加 S3 存取端點</block>
-  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
   <block id="0695b468968701e6133374525567ebb8" category="list-text">非作用中區塊裝置：顯示是否有任何區塊裝置連續七天未使用，協助您有效識別並管理未使用的資源。您可以從這裡 <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
   <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory 會分析您的 FSx for ONTAP 檔案系統，尋找*非使用中的 NAS 磁碟區*。組態分析會識別未主動使用的 NAS 磁碟區，並建議採取行動以最佳化儲存使用率並降低成本。</block>
@@ -225,4 +224,5 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 通知服務包含針對儲存設備的 NetApp Autonomous Ransomware Protection with AI（ARP/AI）通知。</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 的通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
 </blocks>
