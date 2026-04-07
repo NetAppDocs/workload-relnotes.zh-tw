@@ -1,0 +1,37 @@
+= EDA 容量建議
+:allow-uri-read: 
+
+
+
+
+=== EDA 容量建議
+
+Workload Factory 現在可以自動分析 EDA 清單中每個 FSx for ONTAP 叢集的 SSD 容量，並在需要調整時產生容量建議。該演算法每 24 小時對每個叢集執行一次。
+
+當識別出建議時：
+
+* 您將立即收到電子郵件或 WAD 通知（不包含在每週摘要中）。
+* 在「叢集」表格中，受影響的叢集上會顯示燈泡指示器。
+* Overview 儀表板上的摘要顯示具有作用中建議的叢集總數。
+
+
+選取具有作用中建議的叢集以檢視建議，其中說明建議的變更及其原因。
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["深入瞭解容量建議"^]。
+
+
+
+=== 自動化 AI 延遲分析
+
+延遲分析現在包括 AI 代理分析。
+
+對於涉及資料或叢集延遲的複雜案例、您可以叫用 AI 代理程式分析以接收：
+
+* 詳細的根本原因識別
+* 受影響的 EC2 用戶端清單
+* 具體補救步驟
+
+
+AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，並可按需提供，適用於基礎分析建議進行更深入調查的場景。AI 代理可以識別諸如 bully 磁碟區、掛載點配置不佳、FlexGroup 需要重新平衡以及橫向擴展需求等問題。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["深入瞭解 AI 代理程式分析"^]。

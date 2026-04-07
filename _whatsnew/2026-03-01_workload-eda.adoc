@@ -6,9 +6,9 @@
 
 === EDA 儲存管理概覽儀表板
 
-身為管理數十個 FSx for ONTAP 檔案系統的 IT 管理員，您可以使用概覽儀表板來回答有關叢集健全狀況、使用率和磁碟區放置的常見操作問題。
+身為管理數十個 FSx for ONTAP 檔案系統的 IT 管理員、您可以使用 Overview 儀表板來回答有關叢集健全狀況、使用率和磁碟區放置的常見操作問題。
 
-概覽儀表板包括：
+Overview 儀表板包括：
 
 * *叢集健全狀況狀態*：儀表板頂端摘要的資訊，重點說明叢集的效能、容量、可用度與保護及安全性事件。
 * *叢集表*：一個可搜尋、可篩選、可分頁的表格，顯示每個叢集的 SSD 容量、容量集區和處理量指標，支援欄自訂和 CSV 匯出。
@@ -16,7 +16,7 @@
 
 之前的主儀表板現在可以在 *Project* 標籤中存取。EDA 標籤現在的順序為：Overview、Latency、Project、CI/CD。
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["深入瞭解總覽儀表板"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["深入瞭解總覽儀表板"^]。
 
 
 
@@ -25,8 +25,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["深
 延遲分析現已包含自動化基礎分析功能。當偵測到延遲事件時，系統會自動分析 ONTAP QoS 延遲中心指標，以識別延遲問題的來源。
 
 基本分析評估 QoS 策略、磁碟效能、網路問題和叢集組態，以便在延遲事件表的「詳細資料」欄中提供即時深入分析。
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["深入瞭解基本延遲分析"^].
 
 
 
