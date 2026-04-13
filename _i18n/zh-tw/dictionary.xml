@@ -241,4 +241,6 @@
   <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，並可按需提供，適用於基礎分析建議進行更深入調查的場景。AI 代理可以識別諸如 bully 磁碟區、掛載點配置不佳、FlexGroup 需要重新平衡以及橫向擴展需求等問題。</block>
   <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">深入瞭解 AI 代理程式分析</block>
   <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
+  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">區塊裝置的最後存取時間</block>
+  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory 會回報區塊裝置的最後存取時間。該時間是根據您上次在 Workload Factory 中存取 igroup 的時間。了解每個區塊裝置的最後使用時間有助於您優化資源。</block>
 </blocks>

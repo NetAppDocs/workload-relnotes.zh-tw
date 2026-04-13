@@ -33,3 +33,9 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 Workload Factory 支援在選定的 Aggregate 上建立 FlexVol 磁碟區。這樣，您可以將容量和效能負載分散到所有檔案系統資源。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 NetApp Workload Factory 中建立 FlexVol volume"]
+
+
+
+=== 區塊裝置的最後存取時間
+
+Workload Factory 會回報區塊裝置的最後存取時間。該時間是根據您上次在 Workload Factory 中存取 igroup 的時間。了解每個區塊裝置的最後使用時間有助於您優化資源。
