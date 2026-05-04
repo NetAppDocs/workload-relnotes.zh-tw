@@ -1,0 +1,29 @@
+= 區塊裝置複本
+:allow-uri-read: 
+
+
+
+
+=== 區塊裝置複本
+
+Workload Factory 為您的區塊裝置提供複製功能，以便您可以快速佈建可寫入且高效的資料副本，同時控制容量、存取和生命週期。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理區塊儲存"]
+
+
+
+=== 區塊裝置上的 EC2 標籤
+
+區塊裝置表格現在包含一欄，顯示正在使用每個區塊裝置的 EC2 主機標籤。這有助於您在疑難排解或稽核期間識別哪個主機使用每個區塊裝置。
+
+若要在每個區塊裝置上建立標籤，請使用我們提供的使用者腳本部署 EC2 執行個體。
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["EC2 使用者資料指令碼，用於將標籤指派給區塊裝置"]
+
+
+
+=== FSx for ONTAP 檔案系統的容量趨勢
+
+直接從 FSx for ONTAP 檔案系統的概覽中了解 SSD 容量趨勢。這款全新的容量管理卡可全面展現上個月的使用趨勢。此分析包括實際使用容量與分配容量的對比，從而清楚評估資源利用率。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["在 NetApp Workload Factory 中自動管理容量"]
