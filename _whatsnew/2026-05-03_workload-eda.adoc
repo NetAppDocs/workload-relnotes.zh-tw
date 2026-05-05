@@ -1,0 +1,29 @@
+= 延遲事件的電子郵件和 SNS 通知
+:allow-uri-read: 
+
+
+
+
+=== 延遲事件的電子郵件和 SNS 通知
+
+現在，當 FSx for ONTAP 磁碟區上偵測到延遲事件時，您可以接收自動通知。在 Workload Factory 設定中設定電子郵件或 Amazon SNS 通知，以便在磁碟區的延遲超過您設定的閾值時接收即時警報。
+
+通知會以檔案系統為基礎傳送，包括所有受影響磁碟區的詳細資訊、嚴重性層級、臨界值比較，以及可直接連結至 Latency 頁面進行調查的連結。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["了解如何設定延遲通知"^]。
+
+
+
+=== 使用互動式圖表將延遲趨勢視覺化
+
+延遲分析面板現在包含分頁式介面，可進行全面的延遲分析：
+
+* *概述*：檢視自動化基本分析結果，顯示哪個元件造成延遲
+* *隨時間變化*：透過互動式圖表視覺化多個時間範圍（1 小時、3 小時、12 小時、24 小時或 72 小時）內的磁碟區延遲行為
+
+
+*Over time* 標籤顯示原始 CloudWatch 延遲資料（讀取或寫入，取決於觸發的警示），以及警告和嚴重臨界值線、違規指標和每次違規的詳細指標。
+
+這種全面的視覺化功能可協助您識別模式、瞭解延遲問題是反覆出現還是孤立發生，並針對補救措施做出更明智的決策。
+
+https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["瞭解如何分析延遲趨勢"^]。

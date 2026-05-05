@@ -172,4 +172,17 @@
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">在 NetApp Workload Factory 中自動管理容量</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">2026 年 5 月 3 日</block>
+  <block id="97c13014b9e16335b445d04850fb955f" category="doc">延遲事件的電子郵件和 SNS 通知</block>
+  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">現在，當 FSx for ONTAP 磁碟區上偵測到延遲事件時，您可以接收自動通知。在 Workload Factory 設定中設定電子郵件或 Amazon SNS 通知，以便在磁碟區的延遲超過您設定的閾值時接收即時警報。</block>
+  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">通知會以檔案系統為基礎傳送，包括所有受影響磁碟區的詳細資訊、嚴重性層級、臨界值比較，以及可直接連結至 Latency 頁面進行調查的連結。</block>
+  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">了解如何設定延遲通知</block>
+  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>。</block>
+  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">使用互動式圖表將延遲趨勢視覺化</block>
+  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">延遲分析面板現在包含分頁式介面，可進行全面的延遲分析：</block>
+  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*概述*：檢視自動化基本分析結果，顯示哪個元件造成延遲</block>
+  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*隨時間變化*：透過互動式圖表視覺化多個時間範圍（1 小時、3 小時、12 小時、24 小時或 72 小時）內的磁碟區延遲行為</block>
+  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">*Over time* 標籤顯示原始 CloudWatch 延遲資料（讀取或寫入，取決於觸發的警示），以及警告和嚴重臨界值線、違規指標和每次違規的詳細指標。</block>
+  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">這種全面的視覺化功能可協助您識別模式、瞭解延遲問題是反覆出現還是孤立發生，並針對補救措施做出更明智的決策。</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">瞭解如何分析延遲趨勢</block>
+  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>。</block>
 </blocks>
