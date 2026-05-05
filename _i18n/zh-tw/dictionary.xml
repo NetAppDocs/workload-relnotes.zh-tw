@@ -185,4 +185,12 @@
   <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">這種全面的視覺化功能可協助您識別模式、瞭解延遲問題是反覆出現還是孤立發生，並針對補救措施做出更明智的決策。</block>
   <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">瞭解如何分析延遲趨勢</block>
   <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>。</block>
+  <block id="15407be309823d0bd0fd1f09d53ccd89" category="doc">Workload Factory 的電子郵件通知</block>
+  <block id="a1ed0466beff73a72b5d95ef2b956e83" category="paragraph">現在，您無需設定 Amazon SNS 主題即可透過電子郵件接收 Workload Factory 通知。啟用電子郵件通知功能，即可傳送通知至與該帳戶關聯的任何電子郵件地址。</block>
+  <block id="1c6cc010b2ec0805e327534ebbfb3973" category="paragraph">您可以透過 Workload Factory 控制台或 NetApp Console 設定電子郵件通知。NetApp Console 還提供配置選項，可讓您設定顯示在鈴鐺圖示下的 NetApp Console 通知。</block>
+  <block id="f76fbee6bb24fc9289f051c59b4058b2" category="paragraph">如果在 NetApp Console 中配置通知，NetApp Console 將負責傳送通知。Workload Factory 主控台中的通知設定將變為唯讀，以防止重複通知。</block>
+  <block id="b2dfd446bf724d5a49ad6d34fffa8cd5" category="section-title">EDA 延遲的新通知</block>
+  <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">NetApp Workload Factory 通知服務包含 EDA 延遲通知，當 EDA 操作的延遲超過一定閾值時，該通知會通知您。</block>
+  <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">設定 Workload Factory 通知</block>
+  <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
 </blocks>
