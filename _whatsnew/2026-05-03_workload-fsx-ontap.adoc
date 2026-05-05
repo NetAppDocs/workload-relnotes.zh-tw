@@ -24,6 +24,12 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Ut
 
 === FSx for ONTAP 檔案系統的容量趨勢
 
-直接從 FSx for ONTAP 檔案系統的概覽中了解 SSD 容量趨勢。這款全新的容量管理卡可全面展現上個月的使用趨勢。此分析包括實際使用容量與分配容量的對比，從而清楚評估資源利用率。
+直接從 FSx for ONTAP 檔案系統的概覽中了解 SSD 容量趨勢。新增的容量管理卡顯示了上個月的使用趨勢。此分析比較了實際容量和分配容量，方便您評估資源使用量。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["在 NetApp Workload Factory 中自動管理容量"]
+
+
+
+=== FSx for ONTAP 檔案系統架構良好狀態的 PDF 報告
+
+分析完成後，您可以下載一份 PDF 報告，其中包含您的 FSx for ONTAP 檔案系統架構良好狀態的資訊，供您存檔或與您的團隊分享。link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中查看 FSx for ONTAP 檔案系統的架構良好狀態。"]
