@@ -32,4 +32,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatica
 
 === FSx for ONTAP 檔案系統架構良好狀態的 PDF 報告
 
-分析完成後，您可以下載一份 PDF 報告，其中包含您的 FSx for ONTAP 檔案系統架構良好狀態的資訊，供您存檔或與您的團隊分享。link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中查看 FSx for ONTAP 檔案系統的架構良好狀態。"]
+分析完成後、您可以下載 FSx for ONTAP 檔案系統架構良好狀態的 PDF 報告、以供記錄或與團隊分享。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中檢視 FSx for ONTAP 檔案系統的架構良好狀態"]

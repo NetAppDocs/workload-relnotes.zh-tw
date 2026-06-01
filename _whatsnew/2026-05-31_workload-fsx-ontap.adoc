@@ -1,0 +1,79 @@
+= 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
+:allow-uri-read: 
+
+
+
+
+=== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
+
+NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。
+
+
+
+=== 在 NetApp Workload Factory 中設定磁碟區延遲臨界值
+
+您可以按磁碟區配置延遲閾值，以監控效能並在延遲值超出您定義的限制時接收警示。Workload Factory 會監控讀取和寫入延遲，並在超出任一閾值時產生警示。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中設定磁碟區延遲臨界值"]
+
+
+
+=== 在 NetApp Workload Factory 中追蹤複寫延遲
+
+借助 NetApp Workload Factory，您可以追蹤配置了遠端複製的 FSx for ONTAP 檔案系統的複製延遲。複製延遲是指資料寫入來源檔案系統到複製到目標檔案系統之間的時間延遲。追蹤複製延遲有助於您監控複製設定的運作狀況，並識別可能影響資料一致性和復原點目標（RPO）的潛在問題。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["在 NetApp Workload Factory 中追蹤複寫延遲"]
+
+
+
+=== 在 NetApp Workload Factory 中的主機識別與工作負載定義
+
+Workload Factory 可辨識使用儲存的主機以及與主機活動相關的工作負載類型。工作負載定義由 AI 根據 AWS 標籤和中繼資料產生。您可以在 Workload Factory 的檔案系統、磁碟區和區塊裝置資源畫面中查看主機詳細資訊和工作負載定義。
+
+
+
+=== LIF 詳細資料可在 NetApp Workload Factory 中取得
+
+我們在檔案系統的「概覽」標籤中直接顯示所有檔案系統和儲存 VM 端點。在 Workload Factory 主控台中直接查看端點，無需使用 CLI 或 CloudShell 即可輕鬆監控網路存取、端點和容錯移轉狀態。若要顯示 LIF 詳細資訊（包括角色、端點、節點、IP 位址和狀態），您需要將連結與檔案系統建立關聯。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["了解如何在 NetApp Workload Factory 中將連結與檔案系統建立關聯。"]。
+
+
+
+=== 成本增強功能
+
+新增的選用頁面層級篩選器可最佳化跨所有 AWS 帳戶的資源成本分析結果。您可以選擇多個區域，並使用檔案系統指派標籤鍵和鍵值來篩選成本分析結果，從而取得 FSx for ONTAP 檔案系統和磁碟區的特定資源成本詳情。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["在 NetApp Workload Factory 中使用篩選器進行成本分析"]
+
+
+
+=== NetApp Workload Factory 中提供複寫初始化排程
+
+在資料複製設定過程中，您現在可以為 FSx for ONTAP 檔案系統排程複製初始化。您可以選擇立即初始化複製關係，也可以選擇在指定時間初始化。複製初始化是透過將資料從來源檔案系統複製到目標檔案系統來建立複製基線的過程。安排複製初始化可以自動執行此過程，並確保您的複製設定無需人工幹預即可保持最新狀態。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["在 NetApp Workload Factory 複製資料"]
+
+
+
+=== FSx for ONTAP 檔案系統架構良好狀態的 Excel 報告
+
+分析完成後，您可以下載一份 Excel 報告，其中包含您的 FSx for ONTAP 檔案系統架構良好狀態的資訊，供您存檔或與您的團隊共享。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中檢視 FSx for ONTAP 檔案系統的架構良好狀態"]
+
+
+
+=== 檢視和分析延遲事件
+
+Workload Factory 現在支援檢視和分析 FSx for ONTAP 磁碟區的延遲事件。您無需連結連線即可檢視延遲事件，從而更輕鬆地監控效能問題。若要分析延遲事件並取得 AI 驅動的洞察和建議，您必須使用連結連線到檔案系統。分析結果提供目前延遲值、臨界值、QoS 回應分析和補救指南。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["在 NetApp Workload Factory 中分析 FSx for ONTAP 事件"]
+
+
+
+=== 設定磁碟區延遲臨界值
+
+現在您可以按磁碟區配置延遲閾值，以監控效能並在讀取或寫入延遲超過您定義的限制時收到警報。延遲監控可協助您在效能問題影響工作負載之前主動識別它們。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中設定磁碟區延遲臨界值"]
