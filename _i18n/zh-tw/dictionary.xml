@@ -149,4 +149,16 @@
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">在 NetApp Workload Factory 中支援 AWS GovCloud（US）</block>
   <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理 GenAI 工作負載。</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
+  <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Amazon Elastic Block Store 上 Oracle 主機的自訂節省成本</block>
+  <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases 可讓您自訂 Amazon Elastic Block Store （EBS） 上 Oracle 主機的節省策略。您可以調整快照頻率、複製副本數量和磁碟區詳細資料等多個欄位，以查看它們如何影響節省的成本。</block>
+  <block id="df8ce82904fb7f768a98668382cdec3a" category="inline-link-macro">探索 EBS 上 Oracle 主機的節省方案</block>
+  <block id="d1839e6ad7687f9aaf499df8a37a528b" category="paragraph"><block ref="d1839e6ad7687f9aaf499df8a37a528b" category="inline-link-macro-rx"></block></block>
+  <block id="1ed508a845657aa228cb523211b501a0" category="section-title">為 Microsoft SQL Server 和 PostgreSQL 主機部署選擇多個安全性群組</block>
+  <block id="5f3983aebdf54bf31555d0b354f825df" category="paragraph">NetApp Workload Factory for Databases 現在可讓您在部署 Microsoft SQL Server 和 PostgreSQL 主機時選擇多個安全性群組。這使您在配置資料庫工作負載的網路安全性時擁有更大的靈活性。</block>
+  <block id="2e9b0a449319af8e501ebf42f946b3a4" category="inline-link-macro">部署 Microsoft SQL Server 主機</block>
+  <block id="36827721f24c7683f7cbb55f48380665" category="list-text"><block ref="36827721f24c7683f7cbb55f48380665" category="inline-link-macro-rx"></block></block>
+  <block id="3b1a9a0ee670c86859aadb420ba7a43d" category="inline-link-macro">部署 PostgreSQL 主機</block>
+  <block id="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="list-text"><block ref="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="inline-link-macro-rx"></block></block>
+  <block id="092e50fff7799a091642caa817b6e9ee" category="paragraph">NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理資料庫工作負載。</block>
+  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026 年 6 月 1 日</block>
 </blocks>

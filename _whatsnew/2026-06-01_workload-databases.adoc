@@ -1,0 +1,27 @@
+= Amazon Elastic Block Store 上 Oracle 主機的自訂節省成本
+:allow-uri-read: 
+
+
+
+
+=== Amazon Elastic Block Store 上 Oracle 主機的自訂節省成本
+
+NetApp Workload Factory for Databases 可讓您自訂 Amazon Elastic Block Store （EBS） 上 Oracle 主機的節省策略。您可以調整快照頻率、複製副本數量和磁碟區詳細資料等多個欄位，以查看它們如何影響節省的成本。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索 EBS 上 Oracle 主機的節省方案"]
+
+
+
+=== 為 Microsoft SQL Server 和 PostgreSQL 主機部署選擇多個安全性群組
+
+NetApp Workload Factory for Databases 現在可讓您在部署 Microsoft SQL Server 和 PostgreSQL 主機時選擇多個安全性群組。這使您在配置資料庫工作負載的網路安全性時擁有更大的靈活性。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["部署 Microsoft SQL Server 主機"]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["部署 PostgreSQL 主機"]
+
+
+
+
+=== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
+
+NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理資料庫工作負載。
