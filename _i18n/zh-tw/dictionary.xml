@@ -191,4 +191,9 @@
   <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
   <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">設定磁碟區延遲臨界值</block>
   <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">現在您可以按磁碟區配置延遲閾值，以監控效能並在讀取或寫入延遲超過您定義的限制時收到警報。延遲監控可協助您在效能問題影響工作負載之前主動識別它們。</block>
+  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">NetApp Workload Factory 通知服務包含複製延遲通知。</block>
+  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">支援 AWS GovCloud（US）帳戶</block>
+  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">現在您可以在 Workload Factory 中建立 AWS GovCloud（美國）帳戶。此帳戶類型僅使用 AWS 美國 GovCloud 終端節點和區域進行設定和操作。認證和機密資訊保留在 GovCloud 中。支援 GovCloud（美國）區域。</block>
+  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">在 Workload Factory 中建立 AWS GovCloud（US）帳戶</block>
+  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
 </blocks>
