@@ -196,4 +196,28 @@
   <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">現在您可以在 Workload Factory 中建立 AWS GovCloud（美國）帳戶。此帳戶類型僅使用 AWS 美國 GovCloud 終端節點和區域進行設定和操作。認證和機密資訊保留在 GovCloud 中。支援 GovCloud（美國）區域。</block>
   <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">在 Workload Factory 中建立 AWS GovCloud（US）帳戶</block>
   <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
+  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD 容量增加管理模式和自動化</block>
+  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory 現在提供 SSD 容量增加管理模式，以符合您的營運偏好：</block>
+  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*自動化*</block>
+  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*建議*</block>
+  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*無*</block>
+  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">目前模式及其參數顯示在檔案系統詳細資料頁面的 SSD 使用情況圖表頂部。您可以根據實際操作需要隨時切換模式。</block>
+  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">瞭解 SSD 管理模式</block>
+  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>。</block>
+  <block id="70a1c8861535253968956554ebf8e231" category="section-title">批次編輯 SSD 容量增加管理參數</block>
+  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">現在，您可以從概覽儀表板跨多個檔案系統調整 SSD 容量增加管理參數。在「叢集」表中選擇一個或多個叢集，然後批量編輯臨界值（10-90%）、回溯（1-200 小時）和預估（1-200 小時）的值。</block>
+  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">編輯對話方塊會根據您的選擇自動填入：如果所有選定的檔案系統都具有相同的參數值，則會顯示這些值；否則，將使用預設值。這有助於您在整個環境中應用一致的容量設定。</block>
+  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">了解如何批次編輯參數</block>
+  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>。</block>
+  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">容量決策點視覺化</block>
+  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">SSD 使用情況圖表現在會顯示決策點，指示何時產生容量建議或採取自動化動作。</block>
+  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*建議決策點*：將滑鼠懸停可檢視時間戳記、建議增加的大小和目前容量。</block>
+  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*自動化決策點*：滑鼠懸停可檢視時間戳記、成功或失敗狀態、增加大小以及新的 Aggregate 大小。失敗的嘗試包括失敗原因。</block>
+  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">決策點每 30 分鐘出現一次，並根據所選時間範圍單獨顯示或合併顯示。</block>
+  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">了解容量決策點</block>
+  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>。</block>
+  <block id="6730925799427eefafa41ca821775fd8" category="section-title">叢集表格中的連結已設定狀態</block>
+  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">概覽儀表板上的「叢集」表現在包含一個「關聯連結」列，該列顯示是否已為每個檔案系統配置 FSx for ONTAP 連結。連線狀態每天都會進行驗證，幫助您識別需要設定連結或可能有連線問題的檔案系統。</block>
+  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">檢視總覽儀表板</block>
+  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>。</block>
 </blocks>
