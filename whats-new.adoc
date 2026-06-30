@@ -484,26 +484,3 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capa
 AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，並可按需提供，適用於基礎分析建議進行更深入調查的場景。AI 代理可以識別諸如 bully 磁碟區、掛載點配置不佳、FlexGroup 需要重新平衡以及橫向擴展需求等問題。
 
 https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["深入瞭解 AI 代理程式分析"^]。
-
-
-
-== 2026 年 3 月 09 日
-
-
-
-=== VMware 工作負載
-
-
-
-==== 為 Google Cloud VMware Engine 引入遷移顧問支援
-
-NetApp Workload Factory 現在支援 Google Cloud VMware Engine。您可以將本地 VMware 工作負載遷移到 Google Cloud VMware Engine，並使用 Google Cloud NetApp Volumes 作為外部 NFS 資料存儲，從而優化成本並更好地控制 VMware 環境，而無需重構或重新平台化應用程式。
-
-Google Cloud VMware Engine 遷移顧問提供：
-
-* 支援 VE1 和 VE2 節點類型的自動化 Google Cloud VMware Engine 叢集容量規劃和設計
-* vSAN 內部資料儲存與 Google Cloud NetApp Volumes 外部 NFS 資料儲存之間的 VM 佈局最佳化。
-* 對僅使用 vSAN 的配置和使用 Google Cloud NetApp Volumes 增強的配置進行詳細的成本比較和 TCO 分析。
-* 支援標準版、進階版和至尊版 Google Cloud NetApp Volumes 服務等級。
-* 使用 Terraform 進行基礎架構即程式碼部署，實現自動化配置。
-
