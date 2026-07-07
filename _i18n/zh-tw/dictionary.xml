@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">自訂儀表板為唯讀模式，因此無法變更您的儲存空間或工作負載設定。您 Workload Factory 帳戶中的任何使用者都可以查看和管理這些儀表板，方便團隊共享見解並保持協作。</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">深入瞭解自訂儀表板</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">設定延遲通知頻率</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">現在您可以選擇接收延遲違規電子郵件通知的頻率：</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*每天提醒我（建議）*：當任何 FSx for ONTAP 檔案系統出現新問題時，您將收到通知。</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">如果一天內同一檔案系統上發生多個延遲問題，您只會收到一封電子郵件。</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Workload Factory 在向檔案系統發出延遲警報後，會等待 24 小時，再向該檔案系統發出另一個警報。</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notify on any latency breach (every 20 minutes)*：偵測到違規情況時，最多每 20 分鐘收到一次通知。</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">預設啟用每日通知，以減少電子郵件數量，同時仍能提醒您注意延遲問題。您可以在設定延遲監控或編輯閾值設定時變更通知偏好設定。</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何設定延遲監控</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>
