@@ -37,6 +37,62 @@ link:calculate-evs-savings.html["計算 EVS 的預計節省量"]
 
 
 
+=== Amazon FSX for NetApp ONTAP 產品
+
+
+
+==== 適用於所有 FSx for ONTAP 系統的全新架構完善儀表板現已推出
+
+現在，您可以透過 NetApp Workload Factory 中全新的架構完善儀表板，對 FSx for ONTAP 檔案系統進行架構完善分析。新儀表板集中展示了您所有帳戶和區域中的檔案系統及其配置。當您從檔案系統存取「架構完善」索引標籤時，會出現彈出通知。您可以透過在 Workload Factory 左側導覽功能表中選擇「架構完善」來存取新儀表板。
+
+您仍然可以存取特定檔案系統的架構完善分析，以及從 Storage 中的 *Well-architected* 功能表選項進行存取。
+
+
+
+==== 架構良好的分析中的新建議
+
+Workload Factory 現在在針對 FSx for ONTAP 檔案系統的完善架構分析中加入了以下配置：
+
+* 將主機連線至容錯移轉節點：檢查主機是否已連線至主動-被動式 FSx for ONTAP 檔案系統中的容錯移轉節點，並建議將主機連線至容錯移轉節點以提高可靠性。
+* 將主機連接至慣用節點：檢查主機是否透過慣用節點連接至其區塊裝置，並建議將主機連接至慣用節點以提升效能效率。
+
+
+
+
+==== 磁碟區資源管理器
+
+磁碟區資源管理器為您提供 NetApp Workload Factory 中所有磁碟區的簡潔、可搜尋檢視。快速查看哪些磁碟區用於處理區塊或檔案工作負載。查看每個磁碟區的邏輯大小、實體已使用容量以及是否使用了儲存效率功能（壓縮、重複資料刪除和資料精簡）。按名稱、狀態（可用/失敗）、延遲、大小、已使用容量和保護功能進行篩選和排序。
+
+
+
+==== 複製延遲增強
+
+
+
+===== 增強複製延遲的電子郵件通知
+
+現在，複製延遲的電子郵件通知包含有關受影響關係的更多詳細資訊。此通知可協助您快速識別受影響的關係，並在 Workload Factory 主控台中查看相關資訊。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["啟用複製延遲通知"]
+
+
+
+===== 將複製延遲資料匯出至 CSV
+
+現在您可以將複製延遲資料匯出至 CSV 檔案，以便在試算表中分析資料並與他人共用。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["追蹤複寫延遲"]
+
+
+
+==== 區塊裝置建立增強功能
+
+Workload Factory 支援從磁碟區快照建立區塊裝置。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["在 Workload Factory 中從磁碟區快照建立區塊設備"]
+
+
+
 === 設定與管理
 
 
