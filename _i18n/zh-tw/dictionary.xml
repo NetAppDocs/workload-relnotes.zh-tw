@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">學習如何使用多個圖表分析延遲趨勢</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026年7月5日</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">自訂儀錶板</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">建立與您的工作負載和優先順序相符的 AI 驅動儀表板，以便輕鬆了解營運狀況。自訂儀表板讓您擺脫固定檢視的束縛，專注於最重要的資訊。</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">只需用簡單易懂的語言描述您想要追蹤的內容，AI 就會根據您的要求建立儀表板。例如，您可以追蹤災難復原狀態、跨區域的容量和成本、儲存保護合規性以及其他營運指標。</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">自訂儀表板為唯讀模式，因此無法變更您的儲存空間或工作負載設定。您 Workload Factory 帳戶中的任何使用者都可以查看和管理這些儀表板，方便團隊共享見解並保持協作。</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">深入瞭解自訂儀表板</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
