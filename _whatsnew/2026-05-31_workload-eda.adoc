@@ -4,6 +4,7 @@
 
 
 
+[[ssd-capacity-increase-management-modes-and-automation]]
 === SSD 容量增加管理模式和自動化
 
 Workload Factory 現在提供 SSD 容量增加管理模式，以符合您的營運偏好：
@@ -19,6 +20,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[bulk-edit-ssd-capacity-increase-management-parameters]]
 === 批次編輯 SSD 容量增加管理參數
 
 現在，您可以從概覽儀表板跨多個檔案系統調整 SSD 容量增加管理參數。在「叢集」表中選擇一個或多個叢集，然後批量編輯臨界值（10-90%）、回溯（1-200 小時）和預估（1-200 小時）的值。
@@ -29,6 +31,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[capacity-decision-points-visualization]]
 === 容量決策點視覺化
 
 SSD 使用情況圖表現在會顯示決策點，指示何時產生容量建議或採取自動化動作。
@@ -43,6 +46,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[link-configured-status-in-clusters-table]]
 === 叢集表格中的連結已設定狀態
 
 概覽儀表板上的「叢集」表現在包含一個「關聯連結」列，該列顯示是否已為每個檔案系統配置 FSx for ONTAP 連結。連線狀態每天都會進行驗證，幫助您識別需要設定連結或可能有連線問題的檔案系統。
@@ -51,6 +55,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[support-for-aws-govcloud-us-in-netapp-workload-factory]]
 === 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
 
 NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。

@@ -4,6 +4,7 @@
 
 
 
+[[i7i-metal-24xl-instance-support-in-evs-tco-calculator]]
 === EVS TCO 計算器中的 i7i.metal-24xl 執行個體支援
 
 EVS TCO 計算器現已支援使用 AWS i7i.metal-24xl EC2 執行個體作為叢集主機。與 i4i.metal 配置相比，這些執行個體可將 EVS 的運算起始成本降低約 33%，vSAN 儲存起始成本降低約 25%。
