@@ -1,15 +1,6 @@
-= 適用於所有 FSx for ONTAP 系統的全新架構完善儀表板現已推出
+= 磁碟區資源管理器
 :allow-uri-read: 
 
-
-
-
-[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
-=== 適用於所有 FSx for ONTAP 系統的全新架構完善儀表板現已推出
-
-現在，您可以透過 NetApp Workload Factory 中全新的架構完善儀表板，對 FSx for ONTAP 檔案系統進行架構完善分析。新儀表板集中展示了您所有帳戶和區域中的檔案系統及其配置。當您從檔案系統存取「架構完善」索引標籤時，會出現彈出通知。您可以透過在 Workload Factory 左側導覽功能表中選擇「架構完善」來存取新儀表板。
-
-您仍然可以存取特定檔案系統的架構完善分析，以及從 Storage 中的 *Well-architected* 功能表選項進行存取。
 
 
 
