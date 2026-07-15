@@ -84,6 +84,12 @@ link:learn-custom-dashboards.html["深入瞭解自訂儀表板"]
 
 
 
+==== 從工作負載工廠移除 GenAI 工作負載
+
+GenAI 工作負載已從 Workload Factory 控制台中移除。
+
+
+
 [[eda-workloads]]
 === EDA 工作負載
 

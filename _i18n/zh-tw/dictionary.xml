@@ -194,26 +194,16 @@
   <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">預設啟用每日通知，以減少電子郵件數量，同時仍能提醒您注意延遲問題。您可以在設定延遲監控或編輯閾值設定時變更通知偏好設定。</block>
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何設定延遲監控</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">適用於所有 FSx for ONTAP 系統的全新架構完善儀表板現已推出</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">現在，您可以透過 NetApp Workload Factory 中全新的架構完善儀表板，對 FSx for ONTAP 檔案系統進行架構完善分析。新儀表板集中展示了您所有帳戶和區域中的檔案系統及其配置。當您從檔案系統存取「架構完善」索引標籤時，會出現彈出通知。您可以透過在 Workload Factory 左側導覽功能表中選擇「架構完善」來存取新儀表板。</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">您仍然可以存取特定檔案系統的架構完善分析，以及從 Storage 中的 *Well-architected* 功能表選項進行存取。</block>
-  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">架構良好的分析中的新建議</block>
-  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 現在在針對 FSx for ONTAP 檔案系統的完善架構分析中加入了以下配置：</block>
-  <block id="fd2d46026cdd19577962231303a46abd" category="list-text">將主機連線至容錯移轉節點：檢查主機是否已連線至主動-被動式 FSx for ONTAP 檔案系統中的容錯移轉節點，並建議將主機連線至容錯移轉節點以提高可靠性。</block>
-  <block id="0e7d4cc90eb78377a1315bafe07799dd" category="list-text">將主機連接至慣用節點：檢查主機是否透過慣用節點連接至其區塊裝置，並建議將主機連接至慣用節點以提升效能效率。</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">磁碟區資源管理器</block>
   <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">磁碟區資源管理器為您提供 NetApp Workload Factory 中所有磁碟區的簡潔、可搜尋檢視。快速查看哪些磁碟區用於處理區塊或檔案工作負載。查看每個磁碟區的邏輯大小、實體已使用容量以及是否使用了儲存效率功能（壓縮、重複資料刪除和資料精簡）。按名稱、狀態（可用/失敗）、延遲、大小、已使用容量和保護功能進行篩選和排序。</block>
-  <block id="2731bbeb58ccf58c8e631528a8e3fc94" category="section-title">複製延遲增強</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">增強複製延遲的電子郵件通知</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">現在，複製延遲的電子郵件通知包含有關受影響關係的更多詳細資訊。此通知可協助您快速識別受影響的關係，並在 Workload Factory 主控台中查看相關資訊。</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">啟用複製延遲通知</block>
   <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">將複製延遲資料匯出至 CSV</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">現在您可以將複製延遲資料匯出至 CSV 檔案，以便在試算表中分析資料並與他人共用。</block>
-  <block id="2b3d29c88190bdb57da25e1848b65b7d" category="inline-link-macro">追蹤複寫延遲</block>
-  <block id="7aab1e1b0e0fcc4720b15dcc5848034e" category="paragraph"><block ref="7aab1e1b0e0fcc4720b15dcc5848034e" category="inline-link-macro-rx"></block></block>
   <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">區塊裝置建立增強功能</block>
   <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory 支援從磁碟區快照建立區塊裝置。</block>
   <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">在 Workload Factory 中從磁碟區快照建立區塊設備</block>
   <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
+  <block id="cc661418365d138458bf55f936b73a47" category="section-title">從工作負載工廠移除 GenAI 工作負載</block>
+  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 工作負載已從 Workload Factory 控制台中移除。</block>
 </blocks>
