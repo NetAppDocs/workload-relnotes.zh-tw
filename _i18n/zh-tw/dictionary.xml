@@ -167,15 +167,9 @@
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">計算 EVS 的預計節省量</block>
   <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026年7月6日</block>
-  <block id="33e0c31d77f9c8cc22645a3c4d8f1c27" category="doc">利用 IOPS 和吞吐量圖表增強延遲分析</block>
-  <block id="820660d0f2f623290b9d6bf61dc7b971" category="paragraph">延遲分析面板現在在「隨時間變化」標籤中顯示同步效能圖表：</block>
   <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*延遲圖*：顯示延遲隨時間的變化情況，並帶有閾值線，當超過限制時會發出警示。</block>
   <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*IOPS 圖表*：顯示每秒作業數，並附有閾值線和過去超出限制的指示器。</block>
-  <block id="167a301ac11e90acd4e01899787518a1" category="list-text">*吞吐量圖*：顯示資料傳輸速率（DataReadBytes 或 DataWriteBytes）。</block>
   <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">所有圖表均使用相同時間線，並根據事件是讀取還是寫入自動顯示正確的指標。</block>
-  <block id="40f862a8ef42e494a25d0887d6827d75" category="paragraph">新增的篩選器可讓您在「全部」、「讀取」、「寫入」或「元資料」操作之間切換，以便進行更詳細的分析。</block>
-  <block id="b8f78f4759a5bd3c20308a67276707aa" category="paragraph">這些圖表可協助您了解延遲、IOPS 和處理量之間的關係，讓您更容易找出效能問題的原因並決定如何解決這些問題。</block>
-  <block id="41b8190fd8c34e03bd93c4234b033876" category="paragraph">效能圖表目前僅在提供 AWS 憑證後可用。FSx for ONTAP 連結僅在基本分析和 AI 分析中的元件細分時才需要。</block>
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">學習如何使用多個圖表分析延遲趨勢</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026年7月5日</block>
@@ -206,4 +200,8 @@
   <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
   <block id="cc661418365d138458bf55f936b73a47" category="section-title">從工作負載工廠移除 GenAI 工作負載</block>
   <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 工作負載已從 Workload Factory 控制台中移除。</block>
+  <block id="efb6a1d0d54500167c0d1ae30ab8ac5b" category="doc">增強延遲分析，同步顯示延遲、IOPS 和處理量圖表</block>
+  <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">延遲分析面板現在包含一個「詳細延遲分析」頁面，其中包含同步的效能圖表：</block>
+  <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*處理量圖*：顯示資料傳輸速率（DataReadBytes 或 DataWriteBytes）。在篩選器中選取 Metadata 時，處理量圖不會顯示任何資料。</block>
+  <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">您可以調整檢視，並將延遲峰值與 IOPS 和處理量的變化關聯起來。違規標記和懸停細節可協助您查看何時超過臨界值，並審查偵測到的違規行為的關鍵計量。</block>
 </blocks>
