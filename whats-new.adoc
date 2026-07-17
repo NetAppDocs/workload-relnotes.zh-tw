@@ -67,6 +67,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["
 
 
 
+==== 磁碟區和區塊設備的工作負載標記
+
+Workload Factory 現在可以識別並標記磁碟區和區塊裝置的主要工作負載或應用程式。您可以指派預先定義的工作負載標籤，例如 Microsoft SQL Server 或 Oracle Database，也可以為應用程式建立自訂標籤。標籤可以套用至個別資源，也可以由連線的儲存資源繼承。這有助於您使儲存設備配置與工作負載需求保持一致、了解事件影響，並更有效地進行疑難排解。
+
+
+
 [[setup-and-administration]]
 === 設定與管理
 

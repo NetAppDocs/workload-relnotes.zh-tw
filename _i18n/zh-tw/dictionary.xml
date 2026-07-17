@@ -204,4 +204,6 @@
   <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">延遲分析面板現在包含一個「詳細延遲分析」頁面，其中包含同步的效能圖表：</block>
   <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*處理量圖*：顯示資料傳輸速率（DataReadBytes 或 DataWriteBytes）。在篩選器中選取 Metadata 時，處理量圖不會顯示任何資料。</block>
   <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">您可以調整檢視，並將延遲峰值與 IOPS 和處理量的變化關聯起來。違規標記和懸停細節可協助您查看何時超過臨界值，並審查偵測到的違規行為的關鍵計量。</block>
+  <block id="842065a36dace972d6dab0c170421bd1" category="section-title">磁碟區和區塊設備的工作負載標記</block>
+  <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">Workload Factory 現在可以識別並標記磁碟區和區塊裝置的主要工作負載或應用程式。您可以指派預先定義的工作負載標籤，例如 Microsoft SQL Server 或 Oracle Database，也可以為應用程式建立自訂標籤。標籤可以套用至個別資源，也可以由連線的儲存資源繼承。這有助於您使儲存設備配置與工作負載需求保持一致、了解事件影響，並更有效地進行疑難排解。</block>
 </blocks>
