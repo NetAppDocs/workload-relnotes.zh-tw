@@ -1,0 +1,31 @@
+= 架構完善的分析中 Oracle 和 Microsoft SQL Server 的組態變更
+:allow-uri-read: 
+
+
+
+
+[[configuration-changes-for-oracle-and-microsoft-sql-server-in-the-well-architected-analysis]]
+=== 架構完善的分析中 Oracle 和 Microsoft SQL Server 的組態變更
+
+在架構完善的分析中，多種資料庫組態已合併並重新命名為以下組態。
+
+* *區塊設備空間管理*：包含保留空間、空間分配和部分保留
+* *儲存效率*：包含壓縮、重複資料刪除和資料精簡
+* *分層/TCO 最佳化*：包含分層原則和分層最低冷卻天數
+* *Schedule local snapshots*：包含快照原則
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["工作負載工廠中的組態分析"]
+
+
+
+[[updated-iam-permission-policies-for-databases]]
+=== 更新了資料庫的 IAM 權限原則。
+
+資料庫的權限已更新，以改善功能存取並限制不必要的 SSM 存取。
+
+檢視、規劃和分析權限僅限於 AWS SSM 文件。擁有這些權限，您可以檢視主機、執行個體和資料庫。您也可以對資源執行基本的隨需架構完善分析。
+
+操作和修復權限可讓您變更資源、分析錯誤日誌、取得資源的全面架構完善分析並修復組態問題。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["權限參考"^]

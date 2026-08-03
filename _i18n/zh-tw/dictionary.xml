@@ -161,23 +161,18 @@
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">檢視、規劃和分析權限僅限於 AWS SSM 文件。擁有這些權限，您可以檢視主機、執行個體和資料庫。您也可以對資源執行基本的隨需架構完善分析。</block>
   <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">操作和修復權限可讓您變更資源、分析錯誤日誌、取得資源的全面架構完善分析並修復組態問題。</block>
   <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">權限參考</block>
-  <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === 自訂儀表板</block>
   <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">自訂儀表板的通知</block>
   <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory 現在會在您的自訂儀表板準備就緒或建立失敗時通知您。</block>
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">建立自訂儀表板後，您將收到一則通知，其中包含可直接檢視該儀表板的連結。如果建立失敗，您將收到一則通知，其中包含指向自訂儀表板清單的連結，以便重試。</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">這可以幫助您了解儀表板何時準備就緒，並方便您審查或重新建立它。</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">學習如何建立自訂儀表板</block>
-  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">了解如何設定通知</block>
-  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">私有和公用自訂儀表板</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">自訂儀表板現在包含共享設定。您可以將儀表板設為私人，也可以與團隊成員共享。</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">預設情況下，新建的儀表板是私有的，只有您自己可見。您可以隨時將儀表板設為公開，與 Workload Factory 帳戶中的所有人共享。</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">每個儀表板卡片都會顯示「私人」或「公有」標籤，以便您快速查看哪些儀表板是共享的。</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">了解儀表板的可見度和共享功能</block>
-  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">了解如何共享儀表板</block>
-  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 功能管理</block>
   <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">您可以透過 Workload Factory 管理中的以下設定來控制整個組織對 AI 功能的存取。</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">使用 NetApp 代管的 Bedrock（建議使用，預設啟用，設有每月點數限制）</block>
@@ -186,7 +181,6 @@
   <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI 功能包括「問我」、自訂儀表板、規則建構者以及 EMS、資料庫日誌和 Volume 延遲分析器。</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">如果 AI 功能已關閉，使用者將會看到一則訊息，提示 AI 無法使用。</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
-  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
   <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">AI 延遲分析及成本控制</block>
   <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">身為 Workload Factory 系統管理員，您可以控制整個組織對 AI 延遲分析的存取。</block>
@@ -229,4 +223,19 @@
   <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">若要設定 S3 事件的通知，<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block>並在 *Journal table* 區段下選取 *Send S3 events by SNS*。</block>
   <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
   <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>。</block>
+  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">架構完善的分析中 Oracle 和 Microsoft SQL Server 的組態變更</block>
+  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">在架構完善的分析中，多種資料庫組態已合併並重新命名為以下組態。</block>
+  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*區塊設備空間管理*：包含保留空間、空間分配和部分保留</block>
+  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*儲存效率*：包含壓縮、重複資料刪除和資料精簡</block>
+  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*分層/TCO 最佳化*：包含分層原則和分層最低冷卻天數</block>
+  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*Schedule local snapshots*：包含快照原則</block>
+  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">工作負載工廠中的組態分析</block>
+  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
+  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
+  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
+  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
+  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
+  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
+  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
+  <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
 </blocks>
