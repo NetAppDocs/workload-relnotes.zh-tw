@@ -1,0 +1,31 @@
+= AI 延遲分析及成本控制
+:allow-uri-read: 
+
+
+
+
+[[ai-latency-analysis-with-cost-controls]]
+=== AI 延遲分析及成本控制
+
+身為 Workload Factory 系統管理員，您可以控制整個組織對 AI 延遲分析的存取。
+
+* *NetApp 代管 AI 額度*：如果您的系統管理員啟用此功能，您可以透過 NetApp 的代管 Amazon Bedrock 整合使用 AI 分析。無需額外設定。您的每月使用量受分配的預算限制。如果您達到每月限額，AI 功能將停用，您將會看到一則訊息。
+* *系統管理員已停用*：如果您的系統管理員關閉了 AI 功能，則 AI 分析選項將呈灰色顯示，並且您會看到一則訊息，提示該功能已關閉。
+
+
+
+
+[[elastic-throughput-increase-management]]
+=== 彈性處理量增加管理
+
+現在，您可以從 EDA 概述頁面管理一個或多個選定的 FSx for ONTAP 檔案系統的處理量增加行為。
+
+* *模式選擇*：選擇 *Automate* 或 *Recommend*。
+* *批次更新*：選擇一個或多個檔案系統，並在單一行動中套用模式和參數變更。
+* *變更處理量管理對話方塊*：在對話方塊中使用 EDA 預設值編輯處理量增加設定。
+* *進階設定*：在可展開的*進階組態*區段中設定其他處理量決策參數。
+* *表格可見度*：叢集表中新增了 *處理量管理* 欄，可透過欄設定啟用。
+* *上位卡組態*：上位卡現在支援處理量提升模式組態，類似 SSD 管理。
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["了解如何使用概覽儀表板"^]。

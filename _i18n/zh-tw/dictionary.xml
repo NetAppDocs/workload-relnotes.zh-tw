@@ -188,4 +188,18 @@
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">AI 延遲分析及成本控制</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">身為 Workload Factory 系統管理員，您可以控制整個組織對 AI 延遲分析的存取。</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp 代管 AI 額度*：如果您的系統管理員啟用此功能，您可以透過 NetApp 的代管 Amazon Bedrock 整合使用 AI 分析。無需額外設定。您的每月使用量受分配的預算限制。如果您達到每月限額，AI 功能將停用，您將會看到一則訊息。</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*系統管理員已停用*：如果您的系統管理員關閉了 AI 功能，則 AI 分析選項將呈灰色顯示，並且您會看到一則訊息，提示該功能已關閉。</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">彈性處理量增加管理</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">現在，您可以從 EDA 概述頁面管理一個或多個選定的 FSx for ONTAP 檔案系統的處理量增加行為。</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*模式選擇*：選擇 *Automate* 或 *Recommend*。</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*批次更新*：選擇一個或多個檔案系統，並在單一行動中套用模式和參數變更。</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*變更處理量管理對話方塊*：在對話方塊中使用 EDA 預設值編輯處理量增加設定。</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*進階設定*：在可展開的*進階組態*區段中設定其他處理量決策參數。</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*表格可見度*：叢集表中新增了 *處理量管理* 欄，可透過欄設定啟用。</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*上位卡組態*：上位卡現在支援處理量提升模式組態，類似 SSD 管理。</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">了解如何使用概覽儀表板</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>。</block>
 </blocks>
