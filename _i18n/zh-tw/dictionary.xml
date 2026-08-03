@@ -32,59 +32,10 @@
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory 的最新變化</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">這些發行說明介紹了NetApp Workload Factory 的雲端服務的最新增強功能。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 發行說明</block>
-  <block id="41d5af71402e1d82f05775556afa695b" category="section-title">針對 Oracle 的良好架構分析</block>
-  <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">在 Workload Factory 中實作架構良好的資料庫配置</block>
-  <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作負載</block>
-  <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">在 NetApp Workload Factory 中管理區塊儲存</block>
-  <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
-  <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">架構完善的分析包括以下針對 Oracle 的新組態：</block>
-  <block id="5a022ce9df2c118b15eecf6d431faf14" category="doc">區塊裝置複本</block>
-  <block id="c74340453798a5d4d4e10a5aaef38904" category="paragraph">Workload Factory 為您的區塊裝置提供複製功能，以便您可以快速佈建可寫入且高效的資料副本，同時控制容量、存取和生命週期。</block>
-  <block id="91cb86206fad91f1ee03be3263ce2b5e" category="section-title">區塊裝置上的 EC2 標籤</block>
-  <block id="4cdbcf74dda458c541b8fb774532f64e" category="paragraph">區塊裝置表格現在包含一欄，顯示正在使用每個區塊裝置的 EC2 主機標籤。這有助於您在疑難排解或稽核期間識別哪個主機使用每個區塊裝置。</block>
-  <block id="1182d4b8399f34126ea205e47a6a77aa" category="paragraph">若要在每個區塊裝置上建立標籤，請使用我們提供的使用者腳本部署 EC2 執行個體。</block>
-  <block id="949772caeac38120e37726672f87e673" category="inline-link-macro">EC2 使用者資料指令碼，用於將標籤指派給區塊裝置</block>
-  <block id="f253e6c2e63632a5f1a7ef4fe6522c2f" category="paragraph"><block ref="f253e6c2e63632a5f1a7ef4fe6522c2f" category="inline-link-macro-rx"></block></block>
-  <block id="607326d3637e008b134e64f39d8da723" category="section-title">FSx for ONTAP 檔案系統的容量趨勢</block>
-  <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">在 NetApp Workload Factory 中自動管理容量</block>
-  <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
-  <block id="3be044b694628f6e958377c22febfacd" category="section-title">2026 年 5 月 3 日</block>
-  <block id="97c13014b9e16335b445d04850fb955f" category="doc">延遲事件的電子郵件和 SNS 通知</block>
-  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">現在，當 FSx for ONTAP 磁碟區上偵測到延遲事件時，您可以接收自動通知。在 Workload Factory 設定中設定電子郵件或 Amazon SNS 通知，以便在磁碟區的延遲超過您設定的閾值時接收即時警報。</block>
-  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">通知會以檔案系統為基礎傳送，包括所有受影響磁碟區的詳細資訊、嚴重性層級、臨界值比較，以及可直接連結至 Latency 頁面進行調查的連結。</block>
-  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">了解如何設定延遲通知</block>
-  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>。</block>
-  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">使用互動式圖表將延遲趨勢視覺化</block>
-  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">延遲分析面板現在包含分頁式介面，可進行全面的延遲分析：</block>
-  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*概述*：檢視自動化基本分析結果，顯示哪個元件造成延遲</block>
-  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*隨時間變化*：透過互動式圖表視覺化多個時間範圍（1 小時、3 小時、12 小時、24 小時或 72 小時）內的磁碟區延遲行為</block>
-  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">*Over time* 標籤顯示原始 CloudWatch 延遲資料（讀取或寫入，取決於觸發的警示），以及警告和嚴重臨界值線、違規指標和每次違規的詳細指標。</block>
-  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">這種全面的視覺化功能可協助您識別模式、瞭解延遲問題是反覆出現還是孤立發生，並針對補救措施做出更明智的決策。</block>
-  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">瞭解如何分析延遲趨勢</block>
-  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>。</block>
-  <block id="15407be309823d0bd0fd1f09d53ccd89" category="doc">Workload Factory 的電子郵件通知</block>
-  <block id="a1ed0466beff73a72b5d95ef2b956e83" category="paragraph">現在，您無需設定 Amazon SNS 主題即可透過電子郵件接收 Workload Factory 通知。啟用電子郵件通知功能，即可傳送通知至與該帳戶關聯的任何電子郵件地址。</block>
-  <block id="1c6cc010b2ec0805e327534ebbfb3973" category="paragraph">您可以透過 Workload Factory 控制台或 NetApp Console 設定電子郵件通知。NetApp Console 還提供配置選項，可讓您設定顯示在鈴鐺圖示下的 NetApp Console 通知。</block>
-  <block id="f76fbee6bb24fc9289f051c59b4058b2" category="paragraph">如果在 NetApp Console 中配置通知，NetApp Console 將負責傳送通知。Workload Factory 主控台中的通知設定將變為唯讀，以防止重複通知。</block>
-  <block id="b2dfd446bf724d5a49ad6d34fffa8cd5" category="section-title">EDA 延遲的新通知</block>
-  <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">NetApp Workload Factory 通知服務包含 EDA 延遲通知，當 EDA 操作的延遲超過一定閾值時，該通知會通知您。</block>
   <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">設定 Workload Factory 通知</block>
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
-  <block id="596e30b7050101709ce0d710420e77a7" category="paragraph">直接從 FSx for ONTAP 檔案系統的概覽中了解 SSD 容量趨勢。新增的容量管理卡顯示了上個月的使用趨勢。此分析比較了實際容量和分配容量，方便您評估資源使用量。</block>
-  <block id="deede3cf7f18c08613ec53890188368e" category="section-title">FSx for ONTAP 檔案系統架構良好狀態的 PDF 報告</block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 檔案系統的新通知</block>
-  <block id="6d358c966898e9dabc6d051e85958cd8" category="paragraph">NetApp Workload Factory 通知服務包括每月向您的帳戶發送成本摘要通知，其中顯示了支出趨勢、異常變化以及 FSx for ONTAP 檔案系統的最佳節省機會。</block>
-  <block id="f6fc5d0b34e0c83d4e75f7be25a32b82" category="list-text">*備份組態*：檢查您的 Oracle 資料庫是否受 AWS Backup 或 FSx for ONTAP 備份保護。</block>
-  <block id="e77f1d098a7b16b8bd4d2f20f9aba65f" category="list-text">*複製清理*：建議移除過時或未使用的複製，以降低儲存成本。</block>
-  <block id="89840aef48298f433a57c56ab247ae08" category="section-title">在 Amazon Elastic Block Store （EBS） 上自動計算 Oracle 資料庫的節省成本</block>
-  <block id="820714d6c08a1a257cd36fe74e1fed2b" category="paragraph">Workload Factory 會自動分析用於 Oracle 資料庫的 EBS 儲存成本，並推薦最佳且最具成本效益的 FSx for ONTAP 配置。您可以選擇多個 EBS 主機進行分析，然後比較在 EBS 上執行這些主機與在 FSx for ONTAP 執行這些主機的成本。</block>
-  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">探索已偵測到的 EBS 主機的節省方案</block>
-  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
-  <block id="19b3c31ea822597c2e4628964f178a69" category="section-title">CRR 組態先決條件檢查</block>
-  <block id="9806495507d3f9631835ef96ec7c6a20" category="paragraph">為資料庫環境啟用跨區域複製 (CRR) 時，Database 工作負載會檢查 FSx for ONTAP 檔案系統是否具有關聯的連結和複製設定。如果需要，Database 工作負載會將您重新導向至 FSx for ONTAP Storage 工作負載複製精靈，以便以與 Storage 相同的方式處理連結先決條件。</block>
-  <block id="2570f829ce5d9920c913ea709da38970" category="section-title">Microsoft SQL Server 資料庫的關聯 LUN</block>
-  <block id="7bcbdd4b76f415ad3e96438de020e5cf" category="paragraph">現在，您可以在 Workload Factory 的「清單」畫面中查看對應到 Microsoft SQL Server 資料庫的 LUN。這樣，您可以輕鬆識別哪些 LUN 與哪些資料庫關聯，從而更輕鬆地管理和最佳化儲存資源。</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">在 NetApp Workload Factory 中支援 AWS GovCloud（US）</block>
   <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理 GenAI 工作負載。</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
@@ -100,7 +51,6 @@
   <block id="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="list-text"><block ref="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="inline-link-macro-rx"></block></block>
   <block id="092e50fff7799a091642caa817b6e9ee" category="paragraph">NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理資料庫工作負載。</block>
   <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026 年 6 月 1 日</block>
-  <block id="d78944313be822653acf15ab5398cc09" category="paragraph">分析完成後、您可以下載 FSx for ONTAP 檔案系統架構良好狀態的 PDF 報告、以供記錄或與團隊分享。</block>
   <block id="1e2f4a38d5efedb5cf0944fea2e5cddf" category="inline-link-macro">在 NetApp Workload Factory 中檢視 FSx for ONTAP 檔案系統的架構良好狀態</block>
   <block id="74d7776910c4ca73289bbbb6c6bfddf9" category="paragraph"><block ref="74d7776910c4ca73289bbbb6c6bfddf9" category="inline-link-macro-rx"></block></block>
   <block id="8b15ccb7fd3de568f0d6670c4c2d0d62" category="paragraph">NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。</block>
@@ -206,4 +156,36 @@
   <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">您可以調整檢視，並將延遲峰值與 IOPS 和處理量的變化關聯起來。違規標記和懸停細節可協助您查看何時超過臨界值，並審查偵測到的違規行為的關鍵計量。</block>
   <block id="842065a36dace972d6dab0c170421bd1" category="section-title">磁碟區和區塊設備的工作負載標記</block>
   <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">Workload Factory 現在可以識別並標記磁碟區和區塊裝置的主要工作負載或應用程式。您可以指派預先定義的工作負載標籤，例如 Microsoft SQL Server 或 Oracle Database，也可以為應用程式建立自訂標籤。標籤可以套用至個別資源，也可以由連線的儲存資源繼承。這有助於您使儲存設備配置與工作負載需求保持一致、了解事件影響，並更有效地進行疑難排解。</block>
+  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">更新了資料庫的 IAM 權限原則。</block>
+  <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">資料庫的權限已更新，以改善功能存取並限制不必要的 SSM 存取。</block>
+  <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">檢視、規劃和分析權限僅限於 AWS SSM 文件。擁有這些權限，您可以檢視主機、執行個體和資料庫。您也可以對資源執行基本的隨需架構完善分析。</block>
+  <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">操作和修復權限可讓您變更資源、分析錯誤日誌、取得資源的全面架構完善分析並修復組態問題。</block>
+  <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">權限參考</block>
+  <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === 自訂儀表板</block>
+  <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">自訂儀表板的通知</block>
+  <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory 現在會在您的自訂儀表板準備就緒或建立失敗時通知您。</block>
+  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">建立自訂儀表板後，您將收到一則通知，其中包含可直接檢視該儀表板的連結。如果建立失敗，您將收到一則通知，其中包含指向自訂儀表板清單的連結，以便重試。</block>
+  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">這可以幫助您了解儀表板何時準備就緒，並方便您審查或重新建立它。</block>
+  <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">學習如何建立自訂儀表板</block>
+  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
+  <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">了解如何設定通知</block>
+  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
+  <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">私有和公用自訂儀表板</block>
+  <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">自訂儀表板現在包含共享設定。您可以將儀表板設為私人，也可以與團隊成員共享。</block>
+  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">預設情況下，新建的儀表板是私有的，只有您自己可見。您可以隨時將儀表板設為公開，與 Workload Factory 帳戶中的所有人共享。</block>
+  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">每個儀表板卡片都會顯示「私人」或「公有」標籤，以便您快速查看哪些儀表板是共享的。</block>
+  <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">了解儀表板的可見度和共享功能</block>
+  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
+  <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">了解如何共享儀表板</block>
+  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
+  <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 功能管理</block>
+  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">您可以透過 Workload Factory 管理中的以下設定來控制整個組織對 AI 功能的存取。</block>
+  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">使用 NetApp 代管的 Bedrock（建議使用，預設啟用，設有每月點數限制）</block>
+  <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">關閉所有人工智慧功能</block>
+  <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">新的管理頁面讓您可以集中管理這些設定。</block>
+  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI 功能包括「問我」、自訂儀表板、規則建構者以及 EMS、資料庫日誌和 Volume 延遲分析器。</block>
+  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">如果 AI 功能已關閉，使用者將會看到一則訊息，提示 AI 無法使用。</block>
+  <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
+  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
 </blocks>
