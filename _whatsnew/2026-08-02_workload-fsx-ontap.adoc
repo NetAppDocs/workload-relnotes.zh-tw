@@ -44,7 +44,7 @@
 
 當系統管理員停用 AI 功能時，工作負載將不會被標記。如果在 Workload Factory 帳戶設定中關閉了 AI 功能，標記服務將無法識別或分類儲存資源上的工作負載。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["了解人工智慧管理"^]。
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解人工智慧管理"^]。
 
 
 
