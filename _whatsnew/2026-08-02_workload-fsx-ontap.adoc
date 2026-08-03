@@ -1,0 +1,71 @@
+= 適用於所有 FSx for ONTAP 系統的全新架構完善儀表板現已推出
+:allow-uri-read: 
+
+
+
+
+[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
+=== 適用於所有 FSx for ONTAP 系統的全新架構完善儀表板現已推出
+
+現在，您可以透過 NetApp Workload Factory 中全新的架構完善儀表板，對 FSx for ONTAP 檔案系統進行架構完善分析。新儀表板集中展示了您所有帳戶和區域中的檔案系統及其配置。當您從檔案系統存取「架構完善」索引標籤時，會出現彈出通知。您可以透過在 Workload Factory 左側導覽功能表中選擇「架構完善」來存取新儀表板。
+
+您仍然可以存取特定檔案系統的架構完善分析，以及從 Storage 中的 *Well-architected* 功能表選項進行存取。
+
+
+
+[[new-widgets-added-to-the-storage-dashboard]]
+=== 儲存儀表板新增了小工具
+
+儲存設備儀表板現在包含兩個新的小工具，可協助您了解如何使用儲存設備，以及找到最佳化儲存設備的方法。
+
+* *熱門探索到的工作負載* 顯示標記服務在您的環境中發現的工作負載資料。檢視信賴度評分高於 80% 且包含相關 FSx 資源（例如 Volume 和區塊裝置）的工作負載。每個工作負載都會顯示其名稱、資源數量、已配置容量和已使用容量。依資源數量（預設）、已配置容量或已使用容量排序，以快速識別最大的工作負載並了解儲存設備使用模式。
+* *AI 驅動的洞察與觀察* 展示 AI 產生的關於您代管資產的洞察。該元件會審查您所選範圍內的資產資料，並突出顯示關鍵領域的前三項重要發現，包括容量、效能、資料保護、複寫、成本節約效益和儲存設備趨勢。
+
+
+每個洞察都包含總結、詳細調查結果和建議措施。展開洞察即可查看更多詳情，並根據問題的嚴重性、效能改進和成本節約效益機會來確定優先順序。
+
+
+
+[[workload-tagging]]
+=== 工作負載標記
+
+
+
+==== AWS Systems Manager 整合工作負載標記
+
+工作負載標記服務現已與 AWS Systems Manager 協同運作，為主機清單資料新增更多詳細資訊。Workload Factory 現在可以收集和處理 SSM 清單資訊，以便更好地識別和分類工作負載。AWS SSM 屬性也包含在標記程序中，以提高工作負載探索的準確性。
+
+在架構完善的儀表板中，每個與 Volume 相關的組態現在都在資源表中包含「工作負載」欄位。此欄位顯示 Workload Factory 與每個 Volume 關聯的工作負載。
+
+
+
+[[workload-tagging-and-ai-features]]
+=== 工作負載標記和 AI 功能
+
+當系統管理員停用 AI 功能時，工作負載將不會被標記。如果在 Workload Factory 帳戶設定中關閉了 AI 功能，標記服務將無法識別或分類儲存資源上的工作負載。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["了解人工智慧管理"^]。
+
+
+
+[[explore-savings-snapshot-calculation-improvement]]
+=== 探索節省快照計算改進
+
+Explore savings 功能現在使用一致的快照容量計算，因此 FSx for ONTAP 節省估算可正確計算額外的快照容量資源池要求。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["探索 Amazon Elastic Block Store、FSx for Windows File Server 和 Elastic File System 為您的儲存設備環境節省成本。"]
+
+
+
+==== 將複製延遲資料匯出至 CSV
+
+現在您可以將複製延遲資料匯出至 CSV 檔案，以便在試算表中分析資料並與他人共用。
+
+
+
+[[s3-access-point-events]]
+=== S3 存取點事件
+
+現在您可以依照設定的時間表將 S3 存取點事件傳送到 SNS 主題。每次更新都包含自上次更新以來發生的所有事件。
+
+若要設定 S3 事件的通知，link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["編輯 S3 存取點"]並在 *Journal table* 區段下選取 *Send S3 events by SNS*。
