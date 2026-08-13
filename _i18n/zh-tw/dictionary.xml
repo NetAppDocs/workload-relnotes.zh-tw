@@ -37,7 +37,6 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 檔案系統的新通知</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">在 NetApp Workload Factory 中支援 AWS GovCloud（US）</block>
-  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理 GenAI 工作負載。</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
   <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Amazon Elastic Block Store 上 Oracle 主機的自訂節省成本</block>
   <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases 可讓您自訂 Amazon Elastic Block Store （EBS） 上 Oracle 主機的節省策略。您可以調整快照頻率、複製副本數量和磁碟區詳細資料等多個欄位，以查看它們如何影響節省的成本。</block>
@@ -238,4 +237,6 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">在 Volumes Explorer 中顯示的 ONTAP 功能</block>
+  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">磁碟區資源管理器現在在磁碟區表中包含了 ONTAP 功能。這些功能提供了有關磁碟區的組態和狀態的更詳細資訊，例如保護範圍、Autonomous Ransomware Protection （ARP/AI） 狀態、儲存效率、分層原則和 Volume 自動擴充。</block>
 </blocks>

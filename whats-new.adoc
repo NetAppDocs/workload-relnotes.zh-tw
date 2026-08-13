@@ -221,6 +221,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["探�
 
 
 
+==== 在 Volumes Explorer 中顯示的 ONTAP 功能
+
+磁碟區資源管理器現在在磁碟區表中包含了 ONTAP 功能。這些功能提供了有關磁碟區的組態和狀態的更詳細資訊，例如保護範圍、Autonomous Ransomware Protection （ARP/AI） 狀態、儲存效率、分層原則和 Volume 自動擴充。
+
+
+
 [[06-july-2026]]
 == 2026年7月6日
 
@@ -472,17 +478,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 ==== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
 
 NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。
-
-
-
-[[genai-workloads]]
-=== GenAI 工作負載
-
-
-
-==== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
-
-NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理 GenAI 工作負載。
 
 
 

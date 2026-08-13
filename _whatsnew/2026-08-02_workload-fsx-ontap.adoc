@@ -69,3 +69,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["探�
 現在您可以依照設定的時間表將 S3 存取點事件傳送到 SNS 主題。每次更新都包含自上次更新以來發生的所有事件。
 
 若要設定 S3 事件的通知，link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["編輯 S3 存取點"]並在 *Journal table* 區段下選取 *Send S3 events by SNS*。
+
+
+
+[[ontap-features-displayed-in-volumes-explorer]]
+=== 在 Volumes Explorer 中顯示的 ONTAP 功能
+
+磁碟區資源管理器現在在磁碟區表中包含了 ONTAP 功能。這些功能提供了有關磁碟區的組態和狀態的更詳細資訊，例如保護範圍、Autonomous Ransomware Protection （ARP/AI） 狀態、儲存效率、分層原則和 Volume 自動擴充。
