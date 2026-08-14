@@ -1,0 +1,10 @@
+= Volumes 總管中可用的 Volume 動作
+:allow-uri-read: 
+
+
+
+
+[[volume-actions-available-in-volumes-explorer]]
+=== Volumes 總管中可用的 Volume 動作
+
+所有 Volume 操作均可直接在 Volumes explorer 中對一個或多個 Volume 執行。這使得執行 Volume 層級操作更加快速。Volume 操作包括修改 Volume 設定、管理快照以及執行其他 Volume 任務，而無需離開 Volumes explorer。您也可以從 FSx for ONTAP 檔案系統總覽中的 Volumes 索引標籤存取這些操作。

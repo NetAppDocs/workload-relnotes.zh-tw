@@ -239,4 +239,7 @@
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
   <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">在 Volumes Explorer 中顯示的 ONTAP 功能</block>
   <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">磁碟區資源管理器現在在磁碟區表中包含了 ONTAP 功能。這些功能提供了有關磁碟區的組態和狀態的更詳細資訊，例如保護範圍、Autonomous Ransomware Protection （ARP/AI） 狀態、儲存效率、分層原則和 Volume 自動擴充。</block>
+  <block id="9b988decb4830a521f8e1487584f0385" category="doc">Volumes 總管中可用的 Volume 動作</block>
+  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有 Volume 操作均可直接在 Volumes explorer 中對一個或多個 Volume 執行。這使得執行 Volume 層級操作更加快速。Volume 操作包括修改 Volume 設定、管理快照以及執行其他 Volume 任務，而無需離開 Volumes explorer。您也可以從 FSx for ONTAP 檔案系統總覽中的 Volumes 索引標籤存取這些操作。</block>
+  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
 </blocks>
