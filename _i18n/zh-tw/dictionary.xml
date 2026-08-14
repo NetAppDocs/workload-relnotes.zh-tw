@@ -138,7 +138,6 @@
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何設定延遲監控</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">磁碟區資源管理器</block>
-  <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">磁碟區資源管理器為您提供 NetApp Workload Factory 中所有磁碟區的簡潔、可搜尋檢視。快速查看哪些磁碟區用於處理區塊或檔案工作負載。查看每個磁碟區的邏輯大小、實體已使用容量以及是否使用了儲存效率功能（壓縮、重複資料刪除和資料精簡）。按名稱、狀態（可用/失敗）、延遲、大小、已使用容量和保護功能進行篩選和排序。</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">增強複製延遲的電子郵件通知</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">現在，複製延遲的電子郵件通知包含有關受影響關係的更多詳細資訊。此通知可協助您快速識別受影響的關係，並在 Workload Factory 主控台中查看相關資訊。</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">啟用複製延遲通知</block>
@@ -242,4 +241,5 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">Volumes 總管中可用的 Volume 動作</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有 Volume 操作均可直接在 Volumes explorer 中對一個或多個 Volume 執行。這使得執行 Volume 層級操作更加快速。Volume 操作包括修改 Volume 設定、管理快照以及執行其他 Volume 任務，而無需離開 Volumes explorer。您也可以從 FSx for ONTAP 檔案系統總覽中的 Volumes 索引標籤存取這些操作。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
+  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">Volumes explorer 為您提供 NetApp Workload Factory 中所有 Volume 的簡潔、可搜尋檢視。快速查看哪些 Volume 用於區塊或檔案工作負載。檢視每個 Volume 的邏輯大小、實體已使用容量，以及是否使用儲存效率功能（壓縮、重複資料刪除和資料精簡）。依名稱、狀態（可用/失敗）、延遲、大小、已使用容量和保護功能進行篩選和排序。</block>
 </blocks>
