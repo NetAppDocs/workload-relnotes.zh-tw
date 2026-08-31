@@ -1,0 +1,12 @@
+= 連結建立功能可在「連結」頁面找到
+:allow-uri-read: 
+
+
+
+
+[[link-creation-available-from-links-page]]
+=== 連結建立功能可在「連結」頁面找到
+
+現在，除了 FSx for ONTAP 清單頁面和檔案系統總覽頁面之外，您還可以直接從管理選單的「連結」頁面建立連結。
+
+link:create-link.html["深入瞭解如何建立連結"]。
