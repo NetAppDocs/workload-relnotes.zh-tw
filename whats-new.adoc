@@ -15,6 +15,22 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
+[[30-august-2026]]
+== 2026年8月30日
+
+
+
+[[setup-and-administration]]
+=== 設定與管理
+
+
+
+==== 全新的憑證和連結註冊體驗
+
+Workload Factory 優化了憑證和連結的上線體驗，讓您更輕鬆地開始使用。建立帳戶並登入後，在任意工作負載圖格（例如 *Storage*）中選擇 *Get started*，下一頁將引導您逐步完成設定程序。
+
+
+
 [[11-august-2026]]
 == 2026年8月11日
 
@@ -363,213 +379,3 @@ Workload Factory 在向檔案系統發出延遲警報後，會等待 24 小時�
 預設啟用每日通知，以減少電子郵件數量，同時仍能提醒您注意延遲問題。您可以在設定延遲監控或編輯閾值設定時變更通知偏好設定。
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["了解如何設定延遲監控"^].
-
-
-
-[[01-june-2026]]
-== 2026 年 6 月 1 日
-
-
-
-[[database-workloads]]
-=== 資料庫工作負載
-
-
-
-==== Amazon Elastic Block Store 上 Oracle 主機的自訂節省成本
-
-NetApp Workload Factory for Databases 可讓您自訂 Amazon Elastic Block Store （EBS） 上 Oracle 主機的節省策略。您可以調整快照頻率、複製副本數量和磁碟區詳細資料等多個欄位，以查看它們如何影響節省的成本。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索 EBS 上 Oracle 主機的節省方案"]
-
-
-
-==== 為 Microsoft SQL Server 和 PostgreSQL 主機部署選擇多個安全性群組
-
-NetApp Workload Factory for Databases 現在可讓您在部署 Microsoft SQL Server 和 PostgreSQL 主機時選擇多個安全性群組。這使您在配置資料庫工作負載的網路安全性時擁有更大的靈活性。
-
-* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["部署 Microsoft SQL Server 主機"]
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["部署 PostgreSQL 主機"]
-
-
-
-
-==== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
-
-NetApp Workload Factory 支援 AWS GovCloud（US）帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud（US）區域中部署和管理資料庫工作負載。
-
-
-
-[[31-may-2026]]
-== 2026 年 5 月 31 日
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX for NetApp ONTAP 產品
-
-
-
-==== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
-
-NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。
-
-
-
-==== 在 NetApp Workload Factory 中設定磁碟區延遲臨界值
-
-您可以按磁碟區配置延遲閾值，以監控效能並在延遲值超出您定義的限制時接收警示。Workload Factory 會監控讀取和寫入延遲，並在超出任一閾值時產生警示。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中設定磁碟區延遲臨界值"]
-
-
-
-==== 在 NetApp Workload Factory 中追蹤複寫延遲
-
-借助 NetApp Workload Factory，您可以追蹤配置了遠端複製的 FSx for ONTAP 檔案系統的複製延遲。複製延遲是指資料寫入來源檔案系統到複製到目標檔案系統之間的時間延遲。追蹤複製延遲有助於您監控複製設定的運作狀況，並識別可能影響資料一致性和復原點目標（RPO）的潛在問題。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["在 NetApp Workload Factory 中追蹤複寫延遲"]
-
-
-
-==== 在 NetApp Workload Factory 中的主機識別與工作負載定義
-
-Workload Factory 可辨識使用儲存的主機以及與主機活動相關的工作負載類型。工作負載定義由 AI 根據 AWS 標籤和中繼資料產生。您可以在 Workload Factory 的檔案系統、磁碟區和區塊裝置資源畫面中查看主機詳細資訊和工作負載定義。
-
-
-
-==== LIF 詳細資料可在 NetApp Workload Factory 中取得
-
-我們在檔案系統的「概覽」標籤中直接顯示所有檔案系統和儲存 VM 端點。在 Workload Factory 主控台中直接查看端點，無需使用 CLI 或 CloudShell 即可輕鬆監控網路存取、端點和容錯移轉狀態。若要顯示 LIF 詳細資訊（包括角色、端點、節點、IP 位址和狀態），您需要將連結與檔案系統建立關聯。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["了解如何在 NetApp Workload Factory 中將連結與檔案系統建立關聯。"]。
-
-
-
-==== 成本增強功能
-
-新增的選用頁面層級篩選器可最佳化跨所有 AWS 帳戶的資源成本分析結果。您可以選擇多個區域，並使用檔案系統指派標籤鍵和鍵值來篩選成本分析結果，從而取得 FSx for ONTAP 檔案系統和磁碟區的特定資源成本詳情。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["在 NetApp Workload Factory 中使用篩選器進行成本分析"]
-
-
-
-==== NetApp Workload Factory 中提供複寫初始化排程
-
-在資料複製設定過程中，您現在可以為 FSx for ONTAP 檔案系統排程複製初始化。您可以選擇立即初始化複製關係，也可以選擇在指定時間初始化。複製初始化是透過將資料從來源檔案系統複製到目標檔案系統來建立複製基線的過程。安排複製初始化可以自動執行此過程，並確保您的複製設定無需人工幹預即可保持最新狀態。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["在 NetApp Workload Factory 複製資料"]
-
-
-
-==== FSx for ONTAP 檔案系統架構良好狀態的 Excel 報告
-
-分析完成後，您可以下載一份 Excel 報告，其中包含您的 FSx for ONTAP 檔案系統架構良好狀態的資訊，供您存檔或與您的團隊共享。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中檢視 FSx for ONTAP 檔案系統的架構良好狀態"]
-
-
-
-==== 檢視和分析延遲事件
-
-Workload Factory 現在支援檢視和分析 FSx for ONTAP 磁碟區的延遲事件。您無需連結連線即可檢視延遲事件，從而更輕鬆地監控效能問題。若要分析延遲事件並取得 AI 驅動的洞察和建議，您必須使用連結連線到檔案系統。分析結果提供目前延遲值、臨界值、QoS 回應分析和補救指南。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["在 NetApp Workload Factory 中分析 FSx for ONTAP 事件"]
-
-
-
-==== 設定磁碟區延遲臨界值
-
-現在您可以按磁碟區配置延遲閾值，以監控效能並在讀取或寫入延遲超過您定義的限制時收到警報。延遲監控可協助您在效能問題影響工作負載之前主動識別它們。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中設定磁碟區延遲臨界值"]
-
-
-
-[[vmware-workloads]]
-=== VMware 工作負載
-
-
-
-==== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
-
-NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。
-
-
-
-[[setup-and-administration]]
-=== 設定與管理
-
-
-
-==== FSx for ONTAP 檔案系統的新通知
-
-NetApp Workload Factory 通知服務包含複製延遲通知。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["設定 Workload Factory 通知"]
-
-
-
-==== 支援 AWS GovCloud（US）帳戶
-
-現在您可以在 Workload Factory 中建立 AWS GovCloud（美國）帳戶。此帳戶類型僅使用 AWS 美國 GovCloud 終端節點和區域進行設定和操作。認證和機密資訊保留在 GovCloud 中。支援 GovCloud（美國）區域。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["在 Workload Factory 中建立 AWS GovCloud（US）帳戶"]
-
-
-
-[[eda-workloads]]
-=== EDA 工作負載
-
-
-
-==== SSD 容量增加管理模式和自動化
-
-Workload Factory 現在提供 SSD 容量增加管理模式，以符合您的營運偏好：
-
-* *自動化*
-* *建議*
-* *無*
-
-
-目前模式及其參數顯示在檔案系統詳細資料頁面的 SSD 使用情況圖表頂部。您可以根據實際操作需要隨時切換模式。
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#change-ssd-management-mode["瞭解 SSD 管理模式"^]。
-
-
-
-==== 批次編輯 SSD 容量增加管理參數
-
-現在，您可以從概覽儀表板跨多個檔案系統調整 SSD 容量增加管理參數。在「叢集」表中選擇一個或多個叢集，然後批量編輯臨界值（10-90%）、回溯（1-200 小時）和預估（1-200 小時）的值。
-
-編輯對話方塊會根據您的選擇自動填入：如果所有選定的檔案系統都具有相同的參數值，則會顯示這些值；否則，將使用預設值。這有助於您在整個環境中應用一致的容量設定。
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#bulk-edit-ssd-management-parameters["了解如何批次編輯參數"^]。
-
-
-
-==== 容量決策點視覺化
-
-SSD 使用情況圖表現在會顯示決策點，指示何時產生容量建議或採取自動化動作。
-
-* *建議決策點*：將滑鼠懸停可檢視時間戳記、建議增加的大小和目前容量。
-* *自動化決策點*：滑鼠懸停可檢視時間戳記、成功或失敗狀態、增加大小以及新的 Aggregate 大小。失敗的嘗試包括失敗原因。
-
-
-決策點每 30 分鐘出現一次，並根據所選時間範圍單獨顯示或合併顯示。
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["了解容量決策點"^]。
-
-
-
-==== 叢集表格中的連結已設定狀態
-
-概覽儀表板上的「叢集」表現在包含一個「關聯連結」列，該列顯示是否已為每個檔案系統配置 FSx for ONTAP 連結。連線狀態每天都會進行驗證，幫助您識別需要設定連結或可能有連線問題的檔案系統。
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["檢視總覽儀表板"^]。
-
-
-
-==== 在 NetApp Workload Factory 中支援 AWS GovCloud（US）
-
-NetApp Workload Factory 支援 AWS GovCloud （US） 帳戶。使用 GovCloud 帳戶，您可以在 AWS GovCloud （US） 區域中部署和管理儲存工作負載。
