@@ -1,0 +1,14 @@
+= 節省計算機更新
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== 節省計算機更新
+
+您可以只使用檢視、規劃和分析權限，比較在 FSx for ONTAP 檔案系統上執行 Microsoft SQL Server 工作負載的各種成本元件（例如儲存設備、運算、SQL 授權、快照和 Clone）與 Elastic Block Store （EBS）、FSx for Windows File Server 及內部部署儲存設備之資料庫工作負載成本。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索資料庫工作負載的節省方案"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["資料庫工作負載的權限"^]
+
