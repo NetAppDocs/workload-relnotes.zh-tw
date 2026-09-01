@@ -178,4 +178,7 @@
   <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
   <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">資料庫工作負載的權限</block>
   <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
+  <block id="c82db17d9640cb358a39977100613e95" category="section-title">工作負載識別</block>
+  <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 現在可識別連接至部署在不同區域的 FSx for ONTAP 儲存設備之主機的工作負載。</block>
+  <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改進後的工作負載偵測邏輯現在可以發現更多工作負載類型，並提高偵測結果的準確性。</block>
 </blocks>

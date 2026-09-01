@@ -33,6 +33,14 @@ link:create-link.html["深入瞭解如何建立連結"]。
 
 
 
+==== 工作負載識別
+
+* Workload Factory 現在可識別連接至部署在不同區域的 FSx for ONTAP 儲存設備之主機的工作負載。
+* 改進後的工作負載偵測邏輯現在可以發現更多工作負載類型，並提高偵測結果的準確性。
+
+
+
+
 [[database-workloads]]
 === 資料庫工作負載
 
