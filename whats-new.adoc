@@ -415,3 +415,27 @@ Workload Factory 在向檔案系統發出延遲警報後，會等待 24 小時�
 預設啟用每日通知，以減少電子郵件數量，同時仍能提醒您注意延遲問題。您可以在設定延遲監控或編輯閾值設定時變更通知偏好設定。
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["了解如何設定延遲監控"^].
+
+
+
+[[01-june-2026]]
+== 2026 年 6 月 1 日
+
+
+
+[[database-workloads]]
+=== 資料庫工作負載
+
+未解析的指令位於 <stdin> - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
+
+
+
+[[31-may-2026]]
+== 2026 年 5 月 31 日
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX for NetApp ONTAP 產品
+
+未解析的指令位於 <stdin> - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === VMware 工作負載 未解析的指令位於 <stdin> - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === 設定與管理 未解析的指令位於 <stdin> - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === EDA 工作負載 未解析的指令位於 <stdin> - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]
