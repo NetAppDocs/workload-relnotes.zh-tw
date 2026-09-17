@@ -15,6 +15,32 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
+[[27-september-2026]]
+== 2026 年 9 月 27 日
+
+
+
+[[database-workloads]]
+=== 資料庫工作負載
+
+
+
+==== 包含在架構良好儀表板中的資料庫組態
+
+架構完善的儀表板現在包含資料庫組態的建議，讓您能根據最佳實務來評估與最佳化您的設定。首批組態包括：
+
+* 冷資料分層
+* 儲存效率
+* Snapshot 原則
+* SSD 容量餘裕
+
+
+在 Workload Factory 主控台中選擇主選單，然後選擇 *Well-architected*，即可找到架構完善的儀表板。
+
+image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+
+
+
 [[30-august-2026]]
 == 2026年8月30日
 
