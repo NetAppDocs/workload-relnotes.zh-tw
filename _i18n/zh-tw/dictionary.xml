@@ -50,7 +50,6 @@
   <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">只需用簡單易懂的語言描述您想要追蹤的內容，AI 就會根據您的要求建立儀表板。例如，您可以追蹤災難復原狀態、跨區域的容量和成本、儲存保護合規性以及其他營運指標。</block>
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">自訂儀表板為唯讀模式，因此無法變更您的儲存空間或工作負載設定。您 Workload Factory 帳戶中的任何使用者都可以查看和管理這些儀表板，方便團隊共享見解並保持協作。</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">深入瞭解自訂儀表板</block>
-  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
   <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">設定延遲通知頻率</block>
   <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">現在您可以選擇接收延遲違規電子郵件通知的頻率：</block>
   <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*每天提醒我（建議）*：當任何 FSx for ONTAP 檔案系統出現新問題時，您將收到通知。</block>
@@ -191,4 +190,5 @@
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中設計良好的選單選項</block>
   <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
+  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
 </blocks>
