@@ -37,7 +37,6 @@
   <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS TCO 計算器現已支援使用 AWS i7i.metal-24xl EC2 執行個體作為叢集主機。與 i4i.metal 配置相比，這些執行個體可將 EVS 的運算起始成本降低約 33%，vSAN 儲存起始成本降低約 25%。</block>
   <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">計算器會自動比較兩種執行個體類型，並選擇最具成本效益的方案。新增的比較部分並排顯示 EVS 主機配置，方便您找到最符合自身需求的配置。</block>
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">計算 EVS 的預計節省量</block>
-  <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026年7月6日</block>
   <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*延遲圖*：顯示延遲隨時間的變化情況，並帶有閾值線，當超過限制時會發出警示。</block>
   <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*IOPS 圖表*：顯示每秒作業數，並附有閾值線和過去超出限制的指示器。</block>
@@ -191,4 +190,5 @@
   <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
 </blocks>
