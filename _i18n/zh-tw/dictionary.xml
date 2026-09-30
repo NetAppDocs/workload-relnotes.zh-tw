@@ -179,15 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 現在可識別連接至部署在不同區域的 FSx for ONTAP 儲存設備之主機的工作負載。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改進後的工作負載偵測邏輯現在可以發現更多工作負載類型，並提高偵測結果的準確性。</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">包含在架構良好儀表板中的資料庫組態</block>
-  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">架構完善的儀表板現在包含資料庫組態的建議，讓您能根據最佳實務來評估與最佳化您的設定。首批組態包括：</block>
-  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">冷資料分層</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">儲存效率</block>
-  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot 原則</block>
-  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSD 容量餘裕</block>
-  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">在 Workload Factory 主控台中選擇主選單，然後選擇 *Well-architected*，即可找到架構完善的儀表板。</block>
-  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中設計良好的選單選項</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
@@ -234,4 +225,6 @@
   <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory 現在會在 Lambda 連結未使用最新可用映像時發出警報。如果某個連結不支援自動升級，則會在有新版本可用時顯示通知。</block>
   <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">您可以在「連結」頁面上檢視升級說明。這些說明解釋如何手動更新 Lambda 連結映像，以及如何在可用時啟用自動升級。保持連結更新可讓您存取最新功能、修復已知問題並套用最新的安全性更新。</block>
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">當不支援自動升級的連結有較新的連結版本可用時，您也會在 FSx for ONTAP 儀表板中收到警報。</block>
+  <block id="753d621a767f80f69e64e577e1856e54" category="doc">支援單一執行個體中的多個檔案系統</block>
+  <block id="6adeb7328ee4497e74b45036bf16ff9d" category="paragraph">Workload Factory for Databases 支援每個單一 Microsoft SQL Server 執行個體擁有多個檔案系統。您可以在一個 SQL Server 執行個體中註冊多個檔案系統，並同時修復一個 SQL Server 執行個體中多個檔案系統的一個組態問題。</block>
 </blocks>

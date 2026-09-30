@@ -25,19 +25,9 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
-==== 包含在架構良好儀表板中的資料庫組態
+==== 支援單一執行個體中的多個檔案系統
 
-架構完善的儀表板現在包含資料庫組態的建議，讓您能根據最佳實務來評估與最佳化您的設定。首批組態包括：
-
-* 冷資料分層
-* 儲存效率
-* Snapshot 原則
-* SSD 容量餘裕
-
-
-在 Workload Factory 主控台中選擇主選單，然後選擇 *Well-architected*，即可找到架構完善的儀表板。
-
-image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+Workload Factory for Databases 支援每個單一 Microsoft SQL Server 執行個體擁有多個檔案系統。您可以在一個 SQL Server 執行個體中註冊多個檔案系統，並同時修復一個 SQL Server 執行個體中多個檔案系統的一個組態問題。
 
 
 
