@@ -191,4 +191,47 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
+  <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">增強型 SSD 容量通知</block>
+  <block id="f37e9239265205bdf39af7b4def6f75a" category="paragraph">SSD 容量管理通知現在包含詳細的錯誤訊息，用於疑難排解自動化故障。系統會在容量增加成功、增加操作期間出錯、容量檢查失敗、達到臨界值警告以及提出建議時發送通知。錯誤詳情包括具體的故障原因，例如缺少權限、正在進行的並行更新、AWS 冷卻期或 CloudWatch 計量擷取問題。</block>
+  <block id="4a3354724a06bbb8040fa512f39a5e07" category="inline-link-macro">了解 SSD 容量管理</block>
+  <block id="3e69b701694082d892b97eb050525650" category="paragraph"><block ref="bc2811c6501476df42adeca777dc6dd3" category="inline-link-macro-rx"></block>。</block>
+  <block id="b1b09cb9ca77b33ed95a7406fab56623" category="section-title">延遲圖表的一週時間範圍</block>
+  <block id="a5ff2097c50c86e897e35110fe5629d9" category="paragraph">延遲分析圖表現在除了現有的選項（1 小時、3 小時、12 小時、24 小時、72 小時）外，還支援 1 週的時間範圍。使用週檢視可以識別 Volume 延遲行為的長期模式和趨勢。</block>
+  <block id="8d6933264e6e5f9ec4a93a7936daf177" category="inline-link-macro">了解延遲趨勢分析</block>
+  <block id="f00c9e117aa43f7e65780e53b18b74a8" category="paragraph"><block ref="8280dff077bedc5ff5df29e3a9ab24f4" category="inline-link-macro-rx"></block>。</block>
+  <block id="dad79f11b2960d3be921e97689e00796" category="section-title">介面中檔案系統可見度提升</block>
+  <block id="856b733ee2011b50fb74e26e28353b8c" category="paragraph">Workload Factory 現在在介面中提供更清晰的檔案系統檢視。您可以直接從檔案系統總覽中檢視 SSD 容量和處理量使用趨勢、工作負載摘要以及詳細的組態資訊。</block>
+  <block id="f1b1a4bfd4b138d7b7f910daf038bf87" category="doc">Workload Factory 的 AI 代理程式</block>
+  <block id="4f92226af9b21739ad4453bb92ea1a12" category="paragraph">Workload Factory AIOps 利用 AI 分析您的環境並提出改進建議。如果您批准，它還可以使用您設定的憑證和權限執行動作。人工智慧代理程式會分析您的環境，幫助您發現風險、改善工作負載，並在 Workload Factory 和 Slack 中排解問題。</block>
+  <block id="d2887c33a251e8530157941bab73941d" category="paragraph">在 Ask Me 中新增的 *Explore Agents* 區段中存取 AI 代理程式。預設情況下，代理程式以唯讀模式執行，並提供建議和分析。</block>
+  <block id="13b9f07ec133fa8d4a2ca6cc3fdd50fd" category="paragraph">使用 *代理程式設定* 來控制代理程式的運作方式。您可以：</block>
+  <block id="51ac931b574bb48f344c39da84a32911" category="list-text">選擇唯讀模式或讀寫模式</block>
+  <block id="2eef1803f198e56db81b4062ea8cddf4" category="list-text">選擇代理程式可以使用的認證資料</block>
+  <block id="46a4cbdaf48bb2fb183d7572e3a8f6b7" category="list-text">新增自訂說明</block>
+  <block id="cbf940f0da0f9c2f02c84f568e2df3e3" category="list-text">調整回應的詳細程度</block>
+  <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">這些額外的控制讓您擁有更高的可見度和監督權。在讀寫模式下，代理程式必須先獲得您的核准，才能對 AWS、ONTAP 或支援的 API 進行變更。您也可以選擇在回應中顯示多少詳細資訊，包括有關代理程式推理的資訊，以及在 Slack 中的工具活動。</block>
+  <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">代理程式還支援多帳戶環境，並簡化了設定。單一代理程式可以使用多個認證資料安全地跨多個 AWS 帳戶執行。</block>
+  <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">了解人工智慧代理程式</block>
+  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
+  <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">管理代理程式設定</block>
+  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
+  <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Ask Me 中的排程工作</block>
+  <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">現在，您可以在 Ask Me 聊天中自訂提示，以建立排程工作。使用排程工作來要求 Ask Me 執行定期檢查，並根據您定義的排程在聊天中傳送更新。</block>
+  <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">範例提示：</block>
+  <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">每小時檢查所有 FSx for NetApp ONTAP 檔案系統的健全狀況和生命週期狀態，以便及早發現問題。</block>
+  <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">每小時列出所有可存取的 AWS FSx 檔案系統，以保持最新的清單。</block>
+  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">深入瞭解 Ask Me</block>
+  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
+  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me 中的 ONTAP 支援</block>
+  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me 現在支援 FSx for ONTAP 和內部部署的 ONTAP 系統。您可以使用相同的聊天體驗，以獲得有關整個 ONTAP 基礎架構的答案和見解。</block>
+  <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">通知更新</block>
+  <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">NetApp Console 通知現已預設為啟用。NetApp Console 使用者無需額外組態即可自動接收 Workload Factory 通知。</block>
+  <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Workload Factory 通知</block>
+  <block id="a70bc5a52e36d1d7057060329e076649" category="paragraph"><block ref="a70bc5a52e36d1d7057060329e076649" category="inline-link-macro-rx"></block></block>
+  <block id="5c944601b7f8744b2a84a9a8ea43d363" category="section-title">連結建立通知郵件</block>
+  <block id="19206cde68f30f89cddf386749d22382" category="paragraph">Workload Factory 現在會在您成功新增認證資料後提醒您完成連結關聯。雖然認證資料可用於資源探索，但進階的 ONTAP 功能需要與探索到的檔案系統進行連結關聯。您將在每週一收到電子郵件通知。完成連結關聯後，通知將停止。</block>
+  <block id="9ea7b6eb4bee9afd3cbcdda4cee6e9ca" category="section-title">Lambda 連結版本通知與升級指南</block>
+  <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory 現在會在 Lambda 連結未使用最新可用映像時發出警報。如果某個連結不支援自動升級，則會在有新版本可用時顯示通知。</block>
+  <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">您可以在「連結」頁面上檢視升級說明。這些說明解釋如何手動更新 Lambda 連結映像，以及如何在可用時啟用自動升級。保持連結更新可讓您存取最新功能、修復已知問題並套用最新的安全性更新。</block>
+  <block id="14bda382780d759b676db8bd277841a9" category="paragraph">當不支援自動升級的連結有較新的連結版本可用時，您也會在 FSx for ONTAP 儀表板中收到警報。</block>
 </blocks>
