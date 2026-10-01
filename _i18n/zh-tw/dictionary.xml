@@ -227,4 +227,57 @@
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">當不支援自動升級的連結有較新的連結版本可用時，您也會在 FSx for ONTAP 儀表板中收到警報。</block>
   <block id="753d621a767f80f69e64e577e1856e54" category="doc">支援單一執行個體中的多個檔案系統</block>
   <block id="6adeb7328ee4497e74b45036bf16ff9d" category="paragraph">Workload Factory for Databases 支援每個單一 Microsoft SQL Server 執行個體擁有多個檔案系統。您可以在一個 SQL Server 執行個體中註冊多個檔案系統，並同時修復一個 SQL Server 執行個體中多個檔案系統的一個組態問題。</block>
+  <block id="742e8a94cca89f813a440bc0508d7c63" category="doc">擴充 AWS 服務的工作負載標記探索</block>
+  <block id="fc938d0dc981599b261454607fc86170" category="paragraph">Workload Factory 現在可以偵測更多 AWS 服務以進行工作負載標記，擴充對可標記資源的支援。現在它可以找到 Amazon EKS 和 Amazon WorkSpaces 資源，並將它們納入標記系統中，以便進行標記。</block>
+  <block id="7c7c395a9e71b769780835b584936d18" category="section-title">成本儀表板增強功能</block>
+  <block id="9c675696ade448920fc34f83e51d38d8" category="paragraph">成本儀表板現在包含成本高階主管總結區塊，提供貴組織支出的總覽，協助您快速了解與管理成本。Workload Factory 的 AI 助理 Ask Me 可根據您的成本資料提供額外的深入見解與建議。您可以與 Ask Me 互動，以取得最佳化成本的詳細說明與建議。</block>
+  <block id="2635ebe2e5edae86c685ff667ec0822e" category="paragraph">此外，您還可以按一個或多個檔案系統以及檔案系統中的一個或多個 Volume 篩選成本資料。套用篩選器後，Workload Factory 將顯示：</block>
+  <block id="13e56e9761e9578d11e3297ef00775ab" category="list-text">每月預計總成本</block>
+  <block id="9c65bacdf627435ba2a90904d9e852d2" category="list-text">每 GiB/月預計成本</block>
+  <block id="90dcf9543caa4040e2faec1ec9a09342" category="list-text">按服務的詳細成本明細</block>
+  <block id="326b41573eaec770cb26f9f663722170" category="paragraph">除了檔案系統和 Volume 級成本分配之外，所有成本資訊直接來自 AWS Cost Explorer API；Workload Factory 會估算檔案系統和 Volume 級成本分配。</block>
+  <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">架構良好的儀表板存取</block>
+  <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">您可以從 Workload Factory 主控台的主選單以及檔案系統內部存取架構完善的儀表板。若要從主選單找到架構完善的儀表板，請選擇主選單，然後選擇 *架構完善*。</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中設計良好的選單選項</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">架構良好的分析中的新建議</block>
+  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 現在在針對 FSx for ONTAP 檔案系統的完善架構分析中加入了以下配置：</block>
+  <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*Volume 空間管理組態*：建議為 FSx for ONTAP Volume 啟用協調的 Volume 空間管理。</block>
+  <block id="594a2a7cd4db6352ea1d5d334cfa0a21" category="list-text">*FSx 與 AWS MGN 整合*：建議將所需的 AWS MGN 就緒組態應用於選定的 FSx for ONTAP 檔案系統。</block>
+  <block id="694bde8531b34682aa88439be5164604" category="inline-link-macro">了解更多關於您的 FSx for ONTAP 檔案系統的最佳實務做法建議。</block>
+  <block id="9825e6852eeedd827593b4d773384fbc" category="paragraph"><block ref="9825e6852eeedd827593b4d773384fbc" category="inline-link-macro-rx"></block></block>
+  <block id="7f937176bc96624307a21211c6e363b9" category="section-title">Volume 資源管理器增強功能</block>
+  <block id="1e03dd70bc3f22624fc439b8d08a63b9" category="paragraph">Volume 資源管理器是 Workload Factory 主控台的集中位置，您可以在此檢視和管理跨不同檔案系統的所有 Volume。它提供有關每個 Volume 的詳細資訊，包括其效能、使用情況和保護狀態。此版本的增強功能包括工作負載選擇、Volume 延遲顯示以及 Volume 的 ARP/AI 狀態。</block>
+  <block id="77d988ee70ae9e7cb2b7e4de090207d1" category="section-title">Volume 總管支援工作負載選擇</block>
+  <block id="a169ce3630fc82cd3c31d5b142735229" category="paragraph">Workload Factory 會根據 Volume 的特性及其使用模式預設選擇工作負載。現在，您可以從 Volumes explorer 變更一個或多個 Volume 的工作負載。</block>
+  <block id="b99ed9f04858236d62c52c081efa202b" category="section-title">Volume 資源管理器顯示 Volume 延遲</block>
+  <block id="96e831549b8faaa2376c1cad77a7724b" category="paragraph">Volume 資源管理器會顯示 Volume 延遲狀態，包括以下幾種狀態：未設定、在臨界值內和超出臨界值。這些狀態有助於您尋找並修復 Volume 層級的效能瓶頸。</block>
+  <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">Volume 總管顯示所有檔案系統中 Volume 的 ARP/AI 狀態</block>
+  <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">Volume 資源管理器畫面現在包含一張卡片，顯示所有檔案系統中 Volume 的 NetApp 具備 AI 的自主勒索軟體保護（ARP/AI）狀態。卡片會顯示受保護 Volume 的數量，並指出是否有任何 Volume 處於風險之中。透過該卡片，您可以*分析攻擊*，以調查潛力的勒索軟體威脅，並採取適當行動來安全的您的資料。</block>
+  <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。</block>
+  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">深入瞭解勒索軟體保護。</block>
+  <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
+  <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">不健康複寫關係的電子郵件通知</block>
+  <block id="57e3b24e41795e306c1438a28c7decf0" category="paragraph">當複寫關係的狀態為*不健康*時，只要關係持續處於不健康狀態，Workload Factory 就會每 24 小時傳送一次電子郵件通知。當關係恢復至健康狀態時，提醒通知便會停止。</block>
+  <block id="b71e2b8899dc0fe8e023a4e58308aad8" category="section-title">支援 AIOps 的受限 ONTAP 認證資料</block>
+  <block id="a7d7b0e4b2bd1183c123539bfa66e083" category="paragraph">Workload Factory 支援 FSx for ONTAP 檔案系統的兩種 ONTAP 認證資料：主要和受限。預設情況下，檔案系統使用主要 ONTAP 認證資料。我們僅將受限認證資料用於 AI 作業（AIOps），例如規則建構者、自訂儀表板和我們的 AI 助理 Ask Me。現在，您可以使用使用者名稱和密碼或機密 ARN 新增自己的認證資料，以限制對 AIOps 功能的存取。</block>
+  <block id="10c14d4d5209ea66d60008bc61e4b8a0" category="inline-link-macro">管理 FSx for ONTAP 檔案系統的 ONTAP 認證資料</block>
+  <block id="815e81643ae9d4244d2592133accd965" category="paragraph"><block ref="815e81643ae9d4244d2592133accd965" category="inline-link-macro-rx"></block></block>
+  <block id="5bfa6b402ee6d0271d1900cc4c493d94" category="section-title">Volume 建立期間的工作負載選擇</block>
+  <block id="af4d82ae4525cd4fac92ed7b9d0bda08" category="paragraph">Workload Factory 現在在 Volume 建立中包含了 *Workloads* 欄位，以便您可以選擇要與 Volume 關聯的工作負載。這可確保 Volume 從建立之初就是針對預期工作負載最佳化的。</block>
+  <block id="f7d605ac326197c1ae0ff4a123f8e9b7" category="inline-link-macro">在 Workload Factory 控制台中建立 Volume</block>
+  <block id="ab73ef18e997d7357c2f88d149d57429" category="paragraph"><block ref="ab73ef18e997d7357c2f88d149d57429" category="inline-link-macro-rx"></block></block>
+  <block id="b5033aab245daac51a144f2bf76d1491" category="section-title">FlexCache 寫入模式改進</block>
+  <block id="988626e00644e40216e6917f272294d3" category="paragraph">Workload Factory 現在可以識別 FlexCache Volume 的首選寫入模式，並在必要時建議更改該模式以最佳化效能。</block>
+  <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">連結文件支援</block>
+  <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">了解 NetApp Workload Factory 連結</block>
+  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>，並在設定和管理文件中找到相關頁面的連結。</block>
+  <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">深入瞭解在 Workload Factory 主控台中設定連結的相關資訊。</block>
+  <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
+  <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">跨區域主機到儲存設備關係探索</block>
+  <block id="51cc7a047a17fd04f676fa6e4c62dc71" category="paragraph">作為工作負載標記服務的一部分，Workload Factory 現在支援跨多個 AWS 區域發現主機和儲存設備之間的連線。它可以識別並連結跨區域的主機和儲存資源，包括對應區域間的 IP 位址，從而正確標記和分類主機與儲存設備之間的關係。</block>
+  <block id="9b81d2dcd48e266f74c209ecd9598393" category="section-title">提升工作負載和主機辨識準確度</block>
+  <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory 現在在工作負載標記服務中，能更準確地識別和分類工作負載與主機。更新後的偵測方法減少了錯誤分類，並提供更準確的標記和分類結果。</block>
+  <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory 現在在介面中提供更清晰的檔案系統檢視。您可以直接從檔案系統總覽檢視 SSD 容量和處理量使用趨勢、工作負載總結以及詳細的組態資訊。Workload Factory 現在在工作負載標記服務中，能更準確地識別和分類工作負載與主機。更新後的偵測方法減少了錯誤分類，並提供更準確的標記和分類結果。</block>
 </blocks>

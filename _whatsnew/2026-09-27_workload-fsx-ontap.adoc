@@ -1,0 +1,139 @@
+= 擴充 AWS 服務的工作負載標記探索
+:allow-uri-read: 
+
+
+
+
+[[expanded-workload-tagging-discovery-for-aws-services]]
+=== 擴充 AWS 服務的工作負載標記探索
+
+Workload Factory 現在可以偵測更多 AWS 服務以進行工作負載標記，擴充對可標記資源的支援。現在它可以找到 Amazon EKS 和 Amazon WorkSpaces 資源，並將它們納入標記系統中，以便進行標記。
+
+
+
+[[cost-dashboard-enhancements]]
+=== 成本儀表板增強功能
+
+成本儀表板現在包含成本高階主管總結區塊，提供貴組織支出的總覽，協助您快速了解與管理成本。Workload Factory 的 AI 助理 Ask Me 可根據您的成本資料提供額外的深入見解與建議。您可以與 Ask Me 互動，以取得最佳化成本的詳細說明與建議。
+
+此外，您還可以按一個或多個檔案系統以及檔案系統中的一個或多個 Volume 篩選成本資料。套用篩選器後，Workload Factory 將顯示：
+
+* 每月預計總成本
+* 每 GiB/月預計成本
+* 按服務的詳細成本明細
+
+
+除了檔案系統和 Volume 級成本分配之外，所有成本資訊直接來自 AWS Cost Explorer API；Workload Factory 會估算檔案系統和 Volume 級成本分配。
+
+
+
+[[well-architected-dashboard-access]]
+=== 架構良好的儀表板存取
+
+您可以從 Workload Factory 主控台的主選單以及檔案系統內部存取架構完善的儀表板。若要從主選單找到架構完善的儀表板，請選擇主選單，然後選擇 *架構完善*。
+
+image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+
+
+
+[[new-recommendations-in-the-well-architected-analysis]]
+=== 架構良好的分析中的新建議
+
+Workload Factory 現在在針對 FSx for ONTAP 檔案系統的完善架構分析中加入了以下配置：
+
+* *Volume 空間管理組態*：建議為 FSx for ONTAP Volume 啟用協調的 Volume 空間管理。
+* *FSx 與 AWS MGN 整合*：建議將所需的 AWS MGN 就緒組態應用於選定的 FSx for ONTAP 檔案系統。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["了解更多關於您的 FSx for ONTAP 檔案系統的最佳實務做法建議。"]
+
+
+
+[[volumes-explorer-enhancements]]
+=== Volume 資源管理器增強功能
+
+Volume 資源管理器是 Workload Factory 主控台的集中位置，您可以在此檢視和管理跨不同檔案系統的所有 Volume。它提供有關每個 Volume 的詳細資訊，包括其效能、使用情況和保護狀態。此版本的增強功能包括工作負載選擇、Volume 延遲顯示以及 Volume 的 ARP/AI 狀態。
+
+
+
+==== Volume 總管支援工作負載選擇
+
+Workload Factory 會根據 Volume 的特性及其使用模式預設選擇工作負載。現在，您可以從 Volumes explorer 變更一個或多個 Volume 的工作負載。
+
+
+
+==== Volume 資源管理器顯示 Volume 延遲
+
+Volume 資源管理器會顯示 Volume 延遲狀態，包括以下幾種狀態：未設定、在臨界值內和超出臨界值。這些狀態有助於您尋找並修復 Volume 層級的效能瓶頸。
+
+
+
+==== Volume 總管顯示所有檔案系統中 Volume 的 ARP/AI 狀態
+
+Volume 資源管理器畫面現在包含一張卡片，顯示所有檔案系統中 Volume 的 NetApp 具備 AI 的自主勒索軟體保護（ARP/AI）狀態。卡片會顯示受保護 Volume 的數量，並指出是否有任何 Volume 處於風險之中。透過該卡片，您可以*分析攻擊*，以調查潛力的勒索軟體威脅，並採取適當行動來安全的您的資料。
+
+image:volumes-explorer-arp-ai-card.png["螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。"]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["深入瞭解勒索軟體保護。"]
+
+
+
+[[email-notification-for-unhealthy-replication-relationships]]
+=== 不健康複寫關係的電子郵件通知
+
+當複寫關係的狀態為*不健康*時，只要關係持續處於不健康狀態，Workload Factory 就會每 24 小時傳送一次電子郵件通知。當關係恢復至健康狀態時，提醒通知便會停止。
+
+
+
+[[support-for-restricted-ontap-credentials-for-aiops]]
+=== 支援 AIOps 的受限 ONTAP 認證資料
+
+Workload Factory 支援 FSx for ONTAP 檔案系統的兩種 ONTAP 認證資料：主要和受限。預設情況下，檔案系統使用主要 ONTAP 認證資料。我們僅將受限認證資料用於 AI 作業（AIOps），例如規則建構者、自訂儀表板和我們的 AI 助理 Ask Me。現在，您可以使用使用者名稱和密碼或機密 ARN 新增自己的認證資料，以限制對 AIOps 功能的存取。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["管理 FSx for ONTAP 檔案系統的 ONTAP 認證資料"]
+
+
+
+[[workload-selection-during-volume-creation]]
+=== Volume 建立期間的工作負載選擇
+
+Workload Factory 現在在 Volume 建立中包含了 *Workloads* 欄位，以便您可以選擇要與 Volume 關聯的工作負載。這可確保 Volume 從建立之初就是針對預期工作負載最佳化的。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 Workload Factory 控制台中建立 Volume"]
+
+
+
+[[flexcache-write-mode-improvement]]
+=== FlexCache 寫入模式改進
+
+Workload Factory 現在可以識別 FlexCache Volume 的首選寫入模式，並在必要時建議更改該模式以最佳化效能。
+
+
+
+[[link-documentation-support]]
+=== 連結文件支援
+
+所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 link:links-overview.html["了解 NetApp Workload Factory 連結"]，並在設定和管理文件中找到相關頁面的連結。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["深入瞭解在 Workload Factory 主控台中設定連結的相關資訊。"^]
+
+
+
+[[cross-region-host-to-storage-relationship-discovery]]
+=== 跨區域主機到儲存設備關係探索
+
+作為工作負載標記服務的一部分，Workload Factory 現在支援跨多個 AWS 區域發現主機和儲存設備之間的連線。它可以識別並連結跨區域的主機和儲存資源，包括對應區域間的 IP 位址，從而正確標記和分類主機與儲存設備之間的關係。
+
+
+
+[[improved-workload-and-host-identification-accuracy]]
+=== 提升工作負載和主機辨識準確度
+
+Workload Factory 現在在工作負載標記服務中，能更準確地識別和分類工作負載與主機。更新後的偵測方法減少了錯誤分類，並提供更準確的標記和分類結果。
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== 介面中檔案系統可見度提升
+
+Workload Factory 現在在介面中提供更清晰的檔案系統檢視。您可以直接從檔案系統總覽檢視 SSD 容量和處理量使用趨勢、工作負載總結以及詳細的組態資訊。Workload Factory 現在在工作負載標記服務中，能更準確地識別和分類工作負載與主機。更新後的偵測方法減少了錯誤分類，並提供更準確的標記和分類結果。
