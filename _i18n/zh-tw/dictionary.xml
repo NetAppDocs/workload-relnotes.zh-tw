@@ -202,16 +202,13 @@
   <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">這些額外的控制讓您擁有更高的可見度和監督權。在讀寫模式下，代理程式必須先獲得您的核准，才能對 AWS、ONTAP 或支援的 API 進行變更。您也可以選擇在回應中顯示多少詳細資訊，包括有關代理程式推理的資訊，以及在 Slack 中的工具活動。</block>
   <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">代理程式還支援多帳戶環境，並簡化了設定。單一代理程式可以使用多個認證資料安全地跨多個 AWS 帳戶執行。</block>
   <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">了解人工智慧代理程式</block>
-  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
   <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">管理代理程式設定</block>
-  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
   <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Ask Me 中的排程工作</block>
   <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">現在，您可以在 Ask Me 聊天中自訂提示，以建立排程工作。使用排程工作來要求 Ask Me 執行定期檢查，並根據您定義的排程在聊天中傳送更新。</block>
   <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">範例提示：</block>
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">每小時檢查所有 FSx for NetApp ONTAP 檔案系統的健全狀況和生命週期狀態，以便及早發現問題。</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">每小時列出所有可存取的 AWS FSx 檔案系統，以保持最新的清單。</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">深入瞭解 Ask Me</block>
-  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
   <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me 中的 ONTAP 支援</block>
   <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me 現在支援 FSx for ONTAP 和內部部署的 ONTAP 系統。您可以使用相同的聊天體驗，以獲得有關整個 ONTAP 基礎架構的答案和見解。</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">通知更新</block>
@@ -280,4 +277,7 @@
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory 現在在工作負載標記服務中，能更準確地識別和分類工作負載與主機。更新後的偵測方法減少了錯誤分類，並提供更準確的標記和分類結果。</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory 現在在介面中提供更清晰的檔案系統檢視。您可以直接從檔案系統總覽檢視 SSD 容量和處理量使用趨勢、工作負載總結以及詳細的組態資訊。Workload Factory 現在在工作負載標記服務中，能更準確地識別和分類工作負載與主機。更新後的偵測方法減少了錯誤分類，並提供更準確的標記和分類結果。</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026 年 9 月 30 日</block>
+  <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
+  <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
 </blocks>
