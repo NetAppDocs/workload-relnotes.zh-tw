@@ -15,8 +15,8 @@ summary: 了解NetApp Workload Factory 中工作負載的最新變化。
 
 
 
-[[27-september-2026]]
-== 2026 年 9 月 27 日
+[[30-september-2026]]
+== 2026 年 9 月 30 日
 
 
 
