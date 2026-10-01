@@ -209,8 +209,6 @@
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">每小時檢查所有 FSx for NetApp ONTAP 檔案系統的健全狀況和生命週期狀態，以便及早發現問題。</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">每小時列出所有可存取的 AWS FSx 檔案系統，以保持最新的清單。</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">深入瞭解 Ask Me</block>
-  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me 中的 ONTAP 支援</block>
-  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me 現在支援 FSx for ONTAP 和內部部署的 ONTAP 系統。您可以使用相同的聊天體驗，以獲得有關整個 ONTAP 基礎架構的答案和見解。</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">通知更新</block>
   <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">NetApp Console 通知現已預設為啟用。NetApp Console 使用者無需額外組態即可自動接收 Workload Factory 通知。</block>
   <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Workload Factory 通知</block>
@@ -268,7 +266,6 @@
   <block id="988626e00644e40216e6917f272294d3" category="paragraph">Workload Factory 現在可以識別 FlexCache Volume 的首選寫入模式，並在必要時建議更改該模式以最佳化效能。</block>
   <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">連結文件支援</block>
   <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">了解 NetApp Workload Factory 連結</block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>，並在設定和管理文件中找到相關頁面的連結。</block>
   <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">深入瞭解在 Workload Factory 主控台中設定連結的相關資訊。</block>
   <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
   <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">跨區域主機到儲存設備關係探索</block>
@@ -280,4 +277,7 @@
   <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
   <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="56643767ee547abedda1d643567a4c85" category="paragraph">所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block>，並在設定和管理文件中找到相關頁面的連結。</block>
+  <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Ask Me 中的儲存設備支援</block>
+  <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me 現在支援 FSx for ONTAP 和 Google Cloud NetApp Volumes。使用相同的聊天體驗，在您支援的儲存設備環境中取得答案和見解。</block>
 </blocks>

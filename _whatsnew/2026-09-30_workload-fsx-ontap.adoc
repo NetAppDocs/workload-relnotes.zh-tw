@@ -113,7 +113,7 @@ Workload Factory 現在可以識別 FlexCache Volume 的首選寫入模式，並
 [[link-documentation-support]]
 === 連結文件支援
 
-所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 link:links-overview.html["了解 NetApp Workload Factory 連結"]，並在設定和管理文件中找到相關頁面的連結。
+所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["了解 NetApp Workload Factory 連結"]，並在設定和管理文件中找到相關頁面的連結。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["深入瞭解在 Workload Factory 主控台中設定連結的相關資訊。"^]
 

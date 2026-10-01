@@ -124,7 +124,7 @@ Workload Factory 現在可以識別 FlexCache Volume 的首選寫入模式，並
 
 ==== 連結文件支援
 
-所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 link:links-overview.html["了解 NetApp Workload Factory 連結"]，並在設定和管理文件中找到相關頁面的連結。
+所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["了解 NetApp Workload Factory 連結"]，並在設定和管理文件中找到相關頁面的連結。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["深入瞭解在 Workload Factory 主控台中設定連結的相關資訊。"^]
 
@@ -202,9 +202,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 
 
-==== Ask Me 中的 ONTAP 支援
+==== Ask Me 中的儲存設備支援
 
-Ask Me 現在支援 FSx for ONTAP 和內部部署的 ONTAP 系統。您可以使用相同的聊天體驗，以獲得有關整個 ONTAP 基礎架構的答案和見解。
+Ask Me 現在支援 FSx for ONTAP 和 Google Cloud NetApp Volumes。使用相同的聊天體驗，在您支援的儲存設備環境中取得答案和見解。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["深入瞭解 Ask Me"]
 
