@@ -1,0 +1,30 @@
+= 包含在架構良好儀表板中的資料庫組態
+:allow-uri-read: 
+
+
+
+
+[[database-configurations-included-in-well-architected-dashboard]]
+=== 包含在架構良好儀表板中的資料庫組態
+
+精心設計的儀表板現在包含資料庫配置建議，方便您根據最佳實踐評估和優化您的設定。儀表板中包含的首批配置如下：
+
+* 冷資料分層
+* 儲存效率
+* Snapshot 原則
+* SSD 容量餘裕
+* 區塊設備空間管理
+* OS 類型
+* 將區塊設備作業系統類型與主機匹配
+* 非作用中區塊裝置（LUN）
+* 資料檔（.mdf）放置
+* 日誌檔（.ldf）放置
+* 多路徑 I/O 狀態
+* 多路徑 I/O 逾時
+* 叢集仲裁
+* 運算規模調整
+
+
+在 Workload Factory 控制台中選擇主選單，然後選擇 *架構完善* 以尋找架構完善的儀表板。
+
+image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]

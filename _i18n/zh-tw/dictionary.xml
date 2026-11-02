@@ -194,4 +194,21 @@
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026年11月1日</block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026 年 10 月 14 日</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">包含在架構良好儀表板中的資料庫組態</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">精心設計的儀表板現在包含資料庫配置建議，方便您根據最佳實踐評估和優化您的設定。儀表板中包含的首批配置如下：</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">冷資料分層</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">儲存效率</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot 原則</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSD 容量餘裕</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">區塊設備空間管理</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">OS 類型</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">將區塊設備作業系統類型與主機匹配</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">非作用中區塊裝置（LUN）</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">資料檔（.mdf）放置</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">日誌檔（.ldf）放置</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">多路徑 I/O 狀態</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">多路徑 I/O 逾時</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">叢集仲裁</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">運算規模調整</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">在 Workload Factory 控制台中選擇主選單，然後選擇 *架構完善* 以尋找架構完善的儀表板。</block>
 </blocks>
