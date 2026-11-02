@@ -115,3 +115,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 === 處理量決策點
 
 現在您可以查看用戶端處理量建議和自動化決策點。將游標停留在決策點上即可檢視詳細資訊，例如目前和建議的 SKU 或時間範圍內的超標計量（%）。
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== 客戶管理的 Bedrock 分類支援
+
+Workload Factory 現在允許您使用自己的 Amazon Bedrock 設定進行工作負載標籤分類。您可以提供自己的 Bedrock 端點和憑證，以便分類請求透過您自己的 Bedrock 組態執行。

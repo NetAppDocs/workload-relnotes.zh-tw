@@ -276,4 +276,6 @@
   <block id="3714dde7378ac290c154f62d9c080369" category="section-title">連結建立改進</block>
   <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factory 已更新用於建立連結的 Codebox 輸出，將即時 Lambda 權限替換為 CloudFormation 範本與 Terraform 的 IAM 原則。</block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
+  <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">客戶管理的 Bedrock 分類支援</block>
+  <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory 現在允許您使用自己的 Amazon Bedrock 設定進行工作負載標籤分類。您可以提供自己的 Bedrock 端點和憑證，以便分類請求透過您自己的 Bedrock 組態執行。</block>
 </blocks>
