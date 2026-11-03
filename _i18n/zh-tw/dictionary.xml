@@ -106,7 +106,6 @@
   <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">架構良好的儀表板存取</block>
   <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">您可以從 Workload Factory 主控台的主選單以及檔案系統內部存取架構完善的儀表板。若要從主選單找到架構完善的儀表板，請選擇主選單，然後選擇 *架構完善*。</block>
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中設計良好的選單選項</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">架構良好的分析中的新建議</block>
   <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 現在在針對 FSx for ONTAP 檔案系統的完善架構分析中加入了以下配置：</block>
   <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*Volume 空間管理組態*：建議為 FSx for ONTAP Volume 啟用協調的 Volume 空間管理。</block>
@@ -122,7 +121,6 @@
   <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">Volume 總管顯示所有檔案系統中 Volume 的 ARP/AI 狀態</block>
   <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">Volume 資源管理器畫面現在包含一張卡片，顯示所有檔案系統中 Volume 的 NetApp 具備 AI 的自主勒索軟體保護（ARP/AI）狀態。卡片會顯示受保護 Volume 的數量，並指出是否有任何 Volume 處於風險之中。透過該卡片，您可以*分析攻擊*，以調查潛力的勒索軟體威脅，並採取適當行動來安全的您的資料。</block>
   <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。</block>
-  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">深入瞭解勒索軟體保護。</block>
   <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
   <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">不健康複寫關係的電子郵件通知</block>
@@ -278,4 +276,7 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
   <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">客戶管理的 Bedrock 分類支援</block>
   <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory 現在允許您使用自己的 Amazon Bedrock 設定進行工作負載標籤分類。您可以提供自己的 Bedrock 端點和憑證，以便分類請求透過您自己的 Bedrock 組態執行。</block>
+  <block id="442d917e6f977497aa9164bdb334b30b" category="paragraph"><block ref="442d917e6f977497aa9164bdb334b30b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

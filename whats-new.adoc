@@ -164,7 +164,7 @@ Workload Factory 現在允許您使用自己的 Amazon Bedrock 設定進行工�
 
 在 Workload Factory 控制台中選擇主選單，然後選擇 *架構完善* 以尋找架構完善的儀表板。
 
-image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+image:workload-databases/well-architected-menu-option-databases.png["Workload Factory 控制台中設計良好的選單選項"]
 
 
 
@@ -360,7 +360,7 @@ Workload Factory 現在可以偵測更多 AWS 服務以進行工作負載標記�
 
 您可以從 Workload Factory 主控台的主選單以及檔案系統內部存取架構完善的儀表板。若要從主選單找到架構完善的儀表板，請選擇主選單，然後選擇 *架構完善*。
 
-image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
 
 
 
@@ -398,7 +398,7 @@ Volume 資源管理器會顯示 Volume 延遲狀態，包括以下幾種狀態�
 
 Volume 資源管理器畫面現在包含一張卡片，顯示所有檔案系統中 Volume 的 NetApp 具備 AI 的自主勒索軟體保護（ARP/AI）狀態。卡片會顯示受保護 Volume 的數量，並指出是否有任何 Volume 處於風險之中。透過該卡片，您可以*分析攻擊*，以調查潛力的勒索軟體威脅，並採取適當行動來安全的您的資料。
 
-image:volumes-explorer-arp-ai-card.png["螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。"]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。"]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["深入瞭解勒索軟體保護。"]
 
@@ -606,7 +606,7 @@ Workload Factory 現在在介面中提供更清晰的檔案系統檢視。您可
 
 您可以從 Workload Factory 主控台的主選單以及檔案系統內部存取架構完善的儀表板。若要從主選單找到架構完善的儀表板，請選擇主選單，然後選擇 *架構完善*。
 
-image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
 
 
 
@@ -644,7 +644,7 @@ Volume 資源管理器會顯示 Volume 延遲狀態，包括以下幾種狀態�
 
 Volume 資源管理器畫面現在包含一張卡片，顯示所有檔案系統中 Volume 的 NetApp 具備 AI 的自主勒索軟體保護（ARP/AI）狀態。卡片會顯示受保護 Volume 的數量，並指出是否有任何 Volume 處於風險之中。透過該卡片，您可以*分析攻擊*，以調查潛力的勒索軟體威脅，並採取適當行動來安全的您的資料。
 
-image:volumes-explorer-arp-ai-card.png["螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。"]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["螢幕截圖顯示「Volume 資源管理器」畫面上新增了一張卡片，顯示所有檔案系統中 Volume 的 ARP/AI 狀態。該卡片指出受保護 Volume 的數量以及任何存在風險的 Volume。使用者可以選擇「分析攻擊」文字來調查可疑攻擊，並採取適當措施以確保其資料安全的。"]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["深入瞭解勒索軟體保護。"]
 

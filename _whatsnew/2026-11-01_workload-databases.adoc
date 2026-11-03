@@ -27,4 +27,4 @@
 
 在 Workload Factory 控制台中選擇主選單，然後選擇 *架構完善* 以尋找架構完善的儀表板。
 
-image:well-architected-menu-option.png["Workload Factory 控制台中設計良好的選單選項"]
+image:workload-databases/well-architected-menu-option-databases.png["Workload Factory 控制台中設計良好的選單選項"]
