@@ -1,0 +1,21 @@
+= 編輯自訂儀表板標題和執行摘要
+:allow-uri-read: 
+
+
+
+
+[[edit-a-custom-dashboard-title-and-description]]
+=== 編輯自訂儀表板標題和執行摘要
+
+您可以從儀表板目錄或儀表板檢視編輯自訂儀表板的標題和執行摘要，以確保其資訊在儀表板變更時保持準確。這兩個欄位均為必填項，並且兩個儀表板可以擁有相同的標題。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html["了解如何管理自訂儀表板"]
+
+
+
+[[associate-multiple-fsx-for-ontap-file-systems-with-a-link]]
+=== 將多個 FSx for ONTAP 檔案系統與連結建立關聯
+
+現在，您可以在一個工作流程中將多個 FSx for ONTAP 檔案系統與新的或現有的連結建立關聯，而無需為每個檔案系統重複關聯。您可以透過為每個檔案系統輸入 ONTAP 憑證，或將相同的憑證套用至多個檔案系統來驗證連結。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["了解如何將連結與 FSx for ONTAP 檔案系統關聯"]

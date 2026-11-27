@@ -35,9 +35,6 @@
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作負載</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
-  <block id="9b988decb4830a521f8e1487584f0385" category="doc">Volumes 總管中可用的 Volume 動作</block>
-  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有 Volume 操作均可直接在 Volumes explorer 中對一個或多個 Volume 執行。這使得執行 Volume 層級操作更加快速。Volume 操作包括修改 Volume 設定、管理快照以及執行其他 Volume 任務，而無需離開 Volumes explorer。您也可以從 FSx for ONTAP 檔案系統總覽中的 Volumes 索引標籤存取這些操作。</block>
-  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">全新的憑證和連結註冊體驗</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory 優化了憑證和連結的上線體驗，讓您更輕鬆地開始使用。建立帳戶並登入後，在任意工作負載圖格（例如 *Storage*）中選擇 *Get started*，下一頁將引導您逐步完成設定程序。</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
@@ -213,7 +210,6 @@
   <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">「管理用戶端存取」頁面上用於顯示區塊裝置啟動器群組的圖表現在包含更多主機詳細資訊。將滑鼠懸停在圖表中的主機上時，將顯示主機詳細資訊，包括主機名稱、執行個體 ID、工作負載類型、區域和 iSCSI 限定名稱（IQN）。</block>
   <block id="6ea6cb3b2f3b5abc021a1f0e4229c7fc" category="inline-link-macro">在 Workload Factory 控制台中設定通知</block>
   <block id="a518b4e2bba0d0ce3d0ecdc772d503ed" category="paragraph"><block ref="a518b4e2bba0d0ce3d0ecdc772d503ed" category="inline-link-macro-rx"></block></block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">所有連結文件現已包含在 Workload Factory 設定和管理文件中。您仍然可以從 Workload Factory FSx for ONTAP 文件中參考 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>，並在設定和管理文件中找到相關頁面的連結。</block>
   <block id="40a8a1ceba59de4101cf77a14d6fb2d5" category="section-title">針對架構完善的問題進行電子郵件增強</block>
   <block id="954ae82c2d96e9bd8c7d4e143bf3c187" category="paragraph">新的電子郵件設計針對 Workload Factory 偵測到的組態問題，提供更多詳細資料與背景資訊。電子郵件包含已分析的資源數量、有多少資源發生警告或關鍵問題，以及這些問題是什麼。電子郵件也會連結至 FSx for ONTAP 完善架構儀表板，讓您可以立即解決問題。</block>
   <block id="1854fdec65dd4a2dd839c666aba07186" category="section-title">精心設計的儀表板增強功能</block>
@@ -280,4 +276,13 @@
   <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">2026年11月2日</block>
+  <block id="81a9f96e5c919c4cddd5e8baf33bc31f" category="doc">編輯自訂儀表板標題和執行摘要</block>
+  <block id="e2c2437b93fb3b379ae799b9c5ec87b7" category="paragraph">您可以從儀表板目錄或儀表板檢視編輯自訂儀表板的標題和執行摘要，以確保其資訊在儀表板變更時保持準確。這兩個欄位均為必填項，並且兩個儀表板可以擁有相同的標題。</block>
+  <block id="d030448981400ac2939566a8b11f10ec" category="inline-link-macro">了解如何管理自訂儀表板</block>
+  <block id="a0df1d3fd3bf97547f178fc3a2c15747" category="paragraph"><block ref="a0df1d3fd3bf97547f178fc3a2c15747" category="inline-link-macro-rx"></block></block>
+  <block id="e84199af3f0a22cf508c7275319c9d81" category="section-title">將多個 FSx for ONTAP 檔案系統與連結建立關聯</block>
+  <block id="9618a351b6032a7e1eee8e331d0dc5d5" category="paragraph">現在，您可以在一個工作流程中將多個 FSx for ONTAP 檔案系統與新的或現有的連結建立關聯，而無需為每個檔案系統重複關聯。您可以透過為每個檔案系統輸入 ONTAP 憑證，或將相同的憑證套用至多個檔案系統來驗證連結。</block>
+  <block id="cdad6ce692e2082641da7e7892d7c476" category="inline-link-macro">了解如何將連結與 FSx for ONTAP 檔案系統關聯</block>
+  <block id="f2cb80592d2645e80d96ee47d68c03e3" category="paragraph"><block ref="f2cb80592d2645e80d96ee47d68c03e3" category="inline-link-macro-rx"></block></block>
+  <block id="5fd02484bbe1124b48ec6e3c36e522cb" category="section-title">2026 年 11 月 26 日</block>
 </blocks>
