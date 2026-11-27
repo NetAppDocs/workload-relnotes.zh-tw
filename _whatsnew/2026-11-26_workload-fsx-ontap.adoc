@@ -1,0 +1,55 @@
+= 儲存設備 VM 名稱服務的新建議
+:allow-uri-read: 
+
+
+
+
+[[new-recommendations-for-storage-vm-name-services]]
+=== 儲存設備 VM 名稱服務的新建議
+
+Workload Factory 現在在架構完善的分析中，針對儲存設備 VM 名稱服務提出了以下建議：
+
+*DNS 和 LDAP 伺服器備援*：建議在使用 DNS 的儲存設備虛擬機器上至少配置兩個 DNS 伺服器，在使用 LDAP 的儲存設備虛擬機器上至少配置兩個 LDAP 伺服器。單一伺服器故障可能會阻斷名稱解析、網域驗證或 NFS 存取。
+
+
+
+[[volumes-explorer-enhancements]]
+=== Volume 資源管理器增強功能
+
+
+
+==== 新的 Volume 總管表格欄位
+
+Volume 資源管理器表格包含下列新欄位：
+
+* *邏輯已用大小*：顯示用戶端看到的已使用空間，未計入儲存效率節約效益。此欄預設會顯示。
+* *交會路徑*：顯示 Volume 的交會路徑。
+
+
+
+
+==== 在 Volume 資源管理器中管理安裝點
+
+現在，您可以直接從 Volumes explorer 管理 Volume 在儲存設備 VM 命名空間中的裝載位置。從 Volume 的 *進階* 選單中選取 *管理安裝點*，以樹狀結構檢視儲存設備 VM 命名空間，然後裝載、取下或變更 Volume 的安裝點（交會路徑）。Workload Factory 在取下 Volume 之前會檢查相依性。您無法取下已裝載其他 Volume 的 Volume，且如果 Volume 包含 SMB 共用，系統會發出警告。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-volume-settings.html["了解如何管理安裝點"]
+
+
+
+==== 新 Volume 的巢狀交會路徑
+
+建立 Volume 時，您現在可以在 *進階組態* 區段中輸入巢狀交會路徑，例如 `/test1/test2`。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["學習如何建立 Volume"] === 自訂規則 自訂規則可從 *架構完善* > *自訂規則* 取得，讓您從架構完善的組態啟動規則，並在排程執行完成時收到通知。
+
+
+
+==== 將架構完善的組態自訂為自訂規則
+
+您可以從架構完善的組態開始自訂規則，以便在保留原始最佳實務做法的同時，套用您自己的臨界值或範圍。Workload Factory 會根據該組態開啟具有可編輯提示的自訂規則。該規則一開始為草稿，其執行摘要會說明它是根據哪個組態所建立。link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["深入瞭解自訂架構完善的組態"]
+
+
+
+==== 接收已排程自訂規則執行的通知
+
+啟用排程自訂規則的通知功能，即可在無需登入 Workload Factory 的情況下取得結果。您可以在每次排程執行後接收通知，或僅在執行失敗或部分成功時接收通知。通知將透過您已設定的管道發送。手動測試不會發送通知。 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-custom-rules.html["進一步了解排程自訂規則的通知"]

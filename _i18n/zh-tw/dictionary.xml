@@ -285,4 +285,25 @@
   <block id="cdad6ce692e2082641da7e7892d7c476" category="inline-link-macro">了解如何將連結與 FSx for ONTAP 檔案系統關聯</block>
   <block id="f2cb80592d2645e80d96ee47d68c03e3" category="paragraph"><block ref="f2cb80592d2645e80d96ee47d68c03e3" category="inline-link-macro-rx"></block></block>
   <block id="5fd02484bbe1124b48ec6e3c36e522cb" category="section-title">2026 年 11 月 26 日</block>
+  <block id="3ccacb3236a6f36f11b2ec0009544b17" category="doc">儲存設備 VM 名稱服務的新建議</block>
+  <block id="fbdd6100f23f5a660b5abe28fcb2b09f" category="paragraph">Workload Factory 現在在架構完善的分析中，針對儲存設備 VM 名稱服務提出了以下建議：</block>
+  <block id="0c600ff5ff4c2acc3d20b37a757025cf" category="paragraph">*DNS 和 LDAP 伺服器備援*：建議在使用 DNS 的儲存設備虛擬機器上至少配置兩個 DNS 伺服器，在使用 LDAP 的儲存設備虛擬機器上至少配置兩個 LDAP 伺服器。單一伺服器故障可能會阻斷名稱解析、網域驗證或 NFS 存取。</block>
+  <block id="82f9746d20f9c112b999254d96f68c35" category="section-title">新的 Volume 總管表格欄位</block>
+  <block id="429fbe2106af89a7f2c8096eed7d6005" category="paragraph">Volume 資源管理器表格包含下列新欄位：</block>
+  <block id="4bfa3a7e5aa20511dfdbd772b20d7cad" category="list-text">*邏輯已用大小*：顯示用戶端看到的已使用空間，未計入儲存效率節約效益。此欄預設會顯示。</block>
+  <block id="1ebe3707797c8e132ba981865e779a06" category="list-text">*交會路徑*：顯示 Volume 的交會路徑。</block>
+  <block id="562ed2eb07dc7098a9a961d97d83a937" category="section-title">在 Volume 資源管理器中管理安裝點</block>
+  <block id="e40a9c1168edd79e419024c31de53d24" category="paragraph">現在，您可以直接從 Volumes explorer 管理 Volume 在儲存設備 VM 命名空間中的裝載位置。從 Volume 的 *進階* 選單中選取 *管理安裝點*，以樹狀結構檢視儲存設備 VM 命名空間，然後裝載、取下或變更 Volume 的安裝點（交會路徑）。Workload Factory 在取下 Volume 之前會檢查相依性。您無法取下已裝載其他 Volume 的 Volume，且如果 Volume 包含 SMB 共用，系統會發出警告。</block>
+  <block id="371df73a3011005fb40d8d0e7ec39be5" category="inline-link-macro">了解如何管理安裝點</block>
+  <block id="e9c12ef8ae4f8c24e9416be6d78f62bb" category="paragraph"><block ref="e9c12ef8ae4f8c24e9416be6d78f62bb" category="inline-link-macro-rx"></block></block>
+  <block id="fc67722d0e110f79ff44ed37368e589c" category="section-title">新 Volume 的巢狀交會路徑</block>
+  <block id="69fc90af1c9281568bdf45e9799d57d6" category="paragraph">建立 Volume 時，您現在可以在 *進階組態* 區段中輸入巢狀交會路徑，例如<block ref="6ec7d50bc22104cd5628a14f3ea325a4" prefix=" " category="inline-code"></block>。</block>
+  <block id="7fbf47e0030156e11689a191784df599" category="inline-link-macro">學習如何建立 Volume</block>
+  <block id="d2cd4d2c639bea241ac3af863cdff7fe" category="paragraph"><block ref="6ec652dec6839d8a408abb1e14dd53fa" category="inline-link-macro-rx"></block> === 自訂規則 自訂規則可從 *架構完善* &gt; *自訂規則* 取得，讓您從架構完善的組態啟動規則，並在排程執行完成時收到通知。</block>
+  <block id="5faee5c8e33b5f0b156646e83f976d83" category="section-title">將架構完善的組態自訂為自訂規則</block>
+  <block id="e8b3baf216c37f243324e1f7db89338e" category="inline-link-macro">深入瞭解自訂架構完善的組態</block>
+  <block id="4be5fe4be72c28a63c151651aaefe065" category="paragraph">您可以從架構完善的組態開始自訂規則，以便在保留原始最佳實務做法的同時，套用您自己的臨界值或範圍。Workload Factory 會根據該組態開啟具有可編輯提示的自訂規則。該規則一開始為草稿，其執行摘要會說明它是根據哪個組態所建立。<block ref="598048313c684801b257988e6334f527" category="inline-link-macro-rx"></block></block>
+  <block id="4fa9c0bce2f1b45a04656d29fbfbb564" category="section-title">接收已排程自訂規則執行的通知</block>
+  <block id="4d6f8c8df934dbeca93478d52e881ed1" category="inline-link-macro">進一步了解排程自訂規則的通知</block>
+  <block id="dd5f224f383f9d68ac079aaa66d54733" category="paragraph">啟用排程自訂規則的通知功能，即可在無需登入 Workload Factory 的情況下取得結果。您可以在每次排程執行後接收通知，或僅在執行失敗或部分成功時接收通知。通知將透過您已設定的管道發送。手動測試不會發送通知。 <block ref="c2a6e81c287709afa110081f310adf18" category="inline-link-macro-rx"></block></block>
 </blocks>
