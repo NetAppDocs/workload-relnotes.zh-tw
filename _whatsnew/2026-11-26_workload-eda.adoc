@@ -1,0 +1,30 @@
+= 追蹤 Volume 以進行自動 AI 分析
+:allow-uri-read: 
+
+
+
+
+[[track-volumes-for-automatic-ai-analysis]]
+=== 追蹤 Volume 以進行自動 AI 分析
+
+您可以標記 Volume，以便在偵測到延遲問題時進行自動 AI 分析。分析結果將儲存 72 小時，並包含在通知電子郵件中，因此您無需自行執行分析即可審查原因。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解如何分析延遲問題"^]。
+
+
+
+[[clearer-explanations-of-the-root-causes-in-ai-analysis]]
+=== AI 分析中根目錄原因的更清晰解釋
+
+利用 AI 分析，可以更清楚地了解導致延遲事件的原因。此分析會檢查與 FlexCache 容量資源池和檔案系統相關的問題，以及處理量和 IOPS 限制、SSD 使用率過高、寫入飽和，以及其他使用相同資源的 Volume。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解如何分析延遲問題"^]。
+
+
+
+[[latency-analysis-results-kept-for-72-hours]]
+=== 延遲分析結果保留 72 小時
+
+延遲分析結果現在可在介面中查看 72 小時而不是 24 小時，因此您可以審查先前對某個 Volume 的分析。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解如何分析延遲問題"^]。

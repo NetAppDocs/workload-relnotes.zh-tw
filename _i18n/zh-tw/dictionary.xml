@@ -306,4 +306,10 @@
   <block id="4fa9c0bce2f1b45a04656d29fbfbb564" category="section-title">接收已排程自訂規則執行的通知</block>
   <block id="4d6f8c8df934dbeca93478d52e881ed1" category="inline-link-macro">進一步了解排程自訂規則的通知</block>
   <block id="dd5f224f383f9d68ac079aaa66d54733" category="paragraph">啟用排程自訂規則的通知功能，即可在無需登入 Workload Factory 的情況下取得結果。您可以在每次排程執行後接收通知，或僅在執行失敗或部分成功時接收通知。通知將透過您已設定的管道發送。手動測試不會發送通知。 <block ref="c2a6e81c287709afa110081f310adf18" category="inline-link-macro-rx"></block></block>
+  <block id="d27242d4c09d8c87514da12ce13686cf" category="doc">追蹤 Volume 以進行自動 AI 分析</block>
+  <block id="68eb2bcf977ad1777848c2763968bf76" category="paragraph">您可以標記 Volume，以便在偵測到延遲問題時進行自動 AI 分析。分析結果將儲存 72 小時，並包含在通知電子郵件中，因此您無需自行執行分析即可審查原因。</block>
+  <block id="7c957c99db335692d391818317e98469" category="section-title">AI 分析中根目錄原因的更清晰解釋</block>
+  <block id="5d5ae6579cd363d7050ca9ed9dc36998" category="paragraph">利用 AI 分析，可以更清楚地了解導致延遲事件的原因。此分析會檢查與 FlexCache 容量資源池和檔案系統相關的問題，以及處理量和 IOPS 限制、SSD 使用率過高、寫入飽和，以及其他使用相同資源的 Volume。</block>
+  <block id="d8b3a98e16ebd6e698fb6c48570112ff" category="section-title">延遲分析結果保留 72 小時</block>
+  <block id="d880e6876de7da75b637df83143f9c3e" category="paragraph">延遲分析結果現在可在介面中查看 72 小時而不是 24 小時，因此您可以審查先前對某個 Volume 的分析。</block>
 </blocks>
